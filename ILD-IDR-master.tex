@@ -1,0 +1,206 @@
+%
+%-------------------------------------------------------------------------------
+% ILC TDR Part III - Master file
+%-------------------------------------------------------------------------------
+%
+\documentclass[11pt,twoside]{ILCTDR}
+%\usepackage[english]{babel}
+%\usepackage{blindtext}
+
+
+%\usepackage{mytrc_style}
+
+%FG: inserted multirow:
+\usepackage{multirow} 
+%
+
+\usepackage{savesym}
+\savesymbol{iint}
+\savesymbol{iiint}
+\usepackage{amsmath}
+\restoresymbol{}{iint}
+\restoresymbol{}{iiint}
+
+
+
+%\usepackage{savesym}
+%\savesymbol{iint}
+%\savesymbol{iiint}
+%\usepackage[maybess]{heppennames2} %symbols for physics processes (from CERN) ACHTUNG da ist amsmath dahinter
+%\restoresymbol{}{iint}
+%\restoresymbol{}{iiint}
+% Ties Behnke: added ams math packages for symbols on request from Yasuhiro
+%\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{enumitem}
+\usepackage{booktabs}
+
+ 
+
+%\usepackage{cite}
+%
+% Directories containing figures
+%
+\graphicspath{
+   {./Introduction/figs/}
+   {./Detector/figs/}
+   {./figs/}
+   {./ILC/figs/}
+   {./ILDfigs/}
+   {./Integration/figs/}
+   {./Modelling/figs/}
+   {./Performance/figs/}
+   {./References/figs/}
+}
+%
+
+
+\input{commondefs.tex}
+% Chapters to process
+%
+%\listfiles
+%\includeonly{%
+% ./ILD-introduction,%
+%  ./ILD-summary,%
+%}
+% Enable an index
+%
+%%%\makeindex
+%
+% Enable a list of abbreviations (nomenclature)
+%
+\makenomenclature
+%
+%-------------------------------------------------------------------------------
+% The document starts here
+%-------------------------------------------------------------------------------
+%
+\begin{document}
+%
+
+%\newcommand{\volumetitle}{ILD}
+\setcounter{chapter}{0}
+\setcounter{part}{1}
+%
+% Set chapter number
+%
+\setcounter{chapter}{99}
+%
+%------------------------------------------------------------------------------
+% Frontpage, Introduction, List of Authors, etc. (which have Roman numeral for page numbers)
+% start here
+%------------------------------------------------------------------------------
+%
+\frontmatter
+%\input{./authors}
+%
+% Front page
+%
+\input{./ILD-frontpage}
+%
+%------------------------------------------------------------------------------
+% Here are the introductory front-matter chapters
+%------------------------------------------------------------------------------
+%
+% List of contributors
+%
+\cleardoublepage\setcounter{page}{1}
+%\chapter*{List of Contributors} 
+%\addcontentsline{toc}{chapter}{List of Contributors}
+%
+% List of Authors
+%
+%\begin{center}
+%\input{./frontmatter/Authors.tex}
+%\end{center}
+%
+% Acknowledgements
+%
+%\chapter*{Acknowledgements} 
+%\addcontentsline{toc}{chapter}{Acknowledgements}
+%\input{./frontmatter/Acknowledgements.tex}
+%
+% Table of contents
+%
+\tableofcontents 
+\addcontentsline{toc}{chapter}{Contents}
+%
+% Want to set counter for section numbering to 0 for preface (\textit{i.e.}, Executive Summary)
+% This means that the sections will not be numbered, but will appear in the TOC and
+% on the running headers (odd pages only).
+\setcounter{secnumdepth}{0}
+%------------------------------------------------------------------------------
+% frontmatter ends here
+%------------------------------------------------------------------------------
+%
+%\input{./resetcounters.tex}
+%
+%------------------------------------------------------------------------------
+% Main matter starts here  (it has arabic numerals)
+%------------------------------------------------------------------------------
+%
+\mainmatter
+%
+% Start from page 1
+%
+\setcounter{page}{1}
+%
+% Introduction and Overview
+%
+\setcounter{chapter}{0}
+\input{./resetcounters.tex}
+
+% 18.1.2013 use the performnace and analysis section which include results
+\renewcommand{\DBDnumbers}{-numbers}
+
+\include{Introduction/ILD-master-Introduction}
+\include{ILC/ILD-master-ILC}
+\include{ILD/ILD-master-ILD}
+\include{Detector/ILD-master-Detector}
+\include{Integration/ILD-master-Integration}
+\include{Modelling/ILD-master-Modelling}
+\include{Performance/ILD-master-Performance}
+\include{Costing/ILD-master-Costing}
+\include{Sciene/ILD-master-Science}
+\include{Organisation/ILD-master-ILD-Organisation}
+\include{Summary/ILD-master-Summary}
+
+%------------------------------------------------------------------------------
+% Main Matter ends here
+%------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
+% Back matter starts here 
+%------------------------------------------------------------------------------
+\backmatter
+%
+% References
+%
+%\begin{thebibliography}{99}\label{bibliography}
+%\addcontentsline{toc}{chapter}{Bibliography}
+%\input{./1_introduction/ILD-introduction_bib}
+%\input{./6_summary/ILD-summary_bib}
+%\end{thebibliography}
+
+\bibliographystyle{utphys_mod}
+\bibliography{ILD-master}
+%
+% Lists of figures and tables
+%
+%%\listoffigures
+%%\listoftables
+%
+% Index
+%
+%\printindex
+%
+
+\end{document}
+%------------------------------------------------------------------------------
+% Main document ends here
+%------------------------------------------------------------------------------
+%
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: ``ILD-master.tex''
+%%% End: 
+
