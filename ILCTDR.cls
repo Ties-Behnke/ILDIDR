@@ -11,7 +11,7 @@
 \def\classdate{2013/04/16}
 \ProvidesClass{ILCTDR}[\classdate\space LaTeX class for the ILC TDR (v.\space\classversion)]
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{scrbook}}
-\def\pubtitle{ILC Technical Design Report}
+\def\pubtitle{ILD Design Report}
 % execution of options
 \ProcessOptions
 % class loading
@@ -611,19 +611,20 @@
 \titlespacing*{\section}{-\titlemarginwidth}{*3}{*0}
 \titleformat{\section}%
   {\needspace{2in}}%
-  {}{0pt}{\boxedsection{#1}{section}{white}{black}{black}{\thesection}\lineskiplimit=-\maxdimen%
+%  {}{0pt}{\boxedsection{#1}{section}{white}{black}{black}{\thesection}\lineskiplimit=-\maxdimen%
+  {}{0pt}{\boxedsection{#1}{section}{white}{black}{white}{\thesection}\lineskiplimit=-\maxdimen%
 }[\titlesechack]%
 %
 \titlespacing*{\subsection}{-\titlemarginwidth}{*3}{*0}
 \titleformat{\subsection}%
   {\needspace{1in}}%
-  {}{0pt}{\boxedsection{#1}{subsection}{black}{gray!30}{black}{\thesubsection}\lineskiplimit=-\maxdimen%
+  {}{0pt}{\boxedsection{#1}{subsection}{black}{gray!30}{white}{\thesubsection}\lineskiplimit=-\maxdimen%
 }[\titlesechack]%
 %
 \titlespacing*{\subsubsection}{-\titlemarginwidth}{*3}{*0}
 \titleformat{\subsubsection}%
   {\needspace{1in}}%
-  {}{0pt}{\boxedsection{#1}{subsubsection}{black}{white}{black}{\thesubsubsection}\lineskiplimit=-\maxdimen%
+  {}{0pt}{\boxedsection{#1}{subsubsection}{black}{white}{white}{\thesubsubsection}\lineskiplimit=-\maxdimen%
 }[\titlesechack]%
 %
 \titleformat{\paragraph}[runin]{}{}{0pt}{\underline{#1}}

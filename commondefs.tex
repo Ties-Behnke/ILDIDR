@@ -10,9 +10,24 @@
 %\renewcommand{\thetable}{\arabic{chapter}.\arabic{section}-\arabic{table}}
 
 %\newcommand\writer[1]{{\vspace{-2mm}\noindent Edited by #1}\vspace{1mm}}
-%\newcommand\writer[1]{{\marginpar{\small \begin{minipage}{2cm}{Author:\\#1}\end{minipage}}}}
+\newcommand\writer[2]{{\marginpar{\small \vspace{-2cm}\hspace{-4cm}
+\colorbox{green}{\begin{minipage}{4cm}{{#1 \\#2 pages}}\end{minipage}}}}}
+
+%\newcommand\writer[2]{
+%\level
+%\ifthenelse {\boolean{levelbool}}{
+%\marginpar{\small \vspace{-2cm}\hspace{-4cm}
+%\colorbox{green}{\begin{minipage}{4cm}{{Author:\\#1 \\pages: #2}}\end{minipage}}}}
+%{\vspace{3cm}
+%\marginpar{\small \vspace{-2cm}\hspace{-4cm}
+%\colorbox{green}{\begin{minipage}{4cm}{{Author:\\#1 \\pages: #2}}\end{minipage}}}}
+%}
+
+
 %\newcommand\writer[1]{{\small \noindent Authors: #1}}
-\newcommand\writer[1]{}
+%\newcommand\writer[1]{}
+%\newcommand\pagestowrite[1]{}
+
 
 \newcommand\epluseminus{{\mathrm e}^+{\mathrm e}^-}
 
@@ -89,3 +104,25 @@
 \newcommand{\ILDfigure}{\thisfloatsetup{floatwidth=\SfigwFull,capposition=beside} \begin{figure}}
 \newcommand{\DBDtable}{\thisfloatsetup{floatwidth=\SfigwFull,capposition=beside}
 \begin{table}}
+
+
+\newcount\Level
+\let\Part=\part\def\part{\global\Level=0\Part}
+\let\Chapter=\chapter\def\chapter{\global\Level=1\Chapter}
+\let\Section=\section\def\section{\global\Level=2\Section}
+\newbool{levelbool}
+
+\def\level{
+\if\the\Level part \setboolean{levelbool}{false}
+\else
+\setboolean{levelbool}{true}
+\fi
+}
+
+
+\def\levelText{ here 
+  \ifcase\the\Level part
+  \or chapter
+  \or section 
+  \else default text \fi}
+
