@@ -2,9 +2,30 @@
 \contentsline {chapter}{Contents}{i}{chapter*.2}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.3}
 \contentsline {chapter}{\numberline {2}The ILC Environment}{3}{chapter.4}
-\contentsline {chapter}{\numberline {3}Detector Layout and Technologies}{5}{chapter.5}
-\contentsline {chapter}{\numberline {4}ILD Global Integration}{7}{chapter.6}
-\contentsline {chapter}{\numberline {5}Detector Modelling}{9}{chapter.7}
-\contentsline {chapter}{\numberline {6}Detector Performance}{11}{chapter.8}
-\contentsline {chapter}{\numberline {7}Costing}{13}{chapter.9}
-\contentsline {chapter}{\numberline {8}Summary}{15}{chapter.10}
+\contentsline {chapter}{\numberline {3}The ILD detector concept}{5}{chapter.5}
+\contentsline {section}{\numberline {3.1}The overall ILD concept}{5}{section.6}
+\contentsline {section}{\numberline {3.2}Optimising ILD}{5}{section.7}
+\contentsline {chapter}{\numberline {4}Detector Layout and Technologies}{7}{chapter.8}
+\contentsline {section}{\numberline {4.1}Overall structure of the detector}{7}{section.9}
+\contentsline {subsection}{\numberline {4.1.1}Global structure and parameters}{7}{subsection.10}
+\contentsline {subsection}{\numberline {4.1.2}Subdetecor layout}{7}{subsection.11}
+\contentsline {section}{\numberline {4.2}Subdetector technology status}{7}{section.12}
+\contentsline {subsection}{\numberline {4.2.1}Vertex detector}{8}{subsection.13}
+\contentsline {subsection}{\numberline {4.2.2}Silicon inner tracking detectors}{8}{subsection.14}
+\contentsline {subsection}{\numberline {4.2.3}Time projection chamber}{8}{subsection.15}
+\contentsline {subsection}{\numberline {4.2.4}Calorimeters}{8}{subsection.16}
+\contentsline {subsection}{\numberline {4.2.5}Very forward detectors}{8}{subsection.17}
+\contentsline {subsection}{\numberline {4.2.6}Iron instrumentation}{9}{subsection.18}
+\contentsline {chapter}{\numberline {5}ILD Global Integration}{11}{chapter.19}
+\contentsline {section}{\numberline {5.1}Internal ILD integration}{11}{section.20}
+\contentsline {section}{\numberline {5.2}external ILD integration}{11}{section.21}
+\contentsline {subsection}{\numberline {5.2.1}Cavern ancillary services}{11}{subsection.22}
+\contentsline {subsection}{\numberline {5.2.2}Data acquisition}{11}{subsection.23}
+\contentsline {section}{\numberline {5.3}Mechanical structure and studies}{11}{section.24}
+\contentsline {section}{\numberline {5.4}Coil and yoke studies}{11}{section.25}
+\contentsline {section}{\numberline {5.5}Beam background studies}{11}{section.26}
+\contentsline {section}{\numberline {5.6}Alignement/ calibration procedures}{11}{section.27}
+\contentsline {chapter}{\numberline {6}Detector Modelling}{13}{chapter.28}
+\contentsline {chapter}{\numberline {7}Detector Performance}{15}{chapter.29}
+\contentsline {chapter}{\numberline {8}Costing}{17}{chapter.30}
+\contentsline {chapter}{\numberline {9}Summary}{19}{chapter.31}

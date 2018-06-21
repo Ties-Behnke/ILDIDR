@@ -2,9 +2,30 @@
 \BOOKMARK [0][-]{chapter*.2}{Contents}{}% 2
 \BOOKMARK [0][-]{chapter.3}{Introduction}{}% 3
 \BOOKMARK [0][-]{chapter.4}{The ILC Environment}{}% 4
-\BOOKMARK [0][-]{chapter.5}{Detector Layout and Technologies}{}% 5
-\BOOKMARK [0][-]{chapter.6}{ILD Global Integration}{}% 6
-\BOOKMARK [0][-]{chapter.7}{Detector Modelling}{}% 7
-\BOOKMARK [0][-]{chapter.8}{Detector Performance}{}% 8
-\BOOKMARK [0][-]{chapter.9}{Costing}{}% 9
-\BOOKMARK [0][-]{chapter.10}{Summary}{}% 10
+\BOOKMARK [0][-]{chapter.5}{The ILD detector concept}{}% 5
+\BOOKMARK [1][-]{section.6}{The overall ILD concept}{chapter.5}% 6
+\BOOKMARK [1][-]{section.7}{Optimising ILD}{chapter.5}% 7
+\BOOKMARK [0][-]{chapter.8}{Detector Layout and Technologies}{}% 8
+\BOOKMARK [1][-]{section.9}{Overall structure of the detector}{chapter.8}% 9
+\BOOKMARK [2][-]{subsection.10}{Global structure and parameters}{section.9}% 10
+\BOOKMARK [2][-]{subsection.11}{Subdetecor layout}{section.9}% 11
+\BOOKMARK [1][-]{section.12}{Subdetector technology status}{chapter.8}% 12
+\BOOKMARK [2][-]{subsection.13}{Vertex detector}{section.12}% 13
+\BOOKMARK [2][-]{subsection.14}{Silicon inner tracking detectors}{section.12}% 14
+\BOOKMARK [2][-]{subsection.15}{Time projection chamber}{section.12}% 15
+\BOOKMARK [2][-]{subsection.16}{Calorimeters}{section.12}% 16
+\BOOKMARK [2][-]{subsection.17}{Very forward detectors}{section.12}% 17
+\BOOKMARK [2][-]{subsection.18}{Iron instrumentation}{section.12}% 18
+\BOOKMARK [0][-]{chapter.19}{ILD Global Integration}{}% 19
+\BOOKMARK [1][-]{section.20}{Internal ILD integration}{chapter.19}% 20
+\BOOKMARK [1][-]{section.21}{external ILD integration}{chapter.19}% 21
+\BOOKMARK [2][-]{subsection.22}{Cavern ancillary services}{section.21}% 22
+\BOOKMARK [2][-]{subsection.23}{Data acquisition}{section.21}% 23
+\BOOKMARK [1][-]{section.24}{Mechanical structure and studies}{chapter.19}% 24
+\BOOKMARK [1][-]{section.25}{Coil and yoke studies}{chapter.19}% 25
+\BOOKMARK [1][-]{section.26}{Beam background studies}{chapter.19}% 26
+\BOOKMARK [1][-]{section.27}{Alignement/ calibration procedures}{chapter.19}% 27
+\BOOKMARK [0][-]{chapter.28}{Detector Modelling}{}% 28
+\BOOKMARK [0][-]{chapter.29}{Detector Performance}{}% 29
+\BOOKMARK [0][-]{chapter.30}{Costing}{}% 30
+\BOOKMARK [0][-]{chapter.31}{Summary}{}% 31

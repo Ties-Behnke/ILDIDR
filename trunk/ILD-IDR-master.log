@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.3.20)  31 MAY 2018 17:39
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.3.20)  21 JUN 2018 17:30
 entering extended mode
-**D:/Behnke/ilc/ILD/IDR/Report/ILD-IDR-master.tex
-(D:/Behnke/ilc/ILD/IDR/Report/ILD-IDR-master.tex
+**D:/Behnke/ilc/ILD/IDR/ILDIDR/trunk/ILD-IDR-master.tex
+(D:/Behnke/ilc/ILD/IDR/ILDIDR/trunk/ILD-IDR-master.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -13,7 +13,7 @@ an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese,
 romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
 sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
 senglishmax, welsh, loaded.
-(D:\Behnke\ilc\ILD\IDR\Report\ILCTDR.cls
+(D:\Behnke\ilc\ILD\IDR\ILDIDR\trunk\ILCTDR.cls
 Document Class: ILCTDR 2013/04/16 LaTeX class for the ILC TDR (v. 0.51)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\scrbook.cls"
 Document Class: scrbook 2011/06/16 v3.09a KOMA-Script document class (book)
@@ -1532,9 +1532,9 @@ Package scrkbase Info: You've told me to redefine the font selection of the
 . xparse info: "define-command"
 . 
 . Defining document command \tcmidruleaux with arg. spec. 'mO{\tabcolsep
-. }O{\tabcolsep }m' on line 682.
+. }O{\tabcolsep }m' on line 683.
 .................................................
-Package tocbasic Info: defining new hook before heading of `' on input line 689
+Package tocbasic Info: defining new hook before heading of `' on input line 690
 .
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\savesym\savesym.sty"
@@ -1603,22 +1603,24 @@ Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
 ))
-(D:\Behnke\ilc\ILD\IDR\Report\commondefs.tex)
+(D:\Behnke\ilc\ILD\IDR\ILDIDR\trunk\commondefs.tex
+\Level=\count344
+)
 \@nomenclaturefile=\write4
 
 Writing nomenclature file ILD-IDR-master.nlo
-(D:\Behnke\ilc\ILD\IDR\Report\ILD-IDR-master.aux
-(D:\Behnke\ilc\ILD\IDR\Report\Introduction/ILD-master-Introduction.aux)
-(D:\Behnke\ilc\ILD\IDR\Report\ILC/ILD-master-ILC.aux)
-(D:\Behnke\ilc\ILD\IDR\Report\ILD/ILD-master-ILD.aux)
-(D:\Behnke\ilc\ILD\IDR\Report\Detector/ILD-master-Detector.aux)
-(D:\Behnke\ilc\ILD\IDR\Report\Integration/ILD-master-Integration.aux)
-(D:\Behnke\ilc\ILD\IDR\Report\Modelling/ILD-master-Modelling.aux)
-(D:\Behnke\ilc\ILD\IDR\Report\Performance/ILD-master-Performance.aux)
-(D:\Behnke\ilc\ILD\IDR\Report\Costing/ILD-master-Costing.aux)
-(D:\Behnke\ilc\ILD\IDR\Report\Sciene/ILD-master-Science.aux)
-(D:\Behnke\ilc\ILD\IDR\Report\Organisation/ILD-master-ILD-Organisation.aux)
-(D:\Behnke\ilc\ILD\IDR\Report\Summary/ILD-master-Summary.aux))
+(D:\Behnke\ilc\ILD\IDR\ILDIDR\trunk\ILD-IDR-master.aux
+(D:\Behnke\ilc\ILD\IDR\ILDIDR\trunk\Introduction/ILD-master-Introduction.aux)
+(D:\Behnke\ilc\ILD\IDR\ILDIDR\trunk\ILC/ILD-master-ILC.aux)
+(D:\Behnke\ilc\ILD\IDR\ILDIDR\trunk\ILD/ILD-master-ILD.aux)
+(D:\Behnke\ilc\ILD\IDR\ILDIDR\trunk\Detector/ILD-master-Detector.aux)
+(D:\Behnke\ilc\ILD\IDR\ILDIDR\trunk\Integration/ILD-master-Integration.aux)
+(D:\Behnke\ilc\ILD\IDR\ILDIDR\trunk\Modelling/ILD-master-Modelling.aux)
+(D:\Behnke\ilc\ILD\IDR\ILDIDR\trunk\Performance/ILD-master-Performance.aux)
+(D:\Behnke\ilc\ILD\IDR\ILDIDR\trunk\Costing/ILD-master-Costing.aux)
+(D:\Behnke\ilc\ILD\IDR\ILDIDR\trunk\Sciene/ILD-master-Science.aux)
+(D:\Behnke\ilc\ILD\IDR\ILDIDR\trunk\Organisation/ILD-master-ILD-Organisation.au
+x) (D:\Behnke\ilc\ILD\IDR\ILDIDR\trunk\Summary/ILD-master-Summary.aux))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
 LaTeX Font Info:    ... okay on input line 78.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
@@ -1683,16 +1685,16 @@ File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count344
+\scratchcounter=\count345
 \scratchdimen=\dimen292
 \scratchbox=\box84
-\nofMPsegments=\count345
-\nofMParguments=\count346
+\nofMPsegments=\count346
+\nofMParguments=\count347
 \everyMPshowfont=\toks54
-\MPscratchCnt=\count347
+\MPscratchCnt=\count348
 \MPscratchDim=\dimen293
-\MPnumerator=\count348
-\makeMPintoPDFobject=\count349
+\MPnumerator=\count349
+\makeMPintoPDFobject=\count350
 \everyMPtoPDFconversion=\toks55
 ) ABD: EveryShipout initializing macros
 LaTeX Info: Redefining \microtypecontext on input line 78.
@@ -1722,15 +1724,15 @@ LaTeX Info: Redefining \ref on input line 78.
 LaTeX Info: Redefining \pageref on input line 78.
 LaTeX Info: Redefining \nameref on input line 78.
 
-(D:\Behnke\ilc\ILD\IDR\Report\ILD-IDR-master.out)
-(D:\Behnke\ilc\ILD\IDR\Report\ILD-IDR-master.out)
+(D:\Behnke\ilc\ILD\IDR\ILDIDR\trunk\ILD-IDR-master.out)
+(D:\Behnke\ilc\ILD\IDR\ILDIDR\trunk\ILD-IDR-master.out)
 \@outlinefile=\write5
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\beamer\base\translator\dicts\tran
 slator-basic-dictionary\translator-basic-dictionary-English.dict"
 Dictionary: translator-basic-dictionary, Language: English 
 )
-\c_siunitx_mathsf_int=\count350
+\c_siunitx_mathsf_int=\count351
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 78.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
@@ -1777,14 +1779,14 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\mt-msb.cfg"
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-\c_siunitx_mathtt_int=\count351
+\c_siunitx_mathtt_int=\count352
 LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 78.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ot1lmtt.fd"
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-(D:\Behnke\ilc\ILD\IDR\Report\ILD-frontpage.tex [1
+(D:\Behnke\ilc\ILD\IDR\ILDIDR\trunk\ILD-frontpage.tex [1
 
 
 
@@ -1799,16 +1801,6 @@ LaTeX Font Info:    Try loading font information for OT1+pag on input line 46.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1pag.fd"
 File: ot1pag.fd 2001/06/04 font definitions for OT1/pag.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 49--50
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 55--56
 
  []
@@ -1819,7 +1811,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 59--60
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--63
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
 
@@ -1834,22 +1826,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--70
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--76
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 78--79
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 81--82
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
 
  []
 
@@ -1862,7 +1839,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 81--82
 ]
 Package tocbasic Info: character protrusion at toc deactivated on input line 12
 5.
- (D:\Behnke\ilc\ILD\IDR\Report\ILD-IDR-master.toc)
+ (D:\Behnke\ilc\ILD\IDR\ILDIDR\trunk\ILD-IDR-master.toc)
 \tf@toc=\write6
  [1
 
@@ -1873,8 +1850,8 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 12
 
 
 ]
-(D:\Behnke\ilc\ILD\IDR\Report\resetcounters.tex)
-(D:\Behnke\ilc\ILD\IDR\Report\Introduction/ILD-master-Introduction.tex
+(D:\Behnke\ilc\ILD\IDR\ILDIDR\trunk\resetcounters.tex)
+(D:\Behnke\ilc\ILD\IDR\ILDIDR\trunk\Introduction/ILD-master-Introduction.tex
 Chapter 1.
 
 Class scrbook Warning: \float@addtolists detected!
@@ -1883,29 +1860,29 @@ Class scrbook Warning: \float@addtolists detected!
 (scrbook)              Support for \float@addtolists may be removed from
 (scrbook)              `scrbook' soon .
 
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 2.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 2.
 ) [1
 
 
 
-] (D:\Behnke\ilc\ILD\IDR\Report\ILC/ILD-master-ILC.tex [2
+] (D:\Behnke\ilc\ILD\IDR\ILDIDR\trunk\ILC/ILD-master-ILC.tex [2
 
 
 
 
 ]
 Chapter 2.
-) [3]
-No file ILD/ILD-master-ILD.tex.
-(D:\Behnke\ilc\ILD\IDR\Report\Detector/ILD-master-Detector.tex [4
-
-
+) [3] (D:\Behnke\ilc\ILD\IDR\ILDIDR\trunk\ILD/ILD-master-ILD.tex [4
 
 
 
 
 ]
 Chapter 3.
-) [5] (D:\Behnke\ilc\ILD\IDR\Report\Integration/ILD-master-Integration.tex
+) [5] (D:\Behnke\ilc\ILD\IDR\ILDIDR\trunk\Detector/ILD-master-Detector.tex
 [6
 
 
@@ -1913,93 +1890,130 @@ Chapter 3.
 
 ]
 Chapter 4.
-) [7] (D:\Behnke\ilc\ILD\IDR\Report\Modelling/ILD-master-Modelling.tex [8
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--3
+
+ []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+[]\OT1/lmss/m/n/9 (+20) Claude Vallee, Karsten
+ []
 
 
-]
-Chapter 5.
-) [9] (D:\Behnke\ilc\ILD\IDR\Report\Performance/ILD-master-Performance.tex
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+[]\OT1/lmss/m/n/9 (+20) Claude Vallee, Karsten
+ []
+
+
+Underfull \hbox (badness 3713) in paragraph at lines 11--11
+[]\OT1/lmss/m/n/9 (+20) Subdetector tech-ni-cal con-
+ []
+
+[7] [8]) [9]
+(D:\Behnke\ilc\ILD\IDR\ILDIDR\trunk\Integration/ILD-master-Integration.tex
 [10
 
 
 
 
 ]
+Chapter 5.
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
+[]\OT1/lmss/m/n/9 (+20) Karsten Buesser, Uwe
+ []
+
+) [11] (D:\Behnke\ilc\ILD\IDR\ILDIDR\trunk\Modelling/ILD-master-Modelling.tex
+[12
+
+
+
+
+]
 Chapter 6.
-) [11] (D:\Behnke\ilc\ILD\IDR\Report\Costing/ILD-master-Costing.tex [12
+) [13]
+(D:\Behnke\ilc\ILD\IDR\ILDIDR\trunk\Performance/ILD-master-Performance.tex
+[14
 
 
 
 
 ]
 Chapter 7.
-) [13]
-No file Sciene/ILD-master-Science.tex.
-No file Organisation/ILD-master-ILD-Organisation.tex.
-(D:\Behnke\ilc\ILD\IDR\Report\Summary/ILD-master-Summary.tex [14
-
-
-
-
+) [15] (D:\Behnke\ilc\ILD\IDR\ILDIDR\trunk\Costing/ILD-master-Costing.tex
+[16
 
 
 
 
 ]
 Chapter 8.
-) [15] [16
+) [17]
+No file Sciene/ILD-master-Science.tex.
+No file Organisation/ILD-master-ILD-Organisation.tex.
+(D:\Behnke\ilc\ILD\IDR\ILDIDR\trunk\Summary/ILD-master-Summary.tex [18
 
 
 
-] (D:\Behnke\ilc\ILD\IDR\Report\ILD-IDR-master.bbl
+
+
+
+
+
+]
+Chapter 9.
+) [19] [20
+
+
+
+] (D:\Behnke\ilc\ILD\IDR\ILDIDR\trunk\ILD-IDR-master.bbl
 
 LaTeX Warning: Empty `thebibliography' environment or \BreakBibliography
                before end of `thebibliography' environment on input line 3.
 
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 197.
- [17
+ [21
 
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 197.
- (D:\Behnke\ilc\ILD\IDR\Report\ILD-IDR-master.aux
-(D:\Behnke\ilc\ILD\IDR\Report\Introduction/ILD-master-Introduction.aux)
-(D:\Behnke\ilc\ILD\IDR\Report\ILC/ILD-master-ILC.aux)
-(D:\Behnke\ilc\ILD\IDR\Report\ILD/ILD-master-ILD.aux)
-(D:\Behnke\ilc\ILD\IDR\Report\Detector/ILD-master-Detector.aux)
-(D:\Behnke\ilc\ILD\IDR\Report\Integration/ILD-master-Integration.aux)
-(D:\Behnke\ilc\ILD\IDR\Report\Modelling/ILD-master-Modelling.aux)
-(D:\Behnke\ilc\ILD\IDR\Report\Performance/ILD-master-Performance.aux)
-(D:\Behnke\ilc\ILD\IDR\Report\Costing/ILD-master-Costing.aux)
-(D:\Behnke\ilc\ILD\IDR\Report\Sciene/ILD-master-Science.aux)
-(D:\Behnke\ilc\ILD\IDR\Report\Organisation/ILD-master-ILD-Organisation.aux)
-(D:\Behnke\ilc\ILD\IDR\Report\Summary/ILD-master-Summary.aux))
+ (D:\Behnke\ilc\ILD\IDR\ILDIDR\trunk\ILD-IDR-master.aux
+(D:\Behnke\ilc\ILD\IDR\ILDIDR\trunk\Introduction/ILD-master-Introduction.aux)
+(D:\Behnke\ilc\ILD\IDR\ILDIDR\trunk\ILC/ILD-master-ILC.aux)
+(D:\Behnke\ilc\ILD\IDR\ILDIDR\trunk\ILD/ILD-master-ILD.aux)
+(D:\Behnke\ilc\ILD\IDR\ILDIDR\trunk\Detector/ILD-master-Detector.aux)
+(D:\Behnke\ilc\ILD\IDR\ILDIDR\trunk\Integration/ILD-master-Integration.aux)
+(D:\Behnke\ilc\ILD\IDR\ILDIDR\trunk\Modelling/ILD-master-Modelling.aux)
+(D:\Behnke\ilc\ILD\IDR\ILDIDR\trunk\Performance/ILD-master-Performance.aux)
+(D:\Behnke\ilc\ILD\IDR\ILDIDR\trunk\Costing/ILD-master-Costing.aux)
+(D:\Behnke\ilc\ILD\IDR\ILDIDR\trunk\Sciene/ILD-master-Science.aux)
+(D:\Behnke\ilc\ILD\IDR\ILDIDR\trunk\Organisation/ILD-master-ILD-Organisation.au
+x) (D:\Behnke\ilc\ILD\IDR\ILDIDR\trunk\Summary/ILD-master-Summary.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 197.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 197.
 Package rerunfilecheck Info: File `ILD-IDR-master.out' has not changed.
-(rerunfilecheck)             Checksum: 99485A539F3B533AC5CB3A3FBAA4FBC3;512.
+(rerunfilecheck)             Checksum: 0E23BAE9D4B12BD925F847EBEF8B0F33;2028.
  ) 
 Here is how much of TeX's memory you used:
- 31316 strings out of 494045
- 587215 string characters out of 3145966
- 661410 words of memory out of 3000000
- 33795 multiletter control sequences out of 15000+200000
- 35120 words of font info for 52 fonts, out of 3000000 for 9000
+ 31543 strings out of 494045
+ 591445 string characters out of 3145966
+ 683664 words of memory out of 3000000
+ 33969 multiletter control sequences out of 15000+200000
+ 53727 words of font info for 79 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 72i,11n,73p,871b,731s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 72i,11n,73p,1262b,780s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files (x86)/M
 iKTeX 2.9/fonts/type1/public/lm/lmss10.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
 onts/type1/public/lm/lmss17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
 public/lm/lmss8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lm
-ssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/avantgar/uagk8a.p
-fb>
-Output written on ILD-IDR-master.pdf (23 pages, 104628 bytes).
+ss9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><
+C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/avantgar/uagk8a.pfb>
+Output written on ILD-IDR-master.pdf (27 pages, 162065 bytes).
 PDF statistics:
- 186 PDF objects out of 1000 (max. 8388607)
- 36 named destinations out of 1000 (max. 500000)
- 9821 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 319 PDF objects out of 1000 (max. 8388607)
+ 61 named destinations out of 1000 (max. 500000)
+ 16645 words of extra memory for PDF output out of 17280 (max. 10000000)
 
