@@ -3,46 +3,53 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.3}
 \contentsline {chapter}{\numberline {2}Science with ILC}{3}{chapter.4}
 \contentsline {chapter}{\numberline {3}The ILC Environment}{5}{chapter.5}
-\contentsline {chapter}{\numberline {4}Detector Layout and Technologies}{7}{chapter.6}
-\contentsline {section}{\numberline {4.1}Overall structure of the detector}{7}{section.7}
-\contentsline {subsection}{\numberline {4.1.1}Global structure and parameters}{7}{subsection.8}
-\contentsline {subsection}{\numberline {4.1.2}Subdetecor layout}{7}{subsection.9}
-\contentsline {section}{\numberline {4.2}Subdetector technology status}{7}{section.10}
-\contentsline {subsection}{\numberline {4.2.1}Vertex detector}{8}{subsection.11}
-\contentsline {subsection}{\numberline {4.2.2}Silicon inner tracking detectors}{8}{subsection.12}
-\contentsline {subsection}{\numberline {4.2.3}Time projection chamber}{8}{subsection.13}
-\contentsline {subsection}{\numberline {4.2.4}Calorimeters}{8}{subsection.14}
-\contentsline {subsection}{\numberline {4.2.5}Very forward detectors}{8}{subsection.15}
-\contentsline {subsection}{\numberline {4.2.6}Iron instrumentation}{9}{subsection.16}
-\contentsline {chapter}{\numberline {5}ILD Global Integration}{11}{chapter.17}
-\contentsline {section}{\numberline {5.1}Internal ILD integration}{11}{section.18}
-\contentsline {section}{\numberline {5.2}external ILD integration}{11}{section.19}
-\contentsline {subsection}{\numberline {5.2.1}Cavern ancillary services}{11}{subsection.20}
-\contentsline {subsection}{\numberline {5.2.2}Data acquisition}{11}{subsection.21}
-\contentsline {section}{\numberline {5.3}Mechanical structure and studies}{11}{section.22}
-\contentsline {section}{\numberline {5.4}Coil and yoke studies}{11}{section.23}
-\contentsline {section}{\numberline {5.5}Beam background studies}{11}{section.24}
-\contentsline {section}{\numberline {5.6}Alignment/ calibration procedures}{11}{section.25}
-\contentsline {chapter}{\numberline {6}Physics and Detector Modelling}{13}{chapter.26}
-\contentsline {section}{\numberline {6.1}Modelling of ILC Conditions and Physics Processes}{13}{section.27}
-\contentsline {section}{\numberline {6.2}Detector Modelling}{13}{section.28}
-\contentsline {section}{\numberline {6.3}Reconstruction Tools}{13}{section.29}
-\contentsline {chapter}{\numberline {7}Detector and Physics Performance}{15}{chapter.30}
-\contentsline {section}{\numberline {7.1}Tracking and Particle Flow}{15}{section.31}
-\contentsline {section}{\numberline {7.2}High-level Reconstruction Performance}{15}{section.32}
-\contentsline {section}{\numberline {7.3}Physics Benchmarks}{15}{section.33}
-\contentsline {subsection}{\numberline {7.3.1}General Remarks}{15}{subsection.34}
-\contentsline {subsection}{\numberline {7.3.2}Hadronic Branching Ratios of the Higgs Boson}{15}{subsection.35}
-\contentsline {subsection}{\numberline {7.3.3}Higgs Mass from $H \to b\bar {b}$}{15}{subsection.36}
-\contentsline {subsection}{\numberline {7.3.4}Branching Ratio of $H \to \mu ^+\mu ^-$}{15}{subsection.37}
-\contentsline {subsection}{\numberline {7.3.5}Sensitivity to $H \to $ invisible}{15}{subsection.38}
-\contentsline {subsection}{\numberline {7.3.6}$\tau $ decay modes and polarisation, $A_{FB}$ and $A_{LR}$ in $e^+e^- \to \tau ^+\tau ^-$}{15}{subsection.39}
-\contentsline {subsection}{\numberline {7.3.7}$W$ mass, Triple Gauge Couplings and Beam Polarisation from $e^+e^- \to WW \to qql\nu $}{15}{subsection.40}
-\contentsline {subsection}{\numberline {7.3.8}Quartic Gauge Couplings in $e^+e^- \to \nu \nu qqqq$}{15}{subsection.41}
-\contentsline {subsection}{\numberline {7.3.9}$A_{LR}$ and Jet Energy Scale Calibration from $e^+e^- \to \gamma Z$}{15}{subsection.42}
-\contentsline {subsection}{\numberline {7.3.10}$A_{FB}$ and $A_{LR}$ from $tt \to bb qqqq$}{15}{subsection.43}
-\contentsline {subsection}{\numberline {7.3.11}Discovery Reach for extra Higgs Bosons in $e^+e^- \to Zh$}{15}{subsection.44}
-\contentsline {subsection}{\numberline {7.3.12}Discovery Reach for and Characterisation of low $\Delta M$ Higgsinos}{15}{subsection.45}
-\contentsline {subsection}{\numberline {7.3.13}WIMP Discovery Reach and Characterisation in the Mono-Photon Channel}{15}{subsection.46}
-\contentsline {chapter}{\numberline {8}Costing}{17}{chapter.47}
-\contentsline {chapter}{\numberline {9}Summary}{19}{chapter.48}
+\contentsline {chapter}{\numberline {4}The ILD detector concept}{7}{chapter.6}
+\contentsline {section}{\numberline {4.1}The overall ILD concept}{7}{section.7}
+\contentsline {section}{\numberline {4.2}Optimising ILD}{7}{section.8}
+\contentsline {chapter}{\numberline {5}Detector Layout and Technologies}{9}{chapter.9}
+\contentsline {section}{\numberline {5.1}Overall structure of the detector}{9}{section.10}
+\contentsline {subsection}{\numberline {5.1.1}Global structure and parameters}{9}{subsection.11}
+\contentsline {subsection}{\numberline {5.1.2}Subdetecor layout}{9}{subsection.12}
+\contentsline {section}{\numberline {5.2}Subdetector technology status}{9}{section.13}
+\contentsline {subsection}{\numberline {5.2.1}Vertex detector}{10}{subsection.14}
+\contentsline {subsection}{\numberline {5.2.2}Silicon inner tracking detectors}{10}{subsection.15}
+\contentsline {subsection}{\numberline {5.2.3}Time projection chamber}{10}{subsection.16}
+\contentsline {subsection}{\numberline {5.2.4}Calorimeters}{10}{subsection.17}
+\contentsline {subsection}{\numberline {5.2.5}Very forward detectors}{10}{subsection.18}
+\contentsline {subsection}{\numberline {5.2.6}Iron instrumentation}{11}{subsection.19}
+\contentsline {chapter}{\numberline {6}ILD Global Integration}{13}{chapter.20}
+\contentsline {section}{\numberline {6.1}Internal ILD integration}{13}{section.21}
+\contentsline {section}{\numberline {6.2}external ILD integration}{13}{section.22}
+\contentsline {subsection}{\numberline {6.2.1}Cavern ancillary services}{13}{subsection.23}
+\contentsline {subsection}{\numberline {6.2.2}Data acquisition}{13}{subsection.24}
+\contentsline {section}{\numberline {6.3}Mechanical structure and studies}{13}{section.25}
+\contentsline {section}{\numberline {6.4}Coil and yoke studies}{13}{section.26}
+\contentsline {section}{\numberline {6.5}Beam background studies}{13}{section.27}
+\contentsline {section}{\numberline {6.6}Alignment/ calibration procedures}{13}{section.28}
+\contentsline {chapter}{\numberline {7}Physics and Detector Modelling}{15}{chapter.29}
+\contentsline {section}{\numberline {7.1}Modelling of ILC Conditions and Physics Processes}{15}{section.30}
+\contentsline {section}{\numberline {7.2}Detector Modelling}{15}{section.31}
+\contentsline {section}{\numberline {7.3}Reconstruction Tools}{15}{section.32}
+\contentsline {chapter}{\numberline {8}Detector and Physics Performance}{17}{chapter.33}
+\contentsline {section}{\numberline {8.1}System performance}{17}{section.34}
+\contentsline {subsection}{\numberline {8.1.1}Vertexing}{17}{subsection.35}
+\contentsline {subsection}{\numberline {8.1.2}Tracking}{17}{subsection.36}
+\contentsline {subsection}{\numberline {8.1.3}Particle flow performance}{17}{subsection.37}
+\contentsline {subsection}{\numberline {8.1.4}Particle identification}{17}{subsection.38}
+\contentsline {section}{\numberline {8.2}High-level Reconstruction Performance}{17}{section.39}
+\contentsline {section}{\numberline {8.3}Physics Benchmarks}{17}{section.40}
+\contentsline {subsection}{\numberline {8.3.1}General Remarks}{17}{subsection.41}
+\contentsline {subsection}{\numberline {8.3.2}Hadronic Branching Ratios of the Higgs Boson}{17}{subsection.42}
+\contentsline {subsection}{\numberline {8.3.3}Higgs Mass from $H \to b\bar {b}$}{17}{subsection.43}
+\contentsline {subsection}{\numberline {8.3.4}Branching Ratio of $H \to \mu ^+\mu ^-$}{17}{subsection.44}
+\contentsline {subsection}{\numberline {8.3.5}Sensitivity to $H \to $ invisible}{17}{subsection.45}
+\contentsline {subsection}{\numberline {8.3.6}$\tau $ decay modes and polarisation, $A_{FB}$ and $A_{LR}$ in $e^+e^- \to \tau ^+\tau ^-$}{17}{subsection.46}
+\contentsline {subsection}{\numberline {8.3.7}$W$ mass, Triple Gauge Couplings and Beam Polarisation from $e^+e^- \to WW \to qql\nu $}{17}{subsection.47}
+\contentsline {subsection}{\numberline {8.3.8}Quartic Gauge Couplings in $e^+e^- \to \nu \nu qqqq$}{17}{subsection.48}
+\contentsline {subsection}{\numberline {8.3.9}$A_{LR}$ and Jet Energy Scale Calibration from $e^+e^- \to \gamma Z$}{17}{subsection.49}
+\contentsline {subsection}{\numberline {8.3.10}$A_{FB}$ and $A_{LR}$ from $tt \to bb qqqq$}{17}{subsection.50}
+\contentsline {subsection}{\numberline {8.3.11}Discovery Reach for extra Higgs Bosons in $e^+e^- \to Zh$}{17}{subsection.51}
+\contentsline {subsection}{\numberline {8.3.12}Discovery Reach for and Characterisation of low $\Delta M$ Higgsinos}{17}{subsection.52}
+\contentsline {subsection}{\numberline {8.3.13}WIMP Discovery Reach and Characterisation in the Mono-Photon Channel}{17}{subsection.53}
+\contentsline {chapter}{\numberline {9}Costing}{19}{chapter.54}
+\contentsline {chapter}{\numberline {10}Summary}{21}{chapter.55}
