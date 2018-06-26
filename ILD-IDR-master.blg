@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: D:\Behnke\ilc\ILD\IDR\ILDIDR\trunk\ILD-IDR-master.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: D:\Behnke\ilc\ILD\IDR\ILDIDR_git\ILD-IDR-master.aux
 A level-1 auxiliary file: Introduction/ILD-master-Introduction.aux
 A level-1 auxiliary file: Science/ILD-master-Science.aux
 A level-1 auxiliary file: ILC/ILD-master-ILC.aux
@@ -11,10 +11,10 @@ A level-1 auxiliary file: Costing/ILD-master-Costing.aux
 A level-1 auxiliary file: Organisation/ILD-master-ILD-Organisation.aux
 A level-1 auxiliary file: Summary/ILD-master-Summary.aux
 The style file: utphys_mod.bst
-I found no \citation commands---while reading file D:\Behnke\ilc\ILD\IDR\ILDIDR\trunk\ILD-IDR-master.aux
 Database file #1: ILD-master.bib
 "{" immediately follows a field name---line 3111 of file ILD-master.bib
  :  collaboration-
  :                {CLIC},
 I'm skipping whatever remains of this entry
-(There were 2 error messages)
+Warning--I didn't find a database entry for "ild:bib:ILDDBD"
+(There was 1 error message)
