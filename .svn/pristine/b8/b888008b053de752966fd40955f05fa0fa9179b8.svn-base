@@ -1,0 +1,85 @@
+\chapter{ILD Global Integration}
+\writer{Karsten Buesser, Claude Vallee}
+
+\vspace{2cm}
+
+\section{Internal ILD integration}
+\writer{Karsten Buesser, Roman Poeschl, Toshiaki Tauchi}{3}
+
+Subdetector interfaces and integration scheme including services. Short reminder of the overall ILD integration scheme (unchanged). Technical drawings (ideally from CAD files) showing interfaces (pipes, cables, supports) for each subdetector within ILD. New input is expected from the recently setup dedicated working group chaired by Roman to update the service paths based on subdetector Interface and Control Documents.
+
+Among points to illustrate: Inner tracker services, TPC services, ECAL electrical interfaces, HCAL interfaces in TESLA option and Videau option, VFS cables, global scheme for cable paths.   
+
+\vspace{2cm}
+
+\section{External ILD integration}
+\writer{Yasuhiro Sugimoto}{1}
+
+Generic layout of the cavern, mentioning the current options for its configuration (TDR, Tohoku, YS).
+
+\vspace{2cm}
+
+\subsection{Cavern ancillary services}
+\writer{Yasuhiro Sugimoto}{1}
+
+Summary of ancillary services from subdetectors in the cavern and on surface, as it will result from subdetector information to be provided in 
+Yasuhiro's excel file.
+
+ILD overall wish for utility space
+on the platform, the service gallery 
+and the service cavern.
+
+\vspace{2cm}
+
+\subsection{Data acquisition}
+\writer{Matthew Wing, Taikan Suehara}{2}
+
+Expected principles and sketch of the DAQ.
+
+Summary of characteristics of subdetector data including data throughput and local filtering, 
+based on DAQ information recently requested to all subdetectors.
+
+EUDAQ developments towards combined DAQ systems for beamtests
+
+\vspace{2cm}
+
+\section{Mechanical structure and studies}
+\writer{Felix Sefkow, Henri Videau, Karsten Buesser, Roman Poeschl, Toshiaki Tauchi}{3}
+
+Static deformations of both structure options (TESLA/Videau) including LLR-DESY crosscheck.
+
+Dynamic behaviour of both structure options under reference earthquake spectra, including LLR-DESY crosscheck.
+
+New insights on the above issues are expected from the dedicated group steered by Henri, Felix, Roman and Karsten. Crosschecks between DESY and LLR will most likely restrict to the barrel. A discussion of the endcap structure may also be included. 
+
+If available, results on the mechanical behaviour of other subdetectors (e.g. TPC) are also welcome.
+
+\vspace{2cm}
+
+\section{Coil and yoke studies}
+\writer{Karsten Buesser, Uwe Schneekloth}{3}
+
+Baseline yoke design and discussion of possible lighter options including separation wall option.
+
+Updated field maps for the baseline yoke design. Table of field maps at various locations (including stray fields) for various yoke options.
+
+Progress on technological design of anti-DID (KEK/Toshiba/Hitachi) and corresponding field map.
+
+\vspace{2cm}
+
+\section{Beam background studies}
+\writer{Daniel Jeans, Yan Benhammou, Sergej Schuwalow}{2}
+
+Beam-beam BG occupancies with/without anti-DID. New results are expected from Daniel soon to clarify the open points of previous studies and consolidate the estimations. The rates shown in the IDR should if possible be computed for the latest ILC250 beam conditions (input files available from Anne Schuetz).
+
+It would also be good to provide hit maps from backscattered neutrons from the beamdump and from halo muons, possibly using input particle files from Anne Schuetz.
+
+\vspace{2cm}
+
+\section{Alignment/ calibration procedures}
+\writer{Graham Wilson}{1}
+
+There was little progress here since the LOI/DBD. Most of the corresponding text of these documents could be recovered and summarized for the IDR, taking into account the latest considerations about in-situ calibration with particles/collisions and subdetector requirements.
+
+\vspace{2cm}
+

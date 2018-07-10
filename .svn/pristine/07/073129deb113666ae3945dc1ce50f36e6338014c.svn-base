@@ -1,0 +1,117 @@
+%
+% Title page
+%
+\begin{titlepage}
+\begin{center}
+~
+ ~\vskip 4cm
+
+    {\huge  INTERNATIONAL} 
+    {\huge  LARGE} 
+    {\huge  DETECTOR}
+    
+  \vskip 1.2cm
+
+    {\huge \bfseries I}
+    {\huge \bfseries D}
+    {\huge \bfseries R}
+
+  \vskip 1.2cm
+
+%\vskip 3cm
+
+    %{\huge Volume 1:~~~EXECUTIVE SUMMARY}
+
+%\vskip 3cm
+
+{\huge ILD Detector Collaboration} \\
+    
+  \vskip 0.5cm
+
+{\huge }
+
+  \vskip 3cm
+
+    {\huge 2018}
+
+\end{center}
+\end{titlepage}
+
+\newpage\thispagestyle{empty}
+\cleardoublepage
+
+
+%\begin{minipage}{0.95\textwidth}{
+%{\Large Editor:} 
+\chapter*{ILD Editors}
+% \vskip 0.25cm
+%\begin{center}
+\noindent Main Editors:\\
+Ties Behnke, Kiyotomo Kawagoe
+
+\vspace*{2mm}
+
+\noindent Detector layout, technologies and Integration:\\
+Karsten Buesser, Claude Vallee
+
+\vspace*{2mm}
+\noindent Physics:\\
+Keisuke Fujii, Jenny List
+
+\vspace*{2mm}
+\noindent Software:\\
+Frank Gaede, Akiya Miyamoto
+
+\vspace*{2mm}
+\noindent Performance:\\
+Keisuke Fujii, Jenny List
+
+\vspace*{2mm}
+\noindent Costing:\\
+Henri Videau, Karsten Buesser
+
+%\newcommand{\DBDinst}[2]{\noindent  $^{\;\;\:\:#1}$\begin{minipage}[t]{0.95\textwidth}{#2}\end{minipage}\\}
+%{
+%\footnotesize
+%\DBDinst{1}{Cambridge University, Cambridge, UK}
+%\DBDinst{2}{CEA Saclay, Paris, France}
+%\DBDinst{3}{CERN, Geneva, Switzerland}
+%\DBDinst{4}{CIEMAT, Madrid, Spain}
+%\DBDInst{5}{DESY, Hamburg and Zeuthen, Germany}
+%\DBDinst{6}{IFCA, Cantabria, Spain}
+%\DBDinst{7}{IFIC, Valencia, Spain}
+%\DBDinst{8}{IN2P3, Lyon, France}
+%\DBDinst{9}{IPHC, Strassbourg, Frnace}
+%\DBDinst{10}{ITEP. Moscow. Russia}
+%\DBDinst{11}{KEK, Tokyo, Japan}
+%\DBDinst{12}{LAPCUPDP, Paris, France}
+%\DBDinst{13}{LLR, Paris, France}
+%\DBDinst{14}{MPI, Munich, Germany}
+%\DBDinst{15}{Russian Academy of Science, Russia}
+%\DBDinst{16}{Shinshu University, Matsumoto City, Japan}
+%\DBDinst{17}{Tel Aviv University, Tel Aviv, Israel}
+%\DBDinst{18}{Tohoku University, Sendai, Japan}
+%\DBDinst{19}{Tokyo University, Tokyo, Japan}
+%\DBDinst{20}{University of Victoria, Canada}
+%}
+%
+
+%\end{center}
+
+
+
+%%
+% \vskip 3cm
+%%
+%\end{flushright}
+%}
+%\end{minipage}
+%
+%\newpage\thispagestyle{empty}
+%\begin{center}
+%~
+% ~\vskip 5cm
+%\end{center}
+%
+%\newpage\thispagestyle{empty}
+%

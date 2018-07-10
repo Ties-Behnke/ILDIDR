@@ -1,0 +1,1487 @@
+\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{100}
+
+\bibitem{ild:bib:ILDloi}
+{\bf ILD Concept Group}, T.~Abe {\em et al.}, ``{The International Large
+  Detector: Letter of Intent}'' \href{http://arxiv.org/abs/1006.3396}{{\tt
+  arXiv:1006.3396 [hep-ex]}}.
+FERMILAB-LOI-2010-03, FERMILAB-PUB-09-682-E, DESY-2009-87, KEK-REPORT-2009-6.
+%%CITATION = ARXIV:1006.3396;%%.
+
+\bibitem{ild:bib:CLICcdr}
+L.~Linssen, A.~Miyamoto, M.~Stanitzki, and H.~Weerts, eds., {\em {Physics and
+  Detectors at CLIC: CLIC Conceptual Design Report}}.
+\newblock 2012.
+\newblock \href{http://arxiv.org/abs/1202.5940}{{\tt arXiv:1202.5940
+  [physics.ins-det]}}.
+\newblock
+CERN-2012-003, ANL-HEP-TR-12-01, DESY-12-008, KEK-REPORT-2011-7.
+%%CITATION = ARXIV:1202.5940;%%.
+
+\bibitem{ild:bib:ref-gld}
+{\bf GLD Concept Study Group}, K.~Abe {\em et al.}, ``{GLD Detector Outline
+  Document: Version 1.2}''
+\href{http://arxiv.org/abs/physics/0607154}{{\tt arXiv:physics/0607154
+  [physics]}}.
+%%CITATION = PHYSICS/0607154;%%.
+
+\bibitem{ild:bib:ref-ldc}
+{\bf {LDC Working Group}}, D.~Kisielewska {\em et al.}, ``{Detector Outline
+  Document for the Large Detector Concept}''.
+  \url{http://ilcild.org/documents/misc-doc/ldc/outlinedoc/view}.
+
+\bibitem{ild:bib:RDR_detector}
+{\bf ILC Global Design Effort and World Wide Study}, T.~Behnke, C.~Damerell,
+  J.~Jaros, and A.~Miyamoto, eds., {\em {ILC Reference Design Report Volume 4 -
+  Detectors}}.
+\newblock 2007.
+\newblock \href{http://arxiv.org/abs/0712.2356}{{\tt arXiv:0712.2356
+  [physics.ins-det]}}.
+\newblock
+ILC-REPORT-2007-001.
+%%CITATION = ARXIV:0712.2356;%%.
+
+\bibitem{ild:bib:VTXcps1}
+C.~Hu-Guo, J.~Baudot, G.~Bertolone, A.~Besson, A.~Brogna, {\em et al.},
+  ``{First reticule size MAPS with digital output and integrated zero
+  suppression for the EUDET-JRA1 beam telescope}''
+\href{http://dx.doi.org/10.1016/j.nima.2010.03.043}{{\em Nucl.Instrum.Meth.}
+  {\bf A623} (2010)  480--482}.
+%%CITATION = NUIMA,A623,480;%%.
+
+\bibitem{ild:bib:VTXcps2}
+I.~Valin, C.~Hu-Guo, J.~Baudot, G.~Bertolone, A.~Besson, {\em et al.}, ``{A
+  reticle size CMOS pixel sensor dedicated to the STAR HFT}''
+\href{http://dx.doi.org/10.1088/1748-0221/7/01/C01102}{{\em JINST} {\bf 7}
+  (2012)  C01102}.
+%%CITATION = JINST,7,C01102;%%.
+
+\bibitem{ild:bib:VTXcps3}
+L.~Greiner, E.~Anderssen, H.~Matis, H.~Ritter, J.~Schambach, {\em et al.}, ``{A
+  MAPS based vertex detector for the STAR experiment at RHIC}''
+\href{http://dx.doi.org/10.1016/j.nima.2010.12.006}{{\em Nucl.Instrum.Meth.}
+  {\bf A650} (2011)  68--72}.
+%%CITATION = NUIMA,A650,68;%%.
+
+\bibitem{ild:bib:VTXcps4}
+Y.~Fu, ``{A vertically integrated 3D CMOS Monolithic Active Pixel Sensors with
+  fast digital readout slides}''. Presented at the Workshop on Vertically
+  Integrated Pixel Sensors (VIPS 2010), Pavia, Italy, 22-24 April 2010.
+
+\bibitem{ild:bib:VTXfpccd0}
+Y.~Sugimoto, ``{Fine Pixel CCD Option for the ILC Vertex Detector}'' {\em
+  eConf} {\bf C050318} (2005)  0804.
+LCWS-2005-0804.
+%%CITATION = ECONF,C050318,0804;%%.
+
+\bibitem{ild:bib:VTXfpccd1}
+A.~Miyamoto {\em et al.}, ``{FPCCD vertex detector R\&D for ILC}''.
+  \url{http://www-jlc.kek.jp/subg/vtx/pub/FPCCD_Rev.pdf}. Internal Note.
+
+\bibitem{ild:bib:VTXfpccd2}
+Y.~Sugimoto, H.~Ikeda, A.~Miyamoto, T.~Nagamine, Y.~Takubo, {\em et al.}, ``{R
+  and D status of FPCCD VTX}''
+\href{http://arxiv.org/abs/0902.2067}{{\tt arXiv:0902.2067 [physics.ins-det]}}.
+%%CITATION = ARXIV:0902.2067;%%.
+
+\bibitem{ild:bib:VTXfpccd2012}
+Y.~Sugimoto, H.~Ikeda, D.~Kamai, E.~Kato, A.~Miyamoto, {\em et al.}, ``{R\&D
+  Status of FPCCD Vertex Detector for ILD}''
+\href{http://arxiv.org/abs/1202.5832}{{\tt arXiv:1202.5832 [physics.ins-det]}}.
+%%CITATION = ARXIV:1202.5832;%%.
+
+\bibitem{ild:bib:VTXdepfet1}
+{\bf DEPFET Collaboration}, O.~Alonso {\em et al.}, ``{DEPFET active pixel
+  detectors for a future linear $e^+e^-$ collider}''
+  \href{http://arxiv.org/abs/1212.2160}{{\tt arXiv:1212.2160
+  [physics.ins-det]}}.
+accepted for publication by IEEE Trans. Nucl. Sc.
+%%CITATION = ARXIV:1212.2160;%%.
+
+\bibitem{ild:bib:VTXdepfet2}
+M.~Vos, J.~Fuster, C.~Lacasta, C.~Marinas, A.~Dieguez, {\em et al.}, ``{DEPFET
+  active pixel detectors}''
+{\em PoS} {\bf VERTEX2009} (2009)  015.
+%%CITATION = POSCI,VERTEX2009,015;%%.
+
+\bibitem{ild:bib:VTXdepfet3}
+J.~Velthuis, R.~Kohrs, M.~Mathes, A.~Raspereza, L.~Reuen, {\em et al.},
+  ``{DEPFET, a monolithic active pixel sensor for the ILC}''
+\href{http://dx.doi.org/10.1016/j.nima.2007.05.278}{{\em Nucl.Instrum.Meth.}
+  {\bf A579} (2007)  685--689}.
+%%CITATION = NUIMA,A579,685;%%.
+
+\bibitem{ild:bib:VTXdepfetdcd}
+I.~Peric, T.~Armbruster, M.~Koch, C.~Kreidl, and P.~Fischer, ``{DCD: The
+  multi-channel current-mode ADC chip for the readout of DEPFET pixel
+  detectors}''
+\href{http://dx.doi.org/10.1109/TNS.2010.2040487}{{\em IEEE Trans.Nucl.Sci.}
+  {\bf 57} (2010)  743--753}.
+%%CITATION = IETNA,57,743;%%.
+
+\bibitem{ild:bib:VTXdepfetdcd2}
+I.~Peric {\em et al.}, ``{DCDB and SWITCHERB, the Readout ASICs for Belle II
+  DEPFET Pixel Detector}'' {\em IEEE Nuclear Science Symposium Conference
+  Record} {\bf N31-5} (2011)  1536--1539.
+
+\bibitem{ild:bib:VTXdepfetcollaboration}
+{\bf DEPFET collaboration}. \url{http://www.depfet.org/}.
+
+\bibitem{ild:bib:VTXdepfettb}
+L.~Andricek, J.~Caride, Z.~Dolezal, Z.~Drasal, S.~Esch, {\em et al.},
+  ``{Intrinsic resolutions of DEPFET detector prototypes measured at beam
+  tests}''
+\href{http://dx.doi.org/10.1016/j.nima.2011.02.015}{{\em Nucl.Instrum.Meth.}
+  {\bf A638} (2011)  24--32}.
+%%CITATION = NUIMA,A638,24;%%.
+
+\bibitem{ild:bib:VTXdepfettb2}
+J.~Velthuis, Z.~Drasal, D.~Scheirich, Z.~Dolezal, P.~Kodys, {\em et al.}, ``{A
+  DEPFET based beam telescope with submicron precision capability}''
+\href{http://dx.doi.org/10.1109/TNS.2007.914031}{{\em IEEE Trans.Nucl.Sci.}
+  {\bf 55} (2008)  662--666}.
+%%CITATION = IETNA,55,662;%%.
+
+\bibitem{bichsel}
+H.~Bichsel, ``{Straggling in thin silicon detectors}''
+\href{http://dx.doi.org/10.1103/RevModPhys.60.663}{{\em Rev.Mod.Phys.} {\bf 60}
+  (1988)  663--699}.
+%%CITATION = RMPHA,60,663;%%.
+
+\bibitem{ild:bib:VTXdepfetb2tdr}
+{\bf Belle II Collaboration}, T.~Abe {\em et al.}, ``{Belle II Technical Design
+  Report}'' \href{http://arxiv.org/abs/1011.0352}{{\tt arXiv:1011.0352
+  [physics.ins-det]}}.
+KEK-REPORT-2010-1.
+%%CITATION = ARXIV:1011.0352;%%.
+
+\bibitem{ild:bib:VTXplume}
+{\bf PLUME Collaboration}, A.~Nomerotski {\em et al.}, ``{PLUME collaboration:
+  Ultra-light ladders for linear collider vertex detector}''
+\href{http://dx.doi.org/10.1016/j.nima.2010.12.083}{{\em Nucl.Instrum.Meth.}
+  {\bf A650} (2011)  208--212}.
+%%CITATION = NUIMA,A650,208;%%.
+
+\bibitem{ild:bib:VTXdepfetmech2}
+L.~Andricek, G.~Lutz, R.~H. Richter, and M.~Reiche, ``{Processing of ultra-thin
+  silicon sensors for future e+ e- linear collider experiments}''
+\href{http://dx.doi.org/10.1109/TNS.2004.829531}{{\em IEEE Trans.Nucl.Sci.}
+  {\bf 51} (2004)  1117--1120}.
+%%CITATION = IETNA,51,1117;%%.
+
+\bibitem{ild:bib:VTXdepfetmech}
+P.~Fischer, L.~Andricek, S.~Herrmann, M.~Karagounis, R.~Kohrs, {\em et al.},
+  ``{Progress towards a large area, thin DEPFET detector module}''
+\href{http://dx.doi.org/10.1016/j.nima.2007.07.108}{{\em Nucl.Instrum.Meth.}
+  {\bf A582} (2007)  843--848}.
+%%CITATION = NUIMA,A582,843;%%.
+
+\bibitem{ild:bib:VTXdepfetmechair}
+A.~Oyanguren, ``{Air cooling for Vertex Detectors}''
+\href{http://arxiv.org/abs/1202.6239}{{\tt arXiv:1202.6239 [physics.ins-det]}}.
+%%CITATION = ARXIV:1202.6239;%%.
+
+\bibitem{ild:bib:VTXdepfet:mechmarinas}
+C.~M. Marinas~Pardo, ``{DEPFET: A silicon pixel detector for future colliders.
+  Fundamentals, characterization and performance}''.
+CERN-THESIS-2011-101.
+%%CITATION = CERN-THESIS-2011-101 ETC.;%%.
+
+\bibitem{ild:dbd:VTXdepfet:whitebook}
+``{The PXD Whitebook}''. ild-vxd.tex ild:dbd:VTXdepfet:whitebook.
+
+\bibitem{ild:bib:aida}
+{\bf AIDA}, ``Advanced european infrastructures for detectors ad
+  accelerators''. \url{http://aida.web.cern.ch}.
+
+\bibitem{ild:bib:SiEnv}
+J.~Augustin {\em et al.}, ``{A Silicon Envelope for the TPC}''.
+  LC-DET-2003-013.
+
+\bibitem{ild:bib:TrackPerf:Foward800GeV}
+J.~Fuster, S.~Heinemeyer, C.~Lacasta, C.~Marinas, A.~Ruiz~Jimeno, {\em et al.},
+  ``{Forward tracking at the next e+ e- collider. Part I. The Physics case}''
+  \href{http://dx.doi.org/10.1088/1748-0221/4/08/P08002}{{\em JINST} {\bf 4}
+  (2009)  P08002},
+\href{http://arxiv.org/abs/0905.2038}{{\tt arXiv:0905.2038 [hep-ex]}}.
+%%CITATION = ARXIV:0905.2038;%%.
+
+\bibitem{ild:bib:ASN1}
+A.~Savoy-Navarro, ``{Large Area Silicon Tracking: New Perspectives}''
+  \href{http://arxiv.org/abs/1203.0736}{{\tt 1203.0736 [hep-ex]}}. and
+  references therein.
+
+\bibitem{ild:bib:ASN2}
+A.~Savoy-Navarro, ``{SiLC R\&D New Outcomes and Results}''.
+  \url{http://ilcagenda.linearcollider.org/conferenceOtherViews.py?view=standard&confId=4507}.
+  IWLC2012.
+
+\bibitem{ild:bib:SiLCRD}
+{\bf SiLC Collaboration}, T.~Blass {\em et al.}, ``{SiLC: Silicon tracking for
+  the Linear Collider}'' \href{http://arxiv.org/abs/0903.4361}{{\tt 0903.4361
+  [physics.ins-det]}}. {Proposal of the SiLC R\&D Collaboration to the R\&D
+  ILCSC Panel, Feb. 2008 at BILWC-2008}.
+
+\bibitem{ild:bib:SiLCPRC}
+W.~Chen {\em et al.}, ``{SiLC: Silicon tracking for the Linear Collider}''.
+  \url{http://www.desy.de/f/prc/html/session-html/session-index.htm}. Proposal
+  of the SiLC R\&D Collaboration to the PRC-DESY in May 2003 and addendum in
+  October 2003; and status reports of the SiLC R\&D Collaboration to the PRC in
+  2005, 2008 and references therein.
+
+\bibitem{ild:bib:Bergauer}
+T.~Bergauer {\em et al.} \url{http://www.eudet.org/e26/e28/}.
+  EUDET-Memo-2009-18.
+
+\bibitem{ild:bib:Hoffmann}
+K.-H. Hoffmann, ``{Campaign to identify the future MCMS tracker baseline}''
+  {\em Nucl.Instrum} {\bf A658} (2011)  30--35. and references therein.
+
+\bibitem{ild:bib:Patti}
+R.~Patti, ``{3D IC Overview}''.
+  \url{http://nepp.nasa.gov/workshops/etw2012/talks/Tuesday/T01_Patti_Tezzaron_3D_IC_Overview.pdf}.
+  Third Annual Electronics Technology Workshop of NEPP, 2011.
+
+\bibitem{ild:bib:Pham}
+T.~Pham {\em et al.} {\em Nucl.Instrum.Meth.} {\bf A623} (2010)  498--500.
+
+\bibitem{ild:bib:Lazhar}
+A.~Lazhar, ``{Conception d'un convertisseur Analogique/Numerique pour un
+  systeme de traitement du signal d'un trajectometre Silicium pour Physique des
+  Particules}''. Master Diploma Report, INSA and Ecole Centrale de Lyon.
+
+\bibitem{ild:bib:Bosi}
+F.~Bosi, ``{Light Prototype Support Using Micro-channel Technology as High
+  Efficiency for Silicon Pixel Cooling}'' {\em Nucl.Instrum.Meth.} {\bf A650}
+  (2011)  213--217.
+
+\bibitem{ild:bib:sLHC}
+P.~Allport, ``{The ATLAS Tracker Upgrade}''.
+  \url{http://conference.ippp.dur.ac.uk/conferenceDisplay.py?confId=314}.
+
+\bibitem{ild:bib:SPT}
+C.~Damerell and K.~Stefanov, ``{The Silicon pixel tracker: beginning of a
+  revolution?}'' {\em PoS VERTEX 2011} (2011)  021.
+
+\bibitem{ild:bib:silicon:forward:lcd2011031}
+D.~Dannheim and M.~Vos, ``{Simulation studies for the layout of the vertex and
+  tracking regions of the CLIC detectors}''.
+  \url{http://cds.cern.ch/record/1443503/files/LCD-2011-031.pdf}.
+  LCD-Note-2011-031.
+
+\bibitem{ild:dbd:FTD:PAMELA}
+S.~Straulino, O.~Adriani, L.~Bonechi, M.~Bongi, S.~Bottai, {\em et al.},
+  ``{Spatial resolution of double-sided silicon microstrip detectors for the
+  pamela apparatus}'' \href{http://dx.doi.org/10.1016/j.nima.2005.10.014}{{\em
+  Nucl.Instrum.Meth.} {\bf A556} (2006)  100--114},
+\href{http://arxiv.org/abs/hep-ex/0510012}{{\tt arXiv:hep-ex/0510012
+  [hep-ex]}}.
+%%CITATION = HEP-EX/0510012;%%.
+
+\bibitem{ild:bib:FTD:FEE}
+H.-G. Moser, ``{Silicon detector systems in high energy physics}''
+\href{http://dx.doi.org/10.1016/j.ppnp.2008.12.002}{{\em Prog.Part.Nucl.Phys.}
+  {\bf 63} (2009)  186--237}.
+%%CITATION = PPNPD,63,186;%%.
+
+\bibitem{ild:dbd:FTD:FEE2}
+A.~Dieguez {\em et al.}, ``{Design of a FE ASIC in TSMC-65nm for Si tracking at
+  the ILC}''. PREL-LC-DET-2012-005.
+
+\bibitem{ild:dbd:FTD:POWER1}
+F.~Arteche {\em et al.}, ``{Powering requirements and constraints of the
+  microstrip-FTD detector at the Linear Collider}''.
+  \url{http://ilcagenda.linearcollider.org/contributionDisplay.py?contribId=4&sessionId=4&confId=5010}.
+
+\bibitem{ild:dbd:FTD:POWER2}
+F.~Arteche {\em et al.}, ``{EMI Filter Design and Stability Assessment of DC
+  Voltage Distribution based on Switching Converters}'' in {\em LEB 2001 7th
+  Workshop on Electronics for LHC Experiments Proceedings}.
+\newblock 2001.
+
+\bibitem{ild:dbd:FTD:POWER5}
+F.~Arteche {\em et al.}, ``{Base line design of FTD sub-detector power
+  distribution system for ILD}''.
+  \url{http://www-flc.desy.de/lcnotes/notes/LC-REP-2012-074.pdf}.
+  LC-REP-2012-072.
+
+\bibitem{ild:dbd:FTD:POWER3}
+R.~Nelms {\em et al.}, ``{Using a Debye Polarization Cell to Predict
+  Double-Layer Capacitor Performance}'' {\em IEEE Transactions on Industry
+  Applications} {\bf 37} (2001)  4--9.
+
+\bibitem{ild:dbd:FTD:FBG1}
+A.~D. Jersey {\em et al.}, ``{Fiber Gratings Sensors}''
+  \href{http://dx.doi.org/10.1109/50.618377}{{\em Journal of Lightwave
+  Technology} {\bf 15} (1997)  22}.
+
+\bibitem{ild:dbd:FTD:FBG2}
+E.~Curras {\em et al.}, ``{Influence of the Fiber Coating Type on the Strain
+  Response of Proton-Irradiated Fiber Bragg Gratings}''
+  \href{http://dx.doi.org/10.1109/TNS.2012.2206049}{{\em Nuclear Science, IEEE
+  Transactions on} {\bf 59} (2012)  937--942}.
+
+\bibitem{ild:dbd:FTD:FBG3}
+M.~Consales {\em et al.}, ``{Fiber optic humidity sensors for high-energy
+  physics applications at CERN}''
+  \href{http://dx.doi.org/10.1016/j.snb.2011.06.042}{{\em Sensors and Actuators
+  B} {\bf 159} (2011)  66--74}.
+
+\bibitem{ild:dbd:FTD:FBG4}
+D.~Moya {\em et al.}, ``{FBG sensor based self-monitoring support structures
+  for trackers}''.
+  \url{http://www-flc.desy.de/lcnotes/notes/LC-REP-2012-075.pdf}.
+  LC-REP-2012-075.
+
+\bibitem{ild:dbd:FTD:POWER4}
+F.~Arteche {\em et al.}, ``{Electromagnetic Compatibility plan for CMS
+  experiment at CERN}'' in {\em Proceedings 15th International Zurich Symposium
+  and Technical Exhibition on EMC}.
+\newblock 2003.
+
+\bibitem{ild:bib:ref-adrianvogelthesis}
+A.~Vogel, ``{Beam-induced backgrounds in detectors at the ILC}''.
+PhD Thesis, University of Hamburg, DESY-THESIS-2008-036.
+%%CITATION = DESY-THESIS-2008-036 ETC.;%%.
+
+\bibitem{ild:bib:lctpc}
+{\bf LCTPC Collaboration}. \url{http://www.lctpc.org}.
+
+\bibitem{ild:bib:eudet}
+{\bf EUDET}, ``{Detector R\&D towards the International Linear Collider}''.
+  \url{www.eudet.org}.
+
+\bibitem{ild:bib:ref-lcnote2012}
+{\bf {LCTPC Collaboration}}, ``{Report to the DESY PRC 2010}''.
+  \url{http://www-flc.desy.de/lcnotes/notes/LC-DET-2012-067.pdf}. ILC NOTE
+  2012-063, LC-DET-2012-067.
+
+\bibitem{ild:bib:ref-mm}
+Y.~Giomataris, P.~Rebourgeard, J.~P. Robert, and G.~Charpak, ``{MICROMEGAS: A
+  high-granularity position-sensitive gaseous detector for high particle-flux
+  environments}''
+\href{http://dx.doi.org/10.1016/0168-9002(96)00175-1}{{\em Nucl.Instrum.Meth.}
+  {\bf A376} (1996)  29--35}.
+%%CITATION = NUIMA,A376,29;%%.
+
+\bibitem{ild:bib:ref-gem}
+F.~Sauli, ``{GEM: A new concept for electron amplification in gas detectors}''
+\href{http://dx.doi.org/10.1016/S0168-9002(96)01172-2}{{\em Nucl.Instrum.Meth.}
+  {\bf A386} (1997)  531--534}.
+%%CITATION = NUIMA,A386,531;%%.
+
+\bibitem{ild:bib:ref-jochen}
+J.~Kaminski, ``{Status of European Pixel Modules (LCTPC collaboration meeting
+  presentation).}''.
+  \url{http://ilcagenda.linearcollider.org/getFile.py/access?contribId=18\&sessionId=9\&resId=0\&materialId=slides\&confId=5504}.
+
+\bibitem{ild:bib:ref-tpclcnoteendcap}
+D.~Peterson, ``{Development of a Low-Material TPC Endplate for ILD}''.
+  \url{http://www-flc.desy.de/lcnotes/notes/LC-DET-2012-072.pdf}.
+  LC-DET-2012-072.
+
+\bibitem{ild:bib:ref-mmpap}
+D.~Arogancia {\em et al.}, ``{Study in a beam test of the resolution of a
+  Micromegas TPC with standard readout pads}'' {\em Nucl.Instrum.Meth.} {\bf
+  A602} (2009)  403.
+
+\bibitem{ild:bib:ref-wiresgemlcnote}
+K.~Ackermann {\em et al.}, ``{Results from a TPC Prototype for the Linear
+  Collider Tracker with the MWPC and GEM Endplate Technologies}''.
+  \url{http://www-flc.desy.de/lcnotes}. LC-DET-2012-066.
+
+\bibitem{ild:bib:ref-madhu}
+M.~Dixit {\em et al.}, ``Position sensing from charge dispersion in
+  micro-pattern gas detectors with a resistive anode'' {\em Nucl.Instrum.Meth.}
+  {\bf A518} (2004)  721.
+
+\bibitem{ild:bib:ref-sagagasstudy}
+A.~Ishikawa {\em et al.}, ``{Gas-Property Study at Saga U.}''.
+  \url{{http://www-hep.phys.saga-u.ac.jp/ILC-TPC/gas/index.html}}.
+
+\bibitem{ild:bib:ref-mptpcpap}
+M.~Kobayashi {\em et al.}, ``{Cosmic ray tests of a GEM-based TPC prototype
+  operated in Ar-CF4-isobutane gas mixtures}'' {\em Nucl.Instrum.Meth.} {\bf
+  A641} (2011)  37--47, \href{http://arxiv.org/abs/1008.5068v2}{{\tt
+  arXiv:1008.5068v2}}.
+
+\bibitem{ild:bib:ref-phdlux}
+T.~Lux, ``{Studies for a Time Projection Chamber for the Internationnal Linear
+  Collider and Measurement of Beauty Cross Section in Deep Inelastic Scattering
+  at HERA}''. PhD Thesis, University of Hamburg, DESY-THESIS-2005-019.
+
+\bibitem{ild:bib:ref-phdlea}
+L.~Hallermann, ``{Analysis of GEM Properties and Development of a GEM Support
+  Structure for the ILD Time Projection Chamber}''.
+  \url{{http://www-library.desy.de/cgi-bin/showprep.pl?desy-thesis-10-015}}.
+  DESY-THESIS-2010-015.
+
+\bibitem{ild:bib:ref-lpgridgem}
+T.Behnke {\em et al.}, ``{A Novel Self-supporting GEM-based Amplification
+  Structure for a Time Projection Chamber at the ILC}''
+  \href{http://arxiv.org/abs/1211.4382v1}{{\tt arXiv:1211.4382v1}}.
+
+\bibitem{ild:bib:ref-ralf}
+R.~Diener. {Private Communication on the analysis of the Grid GEM data}.
+
+\bibitem{ild:bib:ref-marksteve}
+M.~Thomson and S.~Aplin, ``{TPC Endcap X$_0$ Study (All results
+  in~\cite{ild:bib:ref-lcnote2012})}''.
+
+\bibitem{ild:bib:ref-steve}
+S.~Aplin, ``{Study of the TPC Endcap Mechanical Thickness (All results
+  in~\cite{ild:bib:ref-lcnote2012})}''.
+
+\bibitem{ild:bib:PandoraPFA}
+M.~Thomson, ``{Particle Flow Calorimetry and the PandoraPFA Algorithm}''
+  \href{http://dx.doi.org/10.1016/j.nima.2009.09.009}{{\em Nucl.Instrum.Meth.}
+  {\bf A611} (2009)  25--40}, \href{http://arxiv.org/abs/0907.3577}{{\tt
+  arXiv:0907.3577 [physics.ins-det]}}.
+CU-HEP-09-11.
+%%CITATION = ARXIV:0907.3577;%%.
+
+\bibitem{ild:bib:t2ktpc}
+N.~Abgrall {\em et al.}, ``{Time Projection Chambers for the T2K Near
+  Detectors}'' \href{http://arxiv.org/abs/1012.0865}{{\tt arXiv:1012.0865}}.
+
+\bibitem{ild:bib:ref-desytestbeam2012}
+ \url{{http://www.lctpc.org/e201346/e201361/}}. {Testbeam runs 2012}.
+
+\bibitem{ild:bib:ref-tpclcnoteelectronics2}
+V.~Hedberg {\em et al.}, ``{Development of the Readout System for a TPC at the
+  Future Linear Collider}''.
+  \url{http://www-flc.desy.de/lcnotes/notes/LC-DET-2012-080.pdf}.
+  LC-DET-2012-080.
+
+\bibitem{ild:bib:ref-tpclcnoteelectronics}
+P.~Aspell, M.~De~Gaspari, {\em et al.}, ``{Super-Altro 16: a Front-End System
+  on Chip for DSP Based Readout of Gaseous Detectors}''.
+  \url{http://www-flc.desy.de/lcnotes}. LC-DET-2012-077.
+
+\bibitem{ild:bib:ref-lpfieldcage}
+T.~Behnke {\em et al.}, ``{A Lightweight Field Cage for a Large TPC Prototype
+  for the ILC}'' {\em JINST} {\bf 5} (2010)  P10011,
+  \href{http://arxiv.org/abs/1006.3220v1}{{\tt arXiv:1006.3220v1}}.
+
+\bibitem{ild:bib:ref-peterschade}
+P.~Schade, ``{Correction Methods for TPC Operation in Inhomogeneous Magnetic
+  Fields}''. \url{http://www-flc.desy.de/lcnotes}. LC-DET-2010-001.
+
+\bibitem{ild:bib:ref-alice}
+{\bf ALICE Collaboration}, G.~Dellacasa {\em et al.}, ``{ALICE: Technical
+  design report of the time projection chamber}''.
+CERN-OPEN-2000-183, CERN-LHCC-2000-001.
+%%CITATION = CERN-OPEN-2000-183 ETC.;%%.
+
+\bibitem{ild:bib:ref-arai}
+D.~Arai, ``{Ion Problem Report (LCTPC Workpackage Meeting \# 145).}''.
+  \url{http://ilcagenda.linearcollider.org/getFile.py/access?subContId=1\&contribId=3\&resId=0\&materialId=slides\&confId=5522}.
+
+\bibitem{ild:bib:ref-keisuke}
+K.~Fujii, ``{Positive Ion Effects (LCTPC collaboration meeting
+  presentation).}''.
+  \url{http://ilcagenda.linearcollider.org/getFile.py/access?contribId=3\&sessionId=8\&resId=0\&materialId=slides\&confId=5504}.
+
+\bibitem{ild:bib:ref-lcnotesphilippe}
+{\bf LCTPC Japan Collaboration}, ``{Considerations for an ion gate for
+  LCTPC}''. \url{http://www-flc.desy.de/lcnotes/notes/LC-DET-2012-079.pdf}.
+  LC-DET-2012-079.
+
+\bibitem{ild:bib:ref-lcnoteswwrs}
+R.~Settles and W.~Wiedenmann, ``{The Linear Collider TPC: Revised
+  Magnetic-field Requirements}''.
+  \url{http://www-flc.desy.de/lcnotes/notes/LC-DET-2008-002.pdf}.
+  LC-DET-2008-002.
+
+\bibitem{ild:bib:ref-lcnotesrs2}
+R.~Settles, ``{LCTPC and the Magnetic Field for ILD: Update 2010}''.
+  \url{http://www-flc.desy.de/lcnotes/notes/LC-DET-2011-002.pdf}.
+  LC-DET-2011-002.
+
+\bibitem{ild:bib:ref-star}
+{\bf STAR Collaboration}, ``{STAR TPC}''. \url{http://www.star.bnl.gov/}.
+
+\bibitem{ild:bib:ref-dean}
+D.~Karlen, ``{LCTPC collaboration meeting presentation}''.
+  \url{http://ilcagenda.linearcollider.org/getFile.py/access?contribId=0\&sessionId=8\&resId=0\&materialId=slides\&confId=5504}.
+
+\bibitem{ild:bib:brvi02}
+J.~Brient and H.~Videau, ``The calorimetry at the future $\epem$ linear
+  collider'' {\em eConf} (2001) no.~C010630, E3047,
+  \href{http://arxiv.org/abs/hep-ex/0202004v1}{{\tt arxiv:hep-ex/0202004v1}}.
+
+\bibitem{ild:bib:hardroc}
+F.~Dulucq {\em et al.}, ``{HARDROC: Readout chip for CALICE/EUDET Digital
+  Hadronic Calorimeter}'' \href{http://dx.doi.org/Nuclear Science Symposium
+  Conference Record (NSS/MIC), 2010 IEEE}{{\em Nuclear Science Symposium
+  Conference Record (NSS/MIC)} (2010)  1678--1683}.
+
+\bibitem{ild:bib:microroc}
+C.~Adloff, J.~Blaha, M.~Chefdeville, A.~Dalmaz, C.~Drancourt, {\em et al.},
+  ``{MICROROC: MICRO-mesh gaseous structure Read-Out Chip}''
+\href{http://dx.doi.org/10.1088/1748-0221/7/01/C01029}{{\em JINST} {\bf 7}
+  (2012)  C01029}.
+%%CITATION = JINST,7,C01029;%%.
+
+\bibitem{ild:bib:spiroc}
+L.~Raux {\em et al.}, ``{SPIROC (SiPM Integrated Read-Out Chip): Dedicated very
+  front-end electronics for an ILC prototype hadronic calorimeter with SiPM
+  read-out}'' {\em JINST} {\bf 6} (2011)  C01098.
+
+\bibitem{ild:bib:skiroc2}
+S.~Callier {\em et al.}, ``{SKIROC2, front-end chip designed to readout the
+  Electromagnetic CALorimeter at the ILC}''
+  \href{http://dx.doi.org/10.1088/1748-0221/6/12/C12040}{{\em JINST} {\bf 6}
+  (2011)  C12040}.
+
+\bibitem{ild:bib:goodrick2011development}
+M.~Goodrick, L.~Hommels, R.~Shaw, D.~Ward, D.~Bailey, M.~Kelly, V.~Boisvert,
+  B.~Green, M.~Green, A.~Misiejuk, {\em et al.}, ``{Development of a modular
+  and scalable data acquisition system for calorimeters at a linear collider}''
+  {\em JINST} {\bf 6} (2011) no.~10, P10011.
+
+\bibitem{ild:bib:siecal_elecshower}
+{\bf CALICE Collaboration}, C.~Adloff {\em et al.}, ``{Effects of high-energy
+  particle showers on the embedded front-end electronics of an electromagnetic
+  calorimeter for a future lepton collider}'' {\em Nucl.Instrum.Meth.} {\bf
+  A654} (2011)  97, \href{http://arxiv.org/abs/1102.3454}{{\tt arXiv:1102.3454
+  [physics.ins-det]}}.
+
+\bibitem{ild:bib:siecal_resp}
+{\bf CALICE Collaboration}, C.~Adloff {\em et al.}, ``{Response of the CALICE
+  Si-W Electromagnetic Calorimeter Physics Prototype to Electrons}'' {\em
+  Nucl.Instrum.Meth.} {\bf A608} (2009)  372,
+  \href{http://arxiv.org/abs/0811.2354}{{\tt arXiv:0811.2354
+  [physics.ins-det]}}.
+
+\bibitem{ild:bib:eudet15}
+{\bf CALICE Collaboration}, J.~Apostolakis {\em et al.}, ``{Validation of
+  GEANT4 hadronic models using CALICE data}''.
+  \url{http://www.eudet.org/e26/e28/e86887/e109012/EUDET-Memo-2010-15.pdf}.
+  EUDET-Memo-2010-15.
+
+\bibitem{ild:bib:can36}
+{\bf CALICE Collaboration}, A.~Lucaci-Timoce {\em et al.}, ``{Shower
+  development of particles with momenta from 1 to 10 GeV in the CALICE
+  Scintillator-Tungsten HCAL}''.
+  \url{https://twiki.cern.ch/twiki/pub/CALICE/CaliceAnalysisNotes/CAN-036.pdf}.
+  CALICE Analysis Note CAN-036.
+
+\bibitem{ild:bib:siecal_techproto}
+M.~Anduze {\em et al.}, ``{JRA3 Electromagnetic Calorimeter Technical Design
+  Report}''.
+  \url{http://www.eudet.org/e26/e26/e27/e43691/eudet-report-09-01.pdf}.
+  EUDET-Report-2009-01.
+
+\bibitem{ild:bib:rnc08}
+R.~Cornat, ``{Design of a SiW electromagnetic calorimeter for the International
+  Linear Collider and study of cross talk in silicon sensors}''
+  \href{http://dx.doi.org/10.1109/NSSMIC.2008.4774933}{{\em Nuclear Science
+  Symposium Conference Record. NSS'08 IEEE} (2008)  }.
+
+\bibitem{ild:bib:eudet-memo}
+P.~Sicho {\em et al.}, ``{A large scale prototype for a SiW electromagnetic
+  calorimeter for a future linear collider - EUDET Module}''.
+  EUDET-Memo-2010-17.
+
+\bibitem{ild:bib:calice-pflow}
+{\bf CALICE Collaboration}, C.~Adloff {\em et al.}, ``{Tests of a particle flow
+  algorithm with CALICE test beam data}'' {\em JINST} {\bf 6} (2011)  P07005,
+  \href{http://arxiv.org/abs/1105.3417}{{\tt arXiv:1105.3417
+  [physics.ins-det]}}.
+
+\bibitem{ild:bib:ssa}
+K.~Kotera, ``{Scintillator ECAL reconstruction}''.
+  \url{https://ilcagenda.linearcollider.org/getFile.py/access?contribId=169&sessionId=22&resId=0&materialId=slides&confId=5414}.
+
+\bibitem{ild:bib:calice1}
+{\bf CALICE Collaboration}, J.~Repond {\em et al.}, ``{Design and Electronics
+  Commissioning of the Physics Prototype of a Si-W Electromagnetic Calorimeter
+  for the International Linear Collider}''
+  \href{http://dx.doi.org/10.1088/1748-0221/3/08/P08001}{{\em JINST} {\bf 3}
+  (2008)  P08001},
+\href{http://arxiv.org/abs/0805.4833}{{\tt arXiv:0805.4833 [physics.ins-det]}}.
+%%CITATION = 0805.4833;%%.
+
+\bibitem{ild:bib:siecal_pion}
+{\bf CALICE Collaboration}, C.~Adloff {\em et al.}, ``{Study of the
+  interactions of pions in the CALICE silicon-tungsten calorimeter prototype}''
+  {\em JINST} {\bf 5} (2010)  P05007,
+  \href{http://arxiv.org/abs/1004.4996}{{\tt arXiv:1004.4996
+  [physics.ins-det]}}.
+
+\bibitem{ild:bib:doublet2011}
+{\bf CALICE Collaboration}, P.~Doublet {\em et al.}, ``{Interactions of hadrons
+  in the CALICE SiW ECAL prototype}''
+  \href{http://arxiv.org/abs/1203.1240v2}{{\tt arXiv:1203.1240v2
+  [physics.ins-det]}}. CALICE Analysis Note CAN-025.
+
+\bibitem{ild:bib:fehr2010}
+{\bf CALICE Collaboration}, F.~Fehr {\em et al.}, ``{Tracking with the CALICE
+  Si-W electromagnetic calorimeter prototype using the Hough transform}''.
+  CALICE Analysis Note CAN-023a.
+
+\bibitem{ild:bib:mfg09}
+{\bf CALICE Collaboration}, M.~Faucci-Gianelli, ``{Position and Angular
+  Resolution of the SiW Ecal Prototype}''. CALICE Analysis Note CAN-017.
+
+\bibitem{ild:bib:can16}
+{\bf CALICE Collaboration}, K.~Kotera {\em et al.}, ``{First Stage Analyis of
+  the Energy Response and Resolution of the Scintillator ECAL in the Beam Test
+  at FNAL, 2008}''.
+  \url{https://twiki.cern.ch/twiki/pub/CALICE/CaliceAnalysisNotes/CAN-016.pdf}.
+  CALICE Analysis Note CAN-016.
+
+\bibitem{ild:bib:CAN-016b}
+{\bf CALICE Collaboration}, ``{Update of the Analysis of the Test Beam
+  Experiment of the CALICE ScECAL Physics Prototype}''. {CALICE Analysis Note
+  CAN-016b}.
+
+\bibitem{ild:bib:phd_hengne}
+H.~Li, {\em {Higgs Recoil Mass and Cross-Section Analysis at ILC and
+  Calibration of the CALICE SiW ECAL Prototype}}.
+\newblock PhD thesis, Universit\'e Paris XI, 2009.
+\newblock \url{http://tel.archives-ouvertes.fr/docs/00/43/04/32/PDF/Li.pdf}.
+
+\bibitem{ild:bib:rouene}
+J.~Rou\"en\'e, ``{MIP Calibration of the Physics Prototype of the Silicon
+  Tungsten Electromagnetic Calorimeter for the International Linear
+  Collider}''.
+  \url{http://ilcagenda.linearcollider.org/getFile.py/access?contribId=1&sessionId=15&resId=0&materialId=slides&confId=5213}.
+  CALICE Collaboration Meeting Heidelberg 2011.
+
+\bibitem{ild:bib:muonhalo}
+A.~Drozhdin {\em et al.}, ``Suppression of muon backgrounds generated in the
+  ilc beam delivery system'' {\em SLAC-PUB-12741} (2007)  .
+  \url{http://www.slac.stanford.edu/cgi-wrap/getdoc/slac-pub-12741.pdf}.
+
+\bibitem{collaboration:2010hb}
+{\bf CALICE Collaboration}, C.~Adloff {\em et al.}, ``{Construction and
+  Commissioning of the CALICE Analogue Hadron Calorimeter Prototype}''
+  \href{http://dx.doi.org/10.1088/1748-0221/5/05/P05004}{{\em JINST} {\bf 5}
+  (2010)  P05004}, \href{http://arxiv.org/abs/1003.2662}{{\tt arXiv:1003.2662
+  [physics.ins-det]}}.
+DESY-10-032.
+%%CITATION = ARXIV:1003.2662;%%.
+
+\bibitem{Adloff:2012gv}
+{\bf CALICE Collaboration}, C.~Adloff {\em et al.}, ``{Hadronic energy
+  resolution of a highly granular scintillator-steel hadron calorimeter using
+  software compensation techniques}''
+  \href{http://dx.doi.org/10.1088/1748-0221/7/09/P09017}{{\em JINST} {\bf 7}
+  (2012)  P09017}, \href{http://arxiv.org/abs/1207.4210}{{\tt arXiv:1207.4210
+  [physics.ins-det]}}.
+MPP-2012-116.
+%%CITATION = ARXIV:1207.4210;%%.
+
+\bibitem{collaboration:2010rq}
+{\bf CALICE Collaboration}, C.~Adloff {\em et al.}, ``{Electromagnetic response
+  of a highly granular hadronic calorimeter}''
+  \href{http://dx.doi.org/10.1088/1748-0221/6/04/P04003}{{\em JINST} {\bf 6}
+  (2011)  P04003}, \href{http://arxiv.org/abs/1012.4343}{{\tt arXiv:1012.4343
+  [physics.ins-det]}}.
+DESY-10-241.
+%%CITATION = ARXIV:1012.4343;%%.
+
+\bibitem{CAN-026}
+{\bf CALICE Collaboration}, ``{Pion Showers in the CALICE AHCAL}''. {CALICE
+  Analysis Note CAN-026}.
+
+\bibitem{CAN-022}
+{\bf CALICE Collaboration}, ``{Identification of Track Segments in Hadronic
+  Showers in the Analog Hadron Calorimeter - Algorithm and Comparisons to
+  Simulations}''. {CALICE Analysis Note CAN-022}.
+
+\bibitem{ild:bib:pp-test}
+L.~Caponetto {\em et al.}, ``{First test of a power-pulsed electronics system
+  on a GRPC detector in a 3-Tesla magnetic field}'' {\em JINST} {\bf 7} (2012)
+  P04009, \href{http://arxiv.org/abs/1111.5630v1}{{\tt arxiv:1111.5630v1
+  [physics.ins-det]}}.
+
+\bibitem{ild:bib:CAN-037}
+{\bf CALICE Collaboration}, ``{First results of the CALICE SDHCAL Technological
+  Prototype}''. {CALICE Analysis Note CAN-037}.
+
+\bibitem{Blazey:2009zz}
+G.~Blazey, D.~Chakraborty, A.~Dyshkant, K.~Francis, D.~Hedin, {\em et al.},
+  ``{Directly coupled tiles as elements of a scintillator calorimeter with MPPC
+  readout}'' \href{http://dx.doi.org/10.1016/j.nima.2009.03.253}{{\em
+  Nucl.Instrum.Meth.} {\bf A605} (2009)  277--281}.
+FERMILAB-PUB-09-585-E.
+%%CITATION = NUIMA,A605,277;%%.
+
+\bibitem{Simon:2010hf}
+F.~Simon and C.~Soldner, ``{Uniformity Studies of Scintillator Tiles directly
+  coupled to SiPMs for Imaging Calorimetry}''
+  \href{http://dx.doi.org/10.1016/j.nima.2010.03.142}{{\em Nucl.Instrum.Meth.}
+  {\bf A620} (2010)  196--201}, \href{http://arxiv.org/abs/1001.4665}{{\tt
+  arXiv:1001.4665 [physics.ins-det]}}.
+MPP-2010-10.
+%%CITATION = ARXIV:1001.4665;%%.
+
+\bibitem{CAN-033}
+{\bf CALICE Collaboration}, ``{First T3B Results - Initial Study of the Time of
+  First Hit in a Scintillator-Tungsten HCAL}''. {CALICE Analysis Note CAN-033}.
+
+\bibitem{JINST1}
+H.~Abramowicz, A.~Abusleme, K.~Afanaciev, J.~Aguilar, P.~Ambalathankandy, {\em
+  et al.}, ``{Forward Instrumentation for ILC Detectors}''
+  \href{http://dx.doi.org/10.1088/1748-0221/5/12/P12002}{{\em JINST} {\bf 5}
+  (2010)  P12002}, \href{http://arxiv.org/abs/1009.2433}{{\tt arXiv:1009.2433
+  [physics.ins-det]}}.
+DESY-10-142.
+%%CITATION = ARXIV:1009.2433;%%.
+
+\bibitem{ild:bib:grah1}
+C.~Grah and A.~Sapronov, ``{Beam parameter determination using beamstrahlung
+  photons and incoherent pairs}''
+\href{http://dx.doi.org/10.1088/1748-0221/3/10/P10004}{{\em JINST} {\bf 3}
+  (2008)  P10004}.
+%%CITATION = JINST,3,P10004;%%.
+
+\bibitem{ild:bib:drugakov}
+P.~Bambade, V.~Drugakov, and W.~Lohmann, ``{The Impact of BeamCal performance
+  at different ILC beam parameters and crossing angles on stau searches}''
+  \href{http://dx.doi.org/10.1007/s12043-007-0240-0}{{\em Pramana} {\bf 69}
+  (2007)  1123--1128}, \href{http://arxiv.org/abs/physics/0610145}{{\tt
+  arXiv:physics/0610145 [physics]}}.
+LAL-06-145.
+%%CITATION = PHYSICS/0610145;%%.
+
+\bibitem{ild:bib:woitek3}
+W.~Daniluk {\em et al.}, ``{Laser Alignment System for LumiCal}''.
+  \url{{http://www.eudet.org/e26/e26/e27/e826/EUDET\_report\_05.pdf}}.
+  EUDET-Report-2008-05.
+
+\bibitem{new_Bhabha}
+M.~Czakon, J.~Gluza, and T.~Riemann, ``{The Planar four-point master integrals
+  for massive two-loop Bhabha scattering}''
+  \href{http://dx.doi.org/10.1016/j.nuclphysb.2006.05.033}{{\em Nucl.Phys.}
+  {\bf B751} (2006)  1--17}, \href{http://arxiv.org/abs/hep-ph/0604101}{{\tt
+  arXiv:hep-ph/0604101 [hep-ph]}}.
+DESY-06-021, WUE-ITP-2006-004, SFB-CPP-06-17.
+%%CITATION = HEP-PH/0604101;%%.
+
+\bibitem{ild:bib:BHWIDE}
+S.~Jadach, W.~Placzek, and B.~Ward, ``{BHWIDE 1.00: O(alpha) YFS exponentiated
+  Monte Carlo for Bhabha scattering at wide angles for LEP-1 / SLC and LEP-2}''
+  \href{http://dx.doi.org/10.1016/S0370-2693(96)01382-2}{{\em Phys.Lett.} {\bf
+  B390} (1997)  298--308},
+\href{http://arxiv.org/abs/hep-ph/9608412}{{\tt arXiv:hep-ph/9608412
+  [hep-ph]}}.
+%%CITATION = HEP-PH/9608412;%%.
+
+\bibitem{bib25}
+H.~Abramowicz {\em et al.}, ``{Revised requirements on the readout of the
+  luminosity calorimeter }''.
+  \url{http://www.eudet.org/e26/e28/e615/eudet_memo_2008_08.pdf}.
+  EUDET-Memo-2008-08.
+
+\bibitem{ild:bib:eudet_sensors}
+J.~Blocki {\em et al.}, ``{Silicon Sensors Prototype for LumiCal
+  Calorimeter}''. EUDET-Memo-2009-07.
+
+\bibitem{ild:bib:TDR_machine_parameters}
+N.~Walker, ``{Machine Parameters for the ILC TDR Baseline}''.
+  \url{http://ilc-edmsdirect.desy.de/ilc-edmsdirect/item.jsp?edmsid=D00000000925325}.
+  EDMS-ID: D*925325.
+
+\bibitem{ild:bib:guineapig}
+D.~Schulte, ``{Study of Electromagnetic and Hadronic Background in the
+  Interaction Region of the TESLA Collider}''.
+TESLA-97-08.
+%%CITATION = TESLA-97-08 ETC.;%%.
+
+\bibitem{ild:bib:anti-did}
+A.~Seryi, T.~Maruyama, and B.~Parker, ``{IR Optimization, DID and anti-DID}''.
+SLAC-PUB-11662.
+%%CITATION = SLAC-PUB-11662 ETC.;%%.
+
+\bibitem{thesis_ekaterina}
+E.~Kuznetsova, ``{Design studies and sensor tests for the beam calorimeter of
+  the ILC detector}''.
+DESY-THESIS-2007-010.
+%%CITATION = DESY-THESIS-2007-010 ETC.;%%.
+
+\bibitem{ild:bib:sdalinac}
+ \url{http://www.ikp.tu-darmstadt.de/beschleuniger\_1/S-DALINAC.de.jsp}.
+  S-DALINAC: Superconducting DArmstadt LInear ACcelerator.
+
+\bibitem{ild:bib:ieee2}
+C.~Grah, K.~Afanaciev, I.~Emeliantchik, U.~Harder, H.~Henschel, {\em et al.},
+  ``{Polycrystalline CVD diamonds for the beam calorimeter of the ILC}''
+\href{http://dx.doi.org/10.1109/TNS.2009.2013853}{{\em IEEE Trans.Nucl.Sci.}
+  {\bf 56} (2009)  462--467}.
+%%CITATION = IETNA,56,462;%%.
+
+\bibitem{material2}
+K.~Afanaciev {\em et al.}, ``{Investigation of the Radiation Hardness of GaAs
+  Sensors in an Electron Beam}''. submitted to JINST.
+
+\bibitem{pzc}
+R.~Boie, A.~Hrisoho, and P.~Rehak, ``{Signal shaping and tail cancellation for
+  gas proportional detectors at high counting rates}''
+\href{http://dx.doi.org/10.1016/0029-554X(82)90846-1}{{\em IEEE
+  Trans.Nucl.Sci.} {\bf 28} (1981)  603--609}.
+%%CITATION = IETNA,28,603;%%.
+
+\bibitem{frontend}
+E.~Gatti and P.~Manfredi, ``{Processing the signals from solid state detectors
+  in elementary particle physics}''
+\href{http://dx.doi.org/10.1007/BF02822156}{{\em Riv.Nuovo Cim.} {\bf 9N1}
+  (1986)  1--146}.
+%%CITATION = RNCIB,9N1,1;%%.
+
+\bibitem{lumi_frontend}
+M.~Idzik, S.~Kulis, and D.~Przyborowski, ``{Development of front-end
+  electronics for the luminosity detector at ILC}''
+\href{http://dx.doi.org/10.1016/j.nima.2009.06.059}{{\em Nucl.Instrum.Meth.}
+  {\bf A608} (2009)  169--174}.
+%%CITATION = NUIMA,A608,169;%%.
+
+\bibitem{ild:bib:lumi_adc}
+M.~Idzik {\em et al.}, ``{A 10-bit multichannel digitizer ASIC for detectors in
+  particle physics experiments}'' {\em IEEE Trans.Nucl.Sci.} {\bf 59} (2012)
+  294--302. FCAL.tex ild:bib:lumi-adc.
+
+\bibitem{ieee_angel}
+A.~Abusleme, A.~Dragone, G.~Haller, and B.~A. Wooley, ``{BeamCal
+  Instrumentation IC: Design, implementation, and test results}''
+\href{http://dx.doi.org/10.1109/TNS.2012.2194308}{{\em IEEE Trans.Nucl.Sci.}
+  {\bf 59} (2012)  589--596}.
+%%CITATION = IETNA,59,589;%%.
+
+\bibitem{fcal_readout_board}
+S.~Kulis, A.~Matoga, M.~Idzik, K.~Swientek, T.~Fiutowski, {\em et al.}, ``{A
+  general purpose multichannel readout system for radiation detectors}''
+\href{http://dx.doi.org/10.1088/1748-0221/7/01/T01004}{{\em JINST} {\bf 7}
+  (2012)  T01004}.
+%%CITATION = JINST,7,T01004;%%.
+
+\bibitem{ild:bib:Dasc_lc_note}
+V.~D'Ascenso, N.~Saveliev, ``{Mathematical modeling and Study of the ILD Muon
+  System/Tail Catcher}''. \url{http://www-flc.desy.de/lcnotes}. LC-DET-2012-
+  xxx.
+
+\bibitem{ild:bib:Danilov}
+V.~Balagura, M.~Danilov, {\em et al.}, ``{Study of scintillator strip with
+  wavelength shifting fiber and silicon photomultiplier}'' {\em
+  Nucl.Instrum.Meth.} {\bf A564} (2006)  590--596,
+  \href{http://arxiv.org/abs/physics/0504194}{{\tt arXiv:physics/0504194
+  [physics.ins-det]}}.
+
+\bibitem{ild:bib:RPC}
+J.~Repond, ``{Overview of the DHCAL Project}''
+  \href{http://arxiv.org/abs/1005.0412}{{\tt arXiv:1005.0412
+  [physics.ins-det]}}.
+
+\bibitem{ild:bib:Calice_test}
+C.~Adloff {\em et al.}, ``{Construction and performance of a silicon
+  photomultiplier/extruded scintillator tail-catcher and muon tracker}'' {\em
+  JINST} {\bf 7} (2012)  4015, \href{http://arxiv.org/abs/1201.1653}{{\tt
+  arXiv:1201.1653 [physics.ins-det]}}.
+
+\bibitem{ild:bib:Kircher2002}
+F.~Kircher {\em et al.}, ``{CMS Coil Design and Assembly}'' {\em IEEE
+  Trans.Appl.Superconductivity} {\bf 12} (2002) no.~1, 395--398.
+
+\bibitem{ild:bib:ILD_magnet}
+F.~Kircher, U.~Schneekloth, {\em et al.}, ``{Conceptual Design of the ILD
+  Detector Magnet System}''. LC-DET-2012-081.
+
+\bibitem{ild:bib:Fabbricatore2006}
+P.~Fabbricatore {\em et al.}, ``{The Manufacture of Modules for CMS Coil}''
+  {\em IEEE Trans.Appl.Superconductivity} {\bf 16} (2006) no.~2, 512--516.
+
+\bibitem{ild:bib:ATLAStoroid2006}
+J.~Rey {\em et al.}, ``{Cold Mass Integration of the ATLAS Barrel Toroid
+  Magnets at CERN}'' {\em IEEE Trans.Appl.Superconductivity} {\bf 16} (2006)
+  no.~2, 553--556.
+
+\bibitem{ild:bib:Levesy2006}
+B.~Levesy {\em et al.}, ``{CMS Solenoid Assembly}'' {\em IEEE
+  Trans.Appl.Superconductivity} {\bf 16} (2006) no.~2, 517--520.
+
+\bibitem{ild:bib:Parker:2009zz}
+B.~Parker, A.~Mikhailichenko, K.~Buesser, J.~Hauptman, T.~Tauchi, {\em et al.},
+  ``{Functional Requirements on the Design of the Detectors and the Interaction
+  Region of an e+ e- Linear Collider with a Push-Pull Arrangement of
+  Detectors}''.
+{SLAC-PUB-13657, ILC-NOTE-2009-050}.
+%%CITATION = SLAC-PUB-13657 ETC.;%%.
+
+\bibitem{Stromhagen:2010}
+R.~Stromhagen, ``{Note on the integration of the cryostat into the central
+  barrel - ILD detector}''.
+  \url{http://edmsdirect.desy.de/edmsdirect/file.jsp?edmsid=D00000001010065,A,1,1}.
+  EDMS ID: D*1010065.
+
+\bibitem{Bourgeois2012}
+C.~Bourgeois and A.~Gonnin, ``{Integration of inner detector region}''.
+  \url{http://edmsdirect.desy.de/edmsdirect/file.jsp?edmsid=D00000001003815,A,1,1}.
+  EDMS-ID: D*1003815,A,1,1.
+
+\bibitem{ild:bib:EDMS}
+ \url{ilc-edms.desy.de}. {ILC Engineering Data Management System ILC-EDMS}.
+
+\bibitem{RASNIK}
+{\bf CLIC MDI Working Group}, L.~Gatignon, ``{CLIC MDI Overview}''
+\href{http://arxiv.org/abs/1202.6511}{{\tt arXiv:1202.6511 [physics.acc-ph]}}.
+%%CITATION = ARXIV:1202.6511;%%.
+
+\bibitem{ref-TESLA_TDR}
+T.~Behnke, S.~Bertolucci, R.~Heuer, and R.~Settles, eds., {\em {TESLA: The
+  superconducting electron positron linear collider with an integrated X-ray
+  laser laboratory. Technical design report. Pt. 4: A detector for TESLA}}.
+\newblock 2001.
+\newblock
+DESY-01-011, DESY-2001-011, DESY-01-011D, DESY-2001-011D, DESY-TESLA-2001-23,
+  DESY-TESLA-FEL-2001-05, ECFA-2001-209.
+%%CITATION = DESY-01-011 ETC.;%%.
+
+\bibitem{ild:bib:CMS_TRIDAS}
+P.~Sphicas, ed., {\em {CMS: The TriDAS project. Technical design report, Vol.
+  2: Data acquisition and high-level trigger}}.
+\newblock 2002.
+\newblock CERN-LHCC.
+
+\bibitem{ild:bib:Oh:2007zz}
+A.~Oh, ``{The CMS DAQ and run control system}'' {\em J.Phys.Conf.Ser.} {\bf
+  110} (2008)  092020.
+
+\bibitem{ild:daq:ATLAS_ROD}
+S.~Gameiro, G.~Crone, R.~Ferrari, D.~Francis, B.~Gorini, M.~Gruwe, M.~Joos,
+  G.~Lehmann, L.~Mapelli, A.~Misiejuk, {\em et al.}, ``The rod crate daq
+  software framework of the atlas data acquisition system'' {\em Nuclear
+  Science, IEEE Transactions on} {\bf 53} (2006) no.~3, 907--911.
+
+\bibitem{ild:bib:Cornat:2011}
+R.~Cornat, \href{http://dx.doi.org/10.1016/j.phpro.2012.03.754}{``Acquisition
+  system and detector interface for power pulsed detectors''} vol.~37, pp.~1791
+  -- 1798.
+\newblock 2012.
+\newblock
+  \url{http://www.sciencedirect.com/science/article/pii/S1875389212018913}.
+\newblock Proceedings of the 2nd International Conference on Technology and
+  Instrumentation in Particle Physics (TIPP 2011).
+
+\bibitem{ild:bib:ref:lcio}
+F.~Gaede, T.~Behnke, N.~Graf, and T.~Johnson, ``{LCIO: A Persistency framework
+  for linear collider simulation studies}'' {\em eConf} {\bf C0303241} (2003)
+  TUKT001, \href{http://arxiv.org/abs/physics/0306114}{{\tt
+  arXiv:physics/0306114 [physics]}}.
+SLAC-PUB-9992, CHEP-2003-TUKT001.
+%%CITATION = PHYSICS/0306114;%%.
+
+\bibitem{ild:bib:ATLAS-CMP_TDR}
+{\bf ATLAS Collaboration}, G.~Duckeck {\em et al.}, eds., {\em {ATLAS
+  computing: Technical design report}}.
+\newblock 2005.
+\newblock
+CERN-LHCC-2005-022, ATLAS-TRD-017.
+%%CITATION = CERN-LHCC-2005-022 ETC.;%%.
+
+\bibitem{ild:bib:CMS-CMP_TDR}
+{\bf CMS Collaboration}, ``{CMS: The computing project. Technical design
+  report}''.
+CERN-LHCC-2005-023.
+%%CITATION = CERN-LHCC-2005-023 ETC.;%%.
+
+\bibitem{ild:bib:ref_gear}
+``{GEAR - a geometry description toolkit for ILC reconstruction software}''.
+  \url{http://ilcsoft.desy.de/portal/software\_packages/gear}.
+
+\bibitem{ild:bib:ref:mokka}
+P.~Mora~de Freitas and H.~Videau, ``{Detector simulation with MOKKA / GEANT4:
+  Present and future}''.
+LC-TOOL-2003-010.
+%%CITATION = LC-TOOL-2003-010 ETC.;%%.
+
+\bibitem{ild:bib:Marlin}
+F.~Gaede, ``{Marlin and LCCD: Software tools for the ILC}''
+\href{http://dx.doi.org/10.1016/j.nima.2005.11.138}{{\em Nucl.Instrum.Meth.}
+  {\bf A559} (2006)  177--180}.
+%%CITATION = NUIMA,A559,177;%%.
+
+\bibitem{ild:bib:ref:ROOT}
+R.~Brun and F.~Rademakers, ``{ROOT: An object oriented data analysis
+  framework}''
+\href{http://dx.doi.org/10.1016/S0168-9002(97)00048-X}{{\em Nucl.Instrum.Meth.}
+  {\bf A389} (1997)  81--86}.
+%%CITATION = NUIMA,A389,81;%%.
+
+\bibitem{ild:bib:ref:geant4}
+{\bf GEANT4}, S.~Agostinelli {\em et al.}, ``{GEANT4: A Simulation toolkit}''
+  \href{http://dx.doi.org/10.1016/S0168-9002(03)01368-8}{{\em
+  Nucl.Instrum.Meth.} {\bf A506} (2003)  250--303}.
+SLAC-PUB-9350, FERMILAB-PUB-03-339.
+%%CITATION = NUIMA,A506,250;%%.
+
+\bibitem{ild:bib:ref:glattauer}
+R.~Glattauer, R.~Fr\"uhwirth, J.~Lettenbichler, and W.~Mitaroff, ``{Forward
+  Tracking in the ILD Detector}''
+\href{http://arxiv.org/abs/1202.2761}{{\tt arXiv:1202.2761 [physics.data-an]}}.
+%%CITATION = ARXIV:1202.2761;%%.
+
+\bibitem{ild:bib:ref:kaltest}
+K.~Fujii, ``{KalTest: A ROOT-based Kalman Filter Package}''.
+  \url{http://www-jlc.kek.jp/subg/offl/kaltest/}.
+
+\bibitem{ild:bib:ref:lcfivertex}
+{\bf LCFI Collaboration}, D.~Bailey {\em et al.}, ``{The LCFIVertex package:
+  vertexing, flavour tagging and vertex charge reconstruction with an ILC
+  vertex detector}'' \href{http://dx.doi.org/10.1016/j.nima.2009.08.059}{{\em
+  Nucl.Instrum.Meth.} {\bf A610} (2009)  573--589},
+\href{http://arxiv.org/abs/0908.3019}{{\tt arXiv:0908.3019 [physics.ins-det]}}.
+%%CITATION = ARXIV:0908.3019;%%.
+
+\bibitem{ild:bib:ref:lcfiplus}
+T.~Suehara, T.~Tanabe, and S.~Yamashita, ``{Improved jet clustering algorithm
+  with vertex information for multi-bottom final states}''
+\href{http://arxiv.org/abs/1110.5785}{{\tt arXiv:1110.5785 [hep-ex]}}.
+%%CITATION = ARXIV:1110.5785;%%.
+
+\bibitem{ild:bib:Buesser:2012et}
+K.~Buesser, ``{ILD Machine-Detector Interface and Experimental Hall Issues}''
+\href{http://arxiv.org/abs/1201.5807}{{\tt arXiv:1201.5807 [physics.ins-det]}}.
+%%CITATION = ARXIV:1201.5807;%%.
+
+\bibitem{ild:bib:Yamaoka:2010}
+H.~Yamaoka, ``{ILD Vibration Studies}''. {Presented at LCWS10 and ILC10,
+  Beijing, China}, 2010.
+
+\bibitem{ild:bib:Oriunno:2011}
+M.~Oriunno, ``{Planning the Push-pull}''. Presented at ALCPG'11, Eugene, OR,
+  USA, 2011.
+
+\bibitem{ild:bib:Sinram:2011}
+K.~Sinram {\em et al.}, ``{ILD Experimental Hall Design}''.
+  \url{http://ilcagenda.linearcollider.org/materialDisplay.py?contribId=7&sessionId=3&materialId=slides&confId=5399}.
+  SiD/ILD Engineering and Detector Interface Working Meeting, SLAC, 2011.
+
+\bibitem{ild:bib:pair_background}
+E.~Avetisyan, ``{Study of the anti-DID Magnetic Field Effects on the
+  Beam-induced Pair Backgrounds in ILD}''.
+  \url{http://www-flc.desy.de/lcnotes/notes/LC-REP-2013-002.pdf}.
+  LC-REP-2013-002.
+
+\bibitem{ild:bib:perfgoal::barklow}
+T.~Barklow, ``{Physics Impact of Detector Performance}''.
+  \url{http://www-conf.slac.stanford.edu/lcws05/program/talks/18mar2005.ppt}.
+  Presentation for LCWS05.
+
+\bibitem{ild:bib:timestamping}
+K.~Fujii, ``{Time Stamping: CDC/TPC Comparison Studies. (NB: ``CDC'' was the
+  central drift chamber for the detector in the early days of JLC/NLC.)}''.
+  \url{http://www-jlc.kek.jp/jlc/sites/default/files/groups/tpc/talks/T0.CDCvsTPC.pdf}.
+
+\bibitem{ild:bib:ref-mktimestamping}
+{M. Killenberg}, ``{Time Stamping of TPC Tracks in the CLIC\_ILD Detector}''.
+  \url{https://edms.cern.ch/file/1158960/1/tpc\_time\_stamping.pdf}.
+  LCD-NOTE-2011-030.
+
+\bibitem{ild:bib:flavourtag}
+R.~Walsh {\em et al.}, ``{Flavour tagging optimisation studies at ILD}''.
+  \url{http://ilcild.org/documents/ild-letter-of-intent/ild-loi-material/flavour_tagging.pdf/view}.
+
+\bibitem{ild:bib:OnoMiyamoto}
+H.~Ono and A.~Miyamoto, ``{Evaluation of measurement accuracies of the higgs
+  boson branching fractions in the International Linear Collider}''
+  \href{http://arxiv.org/abs/1207.0300}{{\tt arXiv:1207.0300 [hep-ex]}}.
+
+\bibitem{DBDbench-request}
+T.~Barklow, M.~Berggren, K.~Fujii, N.~Graf, A.~Miyamoto, M.~Peskin, F.~Richard,
+  and G.~Weiglein, ``{Detector benchmarking for the 2012 DBD}''.
+  ILC-NOTE-2011-059.
+
+\bibitem{ild:bib:benchmark:doublet}
+P.~Doublet, {\em {Hadrons in a highly granular SiW ECAL - Top quark production
+  at the ILC}}.
+\newblock PhD thesis, Laboratoire d'Acc{\'e}l{\'e}rateur Lin{\'e}aire and
+  Universit{\'e} Paris Sud - Paris XI, 2011.
+\newblock \url{http://tel.archives-ouvertes.fr/tel-00657967}.
+
+\bibitem{Catani:1991hj}
+S.~Catani, Y.~L. Dokshitzer, M.~Olsson, G.~Turnock, and B.~Webber, ``{New
+  clustering algorithm for multi - jet cross-sections in e+ e- annihilation}''
+\href{http://dx.doi.org/10.1016/0370-2693(91)90196-W}{{\em Phys.Lett.} {\bf
+  B269} (1991)  432--438}.
+%%CITATION = PHLTA,B269,432;%%.
+
+\bibitem{Ellis:1993tq}
+S.~D. Ellis and D.~E. Soper, ``{Successive combination jet algorithm for hadron
+  collisions}'' \href{http://dx.doi.org/10.1103/PhysRevD.48.3160}{{\em
+  Phys.Rev.} {\bf D48} (1993)  3160--3166},
+\href{http://arxiv.org/abs/hep-ph/9305266}{{\tt arXiv:hep-ph/9305266
+  [hep-ph]}}.
+%%CITATION = HEP-PH/9305266;%%.
+
+\bibitem{Cacciari:2005hq}
+M.~Cacciari and G.~P. Salam, ``{Dispelling the $N^{3}$ myth for the $k_t$
+  jet-finder}'' \href{http://dx.doi.org/10.1016/j.physletb.2006.08.037}{{\em
+  Phys.Lett.} {\bf B641} (2006)  57--61},
+\href{http://arxiv.org/abs/hep-ph/0512210}{{\tt arXiv:hep-ph/0512210
+  [hep-ph]}}.
+%%CITATION = HEP-PH/0512210;%%.
+
+\bibitem{ild:bib:benchmark:vvhanalysis}
+H.~Ono, ``{Higgs branching ratio study for DBD detector benchmarking in ILD}''.
+  \url{http://www-flc.desy.de/lcnotes/notes/LC-REP-2013-005.pdf}.
+  LC-REP-2013-005.
+
+\bibitem{ild:bib:benchmark:vvhanalysis_mumu}
+C.~Calancha, ``{Study of $H \rightarrow \mu^+\mu^-$ at $\sqrt{s}$ = 1 TeV at
+  the ILC}''. \url{http://www-flc.desy.de/lcnotes/notes/LC-REP-2013-006.pdf}.
+  LC-REP-2013-006.
+
+\bibitem{MoortgatPick:2005cw}
+G.~Moortgat-Pick, T.~Abe, G.~Alexander, B.~Ananthanarayan, A.~Babich, {\em et
+  al.}, ``{The Role of polarized positrons and electrons in revealing
+  fundamental interactions at the linear collider}''
+  \href{http://dx.doi.org/10.1016/j.physrep.2007.12.003}{{\em Phys.Rept.} {\bf
+  460} (2008)  131--243},
+\href{http://arxiv.org/abs/hep-ph/0507011}{{\tt arXiv:hep-ph/0507011
+  [hep-ph]}}.
+%%CITATION = HEP-PH/0507011;%%.
+
+\bibitem{Blondel:1987wr}
+A.~Blondel, ``{A scheme to measure the polarization asymmetry at the Z pole in
+  LEP}''
+\href{http://dx.doi.org/10.1016/0370-2693(88)90869-6}{{\em Phys.Lett.} {\bf
+  B202} (1988)  145}.
+%%CITATION = PHLTA,B202,145;%%.
+
+\bibitem{Monig:2000bn}
+K.~Moenig, ``{The use of positron polarization for precision measurements}''.
+LC-PHSM-2000-59-TESLA.
+%%CITATION = LC-PHSM-2000-059 ETC.;%%.
+
+\bibitem{ild:bib:benchmark:WWanalysis1}
+P.~Bechtle, W.~Ehrenfeld, and I.~Marchesini, ``{Measurement of the beam
+  polarization at the ILC using the WW production}''. LC-DET-2009-009.
+
+\bibitem{ild:bib:benchmark:WWanalysis2}
+A.~Rosca, ``{Measurement of the beam polarisation at the ILC using the WW
+  annihilation data}''.
+  \url{http://www-flc.desy.de/lcnotes/notes/LC-REP-2013-009.pdf}.
+  LC-REP-2013-009.
+
+\bibitem{Marchesini:2011aka}
+I.~Marchesini,
+``{Triple gauge couplings and polarization at the ILC and leakage in a highly
+  granular calorimeter}''.
+%%CITATION = DESY-THESIS-2011-044 ETC.;%%.
+
+\bibitem{Menges:2001gg}
+W.~Menges, ``{A study of charged current triple gauge couplings at TESLA}''.
+LC-PHSM-2001-022.
+%%CITATION = LC-PHSM-2001-022 ETC.;%%.
+
+\bibitem{ild:bib:benchmark:tthanalysis}
+T.~Price, N.~Watson, T.~Tanabe, and V.~Martin, ``{Measurement of the top Yukawa
+  coupling at $\sqrt{s}$ = 1 TeV using the ILD detector}''.
+  \url{http://www-flc.desy.de/lcnotes/notes/LC-REP-2013-004.pdf}.
+  LC-REP-2013-004.
+
+\bibitem{ild:bib:Hocker:2007ht}
+A.~Hoecker, P.~Speckmayer, J.~Stelzer, J.~Therhaag, E.~von Toerne, and H.~Voss,
+  ``{TMVA: Toolkit for Multivariate Data Analysis}'' {\em PoS} {\bf ACAT}
+  (2007)  040,
+\href{http://arxiv.org/abs/physics/0703039}{{\tt arXiv:physics/0703039}}.
+%%CITATION = PHYSICS/0703039;%%.
+
+\bibitem{ild:bib:benchmark:ttbaranalysis}
+M.~Amjad, T.~Frisson, R.~P\"{o}schl, F.~Richard, and J.~Rou\"{e}n\'{e},
+  ``{Forward backward asymmetry in $e^+e^- \rightarrow t\bar{t}$ at $\sqrt{s}$
+  = 500 GeV for fully hadronic decays of the $t\bar{t}$ pair}''.
+  \url{http://www-flc.desy.de/lcnotes/notes/LC-REP-2013-008.pdf}.
+  LC-REP-2013-008.
+
+\bibitem{ild:bib:benchmark:physicsvolume}
+H.~Baer {\em et al.}, ``{Physics at the International Linear Collider}''.
+  \url{http://lcsim.org/papers/DBDPhysics.pdf}. to be published in the ILC
+  Detailed Baseline Design Report.
+
+\bibitem{Gianotti:2002xx}
+F.~Gianotti, M.~Mangano, T.~Virdee, S.~Abdullin, G.~Azuelos, {\em et al.},
+  ``{Physics potential and experimental challenges of the LHC luminosity
+  upgrade}'' \href{http://dx.doi.org/10.1140/epjc/s2004-02061-6}{{\em
+  Eur.Phys.J.} {\bf C39} (2005)  293--333},
+\href{http://arxiv.org/abs/hep-ph/0204087}{{\tt arXiv:hep-ph/0204087
+  [hep-ph]}}.
+%%CITATION = HEP-PH/0204087;%%.
+
+\bibitem{Baur:2002rb}
+U.~Baur, T.~Plehn, and D.~L. Rainwater, ``{Measuring the higgs boson self
+  coupling at the LHC and finite top mass matrix elements}''
+  \href{http://dx.doi.org/10.1103/PhysRevLett.89.151801}{{\em Phys.Rev.Lett.}
+  {\bf 89} (2002)  151801},
+\href{http://arxiv.org/abs/hep-ph/0206024}{{\tt arXiv:hep-ph/0206024
+  [hep-ph]}}.
+%%CITATION = HEP-PH/0206024;%%.
+
+\bibitem{Baur:2002qd}
+U.~Baur, T.~Plehn, and D.~L. Rainwater, ``{Determining the higgs boson
+  selfcoupling at hadron colliders}''
+  \href{http://dx.doi.org/10.1103/PhysRevD.67.033003}{{\em Phys.Rev.} {\bf D67}
+  (2003)  033003},
+\href{http://arxiv.org/abs/hep-ph/0211224}{{\tt arXiv:hep-ph/0211224
+  [hep-ph]}}.
+%%CITATION = HEP-PH/0211224;%%.
+
+\bibitem{Baur:2003gp}
+U.~Baur, T.~Plehn, and D.~L. Rainwater, ``{Probing the higgs selfcoupling at
+  hadron colliders using rare decays}''
+  \href{http://dx.doi.org/10.1103/PhysRevD.69.053004}{{\em Phys.Rev.} {\bf D69}
+  (2004)  053004},
+\href{http://arxiv.org/abs/hep-ph/0310056}{{\tt arXiv:hep-ph/0310056
+  [hep-ph]}}.
+%%CITATION = HEP-PH/0310056;%%.
+
+\bibitem{Baur:2003gpa}
+U.~Baur, T.~Plehn, and D.~L. Rainwater, ``{Examining the higgs boson potential
+  at lepton and hadron colliders: A Comparative analysis}''
+  \href{http://dx.doi.org/10.1103/PhysRevD.68.033001}{{\em Phys.Rev.} {\bf D68}
+  (2003)  033001},
+\href{http://arxiv.org/abs/hep-ph/0304015}{{\tt arXiv:hep-ph/0304015
+  [hep-ph]}}.
+%%CITATION = HEP-PH/0304015;%%.
+
+\bibitem{Kanemura:2002vm}
+S.~Kanemura, S.~Kiyoura, Y.~Okada, E.~Senaha, and C.~Yuan, ``{New physics
+  effect on the higgs selfcoupling}''
+  \href{http://dx.doi.org/10.1016/S0370-2693(03)00268-5}{{\em Phys.Lett.} {\bf
+  B558} (2003)  157--164},
+\href{http://arxiv.org/abs/hep-ph/0211308}{{\tt arXiv:hep-ph/0211308
+  [hep-ph]}}.
+%%CITATION = HEP-PH/0211308;%%.
+
+\bibitem{Kanemura:2004mg}
+S.~Kanemura, Y.~Okada, E.~Senaha, and C.-P. Yuan, ``{Higgs coupling constants
+  as a probe of new physics}''
+  \href{http://dx.doi.org/10.1103/PhysRevD.70.115002}{{\em Phys.Rev.} {\bf D70}
+  (2004)  115002},
+\href{http://arxiv.org/abs/hep-ph/0408364}{{\tt arXiv:hep-ph/0408364
+  [hep-ph]}}.
+%%CITATION = HEP-PH/0408364;%%.
+
+\bibitem{Asakawa:2010xj}
+E.~Asakawa, D.~Harada, S.~Kanemura, Y.~Okada, and K.~Tsumura, ``{Higgs boson
+  pair production in new physics models at hadron, lepton, and photon
+  colliders}'' \href{http://dx.doi.org/10.1103/PhysRevD.82.115002}{{\em
+  Phys.Rev.} {\bf D82} (2010)  115002},
+\href{http://arxiv.org/abs/1009.4670}{{\tt arXiv:1009.4670 [hep-ph]}}.
+%%CITATION = ARXIV:1009.4670;%%.
+
+\bibitem{Djouadi:1999gv}
+A.~Djouadi, W.~Kilian, M.~Muhlleitner, and P.~Zerwas, ``{Testing higgs
+  selfcouplings at e+ e- linear colliders}''
+  \href{http://dx.doi.org/10.1007/s100529900082}{{\em Eur.Phys.J.} {\bf C10}
+  (1999)  27--43},
+\href{http://arxiv.org/abs/hep-ph/9903229}{{\tt arXiv:hep-ph/9903229
+  [hep-ph]}}.
+%%CITATION = HEP-PH/9903229;%%.
+
+\bibitem{Grojean:2004xa}
+C.~Grojean, G.~Servant, and J.~D. Wells, ``{First-order electroweak phase
+  transition in the standard model with a low cutoff}''
+  \href{http://dx.doi.org/10.1103/PhysRevD.71.036001}{{\em Phys.Rev.} {\bf D71}
+  (2005)  036001},
+\href{http://arxiv.org/abs/hep-ph/0407019}{{\tt arXiv:hep-ph/0407019
+  [hep-ph]}}.
+%%CITATION = HEP-PH/0407019;%%.
+
+\bibitem{Kanemura:2004ch}
+S.~Kanemura, Y.~Okada, and E.~Senaha, ``{Electroweak baryogenesis and quantum
+  corrections to the triple higgs boson coupling}''
+  \href{http://dx.doi.org/10.1016/j.physletb.2004.12.004}{{\em Phys.Lett.} {\bf
+  B606} (2005)  361--366},
+\href{http://arxiv.org/abs/hep-ph/0411354}{{\tt arXiv:hep-ph/0411354
+  [hep-ph]}}.
+%%CITATION = HEP-PH/0411354;%%.
+
+\bibitem{Ham:2005ej}
+S.~Ham and S.~Oh, ``{Electroweak phase transition and higgs self-couplings in
+  the two-higgs-doublet model}''
+\href{http://arxiv.org/abs/hep-ph/0502116}{{\tt arXiv:hep-ph/0502116
+  [hep-ph]}}.
+%%CITATION = HEP-PH/0502116;%%.
+
+\bibitem{Aoki:2008av}
+M.~Aoki, S.~Kanemura, and O.~Seto, ``{Neutrino mass, Dark Matter and Baryon
+  Asymmetry via TeV-Scale Physics without Fine-Tuning}''
+  \href{http://dx.doi.org/10.1103/PhysRevLett.102.051805}{{\em Phys.Rev.Lett.}
+  {\bf 102} (2009)  051805},
+\href{http://arxiv.org/abs/0807.0361}{{\tt arXiv:0807.0361 [hep-ph]}}.
+%%CITATION = ARXIV:0807.0361;%%.
+
+\bibitem{Aoki:2009vf}
+M.~Aoki, S.~Kanemura, and O.~Seto, ``{A Model of TeV Scale Physics for Neutrino
+  Mass, Dark Matter and Baryon Asymmetry and its Phenomenology}''
+  \href{http://dx.doi.org/10.1103/PhysRevD.80.033007}{{\em Phys.Rev.} {\bf D80}
+  (2009)  033007},
+\href{http://arxiv.org/abs/0904.3829}{{\tt arXiv:0904.3829 [hep-ph]}}.
+%%CITATION = ARXIV:0904.3829;%%.
+
+\bibitem{Noble:2007kk}
+A.~Noble and M.~Perelstein, ``{Higgs self-coupling as a probe of electroweak
+  phase transition}'' \href{http://dx.doi.org/10.1103/PhysRevD.78.063518}{{\em
+  Phys.Rev.} {\bf D78} (2008)  063518},
+\href{http://arxiv.org/abs/0711.3018}{{\tt arXiv:0711.3018 [hep-ph]}}.
+%%CITATION = ARXIV:0711.3018;%%.
+
+\bibitem{Cohen:1993nk}
+A.~G. Cohen, D.~Kaplan, and A.~Nelson, ``{Progress in electroweak
+  baryogenesis}'' {\em Ann.Rev.Nucl.Part.Sci.} {\bf 43} (1993)  27--70,
+\href{http://arxiv.org/abs/hep-ph/9302210}{{\tt arXiv:hep-ph/9302210
+  [hep-ph]}}.
+%%CITATION = HEP-PH/9302210;%%.
+
+\bibitem{Quiros:1994dr}
+M.~Quiros, ``{Field theory at finite temperature and phase transitions}''
+{\em Helv.Phys.Acta} {\bf 67} (1994)  451--583.
+%%CITATION = HPACA,67,451;%%.
+
+\bibitem{Rubakov:1996vz}
+V.~Rubakov and M.~Shaposhnikov, ``{Electroweak baryon number nonconservation in
+  the early universe and in high-energy collisions}''
+  \href{http://dx.doi.org/10.1070/PU1996v039n05ABEH000145}{{\em Usp.Fiz.Nauk}
+  {\bf 166} (1996)  493--537},
+\href{http://arxiv.org/abs/hep-ph/9603208}{{\tt arXiv:hep-ph/9603208
+  [hep-ph]}}.
+%%CITATION = HEP-PH/9603208;%%.
+
+\bibitem{Kribs:2007nz}
+G.~D. Kribs, T.~Plehn, M.~Spannowsky, and T.~M. Tait, ``{Four generations and
+  higgs physics}'' \href{http://dx.doi.org/10.1103/PhysRevD.76.075016}{{\em
+  Phys.Rev.} {\bf D76} (2007)  075016},
+\href{http://arxiv.org/abs/0706.3718}{{\tt arXiv:0706.3718 [hep-ph]}}.
+%%CITATION = ARXIV:0706.3718;%%.
+
+\bibitem{Castanier:2001sf}
+C.~Castanier, P.~Gay, P.~Lutz, and J.~Orloff, ``{Higgs self coupling
+  measurement in e+ e- collisions at center-of-mass energy of 500-GeV}''
+\href{http://arxiv.org/abs/hep-ex/0101028}{{\tt arXiv:hep-ex/0101028
+  [hep-ex]}}.
+%%CITATION = HEP-EX/0101028;%%.
+
+\bibitem{ild:bib:benchmark:HSC:SimZHH2}
+T.~Barklow, ``{Higgs self-coupling measurement}''.
+  \url{http://ilcagenda.linearcollider.org/getFile.py/access?contribId=154&sessionId=71&resId=1&materialId=slides&confId=1296}.
+  Presentation for LCWS07.
+
+\bibitem{Giannelli:2009fe}
+M.~F. Giannelli, ``{Sensitivity to the higgs Self-coupling Using the ZHH
+  Channel}''
+\href{http://arxiv.org/abs/0901.4895}{{\tt arXiv:0901.4895 [hep-ex]}}.
+%%CITATION = ARXIV:0901.4895;%%.
+
+\bibitem{Takubo:2009ws}
+Y.~Takubo, ``{Analysis of higgs Self-coupling with ZHH at ILC}''
+\href{http://arxiv.org/abs/0907.0524}{{\tt arXiv:0907.0524 [hep-ph]}}.
+%%CITATION = ARXIV:0907.0524;%%.
+
+\bibitem{Takubo:2009rn}
+Y.~Takubo, ``{Analysis of ZHH in the 4-jet mode}''
+\href{http://arxiv.org/abs/0901.3598}{{\tt arXiv:0901.3598 [hep-ph]}}.
+%%CITATION = ARXIV:0901.3598;%%.
+
+\bibitem{Tian:2010np}
+J.~Tian, K.~Fujii, and Y.~Gao, ``{Study of higgs Self-coupling at ILC}''
+\href{http://arxiv.org/abs/1008.0921}{{\tt arXiv:1008.0921 [hep-ex]}}.
+%%CITATION = ARXIV:1008.0921;%%.
+
+\bibitem{ild:bib:benchmark:HSC:SimvvHH}
+S.~Yamashita, ``{A study of higgs self-coupling measurement at about 1 TeV}''.
+  \url{http://indico.cern.ch/getFile.py/access?contribId=s3t15&sessionId=4&resId=0&materialId=0&confId=a04172}.
+  Presentation for LCWS04.
+
+\bibitem{Gounaris:1979px}
+G.~Gounaris, D.~Schildknecht, and F.~Renard, ``{Test of higgs boson nature in
+  e+ e -- H H Z}''
+\href{http://dx.doi.org/10.1016/0370-2693(79)90683-X}{{\em Phys.Lett.} {\bf
+  B83} (1979)  191}.
+%%CITATION = PHLTA,B83,191;%%.
+
+\bibitem{Djouadi:1996ah}
+A.~Djouadi, H.~Haber, and P.~Zerwas, ``{Multiple production of MSSM neutral
+  higgs bosons at high-energy e+ e- colliders}''
+  \href{http://dx.doi.org/10.1016/0370-2693(96)00244-4}{{\em Phys.Lett.} {\bf
+  B375} (1996)  203--212},
+\href{http://arxiv.org/abs/hep-ph/9602234}{{\tt arXiv:hep-ph/9602234
+  [hep-ph]}}.
+%%CITATION = HEP-PH/9602234;%%.
+
+\bibitem{Ilyin:1995iy}
+V.~Ilyin, A.~Pukhov, Y.~Kurihara, Y.~Shimizu, and T.~Kaneko, ``{Probing the
+  H**3 vertex in e+ e-, gamma e and gamma gamma collisions for light and
+  intermediate higgs bosons}''
+  \href{http://dx.doi.org/10.1103/PhysRevD.54.6717}{{\em Phys.Rev.} {\bf D54}
+  (1996)  6717--6727},
+\href{http://arxiv.org/abs/hep-ph/9506326}{{\tt arXiv:hep-ph/9506326
+  [hep-ph]}}.
+%%CITATION = HEP-PH/9506326;%%.
+
+\bibitem{Barger:1988kb}
+V.~D. Barger and T.~Han, ``{Double higgs boson production via W W fusion in TeV
+  e+ e- collisions}''
+\href{http://dx.doi.org/10.1142/S0217732390000755}{{\em Mod.Phys.Lett.} {\bf
+  A5} (1990)  667--674}.
+%%CITATION = MPLAE,A5,667;%%.
+
+\bibitem{Boudjema:1995cb}
+F.~Boudjema and E.~Chopin, ``{Double higgs production at the linear colliders
+  and the probing of the higgs selfcoupling}''
+  \href{http://dx.doi.org/10.1007/s002880050298}{{\em Z.Phys.} {\bf C73} (1996)
+   85--110},
+\href{http://arxiv.org/abs/hep-ph/9507396}{{\tt arXiv:hep-ph/9507396
+  [hep-ph]}}.
+%%CITATION = HEP-PH/9507396;%%.
+
+\bibitem{ild:bib:benchmark:HSC:Weighting}
+J.~Tian and K.~Fujii, ``{Update on the higgs self-coupling measurement}''.
+  \url{http://ilcphys.kek.jp/meeting/physics/archives/2012-09-08/zhh120908_tianjp.pdf}.
+  {The 27th General Physics Meeting of the ILC Physics Subgroup }.
+
+\bibitem{ild:bib:benchmark:HSC:Thesis}
+J.~Tian, ``{Study of higgs Self-coupling at ILC}''. Ph.D. Thesis (2011.6).
+
+\bibitem{ild:bib:benchmark:higgsselfc}
+J.~Tian, ``{Study of higgs self-coupling at the ILC based on the full detector
+  simulation at $\sqrt{s}$ = 500 GeV and $\sqrt{s}$ = 1 TeV}''.
+  \url{http://www-flc.desy.de/lcnotes/notes/LC-REP-2013-003.pdf}.
+  LC-REP-2013-003.
+
+\bibitem{ild:bib:benchmark:HSC:ZHHFullsim}
+J.~Tian {\em et al.}, ``{Updates on the higgs self coupling measurement}''.
+  \url{http://ilcphys.kek.jp/meeting/physics/archives/2012-06-09/zhh120609_tianjp.pdf}.
+  {The 26th General Physics Meeting of the ILC Physics Subgroup }.
+
+\bibitem{Berggren:2012ar}
+M.~Berggren, ``{SGV 3.0 - a fast detector simulation}''
+  \href{http://arxiv.org/abs/1203.0217}{{\tt arXiv:1203.0217
+  [physics.ins-det]}}.
+\url{{https://svnsrv.desy.de/websvn/wsvn/General.sgv?}}
+%%CITATION = ARXIV:1203.0217;%%.
+
+\bibitem{ild:bib:benchmark:top-lal}
+P.~Doublet {\em et al.}, ``{Determination of Top-quark Asymmetries at the
+  ILC}'' \href{http://arxiv.org/abs/1202.6659v1}{{\tt arxiv:1202.6659v1
+  [hep-ex]}}.
+
+\bibitem{ild:bib:benchmark:richard}
+M.~Amjad, T.~Frisson, I.~Garcia, R.~P\"{o}schl, E.~Ros, F.~Richard,
+  J.~Rou\"{e}n\'{e}, and M.~Vos, ``{A precise determination of top quark
+  electroweak couplings at the ILC operating at $\sqrt{s}$ = 500 GeV }''.
+  \url{http://www-flc.desy.de/lcnotes/notes/LC-REP-2013-007.pdf}.
+  LC-REP-2013-007.
+
+\bibitem{ild:bib:benchmark:barger12}
+E.~Barger {\em et al.}, ``{The Top Quark Production Asymmetries}
+  $\mathrm{A_{FB}^t}$ and $\mathrm{A_{FB}^{\ell}}$'' {\em Phys.Rev.Lett.}
+  (2012) no.~108, , \href{http://arxiv.org/abs/1201.1790}{{\tt arxiv:1201.1790
+  [hep-ph]}}.
+
+\bibitem{ild:bib:costing}
+``{CLIC detector costing}''. LCD-Note-2012-005.
+
+\end{thebibliography}\endgroup

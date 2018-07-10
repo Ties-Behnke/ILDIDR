@@ -1,0 +1,3124 @@
+% This file was created with JabRef 2.8.1.
+% Encoding: MacRoman
+
+@ARTICLE{ild:bib:ref-gld,
+  author = {Abe, Koh and others},
+  title = {{GLD Detector Outline Document: Version 1.2}},
+  year = {2006},
+  archiveprefix = {arXiv},
+  collaboration = {GLD Concept Study Group},
+  eprint = {physics/0607154},
+  primaryclass = {physics},
+  slaccitation = {%%CITATION = PHYSICS/0607154;%%}
+}
+
+@ARTICLE{ild:bib:ILDloi,
+  author = {Abe, Toshinori and others},
+  title = {{The International Large Detector: Letter of Intent}},
+  year = {2010},
+  note = {FERMILAB-LOI-2010-03, FERMILAB-PUB-09-682-E, DESY-2009-87, KEK-REPORT-2009-6},
+  archiveprefix = {arXiv},
+  collaboration = {ILD Concept Group},
+  eprint = {1006.3396},
+  primaryclass = {hep-ex},
+  slaccitation = {%%CITATION = ARXIV:1006.3396;%%}
+}
+
+@ARTICLE{ild:bib:VTXdepfetb2tdr,
+  author = {Abe, T. and others},
+  title = {{Belle II Technical Design Report}},
+  year = {2010},
+  note = {KEK-REPORT-2010-1},
+  archiveprefix = {arXiv},
+  collaboration = {Belle II Collaboration},
+  eprint = {1011.0352},
+  primaryclass = {physics.ins-det},
+  slaccitation = {%%CITATION = ARXIV:1011.0352;%%}
+}
+
+@ARTICLE{ild:bib:t2ktpc,
+  author = {N. Abgrall and others},
+  title = {{Time Projection Chambers for the T2K Near Detectors}},
+  year = {2010},
+  archiveprefix = {arXiv},
+  eprint = {1012.0865}
+}
+
+@ARTICLE{JINST1,
+  author = {Abramowicz, H. and Abusleme, A. and Afanaciev, K. and Aguilar, J.
+	and Ambalathankandy, P. and others},
+  title = {{Forward Instrumentation for ILC Detectors}},
+  journal = {JINST},
+  year = {2010},
+  volume = {5},
+  pages = {P12002},
+  note = {DESY-10-142},
+  archiveprefix = {arXiv},
+  bdsk-url-1 = {http://dx.doi.org/10.1088/1748-0221/5/12/P12002},
+  doi = {10.1088/1748-0221/5/12/P12002},
+  eprint = {1009.2433},
+  primaryclass = {physics.ins-det},
+  slaccitation = {%%CITATION = ARXIV:1009.2433;%%}
+}
+
+@ARTICLE{bib25,
+  author = {Abramowicz,H. and others},
+  title = {{Revised requirements on the readout of the luminosity calorimeter
+	}},
+  year = {2008},
+  note = {EUDET-Memo-2008-08},
+  bdsk-url-1 = {http://www.eudet.org/e26/e28/e615/eudet_memo_2008_08.pdf},
+  url = {http://www.eudet.org/e26/e28/e615/eudet_memo_2008_08.pdf}
+}
+
+@ARTICLE{ieee_angel,
+  author = {Abusleme, Angel and Dragone, Angelo and Haller, Gunther and Wooley,
+	Bruce A.},
+  title = {{BeamCal Instrumentation IC: Design, implementation, and test results}},
+  journal = {IEEE Trans.Nucl.Sci.},
+  year = {2012},
+  volume = {59},
+  pages = {589-596},
+  bdsk-url-1 = {http://dx.doi.org/10.1109/TNS.2012.2194308},
+  doi = {10.1109/TNS.2012.2194308},
+  slaccitation = {%%CITATION = IETNA,59,589;%%}
+}
+
+@ARTICLE{ild:bib:ref-wiresgemlcnote,
+  author = {Ackermann,K. and others},
+  title = {{Results from a TPC Prototype for the Linear Collider Tracker with
+	the MWPC and GEM Endplate Technologies}},
+  year = {2012},
+  note = {LC-DET-2012-066},
+  bdsk-url-1 = {http://www-flc.desy.de/lcnotes},
+  url = {http://www-flc.desy.de/lcnotes}
+}
+
+@ARTICLE{ild:bib:microroc,
+  author = {Adloff, C. and Blaha, J. and Chefdeville, M. and Dalmaz, A. and Drancourt,
+	C. and others},
+  title = {{MICROROC: MICRO-mesh gaseous structure Read-Out Chip}},
+  journal = {JINST},
+  year = {2012},
+  volume = {7},
+  pages = {C01029},
+  doi = {10.1088/1748-0221/7/01/C01029},
+  slaccitation = {%%CITATION = JINST,7,C01029;%%}
+}
+
+@ARTICLE{Adloff:2012gv,
+  author = {Adloff, C. and others},
+  title = {{Hadronic energy resolution of a highly granular scintillator-steel
+	hadron calorimeter using software compensation techniques}},
+  journal = {JINST},
+  year = {2012},
+  volume = {7},
+  pages = {P09017},
+  note = {MPP-2012-116},
+  archiveprefix = {arXiv},
+  collaboration = {CALICE Collaboration},
+  doi = {10.1088/1748-0221/7/09/P09017},
+  eprint = {1207.4210},
+  primaryclass = {physics.ins-det},
+  slaccitation = {%%CITATION = ARXIV:1207.4210;%%}
+}
+
+@ARTICLE{ild:bib:Calice_test,
+  author = {Adloff,C. and others},
+  title = {{Construction and performance of a silicon photomultiplier/extruded
+	scintillator tail-catcher and muon tracker}},
+  journal = {JINST},
+  year = {2012},
+  volume = {7},
+  pages = {4015},
+  archiveprefix = {arXiv},
+  eprint = {1201.1653},
+  primaryclass = {physics.ins-det}
+}
+
+@ARTICLE{collaboration:2010rq,
+  author = {Adloff, C. and others},
+  title = {{Electromagnetic response of a highly granular hadronic calorimeter}},
+  journal = {JINST},
+  year = {2011},
+  volume = {6},
+  pages = {P04003},
+  note = {DESY-10-241},
+  archiveprefix = {arXiv},
+  bdsk-url-1 = {http://dx.doi.org/10.1088/1748-0221/6/04/P04003},
+  collaboration = {CALICE Collaboration},
+  doi = {10.1088/1748-0221/6/04/P04003},
+  eprint = {1012.4343},
+  primaryclass = {physics.ins-det},
+  slaccitation = {%%CITATION = ARXIV:1012.4343;%%}
+}
+
+@ARTICLE{ild:bib:calice-pflow,
+  author = {Adloff,C. and others},
+  title = {{Tests of a particle flow algorithm with CALICE test beam data}},
+  journal = {JINST},
+  year = {2011},
+  volume = {6},
+  pages = {P07005},
+  archiveprefix = {arXiv},
+  collaboration = {CALICE Collaboration},
+  eprint = {1105.3417},
+  owner = {poeschl},
+  primaryclass = {physics.ins-det},
+  timestamp = {2012.09.21}
+}
+
+@ARTICLE{ild:bib:siecal_elecshower,
+  author = {C. Adloff and others},
+  title = {{Effects of high-energy particle showers on the embedded front-end
+	electronics of an electromagnetic calorimeter for a future lepton
+	collider}},
+  journal = {Nucl.Instrum.Meth.},
+  year = {2011},
+  volume = {A654},
+  pages = {97},
+  archiveprefix = {arXiv},
+  collaboration = {CALICE Collaboration},
+  date-added = {2012-09-17 22:23:55 +0000},
+  date-modified = {2012-09-17 22:25:16 +0000},
+  eprint = {1102.3454},
+  owner = {poeschl},
+  primaryclass = {physics.ins-det},
+  timestamp = {2012.09.21}
+}
+
+@ARTICLE{collaboration:2010hb,
+  author = {Adloff, C. and others},
+  title = {{Construction and Commissioning of the CALICE Analogue Hadron Calorimeter
+	Prototype}},
+  journal = {JINST},
+  year = {2010},
+  volume = {5},
+  pages = {P05004},
+  note = {DESY-10-032},
+  archiveprefix = {arXiv},
+  bdsk-url-1 = {http://dx.doi.org/10.1088/1748-0221/5/05/P05004},
+  collaboration = {CALICE Collaboration},
+  doi = {10.1088/1748-0221/5/05/P05004},
+  eprint = {1003.2662},
+  primaryclass = {physics.ins-det},
+  slaccitation = {%%CITATION = ARXIV:1003.2662;%%}
+}
+
+@ARTICLE{ild:bib:siecal_pion,
+  author = {C. Adloff and others},
+  title = {{Study of the interactions of pions in the CALICE silicon-tungsten
+	calorimeter prototype}},
+  journal = {JINST},
+  year = {2010},
+  volume = {5},
+  pages = {P05007},
+  archiveprefix = {arXiv},
+  collaboration = {CALICE Collaboration},
+  date-added = {2012-09-17 22:04:26 +0000},
+  date-modified = {2012-09-17 22:06:04 +0000},
+  eprint = {1004.4996},
+  owner = {poeschl},
+  primaryclass = {physics.ins-det},
+  timestamp = {2012.09.21}
+}
+
+@ARTICLE{ild:bib:siecal_resp,
+  author = {C. Adloff and others},
+  title = {{Response of the CALICE Si-W Electromagnetic Calorimeter Physics
+	Prototype to Electrons}},
+  journal = {Nucl.Instrum.Meth.},
+  year = {2009},
+  volume = {A608},
+  pages = {372},
+  archiveprefix = {arXiv},
+  collaboration = {CALICE Collaboration},
+  date-added = {2012-09-17 21:58:55 +0000},
+  date-modified = {2012-09-17 22:01:33 +0000},
+  eprint = {0811.2354},
+  owner = {poeschl},
+  primaryclass = {physics.ins-det},
+  timestamp = {2012.09.21}
+}
+
+@ARTICLE{material2,
+  author = {K. Afanaciev and others},
+  title = {{Investigation of the Radiation Hardness of GaAs Sensors in an Electron
+	Beam}},
+  year = {2012},
+  note = {submitted to JINST}
+}
+
+@ARTICLE{Agostinelli:2002hh,
+  author = {Agostinelli, S. and others},
+  title = {{GEANT4: A Simulation toolkit}},
+  journal = {Nucl.Instrum.Meth.},
+  year = {2003},
+  volume = {A506},
+  pages = {250-303},
+  bdsk-url-1 = {http://dx.doi.org/10.1016/S0168-9002(03)01368-8},
+  collaboration = {GEANT4},
+  doi = {10.1016/S0168-9002(03)01368-8},
+  reportnumber = {SLAC-PUB-9350, FERMILAB-PUB-03-339},
+  slaccitation = {%%CITATION = NUIMA,A506,250;%%}
+}
+
+@ARTICLE{ild:bib:ref:geant4,
+  author = {Agostinelli, S. and others},
+  title = {{GEANT4: A Simulation toolkit}},
+  journal = {Nucl.Instrum.Meth.},
+  year = {2003},
+  volume = {A506},
+  pages = {250-303},
+  note = {SLAC-PUB-9350, FERMILAB-PUB-03-339},
+  bdsk-url-1 = {http://dx.doi.org/10.1016/S0168-9002(03)01368-8},
+  collaboration = {GEANT4},
+  doi = {10.1016/S0168-9002(03)01368-8},
+  slaccitation = {%%CITATION = NUIMA,A506,250;%%}
+}
+
+@ARTICLE{ild:bib:sLHC,
+  author = {Allport, P.},
+  title = {{The ATLAS Tracker Upgrade}},
+  owner = {buesserk},
+  timestamp = {2012.10.17},
+  url = {http://conference.ippp.dur.ac.uk/conferenceDisplay.py?confId=314}
+}
+
+@ARTICLE{ild:bib:VTXdepfet1,
+  author = {Alonso, O. and others},
+  title = {{DEPFET active pixel detectors for a future linear $e^+e^-$ collider}},
+  year = {2012},
+  note = {accepted for publication by IEEE Trans. Nucl. Sc.},
+  archiveprefix = {arXiv},
+  collaboration = {DEPFET Collaboration},
+  eprint = {1212.2160},
+  primaryclass = {physics.ins-det},
+  slaccitation = {%%CITATION = ARXIV:1212.2160;%%}
+}
+
+@ARTICLE{ild:bib:benchmark:richard,
+  author = {M.S. Amjad and T. Frisson and I. Garcia and R. P\"{o}schl and E.
+	Ros and F. Richard and J. Rou\"{e}n\'{e} and M. Vos },
+  title = {{A precise determination of top quark electroweak couplings at the
+	ILC operating at $\sqrt{s}$ = 500 GeV }},
+  year = {2013},
+  note = {LC-REP-2013-007 },
+  url = {http://www-flc.desy.de/lcnotes/notes/LC-REP-2013-007.pdf}
+}
+
+@ARTICLE{ild:bib:benchmark:ttbaranalysis,
+  author = {M.S. Amjad and T. Frisson and R. P\"{o}schl and F. Richard and J.
+	Rou\"{e}n\'{e}},
+  title = {{Forward backward asymmetry in $e^+e^- \rightarrow t\bar{t}$ at $\sqrt{s}$
+	= 500 GeV for fully hadronic decays of the $t\bar{t}$ pair}},
+  year = {2013},
+  note = {LC-REP-2013-008 },
+  url = {http://www-flc.desy.de/lcnotes/notes/LC-REP-2013-008.pdf}
+}
+
+@ARTICLE{ild:bib:VTXdepfettb,
+  author = {Andricek, L. and Caride, J. and Dolezal, Z. and Drasal, Z. and Esch,
+	S. and others},
+  title = {{Intrinsic resolutions of DEPFET detector prototypes measured at
+	beam tests}},
+  journal = {Nucl.Instrum.Meth.},
+  year = {2011},
+  volume = {A638},
+  pages = {24-32},
+  bdsk-url-1 = {http://dx.doi.org/10.1016/j.nima.2011.02.015},
+  doi = {10.1016/j.nima.2011.02.015},
+  slaccitation = {%%CITATION = NUIMA,A638,24;%%}
+}
+
+@ARTICLE{ild:bib:VTXdepfetmech2,
+  author = {Andricek, L. and Lutz, G. and Richter, Rainer Helmut and Reiche,
+	M.},
+  title = {{Processing of ultra-thin silicon sensors for future e+ e- linear
+	collider experiments}},
+  journal = {IEEE Trans.Nucl.Sci.},
+  year = {2004},
+  volume = {51},
+  pages = {1117-1120},
+  bdsk-url-1 = {http://dx.doi.org/10.1109/TNS.2004.829531},
+  doi = {10.1109/TNS.2004.829531},
+  slaccitation = {%%CITATION = IETNA,51,1117;%%}
+}
+
+@ARTICLE{ild:bib:siecal_techproto,
+  author = {M. Anduze and others},
+  title = {{JRA3 Electromagnetic Calorimeter Technical Design Report}},
+  year = {2009},
+  note = {EUDET-Report-2009-01},
+  bdsk-url-1 = {http://www.eudet.org/e26/e26/e27/e43691/eudet-report-09-01.pdf},
+  date-added = {2012-09-17 21:22:21 +0000},
+  date-modified = {2012-09-17 22:29:32 +0000},
+  url = {http://www.eudet.org/e26/e26/e27/e43691/eudet-report-09-01.pdf}
+}
+
+@ARTICLE{Aoki:2008av,
+  author = {Aoki, Mayumi and Kanemura, Shinya and Seto, Osamu},
+  title = {{Neutrino mass, Dark Matter and Baryon Asymmetry via TeV-Scale Physics
+	without Fine-Tuning}},
+  journal = {Phys.Rev.Lett.},
+  year = {2009},
+  volume = {102},
+  pages = {051805},
+  archiveprefix = {arXiv},
+  bdsk-url-1 = {http://dx.doi.org/10.1103/PhysRevLett.102.051805},
+  doi = {10.1103/PhysRevLett.102.051805},
+  eprint = {0807.0361},
+  primaryclass = {hep-ph},
+  reportnumber = {UT-HET-011, IFT-UAM-CSIC-08-40},
+  slaccitation = {%%CITATION = ARXIV:0807.0361;%%}
+}
+
+@ARTICLE{Aoki:2009vf,
+  author = {Aoki, Mayumi and Kanemura, Shinya and Seto, Osamu},
+  title = {{A Model of TeV Scale Physics for Neutrino Mass, Dark Matter and
+	Baryon Asymmetry and its Phenomenology}},
+  journal = {Phys.Rev.},
+  year = {2009},
+  volume = {D80},
+  pages = {033007},
+  archiveprefix = {arXiv},
+  bdsk-url-1 = {http://dx.doi.org/10.1103/PhysRevD.80.033007},
+  doi = {10.1103/PhysRevD.80.033007},
+  eprint = {0904.3829},
+  primaryclass = {hep-ph},
+  reportnumber = {TU-846, UT-HET-027, FTPI-MINN-09-16, UMN-TH-2744-09},
+  slaccitation = {%%CITATION = ARXIV:0904.3829;%%}
+}
+
+@ARTICLE{ild:bib:ref-steve,
+  author = {Steve Aplin},
+  title = {{Study of the TPC Endcap Mechanical Thickness (All results in~\cite{ild:bib:ref-lcnote2012})}},
+  year = {2010}
+}
+
+@ARTICLE{ild:bib:eudet15,
+  author = {Apostolakis, J. and others},
+  title = {{Validation of GEANT4 hadronic models using CALICE data}},
+  year = {2010},
+  note = {EUDET-Memo-2010-15},
+  collaboration = {CALICE Collaboration},
+  owner = {buesserk},
+  timestamp = {2012.09.27},
+  url = {http://www.eudet.org/e26/e28/e86887/e109012/EUDET-Memo-2010-15.pdf}
+}
+
+@ARTICLE{ild:bib:ref-arai,
+  author = {Daisuke Arai},
+  title = {{Ion Problem Report (LCTPC Workpackage Meeting \# 145).}},
+  year = {2012},
+  url = {http://ilcagenda.linearcollider.org/getFile.py/access?subContId=1\&contribId=3\&resId=0\&materialId=slides\&confId=5522}
+}
+
+@ARTICLE{ild:bib:ref-mmpap,
+  author = {D.C. Arogancia and others},
+  title = {{Study in a beam test of the resolution of a Micromegas TPC with
+	standard readout pads}},
+  journal = {Nucl.Instrum.Meth.},
+  year = {2009},
+  volume = {A602},
+  pages = {403},
+  owner = {buesserk},
+  timestamp = {2012.09.26}
+}
+
+@ARTICLE{ild:dbd:FTD:POWER5,
+  author = {F. Arteche and others},
+  title = {{Base line design of FTD sub-detector power distribution system for
+	ILD}},
+  year = {2012},
+  note = {LC-REP-2012-072},
+  institution = {Aragon Institute of Technology (ITA)},
+  owner = {vila},
+  timestamp = {2012.09.27},
+  url = {http://www-flc.desy.de/lcnotes/notes/LC-REP-2012-074.pdf}
+}
+
+@ARTICLE{ild:dbd:FTD:POWER1,
+  author = {F. Arteche and others},
+  title = {{Powering requirements and constraints of the microstrip-FTD detector
+	at the Linear Collider}},
+  year = {2011},
+  owner = {vila},
+  timestamp = {2012.09.27},
+  url = {http://ilcagenda.linearcollider.org/contributionDisplay.py?contribId=4&sessionId=4&confId=5010}
+}
+
+@CONFERENCE{ild:dbd:FTD:POWER4,
+  author = {F. Arteche and others},
+  title = {{Electromagnetic Compatibility plan for CMS experiment at CERN}},
+  booktitle = {Proceedings 15th International Zurich Symposium and Technical Exhibition
+	on EMC},
+  year = {2003},
+  owner = {vila},
+  timestamp = {2012.09.27}
+}
+
+@CONFERENCE{ild:dbd:FTD:POWER2,
+  author = {F. Arteche and others},
+  title = {{EMI Filter Design and Stability Assessment of DC Voltage Distribution
+	based on Switching Converters}},
+  booktitle = {LEB 2001 7th Workshop on Electronics for LHC Experiments Proceedings},
+  year = {2001},
+  owner = {vila},
+  timestamp = {2012.09.27}
+}
+
+@ARTICLE{Asakawa:2010xj,
+  author = {Asakawa, Eri and Harada, Daisuke and Kanemura, Shinya and Okada,
+	Yasuhiro and Tsumura, Koji},
+  title = {{Higgs boson pair production in new physics models at hadron, lepton,
+	and photon colliders}},
+  journal = {Phys.Rev.},
+  year = {2010},
+  volume = {D82},
+  pages = {115002},
+  archiveprefix = {arXiv},
+  bdsk-url-1 = {http://dx.doi.org/10.1103/PhysRevD.82.115002},
+  doi = {10.1103/PhysRevD.82.115002},
+  eprint = {1009.4670},
+  primaryclass = {hep-ph},
+  reportnumber = {OCHA-PP-305, KEK-TH-1396, UT-HET-041, IC-2010-076},
+  slaccitation = {%%CITATION = ARXIV:1009.4670;%%}
+}
+
+@ARTICLE{ild:bib:ref-tpclcnoteelectronics,
+  author = {Aspell,P. and De Gaspari,M. and others},
+  title = {{Super-Altro 16: a Front-End System on Chip for DSP Based Readout
+	of Gaseous Detectors}},
+  year = {2012},
+  note = {LC-DET-2012-077},
+  url = {http://www-flc.desy.de/lcnotes}
+}
+
+@ARTICLE{ild:bib:SiEnv,
+  author = {Augustin, J.E. and others},
+  title = {{A Silicon Envelope for the TPC}},
+  note = {LC-DET-2003-013},
+  owner = {buesserk},
+  timestamp = {2012.11.12}
+}
+
+@ARTICLE{ild:bib:pair_background,
+  author = {Avetisyan, Eduard},
+  title = {{Study of the anti-DID Magnetic Field Effects on the Beam-induced
+	Pair Backgrounds in ILD}},
+  year = {2013},
+  note = {LC-REP-2013-002},
+  owner = {buesserk},
+  timestamp = {2013.02.05},
+  url = {http://www-flc.desy.de/lcnotes/notes/LC-REP-2013-002.pdf}
+}
+
+@ARTICLE{ild:bib:benchmark:physicsvolume,
+  author = {Baer, H. and others},
+  title = {{Physics at the International Linear Collider}},
+  year = {2012},
+  note = {to be published in the ILC Detailed Baseline Design Report},
+  bdsk-url-1 = {http://lcsim.org/papers/DBDPhysics.pdf},
+  url = {http://lcsim.org/papers/DBDPhysics.pdf}
+}
+
+@ARTICLE{ild:bib:ref:lcfivertex,
+  author = {Bailey, D. and others},
+  title = {{The LCFIVertex package: vertexing, flavour tagging and vertex charge
+	reconstruction with an ILC vertex detector}},
+  journal = {Nucl.Instrum.Meth.},
+  year = {2009},
+  volume = {A610},
+  pages = {573-589},
+  archiveprefix = {arXiv},
+  bdsk-url-1 = {http://dx.doi.org/10.1016/j.nima.2009.08.059},
+  collaboration = {LCFI Collaboration},
+  doi = {10.1016/j.nima.2009.08.059},
+  eprint = {0908.3019},
+  primaryclass = {physics.ins-det},
+  slaccitation = {%%CITATION = ARXIV:0908.3019;%%}
+}
+
+@ARTICLE{ild:bib:Danilov,
+  author = {Balagura,V. and Danilov,M. and others},
+  title = {{Study of scintillator strip with wavelength shifting fiber and silicon
+	photomultiplier}},
+  journal = {Nucl.Instrum.Meth.},
+  year = {2006},
+  volume = {A564},
+  pages = {590-596},
+  archiveprefix = {arXiv},
+  eprint = {physics/0504194},
+  primaryclass = {physics.ins-det}
+}
+
+@ARTICLE{ild:bib:ball2004daq,
+  author = {Ball, M. and Ghodbane, N. and Janssen, Matthias Enno and Wienemann,
+	P.},
+  title = {{A DAQ system for linear collider TPC prototypes based on the ALEPH
+	TPC electronics}},
+  year = {2004},
+  note = {LC-DET-2004-013},
+  archiveprefix = {arXiv},
+  eprint = {physics/0407120},
+  primaryclass = {physics},
+  slaccitation = {%%CITATION = PHYSICS/0407120;%%}
+}
+
+@ARTICLE{ild:bib:drugakov,
+  author = {Bambade, P. and Drugakov, V. and Lohmann, W.},
+  title = {{The Impact of BeamCal performance at different ILC beam parameters
+	and crossing angles on stau searches}},
+  journal = {Pramana},
+  year = {2007},
+  volume = {69},
+  pages = {1123-1128},
+  note = {LAL-06-145},
+  archiveprefix = {arXiv},
+  bdsk-url-1 = {http://dx.doi.org/10.1007/s12043-007-0240-0},
+  doi = {10.1007/s12043-007-0240-0},
+  eprint = {physics/0610145},
+  primaryclass = {physics},
+  slaccitation = {%%CITATION = PHYSICS/0610145;%%}
+}
+
+@ARTICLE{ild:bib:benchmark:barger12,
+  author = {E.L. Barger and others},
+  title = {{The Top Quark Production Asymmetries} $\mathrm{A_{FB}^t}$ and $\mathrm{A_{FB}^{\ell}}$},
+  journal = {Phys.Rev.Lett.},
+  year = {2012},
+  number = {108},
+  archiveprefix = {arxiv},
+  date-added = {2012-09-25 22:18:30 +0000},
+  date-modified = {2012-09-25 22:18:30 +0000},
+  eprint = {1201.1790},
+  primaryclass = {hep-ph}
+}
+
+@ARTICLE{Barger:1988kb,
+  author = {Barger, Vernon D. and Han, Tao},
+  title = {{Double higgs boson production via W W fusion in TeV e+ e- collisions}},
+  journal = {Mod.Phys.Lett.},
+  year = {1990},
+  volume = {A5},
+  pages = {667-674},
+  bdsk-url-1 = {http://dx.doi.org/10.1142/S0217732390000755},
+  doi = {10.1142/S0217732390000755},
+  reportnumber = {MAD-PH-430A},
+  slaccitation = {%%CITATION = MPLAE,A5,667;%%}
+}
+
+@ARTICLE{ild:bib:benchmark:HSC:SimZHH2,
+  author = {Barklow, T.},
+  title = {{Higgs self-coupling measurement}},
+  year = {2007},
+  note = {Presentation for LCWS07},
+  bdsk-url-1 = {http://ilcagenda.linearcollider.org/getFile.py/access?contribId=154&sessionId=71&resId=1&materialId=slides&confId=1296},
+  url = {http://ilcagenda.linearcollider.org/getFile.py/access?contribId=154&sessionId=71&resId=1&materialId=slides&confId=1296}
+}
+
+@ARTICLE{ild:bib:perfgoal::barklow,
+  author = {Barklow, T.},
+  title = {{Physics Impact of Detector Performance}},
+  year = {2005},
+  note = {Presentation for LCWS05},
+  bdsk-url-1 = {http://www-conf.slac.stanford.edu/lcws05/program/talks/18mar2005.ppt},
+  url = {http://www-conf.slac.stanford.edu/lcws05/program/talks/18mar2005.ppt}
+}
+
+@ARTICLE{DBDbench-request,
+  author = {Barklow, T and Berggren, M. and Fujii, K. and Graf, N. and Miyamoto,
+	A. and Peskin, M. and Richard, F. and Weiglein, G.},
+  title = {{Detector benchmarking for the 2012 DBD}},
+  year = {2011},
+  note = {ILC-NOTE-2011-059}
+}
+
+@ARTICLE{Baur:2003gp,
+  author = {Baur, U. and Plehn, T. and Rainwater, David L.},
+  title = {{Probing the higgs selfcoupling at hadron colliders using rare decays}},
+  journal = {Phys.Rev.},
+  year = {2004},
+  volume = {D69},
+  pages = {053004},
+  archiveprefix = {arXiv},
+  bdsk-url-1 = {http://dx.doi.org/10.1103/PhysRevD.69.053004},
+  doi = {10.1103/PhysRevD.69.053004},
+  eprint = {hep-ph/0310056},
+  primaryclass = {hep-ph},
+  reportnumber = {CERN-TH-2003-186, UB-HET-03-06, DESY-03-103},
+  slaccitation = {%%CITATION = HEP-PH/0310056;%%}
+}
+
+@ARTICLE{Baur:2002qd,
+  author = {Baur, U. and Plehn, T. and Rainwater, David L.},
+  title = {{Determining the higgs boson selfcoupling at hadron colliders}},
+  journal = {Phys.Rev.},
+  year = {2003},
+  volume = {D67},
+  pages = {033003},
+  archiveprefix = {arXiv},
+  bdsk-url-1 = {http://dx.doi.org/10.1103/PhysRevD.67.033003},
+  doi = {10.1103/PhysRevD.67.033003},
+  eprint = {hep-ph/0211224},
+  primaryclass = {hep-ph},
+  reportnumber = {CERN-TH-2002-327, UB-HET-02-05, FERMILAB-PUB-02-199-T, DESY-02-183},
+  slaccitation = {%%CITATION = HEP-PH/0211224;%%}
+}
+
+@ARTICLE{Baur:2003gpa,
+  author = {Baur, U. and Plehn, T. and Rainwater, David L.},
+  title = {{Examining the higgs boson potential at lepton and hadron colliders:
+	A Comparative analysis}},
+  journal = {Phys.Rev.},
+  year = {2003},
+  volume = {D68},
+  pages = {033001},
+  archiveprefix = {arXiv},
+  bdsk-url-1 = {http://dx.doi.org/10.1103/PhysRevD.68.033001},
+  doi = {10.1103/PhysRevD.68.033001},
+  eprint = {hep-ph/0304015},
+  primaryclass = {hep-ph},
+  reportnumber = {CERN-TH-2003-069, UB-HET-03-01, DESY-03-035},
+  slaccitation = {%%CITATION = HEP-PH/0304015;%%}
+}
+
+@ARTICLE{Baur:2002rb,
+  author = {Baur, Ulrich and Plehn, Tilman and Rainwater, David L.},
+  title = {{Measuring the higgs boson self coupling at the LHC and finite top
+	mass matrix elements}},
+  journal = {Phys.Rev.Lett.},
+  year = {2002},
+  volume = {89},
+  pages = {151801},
+  archiveprefix = {arXiv},
+  bdsk-url-1 = {http://dx.doi.org/10.1103/PhysRevLett.89.151801},
+  doi = {10.1103/PhysRevLett.89.151801},
+  eprint = {hep-ph/0206024},
+  primaryclass = {hep-ph},
+  reportnumber = {FERMILAB-PUB-02-084-T, UB-HET-02-03, MADPH-02-1271, FERMILAB-PUB-02-092-T},
+  slaccitation = {%%CITATION = HEP-PH/0206024;%%}
+}
+
+@ARTICLE{ild:bib:benchmark:WWanalysis1,
+  author = {Bechtle, P. and Ehrenfeld, W. and Marchesini, I.},
+  title = {{Measurement of the beam polarization at the ILC using the WW production}},
+  year = {2009},
+  note = {LC-DET-2009-009}
+}
+
+@ARTICLE{ild:bib:ref-lpfieldcage,
+  author = {T. Behnke and others},
+  title = {{A Lightweight Field Cage for a Large TPC Prototype for the ILC}},
+  journal = {JINST},
+  year = {2010},
+  volume = {5},
+  pages = {P10011},
+  archiveprefix = {arXiv},
+  eprint = {1006.3220v1}
+}
+
+@ARTICLE{ild:bib:Bergauer,
+  author = {Bergauer, T. and others},
+  note = {EUDET-Memo-2009-18},
+  owner = {buesserk},
+  timestamp = {2012.09.26},
+  url = {http://www.eudet.org/e26/e28/}
+}
+
+@ARTICLE{Berggren:2012ar,
+  author = {Berggren, Mikael},
+  title = {{SGV 3.0 - a fast detector simulation}},
+  year = {2012},
+  archiveprefix = {arXiv},
+  bdsk-url-1 = {%7Bhttps://svnsrv.desy.de/websvn/wsvn/General.sgv?%7D},
+  eprint = {1203.0217},
+  primaryclass = {physics.ins-det},
+  slaccitation = {%%CITATION = ARXIV:1203.0217;%%},
+  url = {{https://svnsrv.desy.de/websvn/wsvn/General.sgv?}}
+}
+
+@ARTICLE{Bethke:1991wk,
+  author = {Bethke, S. and Kunszt, Z. and Soper, D.E. and Stirling, W. James},
+  title = {{New jet cluster algorithms: Next-to-leading order QCD and hadronization
+	corrections}},
+  journal = {Nucl.Phys.},
+  year = {1992},
+  volume = {B370},
+  pages = {310-334},
+  bdsk-url-1 = {http://dx.doi.org/10.1016/0550-3213(92)90289-N},
+  doi = {10.1016/0550-3213(92)90289-N},
+  reportnumber = {CERN-TH-6222-91},
+  slaccitation = {%%CITATION = NUPHA,B370,310;%%}
+}
+
+@ARTICLE{bichsel,
+  author = {Bichsel, H.},
+  title = {{Straggling in thin silicon detectors}},
+  journal = {Rev.Mod.Phys.},
+  year = {1988},
+  volume = {60},
+  pages = {663-699},
+  bdsk-url-1 = {http://dx.doi.org/10.1103/RevModPhys.60.663},
+  doi = {10.1103/RevModPhys.60.663},
+  slaccitation = {%%CITATION = RMPHA,60,663;%%}
+}
+
+@ARTICLE{ild:bib:SiLCRD,
+  author = {Blass, T. and others},
+  title = {{SiLC: Silicon tracking for the Linear Collider}},
+  note = {{Proposal of the SiLC R\&D Collaboration to the R\&D ILCSC Panel,
+	Feb. 2008 at BILWC-2008}},
+  collaboration = {SiLC Collaboration},
+  eprint = {0903.4361},
+  owner = {buesserk},
+  primaryclass = {physics.ins-det},
+  timestamp = {2012.09.26}
+}
+
+@ARTICLE{Blazey:2009zz,
+  author = {Blazey, G. and Chakraborty, D. and Dyshkant, A. and Francis, K. and
+	Hedin, D. and others},
+  title = {{Directly coupled tiles as elements of a scintillator calorimeter
+	with MPPC readout}},
+  journal = {Nucl.Instrum.Meth.},
+  year = {2009},
+  volume = {A605},
+  pages = {277-281},
+  note = {FERMILAB-PUB-09-585-E},
+  bdsk-url-1 = {http://dx.doi.org/10.1016/j.nima.2009.03.253},
+  doi = {10.1016/j.nima.2009.03.253},
+  slaccitation = {%%CITATION = NUIMA,A605,277;%%}
+}
+
+@ARTICLE{ild:bib:eudet_sensors,
+  author = {J. Blocki and others},
+  title = {{Silicon Sensors Prototype for LumiCal Calorimeter}},
+  note = {EUDET-Memo-2009-07},
+  owner = {buesserk},
+  timestamp = {2012.09.26}
+}
+
+@ARTICLE{Blondel:1987wr,
+  author = {Blondel, Alain},
+  title = {{A scheme to measure the polarization asymmetry at the Z pole in
+	LEP}},
+  journal = {Phys.Lett.},
+  year = {1988},
+  volume = {B202},
+  pages = {145},
+  bdsk-url-1 = {http://dx.doi.org/10.1016/0370-2693(88)90869-6},
+  doi = {10.1016/0370-2693(88)90869-6},
+  reportnumber = {CERN-EP/87-228},
+  slaccitation = {%%CITATION = PHLTA,B202,145;%%}
+}
+
+@ARTICLE{pzc,
+  author = {Boie, R.A. and Hrisoho, A.T. and Rehak, P.},
+  title = {{Signal shaping and tail cancellation for gas proportional detectors
+	at high counting rates}},
+  journal = {IEEE Trans.Nucl.Sci.},
+  year = {1981},
+  volume = {28},
+  pages = {603-609},
+  bdsk-url-1 = {http://dx.doi.org/10.1016/0029-554X(82)90846-1},
+  doi = {10.1016/0029-554X(82)90846-1},
+  slaccitation = {%%CITATION = IETNA,28,603;%%}
+}
+
+@ARTICLE{ild:bib:Bosi,
+  author = {Bosi, F.},
+  title = {{Light Prototype Support Using Micro-channel Technology as High Efficiency
+	for Silicon Pixel Cooling}},
+  journal = {Nucl.Instrum.Meth.},
+  year = {2011},
+  volume = {A650},
+  pages = {213-217},
+  owner = {buesserk},
+  timestamp = {2012.09.26}
+}
+
+@ARTICLE{Boudjema:1995cb,
+  author = {Boudjema, F. and Chopin, E.},
+  title = {{Double higgs production at the linear colliders and the probing
+	of the higgs selfcoupling}},
+  journal = {Z.Phys.},
+  year = {1996},
+  volume = {C73},
+  pages = {85-110},
+  archiveprefix = {arXiv},
+  bdsk-url-1 = {http://dx.doi.org/10.1007/s002880050298},
+  doi = {10.1007/s002880050298},
+  eprint = {hep-ph/9507396},
+  primaryclass = {hep-ph},
+  reportnumber = {ENSLAPP-A-534-95},
+  slaccitation = {%%CITATION = HEP-PH/9507396;%%}
+}
+
+@ARTICLE{Bourgeois2012,
+  author = {Bourgeois, C. and Gonnin, A.},
+  title = {{Integration of inner detector region}},
+  year = {2012},
+  note = {EDMS-ID: D*1003815,A,1,1},
+  bdsk-url-1 = {http://edmsdirect.desy.de/edmsdirect/file.jsp?edmsid=D00000001003815,A,1,1},
+  owner = {buesserk},
+  timestamp = {2012.09.25},
+  url = {http://edmsdirect.desy.de/edmsdirect/file.jsp?edmsid=D00000001003815,A,1,1}
+}
+
+@ARTICLE{ild:bib:brvi02,
+  author = {J.C. Brient and H. Videau},
+  title = {The calorimetry at the future $\epem$ linear collider},
+  journal = {eConf },
+  year = {2001},
+  pages = {E3047},
+  number = {C010630},
+  archiveprefix = {arxiv},
+  date-added = {2012-09-25 22:46:15 +0000},
+  date-modified = {2012-09-25 22:46:15 +0000},
+  eprint = {hep-ex/0202004v1}
+}
+
+@ARTICLE{ild:bib:ref:ROOT,
+  author = {Brun, R. and Rademakers, F.},
+  title = {{ROOT: An object oriented data analysis framework}},
+  journal = {Nucl.Instrum.Meth.},
+  year = {1997},
+  volume = {A389},
+  pages = {81-86},
+  bdsk-url-1 = {http://dx.doi.org/10.1016/S0168-9002(97)00048-X},
+  doi = {10.1016/S0168-9002(97)00048-X},
+  slaccitation = {%%CITATION = NUIMA,A389,81;%%}
+}
+
+@ARTICLE{ild:bib:Buesser:2012et,
+  author = {Buesser, Karsten},
+  title = {{ILD Machine-Detector Interface and Experimental Hall Issues}},
+  year = {2012},
+  archiveprefix = {arXiv},
+  eprint = {1201.5807},
+  primaryclass = {physics.ins-det},
+  slaccitation = {%%CITATION = ARXIV:1201.5807;%%}
+}
+
+@ARTICLE{Cacciari:2005hq,
+  author = {Cacciari, Matteo and Salam, Gavin P.},
+  title = {{Dispelling the $N^{3}$ myth for the $k_t$ jet-finder}},
+  journal = {Phys.Lett.},
+  year = {2006},
+  volume = {B641},
+  pages = {57-61},
+  archiveprefix = {arXiv},
+  bdsk-url-1 = {http://dx.doi.org/10.1016/j.physletb.2006.08.037},
+  doi = {10.1016/j.physletb.2006.08.037},
+  eprint = {hep-ph/0512210},
+  primaryclass = {hep-ph},
+  reportnumber = {LPTHE-05-32},
+  slaccitation = {%%CITATION = HEP-PH/0512210;%%}
+}
+
+@ARTICLE{ild:bib:benchmark:vvhanalysis_mumu,
+  author = {Constantino Calancha},
+  title = {{Study of $H \rightarrow \mu^+\mu^-$ at $\sqrt{s}$ = 1 TeV at the
+	ILC}},
+  year = {2013},
+  note = {LC-REP-2013-006 },
+  url = {http://www-flc.desy.de/lcnotes/notes/LC-REP-2013-006.pdf}
+}
+
+@ARTICLE{ild:bib:skiroc2,
+  author = {S. Callier and others},
+  title = {{SKIROC2, front-end chip designed to readout the Electromagnetic
+	CALorimeter at the ILC}},
+  journal = {JINST},
+  year = {2011},
+  volume = {6},
+  pages = {C12040},
+  bdsk-url-1 = {http://dx.doi.org/10.1088/1748-0221/6/12/C12040},
+  date-added = {2012-09-17 16:23:54 +0000},
+  date-modified = {2012-09-17 16:24:45 +0000},
+  doi = {10.1088/1748-0221/6/12/C12040}
+}
+
+@ARTICLE{ild:bib:pp-test,
+  author = {L. Caponetto and others},
+  title = {{First test of a power-pulsed electronics system on a GRPC detector
+	in a 3-Tesla magnetic field}},
+  journal = {JINST},
+  year = {2012},
+  volume = {7},
+  pages = {P04009},
+  archiveprefix = {arxiv},
+  date-added = {2012-09-17 15:31:59 +0000},
+  date-modified = {2012-09-17 22:28:21 +0000},
+  eprint = {1111.5630v1},
+  owner = {poeschl},
+  primaryclass = {physics.ins-det},
+  timestamp = {2012.09.21}
+}
+
+@ARTICLE{Castanier:2001sf,
+  author = {Castanier, C. and Gay, P. and Lutz, P. and Orloff, J.},
+  title = {{Higgs self coupling measurement in e+ e- collisions at center-of-mass
+	energy of 500-GeV}},
+  year = {2001},
+  archiveprefix = {arXiv},
+  eprint = {hep-ex/0101028},
+  primaryclass = {hep-ex},
+  reportnumber = {LC-PHSM-2000-061},
+  slaccitation = {%%CITATION = HEP-EX/0101028;%%}
+}
+
+@ARTICLE{Catani:1991hj,
+  author = {Catani, S. and Dokshitzer, Yuri L. and Olsson, M. and Turnock, G.
+	and Webber, B.R.},
+  title = {{New clustering algorithm for multi - jet cross-sections in e+ e-
+	annihilation}},
+  journal = {Phys.Lett.},
+  year = {1991},
+  volume = {B269},
+  pages = {432-438},
+  doi = {10.1016/0370-2693(91)90196-W},
+  reportnumber = {CAVENDISH-HEP-91-5},
+  slaccitation = {%%CITATION = PHLTA,B269,432;%%}
+}
+
+@ARTICLE{ild:bib:SiLCPRC,
+  author = {Chen, W. and others},
+  title = {{SiLC: Silicon tracking for the Linear Collider}},
+  note = {Proposal of the SiLC R\&D Collaboration to the PRC-DESY in May 2003
+	and addendum in October 2003; and status reports of the SiLC R\&D
+	Collaboration to the PRC in 2005, 2008 and references therein.},
+  owner = {buesserk},
+  timestamp = {2012.11.12},
+  url = {http://www.desy.de/f/prc/html/session-html/session-index.htm}
+}
+
+@ARTICLE{Cohen:1993nk,
+  author = {Cohen, Andrew G. and Kaplan, D.B. and Nelson, A.E.},
+  title = {{Progress in electroweak baryogenesis}},
+  journal = {Ann.Rev.Nucl.Part.Sci.},
+  year = {1993},
+  volume = {43},
+  pages = {27-70},
+  archiveprefix = {arXiv},
+  eprint = {hep-ph/9302210},
+  primaryclass = {hep-ph},
+  reportnumber = {UCSD-PTH-93-02, BUHEP-93-4},
+  slaccitation = {%%CITATION = HEP-PH/9302210;%%}
+}
+
+@ARTICLE{ild:dbd:FTD:FBG3,
+  author = {M. Consales and others},
+  title = {{Fiber optic humidity sensors for high-energy physics applications
+	at CERN}},
+  journal = {Sensors and Actuators B},
+  year = {2011},
+  volume = {159},
+  pages = {66-74},
+  bdsk-url-1 = {http://dx.doi.org/10.1016/j.snb.2011.06.042},
+  doi = {10.1016/j.snb.2011.06.042},
+  owner = {vila},
+  timestamp = {2012.07.30}
+}
+
+@INPROCEEDINGS{ild:bib:Cornat:2011,
+  author = {R. Cornat},
+  title = {Acquisition System and Detector Interface for Power Pulsed Detectors},
+  year = {2012},
+  volume = {37},
+  number = {0},
+  pages = {1791 - 1798},
+  note = {Proceedings of the 2nd International Conference on Technology and
+	Instrumentation in Particle Physics (TIPP 2011)},
+  doi = {10.1016/j.phpro.2012.03.754},
+  issn = {1875-3892},
+  journal = {Physics Procedia},
+  url = {http://www.sciencedirect.com/science/article/pii/S1875389212018913}
+}
+
+@ARTICLE{ild:bib:rnc08,
+  author = {R. Cornat},
+  title = {{Design of a SiW electromagnetic calorimeter for the International
+	Linear Collider and study of cross talk in silicon sensors}},
+  journal = {Nuclear Science Symposium Conference Record. NSS'08 IEEE},
+  year = {2008},
+  bdsk-url-1 = {http://dx.doi.org/10.1109/NSSMIC.2008.4774933},
+  date-added = {2012-09-17 21:28:44 +0000},
+  date-modified = {2012-09-17 21:29:53 +0000},
+  doi = {10.1109/NSSMIC.2008.4774933}
+}
+
+@ARTICLE{ild:dbd:FTD:FBG2,
+  author = {E. Curras and others},
+  title = {{Influence of the Fiber Coating Type on the Strain Response of Proton-Irradiated
+	Fiber Bragg Gratings}},
+  journal = {Nuclear Science, IEEE Transactions on},
+  year = {2012},
+  volume = {59},
+  pages = {937-942},
+  part = {4-1},
+  bdsk-url-1 = {http://dx.doi.org/10.1109/TNS.2012.2206049},
+  doi = {10.1109/TNS.2012.2206049},
+  owner = {vila},
+  timestamp = {2012.07.30}
+}
+
+@ARTICLE{new_Bhabha,
+  author = {Czakon, M. and Gluza, J. and Riemann, T.},
+  title = {{The Planar four-point master integrals for massive two-loop Bhabha
+	scattering}},
+  journal = {Nucl.Phys.},
+  year = {2006},
+  volume = {B751},
+  pages = {1-17},
+  note = {DESY-06-021, WUE-ITP-2006-004, SFB-CPP-06-17},
+  archiveprefix = {arXiv},
+  bdsk-url-1 = {http://dx.doi.org/10.1016/j.nuclphysb.2006.05.033},
+  doi = {10.1016/j.nuclphysb.2006.05.033},
+  eprint = {hep-ph/0604101},
+  primaryclass = {hep-ph},
+  slaccitation = {%%CITATION = HEP-PH/0604101;%%}
+}
+
+@ARTICLE{ild:bib:Dasc_lc_note,
+  author = {D'Ascenso,N. Saveliev,V.},
+  title = {{Mathematical modeling and Study of the ILD Muon System/Tail Catcher}},
+  year = {2012},
+  note = {LC-DET-2012- xxx},
+  bdsk-url-1 = {http://www-flc.desy.de/lcnotes},
+  url = {http://www-flc.desy.de/lcnotes}
+}
+
+@ARTICLE{ild:bib:SPT,
+  author = {Damerell, C.J.S. and Stefanov, K.D.},
+  title = {{The Silicon pixel tracker: beginning of a revolution?}},
+  journal = {PoS VERTEX 2011},
+  year = {2011},
+  pages = {021},
+  owner = {buesserk},
+  timestamp = {2012.10.17}
+}
+
+@ARTICLE{ild:bib:woitek3,
+  author = {W. Daniluk and others},
+  title = {{Laser Alignment System for LumiCal}},
+  year = {2008},
+  note = {EUDET-Report-2008-05},
+  bdsk-url-1 = {%7Bhttp://www.eudet.org/e26/e26/e27/e826/EUDET%5C_report%5C_05.pdf%7D},
+  url = {{http://www.eudet.org/e26/e26/e27/e826/EUDET\_report\_05.pdf}}
+}
+
+@ARTICLE{ild:bib:silicon:forward:lcd2011031,
+  author = {Dannheim, D. and Vos ,M.},
+  title = {{Simulation studies for the layout of the vertex and tracking regions
+	of the CLIC detectors}},
+  note = {LCD-Note-2011-031},
+  owner = {buesserk},
+  timestamp = {2012.09.26},
+  url = {http://cds.cern.ch/record/1443503/files/LCD-2011-031.pdf}
+}
+
+@ARTICLE{ild:bib:Darbha2007,
+  author = {Darbha, S.},
+  title = {{Simulation of Neutron Backgrounds from the ILC Extraction Line Beam
+	Dump}},
+  note = {SLAC-TN-07-013}
+}
+
+@ARTICLE{ild:bib:ref-alice,
+  author = {Dellacasa, G. and others},
+  title = {{ALICE: Technical design report of the time projection chamber}},
+  year = {2000},
+  note = {CERN-OPEN-2000-183, CERN-LHCC-2000-001},
+  collaboration = {ALICE Collaboration},
+  slaccitation = {%%CITATION = CERN-OPEN-2000-183 ETC.;%%}
+}
+
+@ARTICLE{ild:dbd:FTD:FEE2,
+  author = {A. Dieguez and others},
+  title = {{Design of a FE ASIC in TSMC-65nm for Si tracking at the ILC}},
+  year = {2012},
+  note = {PREL-LC-DET-2012-005},
+  institution = {University of Barcelona (UB)},
+  owner = {vila},
+  timestamp = {2012.09.27}
+}
+
+@ARTICLE{ild:bib:ref-ralf,
+  author = {Ralf Diener},
+  year = {2013},
+  note = {{Private Communication on the analysis of the Grid GEM data}},
+  owner = {buesserk},
+  timestamp = {2013.01.15}
+}
+
+@ARTICLE{ild:bib:Dittmaier:2011ti,
+  author = {Dittmaier, S. and others},
+  title = {{Handbook of LHC higgs Cross Sections: 1. Inclusive Observables}},
+  year = {2011},
+  archiveprefix = {arXiv},
+  collaboration = {LHC Higgs Cross Section Working Group},
+  eprint = {1101.0593},
+  primaryclass = {hep-ph},
+  reportnumber = {CERN-2011-002},
+  slaccitation = {%%CITATION = ARXIV:1101.0593;%%}
+}
+
+@ARTICLE{ild:bib:ref-madhu,
+  author = {M. Dixit and others},
+  title = {Position sensing from charge dispersion in micro-pattern gas detectors
+	with a resistive anode},
+  journal = {Nucl.Instrum.Meth.},
+  year = {2004},
+  volume = {A518},
+  pages = {721}
+}
+
+@ARTICLE{Djouadi:1996ah,
+  author = {Djouadi, A. and Haber, H.E. and Zerwas, P.M.},
+  title = {{Multiple production of MSSM neutral higgs bosons at high-energy
+	e+ e- colliders}},
+  journal = {Phys.Lett.},
+  year = {1996},
+  volume = {B375},
+  pages = {203-212},
+  archiveprefix = {arXiv},
+  bdsk-url-1 = {http://dx.doi.org/10.1016/0370-2693(96)00244-4},
+  doi = {10.1016/0370-2693(96)00244-4},
+  eprint = {hep-ph/9602234},
+  primaryclass = {hep-ph},
+  reportnumber = {DESY-95-214, KA-TP-10-95, SCIPP-95-47},
+  slaccitation = {%%CITATION = HEP-PH/9602234;%%}
+}
+
+@ARTICLE{Djouadi:1999gv,
+  author = {Djouadi, A. and Kilian, W. and Muhlleitner, M. and Zerwas, P.M.},
+  title = {{Testing higgs selfcouplings at e+ e- linear colliders}},
+  journal = {Eur.Phys.J.},
+  year = {1999},
+  volume = {C10},
+  pages = {27-43},
+  archiveprefix = {arXiv},
+  bdsk-url-1 = {http://dx.doi.org/10.1007/s100529900082},
+  doi = {10.1007/s100529900082},
+  eprint = {hep-ph/9903229},
+  primaryclass = {hep-ph},
+  reportnumber = {DESY-99-001, TTP-99-02, PM-99-01},
+  slaccitation = {%%CITATION = HEP-PH/9903229;%%}
+}
+
+@PHDTHESIS{ild:bib:benchmark:doublet,
+  author = {P. Doublet},
+  title = {{Hadrons in a highly granular SiW ECAL - Top quark production at
+	the ILC}},
+  school = {Laboratoire d'Acc{\'e}l{\'e}rateur Lin{\'e}aire and Universit{\'e}
+	Paris Sud - Paris XI},
+  year = {2011},
+  bdsk-url-1 = {http://tel.archives-ouvertes.fr/tel-00657967},
+  date-added = {2012-09-25 22:18:42 +0000},
+  date-modified = {2012-09-25 22:18:42 +0000},
+  url = {http://tel.archives-ouvertes.fr/tel-00657967}
+}
+
+@ARTICLE{ild:bib:benchmark:top-lal,
+  author = {P. Doublet and others},
+  title = {{Determination of Top-quark Asymmetries at the ILC}},
+  archiveprefix = {arxiv},
+  date-added = {2012-09-25 22:18:55 +0000},
+  date-modified = {2012-09-25 22:18:55 +0000},
+  eprint = {1202.6659v1},
+  primaryclass = {hep-ex}
+}
+
+@ARTICLE{ild:bib:doublet2011,
+  author = {P. Doublet and others},
+  title = {{Interactions of hadrons in the CALICE SiW ECAL prototype}},
+  year = {2011},
+  note = {CALICE Analysis Note CAN-025},
+  archiveprefix = {arXiv},
+  collaboration = {CALICE Collaboration},
+  date-added = {2012-09-17 22:09:53 +0000},
+  date-modified = {2012-09-17 22:15:31 +0000},
+  eprint = {1203.1240v2},
+  owner = {poeschl},
+  primaryclass = {physics.ins-det},
+  timestamp = {2012.09.21}
+}
+
+@ARTICLE{ild:bib:muonhalo,
+  author = {A.I. Drozhdin and others},
+  title = {Suppression of muon backgrounds generated in the ILC beam delivery
+	system},
+  journal = {SLAC-PUB-12741},
+  year = {2007},
+  owner = {behnke},
+  timestamp = {2013.02.07},
+  url = {http://www.slac.stanford.edu/cgi-wrap/getdoc/slac-pub-12741.pdf}
+}
+
+@ARTICLE{ild:bib:hardroc,
+  author = {Frederic Dulucq and others},
+  title = {{HARDROC: Readout chip for CALICE/EUDET Digital Hadronic Calorimeter}},
+  journal = {Nuclear Science Symposium Conference Record (NSS/MIC)},
+  year = {2010},
+  pages = {1678-1683},
+  bdsk-url-1 = {http://dx.doi.org/2010%20IEEE},
+  date-added = {2012-09-17 14:31:31 +0000},
+  date-modified = {2012-09-17 22:27:28 +0000},
+  doi = {Nuclear Science Symposium Conference Record (NSS/MIC), 2010 IEEE},
+  owner = {poeschl},
+  timestamp = {2012.09.21}
+}
+
+@ARTICLE{Ellis:1993tq,
+  author = {Ellis, Stephen D. and Soper, Davison E.},
+  title = {{Successive combination jet algorithm for hadron collisions}},
+  journal = {Phys.Rev.},
+  year = {1993},
+  volume = {D48},
+  pages = {3160-3166},
+  archiveprefix = {arXiv},
+  doi = {10.1103/PhysRevD.48.3160},
+  eprint = {hep-ph/9305266},
+  primaryclass = {hep-ph},
+  reportnumber = {CERN-TH-6860-93},
+  slaccitation = {%%CITATION = HEP-PH/9305266;%%}
+}
+
+@ARTICLE{ild:bib:Fabbricatore2006,
+  author = {Fabbricatore, P. and others},
+  title = {{The Manufacture of Modules for CMS Coil}},
+  journal = {IEEE Trans.Appl.Superconductivity},
+  year = {2006},
+  volume = {16},
+  pages = {512-516},
+  number = {2}
+}
+
+@ARTICLE{ild:bib:mfg09,
+  author = {M. Faucci-Gianelli},
+  title = {{Position and Angular Resolution of the SiW Ecal Prototype}},
+  year = {2009},
+  note = {CALICE Analysis Note CAN-017},
+  collaboration = {CALICE Collaboration}
+}
+
+@ARTICLE{ild:bib:fehr2010,
+  author = {F. Fehr and others},
+  title = {{Tracking with the CALICE Si-W electromagnetic calorimeter prototype
+	using the Hough transform}},
+  year = {2010},
+  note = {CALICE Analysis Note CAN-023a},
+  collaboration = {CALICE Collaboration},
+  date-added = {2012-09-17 22:16:46 +0000},
+  date-modified = {2012-09-17 22:18:47 +0000},
+  owner = {poeschl},
+  timestamp = {2012.09.21}
+}
+
+@ARTICLE{ild:bib:VTXdepfetmech,
+  author = {Fischer, P. and Andricek, L. and Herrmann, S. and Karagounis, M.
+	and Kohrs, R. and others},
+  title = {{Progress towards a large area, thin DEPFET detector module}},
+  journal = {Nucl.Instrum.Meth.},
+  year = {2007},
+  volume = {A582},
+  pages = {843-848},
+  bdsk-url-1 = {http://dx.doi.org/10.1016/j.nima.2007.07.108},
+  doi = {10.1016/j.nima.2007.07.108},
+  slaccitation = {%%CITATION = NUIMA,A582,843;%%}
+}
+
+@UNPUBLISHED{ild:bib:VTXcps4,
+  author = {Y. Fu},
+  title = {{A vertically integrated 3D CMOS Monolithic Active Pixel Sensors
+	with fast digital readout slides}},
+  note = {Presented at the Workshop on Vertically Integrated Pixel Sensors
+	(VIPS 2010), Pavia, Italy, 22-24 April 2010.}
+}
+
+@ARTICLE{ild:bib:ref:kaltest,
+  author = {Fujii, Keisuke},
+  title = {{KalTest: A ROOT-based Kalman Filter Package}},
+  bdsk-url-1 = {http://www-jlc.kek.jp/subg/offl/kaltest/},
+  url = {http://www-jlc.kek.jp/subg/offl/kaltest/}
+}
+
+@ARTICLE{ild:bib:timestamping,
+  author = {K. Fujii},
+  title = {{Time Stamping: CDC/TPC Comparison Studies. (NB: ``CDC'' was the
+	central drift chamber for the detector in the early days of JLC/NLC.)}},
+  url = {http://www-jlc.kek.jp/jlc/sites/default/files/groups/tpc/talks/T0.CDCvsTPC.pdf}
+}
+
+@ARTICLE{ild:bib:ref-keisuke,
+  author = {K. Fujii},
+  title = {{Positive Ion Effects (LCTPC collaboration meeting presentation).}},
+  year = {2012},
+  url = {http://ilcagenda.linearcollider.org/getFile.py/access?contribId=3\&sessionId=8\&resId=0\&materialId=slides\&confId=5504}
+}
+
+@ARTICLE{ild:bib:TrackPerf:Foward800GeV,
+  author = {Fuster, J. and Heinemeyer, S. and Lacasta, C. and Marinas, C. and
+	Ruiz Jimeno, Alberto and others},
+  title = {{Forward tracking at the next e+ e- collider. Part I. The Physics
+	case}},
+  journal = {JINST},
+  year = {2009},
+  volume = {4},
+  pages = {P08002},
+  archiveprefix = {arXiv},
+  bdsk-url-1 = {http://dx.doi.org/10.1088/1748-0221/4/08/P08002},
+  doi = {10.1088/1748-0221/4/08/P08002},
+  eprint = {0905.2038},
+  primaryclass = {hep-ex},
+  slaccitation = {%%CITATION = ARXIV:0905.2038;%%}
+}
+
+@ARTICLE{ild:bib:Marlin,
+  author = {Gaede, F.},
+  title = {{Marlin and LCCD: Software tools for the ILC}},
+  journal = {Nucl.Instrum.Meth.},
+  year = {2006},
+  volume = {A559},
+  pages = {177-180},
+  bdsk-url-1 = {http://dx.doi.org/10.1016/j.nima.2005.11.138},
+  doi = {10.1016/j.nima.2005.11.138},
+  slaccitation = {%%CITATION = NUIMA,A559,177;%%}
+}
+
+@ARTICLE{ild:bib:ref:lcio,
+  author = {Gaede, Frank and Behnke, Ties and Graf, Norman and Johnson, Tony},
+  title = {{LCIO: A Persistency framework for linear collider simulation studies}},
+  journal = {eConf},
+  year = {2003},
+  volume = {C0303241},
+  pages = {TUKT001},
+  note = {SLAC-PUB-9992, CHEP-2003-TUKT001},
+  archiveprefix = {arXiv},
+  eprint = {physics/0306114},
+  primaryclass = {physics},
+  slaccitation = {%%CITATION = PHYSICS/0306114;%%}
+}
+
+@ARTICLE{ild:bib:ATLAS_ROD,
+  author = {Gameiro, S. and Crone, G. and Ferrari, R. and Francis, D. and Gorini,
+	B. and Gruwe, M. and Joos, M. and Lehmann, G. and Mapelli, L. and
+	Misiejuk, A. and others},
+  title = {{The ROD crate DAQ software framework of the ATLAS data acquisition
+	system}},
+  journal = {Nuclear Science, IEEE Transactions on},
+  year = {2006},
+  volume = {53},
+  pages = {907--911},
+  number = {3}
+}
+
+@ARTICLE{ild:daq:ATLAS_ROD,
+  author = {Gameiro, S. and Crone, G. and Ferrari, R. and Francis, D. and Gorini,
+	B. and Gruwe, M. and Joos, M. and Lehmann, G. and Mapelli, L. and
+	Misiejuk, A. and others},
+  title = {The ROD crate DAQ software framework of the ATLAS data acquisition
+	system},
+  journal = {Nuclear Science, IEEE Transactions on},
+  year = {2006},
+  volume = {53},
+  pages = {907--911},
+  number = {3}
+}
+
+@ARTICLE{RASNIK,
+  author = {Gatignon, Lau},
+  title = {{CLIC MDI Overview}},
+  year = {2012},
+  archiveprefix = {arXiv},
+  collaboration = {CLIC MDI Working Group},
+  eprint = {1202.6511},
+  primaryclass = {physics.acc-ph},
+  slaccitation = {%%CITATION = ARXIV:1202.6511;%%}
+}
+
+@ARTICLE{frontend,
+  author = {Gatti, E. and Manfredi, P.F.},
+  title = {{Processing the signals from solid state detectors in elementary
+	particle physics}},
+  journal = {Riv.Nuovo Cim.},
+  year = {1986},
+  volume = {9N1},
+  pages = {1-146},
+  bdsk-url-1 = {http://dx.doi.org/10.1007/BF02822156},
+  doi = {10.1007/BF02822156},
+  slaccitation = {%%CITATION = RNCIB,9N1,1;%%}
+}
+
+@ARTICLE{Gay:2006vs,
+  author = {Gay, Arnaud},
+  title = {{Measurement of the top-higgs Yukawa coupling at a Linear e+ e- Collider}},
+  journal = {Eur.Phys.J.},
+  year = {2007},
+  volume = {C49},
+  pages = {489-497},
+  archiveprefix = {arXiv},
+  bdsk-url-1 = {http://dx.doi.org/10.1140/epjc/s10052-006-0161-y},
+  doi = {10.1140/epjc/s10052-006-0161-y},
+  eprint = {hep-ph/0604034},
+  primaryclass = {hep-ph},
+  reportnumber = {LC-PHSM-2006-002},
+  slaccitation = {%%CITATION = HEP-PH/0604034;%%}
+}
+
+@ARTICLE{Giannelli:2009fe,
+  author = {Giannelli, Michele Faucci},
+  title = {{Sensitivity to the higgs Self-coupling Using the ZHH Channel}},
+  year = {2009},
+  archiveprefix = {arXiv},
+  eprint = {0901.4895},
+  primaryclass = {hep-ex},
+  slaccitation = {%%CITATION = ARXIV:0901.4895;%%}
+}
+
+@ARTICLE{Gianotti:2002xx,
+  author = {Gianotti, F. and Mangano, M.L. and Virdee, T. and Abdullin, S. and
+	Azuelos, G. and others},
+  title = {{Physics potential and experimental challenges of the LHC luminosity
+	upgrade}},
+  journal = {Eur.Phys.J.},
+  year = {2005},
+  volume = {C39},
+  pages = {293-333},
+  archiveprefix = {arXiv},
+  bdsk-url-1 = {http://dx.doi.org/10.1140/epjc/s2004-02061-6},
+  doi = {10.1140/epjc/s2004-02061-6},
+  eprint = {hep-ph/0204087},
+  primaryclass = {hep-ph},
+  reportnumber = {CERN-TH-2002-078},
+  slaccitation = {%%CITATION = HEP-PH/0204087;%%}
+}
+
+@ARTICLE{ild:bib:ref-mm,
+  author = {Giomataris, Y. and Rebourgeard, P. and Robert, J. P. and Charpak,
+	Georges},
+  title = {{MICROMEGAS: A high-granularity position-sensitive gaseous detector
+	for high particle-flux environments}},
+  journal = {Nucl.Instrum.Meth.},
+  year = {1996},
+  volume = {A376},
+  pages = {29-35},
+  bdsk-url-1 = {http://dx.doi.org/10.1016/0168-9002(96)00175-1},
+  doi = {10.1016/0168-9002(96)00175-1},
+  slaccitation = {%%CITATION = NUIMA,A376,29;%%}
+}
+
+@ARTICLE{ild:bib:ref:glattauer,
+  author = {Glattauer, Robin and Fr\"uhwirth, Rudolf and Lettenbichler, Jakob
+	and Mitaroff, Winfried},
+  title = {{Forward Tracking in the ILD Detector}},
+  year = {2012},
+  archiveprefix = {arXiv},
+  eprint = {1202.2761},
+  primaryclass = {physics.data-an},
+  reportnumber = {HEPHY-PUB-913-12},
+  slaccitation = {%%CITATION = ARXIV:1202.2761;%%}
+}
+
+@ARTICLE{ild:bib:Silicon:forward:Gluckstern:1963ng,
+  author = {Gluckstern, R.L.},
+  title = {{Uncertainties in track momentum and direction, due to multiple scattering
+	and measurement errors}},
+  journal = {Nucl.Instrum.Meth.},
+  year = {1963},
+  volume = {24},
+  pages = {381-389},
+  __markedentry = {[buesserk:6]},
+  doi = {10.1016/0029-554X(63)90347-1},
+  owner = {buesserk},
+  slaccitation = {%%CITATION = NUIMA,24,381;%%},
+  timestamp = {2012.09.26}
+}
+
+@ARTICLE{ild:bib:goodrick2011development,
+  author = {Goodrick, MJ and Hommels, LBA and Shaw, R. and Ward, DR and Bailey,
+	DS and Kelly, M. and Boisvert, V. and Green, B. and Green, MG and
+	Misiejuk, A. and others},
+  title = {{Development of a modular and scalable data acquisition system for
+	calorimeters at a linear collider}},
+  journal = {JINST},
+  year = {2011},
+  volume = {6},
+  pages = {P10011},
+  number = {10}
+}
+
+@ARTICLE{Gounaris:1979px,
+  author = {Gounaris, G.J. and Schildknecht, D. and Renard, F.M.},
+  title = {{Test of higgs boson nature in e+ e -- H H Z}},
+  journal = {Phys.Lett.},
+  year = {1979},
+  volume = {B83},
+  pages = {191},
+  bdsk-url-1 = {http://dx.doi.org/10.1016/0370-2693(79)90683-X},
+  doi = {10.1016/0370-2693(79)90683-X},
+  reportnumber = {BI-TP 79/02, PM/79/1},
+  slaccitation = {%%CITATION = PHLTA,B83,191;%%}
+}
+
+@ARTICLE{ild:bib:ieee2,
+  author = {Grah, Christian and Afanaciev, Konstantin and Emeliantchik, Igor
+	and Harder, Ulrich and Henschel, Hans and others},
+  title = {{Polycrystalline CVD diamonds for the beam calorimeter of the ILC}},
+  journal = {IEEE Trans.Nucl.Sci.},
+  year = {2009},
+  volume = {56},
+  pages = {462-467},
+  bdsk-url-1 = {http://dx.doi.org/10.1109/TNS.2009.2013853},
+  doi = {10.1109/TNS.2009.2013853},
+  slaccitation = {%%CITATION = IETNA,56,462;%%}
+}
+
+@ARTICLE{ild:bib:grah1,
+  author = {Grah, Christian and Sapronov, A.},
+  title = {{Beam parameter determination using beamstrahlung photons and incoherent
+	pairs}},
+  journal = {JINST},
+  year = {2008},
+  volume = {3},
+  pages = {P10004},
+  bdsk-url-1 = {http://dx.doi.org/10.1088/1748-0221/3/10/P10004},
+  doi = {10.1088/1748-0221/3/10/P10004},
+  slaccitation = {%%CITATION = JINST,3,P10004;%%}
+}
+
+@ARTICLE{ild:bib:VTXcps3,
+  author = {Greiner, L. and Anderssen, E. and Matis, H.S. and Ritter, H.G. and
+	Schambach, J. and others},
+  title = {{A MAPS based vertex detector for the STAR experiment at RHIC}},
+  journal = {Nucl.Instrum.Meth.},
+  year = {2011},
+  volume = {A650},
+  pages = {68-72},
+  bdsk-url-1 = {http://dx.doi.org/10.1016/j.nima.2010.12.006},
+  doi = {10.1016/j.nima.2010.12.006},
+  slaccitation = {%%CITATION = NUIMA,A650,68;%%}
+}
+
+@ARTICLE{Grojean:2004xa,
+  author = {Grojean, Christophe and Servant, Geraldine and Wells, James D.},
+  title = {{First-order electroweak phase transition in the standard model with
+	a low cutoff}},
+  journal = {Phys.Rev.},
+  year = {2005},
+  volume = {D71},
+  pages = {036001},
+  archiveprefix = {arXiv},
+  bdsk-url-1 = {http://dx.doi.org/10.1103/PhysRevD.71.036001},
+  doi = {10.1103/PhysRevD.71.036001},
+  eprint = {hep-ph/0407019},
+  primaryclass = {hep-ph},
+  reportnumber = {SACLAY-T04-084, MCTP-04-37, ANL-HEP-PR-04-63, EFI-04-23},
+  slaccitation = {%%CITATION = HEP-PH/0407019;%%}
+}
+
+@INPROCEEDINGS{ild:bib:haas2009eudet,
+  author = {Haas, D.},
+  title = {{The EUDET pixel telescope data acquisition system}},
+  booktitle = {Real Time Conference, 2009. RT'09. 16th IEEE-NPSS},
+  year = {2009},
+  pages = {366--371},
+  organization = {IEEE}
+}
+
+@ARTICLE{ild:bib:haas2006pixel,
+  author = {Haas, T.},
+  title = {{A pixel telescope for detector R\&D for an international linear
+	collider}},
+  journal = {Nulc.Instrum.Meth.},
+  year = {2006},
+  volume = {A569},
+  pages = {53--56},
+  number = {1}
+}
+
+@ARTICLE{ild:bib:ref-phdlea,
+  author = {Lea Hallermann},
+  title = {{Analysis of GEM Properties and Development of a GEM Support Structure
+	for the ILD Time Projection Chamber}},
+  year = {2010},
+  note = {DESY-THESIS-2010-015},
+  owner = {buesserk},
+  timestamp = {2013.01.15},
+  url = {{http://www-library.desy.de/cgi-bin/showprep.pl?desy-thesis-10-015}}
+}
+
+@ARTICLE{Ham:2005ej,
+  author = {Ham, S.W. and Oh, S.K.},
+  title = {{Electroweak phase transition and higgs self-couplings in the two-higgs-doublet
+	model}},
+  year = {2005},
+  archiveprefix = {arXiv},
+  eprint = {hep-ph/0502116},
+  primaryclass = {hep-ph},
+  slaccitation = {%%CITATION = HEP-PH/0502116;%%}
+}
+
+@ARTICLE{ild:bib:ref-tpclcnoteelectronics2,
+  author = {V. Hedberg and others},
+  title = {{Development of the Readout System for a TPC at the Future Linear
+	Collider}},
+  year = {2012},
+  note = {LC-DET-2012-080},
+  url = {http://www-flc.desy.de/lcnotes/notes/LC-DET-2012-080.pdf}
+}
+
+@ARTICLE{ild:bib:Hocker:2007ht,
+  author = {Hoecker, Andreas and Speckmayer, Peter and Stelzer, Joerg and Therhaag,
+	Jan and von Toerne, Eckhard and Voss, Helge},
+  title = {{TMVA: Toolkit for Multivariate Data Analysis}},
+  journal = {PoS},
+  year = {2007},
+  volume = {ACAT},
+  pages = {040},
+  archiveprefix = {arXiv},
+  eprint = {physics/0703039},
+  slaccitation = {%%CITATION = PHYSICS/0703039;%%}
+}
+
+@ARTICLE{ild:bib:Hoffmann,
+  author = {Hoffmann, K.-H.},
+  title = {{Campaign to identify the future MCMS tracker baseline}},
+  journal = {Nucl.Instrum},
+  year = {2011},
+  volume = {A658},
+  pages = {30-35},
+  note = {and references therein},
+  owner = {buesserk},
+  timestamp = {2012.09.26}
+}
+
+@ARTICLE{ild:bib:VTXcps1,
+  author = {Hu-Guo, C. and Baudot, J. and Bertolone, G. and Besson, A. and Brogna,
+	A.S. and others},
+  title = {{First reticule size MAPS with digital output and integrated zero
+	suppression for the EUDET-JRA1 beam telescope}},
+  journal = {Nucl.Instrum.Meth.},
+  year = {2010},
+  volume = {A623},
+  pages = {480-482},
+  bdsk-url-1 = {http://dx.doi.org/10.1016/j.nima.2010.03.043},
+  doi = {10.1016/j.nima.2010.03.043},
+  slaccitation = {%%CITATION = NUIMA,A623,480;%%}
+}
+
+@ARTICLE{lumi_frontend,
+  author = {Idzik, M. and Kulis, Sz. and Przyborowski, D.},
+  title = {{Development of front-end electronics for the luminosity detector
+	at ILC}},
+  journal = {Nucl.Instrum.Meth.},
+  year = {2009},
+  volume = {A608},
+  pages = {169-174},
+  bdsk-url-1 = {http://dx.doi.org/10.1016/j.nima.2009.06.059},
+  doi = {10.1016/j.nima.2009.06.059},
+  slaccitation = {%%CITATION = NUIMA,A608,169;%%}
+}
+
+@ARTICLE{ild:bib:lumi_adc,
+  author = {M. Idzik and others},
+  title = {{A 10-bit multichannel digitizer ASIC for detectors in particle physics
+	experiments}},
+  journal = {IEEE Trans.Nucl.Sci.},
+  year = {2012},
+  volume = {59},
+  pages = {294-302},
+  note = {FCAL.tex ild:bib:lumi-adc},
+  owner = {buesserk},
+  timestamp = {2012.09.26}
+}
+
+@ARTICLE{Ilyin:1995iy,
+  author = {Ilyin, V.A. and Pukhov, A.E. and Kurihara, Y. and Shimizu, Y. and
+	Kaneko, T.},
+  title = {{Probing the H**3 vertex in e+ e-, gamma e and gamma gamma collisions
+	for light and intermediate higgs bosons}},
+  journal = {Phys.Rev.},
+  year = {1996},
+  volume = {D54},
+  pages = {6717-6727},
+  archiveprefix = {arXiv},
+  bdsk-url-1 = {http://dx.doi.org/10.1103/PhysRevD.54.6717},
+  doi = {10.1103/PhysRevD.54.6717},
+  eprint = {hep-ph/9506326},
+  primaryclass = {hep-ph},
+  reportnumber = {KEK-CP-030, KEK-PREPRINT-95-78, INP-MSU-95-16-380},
+  slaccitation = {%%CITATION = HEP-PH/9506326;%%}
+}
+
+@ARTICLE{ild:bib:ref-sagagasstudy,
+  author = {A. Ishikawa and others},
+  title = {{Gas-Property Study at Saga U.}},
+  year = {2005},
+  owner = {buesserk},
+  timestamp = {2013.01.15},
+  url = {{http://www-hep.phys.saga-u.ac.jp/ILC-TPC/gas/index.html}}
+}
+
+@ARTICLE{ild:bib:BHWIDE,
+  author = {Jadach, S. and Placzek, W. and Ward, B.F.L.},
+  title = {{BHWIDE 1.00: O(alpha) YFS exponentiated Monte Carlo for Bhabha scattering
+	at wide angles for LEP-1 / SLC and LEP-2}},
+  journal = {Phys.Lett.},
+  year = {1997},
+  volume = {B390},
+  pages = {298-308},
+  archiveprefix = {arXiv},
+  doi = {10.1016/S0370-2693(96)01382-2},
+  eprint = {hep-ph/9608412},
+  primaryclass = {hep-ph},
+  reportnumber = {UTHEP-95-1001},
+  slaccitation = {%%CITATION = HEP-PH/9608412;%%}
+}
+
+@ARTICLE{ild:dbd:FTD:FBG1,
+  author = {Alan D. Jersey and others},
+  title = {{Fiber Gratings Sensors}},
+  journal = {Journal of Lightwave Technology},
+  year = {1997},
+  volume = {15},
+  pages = {22},
+  bdsk-url-1 = {http://dx.doi.org/10.1109/50.618377},
+  doi = {10.1109/50.618377},
+  owner = {vila},
+  timestamp = {2012.07.31}
+}
+
+@ARTICLE{ild:bib:ref-jochen,
+  author = {J. Kaminski},
+  title = {{Status of European Pixel Modules (LCTPC collaboration meeting presentation).}},
+  year = {2012},
+  url = {http://ilcagenda.linearcollider.org/getFile.py/access?contribId=18\&sessionId=9\&resId=0\&materialId=slides\&confId=5504}
+}
+
+@ARTICLE{Kanemura:2002vm,
+  author = {Kanemura, Shinya and Kiyoura, Shingo and Okada, Yasuhiro and Senaha,
+	Eibun and Yuan, C.P.},
+  title = {{New physics effect on the higgs selfcoupling}},
+  journal = {Phys.Lett.},
+  year = {2003},
+  volume = {B558},
+  pages = {157-164},
+  archiveprefix = {arXiv},
+  bdsk-url-1 = {http://dx.doi.org/10.1016/S0370-2693(03)00268-5},
+  doi = {10.1016/S0370-2693(03)00268-5},
+  eprint = {hep-ph/0211308},
+  primaryclass = {hep-ph},
+  reportnumber = {KEK-TH-856, MSUHEP-21119},
+  slaccitation = {%%CITATION = HEP-PH/0211308;%%}
+}
+
+@ARTICLE{Kanemura:2004ch,
+  author = {Kanemura, Shinya and Okada, Yasuhiro and Senaha, Eibun},
+  title = {{Electroweak baryogenesis and quantum corrections to the triple higgs
+	boson coupling}},
+  journal = {Phys.Lett.},
+  year = {2005},
+  volume = {B606},
+  pages = {361-366},
+  archiveprefix = {arXiv},
+  bdsk-url-1 = {http://dx.doi.org/10.1016/j.physletb.2004.12.004},
+  doi = {10.1016/j.physletb.2004.12.004},
+  eprint = {hep-ph/0411354},
+  primaryclass = {hep-ph},
+  reportnumber = {OU-HET-503, KEK-TH-998},
+  slaccitation = {%%CITATION = HEP-PH/0411354;%%}
+}
+
+@ARTICLE{Kanemura:2004mg,
+  author = {Kanemura, Shinya and Okada, Yasuhiro and Senaha, Eibun and Yuan,
+	C.-P.},
+  title = {{Higgs coupling constants as a probe of new physics}},
+  journal = {Phys.Rev.},
+  year = {2004},
+  volume = {D70},
+  pages = {115002},
+  archiveprefix = {arXiv},
+  bdsk-url-1 = {http://dx.doi.org/10.1103/PhysRevD.70.115002},
+  doi = {10.1103/PhysRevD.70.115002},
+  eprint = {hep-ph/0408364},
+  primaryclass = {hep-ph},
+  slaccitation = {%%CITATION = HEP-PH/0408364;%%}
+}
+
+@ARTICLE{ild:bib:ref-dean,
+  author = {D. Karlen},
+  title = {{LCTPC collaboration meeting presentation}},
+  url = {http://ilcagenda.linearcollider.org/getFile.py/access?contribId=0\&sessionId=8\&resId=0\&materialId=slides\&confId=5504}
+}
+
+@ARTICLE{Kilian:2007gr,
+  author = {Kilian, Wolfgang and Ohl, Thorsten and Reuter, Jurgen},
+  title = {{WHIZARD: Simulating Multi-Particle Processes at LHC and ILC}},
+  journal = {Eur.Phys.J.},
+  year = {2011},
+  volume = {C71},
+  pages = {1742},
+  archiveprefix = {arXiv},
+  bdsk-url-1 = {http://dx.doi.org/10.1140/epjc/s10052-011-1742-y},
+  doi = {10.1140/epjc/s10052-011-1742-y},
+  eprint = {0708.4233},
+  primaryclass = {hep-ph},
+  reportnumber = {DESY-11-126, EDINBURGH-2010-36, FR-PHENO-2010-037, SI-HEP-2010-18},
+  slaccitation = {%%CITATION = ARXIV:0708.4233;%%}
+}
+
+@ARTICLE{ild:bib:Killenberg,
+  author = {Killenberg, M.},
+  title = {{Time Stamping of TPC Tracks in the CLIC ILD Detector}},
+  note = {LCD-Note-2011-03},
+  owner = {buesserk},
+  timestamp = {2012.09.26}
+}
+
+@ARTICLE{ild:bib:Kircher2002,
+  author = {Kircher, F. and others},
+  title = {{CMS Coil Design and Assembly}},
+  journal = {IEEE Trans.Appl.Superconductivity},
+  year = {2002},
+  volume = {12},
+  pages = {395-398},
+  number = {1}
+}
+
+@ARTICLE{ild:bib:ILD_magnet,
+  author = {F. Kircher and U. Schneekloth and others},
+  title = {{Conceptual Design of the ILD Detector Magnet System}},
+  year = {2012},
+  number = {LC-DET-2012-081},
+  note = {LC-DET-2012-081}
+}
+
+@ARTICLE{ild:bib:ref-ldc,
+  author = {D.~Kisielewska and others},
+  title = {{Detector Outline Document for the Large Detector Concept}},
+  year = {2006},
+  bdsk-url-1 = {http://www.ilcldc.org/documents/dod/},
+  collaboration = {{LDC Working Group}},
+  url = {http://ilcild.org/documents/misc-doc/ldc/outlinedoc/view}
+}
+
+@ARTICLE{ild:bib:ref-mptpcpap,
+  author = {Kobayashi,M. and others},
+  title = {{Cosmic ray tests of a GEM-based TPC prototype operated in Ar-CF4-isobutane
+	gas mixtures}},
+  journal = {Nucl.Instrum.Meth.},
+  year = {2011},
+  volume = {A641},
+  pages = {37-47},
+  archiveprefix = {arXiv},
+  eprint = {1008.5068v2}
+}
+
+@ARTICLE{ild:bib:ssa,
+  author = {K. Kotera},
+  title = {{Scintillator ECAL reconstruction}},
+  date-added = {2012-11-18 20:48:53 +0000},
+  date-modified = {2012-11-18 20:54:56 +0000},
+  url = {https://ilcagenda.linearcollider.org/getFile.py/access?contribId=169&sessionId=22&resId=0&materialId=slides&confId=5414},
+  urldate = {2012}
+}
+
+@ARTICLE{ild:bib:can16,
+  author = {Kotera, K. and others},
+  title = {{First Stage Analyis of the Energy Response and Resolution of the
+	Scintillator ECAL in the Beam Test at FNAL, 2008}},
+  note = {CALICE Analysis Note CAN-016},
+  collaboration = {CALICE Collaboration},
+  owner = {buesserk},
+  timestamp = {2013.02.06},
+  url = {https://twiki.cern.ch/twiki/pub/CALICE/CaliceAnalysisNotes/CAN-016.pdf}
+}
+
+@ARTICLE{Kribs:2007nz,
+  author = {Kribs, Graham D. and Plehn, Tilman and Spannowsky, Michael and Tait,
+	Timothy M.P.},
+  title = {{Four generations and higgs physics}},
+  journal = {Phys.Rev.},
+  year = {2007},
+  volume = {D76},
+  pages = {075016},
+  archiveprefix = {arXiv},
+  bdsk-url-1 = {http://dx.doi.org/10.1103/PhysRevD.76.075016},
+  doi = {10.1103/PhysRevD.76.075016},
+  eprint = {0706.3718},
+  primaryclass = {hep-ph},
+  reportnumber = {ANL-HEP-PR-07-39},
+  slaccitation = {%%CITATION = ARXIV:0706.3718;%%}
+}
+
+@ARTICLE{fcal_readout_board,
+  author = {Kulis, S. and Matoga, A. and Idzik, M. and Swientek, K. and Fiutowski,
+	T. and others},
+  title = {{A general purpose multichannel readout system for radiation detectors}},
+  journal = {JINST},
+  year = {2012},
+  volume = {7},
+  pages = {T01004},
+  bdsk-url-1 = {http://dx.doi.org/10.1088/1748-0221/7/01/T01004},
+  doi = {10.1088/1748-0221/7/01/T01004},
+  slaccitation = {%%CITATION = JINST,7,T01004;%%}
+}
+
+@ARTICLE{thesis_ekaterina,
+  author = {Kuznetsova, Ekaterina},
+  title = {{Design studies and sensor tests for the beam calorimeter of the
+	ILC detector}},
+  year = {2006},
+  note = {DESY-THESIS-2007-010},
+  bdsk-url-1 = {http://dx.doi.org/10.3204/DESY-THESIS-2007-010},
+  doi = {10.3204/DESY-THESIS-2007-010},
+  slaccitation = {%%CITATION = DESY-THESIS-2007-010 ETC.;%%}
+}
+
+@ARTICLE{ild:bib:Lazhar,
+  author = {Lazhar, A.},
+  title = {{Conception d'un convertisseur Analogique/Numerique pour un systeme
+	de traitement du signal d'un trajectometre Silicium pour Physique
+	des Particules}},
+  note = {Master Diploma Report, INSA and Ecole Centrale de Lyon.},
+  owner = {buesserk},
+  timestamp = {2012.09.26}
+}
+
+@ARTICLE{ild:bib:Levesy2006,
+  author = {Levesy, B. and others},
+  title = {{CMS Solenoid Assembly}},
+  journal = {IEEE Trans.Appl.Superconductivity},
+  year = {2006},
+  volume = {16},
+  pages = {517-520},
+  number = {2}
+}
+
+@PHDTHESIS{ild:bib:phd_hengne,
+  author = {Li,H.},
+  title = {{Higgs Recoil Mass and Cross-Section Analysis at ILC and Calibration
+	of the CALICE SiW ECAL Prototype}},
+  school = {Universit\'e Paris XI},
+  year = {2009},
+  bdsk-url-1 = {http://tel.archives-ouvertes.fr/docs/00/43/04/32/PDF/Li.pdf},
+  date-added = {2012-09-17 22:33:24 +0000},
+  date-modified = {2012-09-17 22:53:15 +0000},
+  owner = {poeschl},
+  timestamp = {2012.09.21},
+  url = {http://tel.archives-ouvertes.fr/docs/00/43/04/32/PDF/Li.pdf}
+}
+
+@ARTICLE{ild:bib:Lipton,
+  author = {Lipton, R},
+  title = {{3D Technology for Intelligent Trackers}},
+  journal = {JINST},
+  year = {2010},
+  volume = {5},
+  pages = {C19996},
+  note = {and references therein},
+  owner = {buesserk},
+  timestamp = {2012.09.26}
+}
+
+@ARTICLE{ild:bib:can36,
+  author = {Lucaci-Timoce, A. and others},
+  title = {{Shower development of particles with momenta from 1 to 10 GeV in
+	the CALICE Scintillator-Tungsten HCAL}},
+  note = {CALICE Analysis Note CAN-036},
+  collaboration = {CALICE Collaboration},
+  owner = {buesserk},
+  timestamp = {2012.11.14},
+  url = {https://twiki.cern.ch/twiki/pub/CALICE/CaliceAnalysisNotes/CAN-036.pdf}
+}
+
+@ARTICLE{ild:bib:ref-phdlux,
+  author = {T.~Lux},
+  title = {{Studies for a Time Projection Chamber for the Internationnal Linear
+	Collider and Measurement of Beauty Cross Section in Deep Inelastic
+	Scattering at HERA}},
+  year = {2005},
+  note = {PhD Thesis, University of Hamburg, DESY-THESIS-2005-019}
+}
+
+@ARTICLE{ild:bib:ref-mktimestamping,
+  author = {{M. Killenberg}},
+  title = {{Time Stamping of TPC Tracks in the CLIC\_ILD Detector}},
+  year = {2012},
+  note = {LCD-NOTE-2011-030},
+  url = {https://edms.cern.ch/file/1158960/1/tpc\_time\_stamping.pdf}
+}
+
+@ARTICLE{Marchesini:2011aka,
+  author = {Marchesini, Ivan},
+  title = {{Triple gauge couplings and polarization at the ILC and leakage in
+	a highly granular calorimeter}},
+  year = {2011},
+  owner = {buesserk},
+  reportnumber = {DESY-THESIS-2011-044},
+  slaccitation = {%%CITATION = DESY-THESIS-2011-044 ETC.;%%},
+  timestamp = {2013.02.05}
+}
+
+@ARTICLE{ild:bib:VTXdepfet:mechmarinas,
+  author = {Marinas Pardo, C. M.},
+  title = {{DEPFET: A silicon pixel detector for future colliders. Fundamentals,
+	characterization and performance}},
+  note = {CERN-THESIS-2011-101},
+  slaccitation = {%%CITATION = CERN-THESIS-2011-101 ETC.;%%}
+}
+
+@ARTICLE{Menges:2001gg,
+  author = {Menges, W.},
+  title = {{A study of charged current triple gauge couplings at TESLA}},
+  year = {2001},
+  note = {LC-PHSM-2001-022},
+  reportnumber = {LC-PHSM-2001-022},
+  slaccitation = {%%CITATION = LC-PHSM-2001-022 ETC.;%%}
+}
+
+@ARTICLE{ild:bib:VTXfpccd1,
+  author = {Miyamoto, A. and others},
+  title = {{FPCCD vertex detector R\&D for ILC}},
+  year = {2007},
+  note = {Internal Note},
+  bdsk-url-1 = {http://www-jlc.kek.jp/subg/vtx/pub/FPCCD_Rev.pdf},
+  url = {http://www-jlc.kek.jp/subg/vtx/pub/FPCCD_Rev.pdf}
+}
+
+@ARTICLE{Monig:2000bn,
+  author = {Moenig, Klaus},
+  title = {{The use of positron polarization for precision measurements}},
+  year = {2000},
+  note = {LC-PHSM-2000-59-TESLA},
+  reportnumber = {LC-PHSM-2000-059},
+  slaccitation = {%%CITATION = LC-PHSM-2000-059 ETC.;%%}
+}
+
+@ARTICLE{MoortgatPick:2005cw,
+  author = {Moortgat-Pick, G. and Abe, T. and Alexander, G. and Ananthanarayan,
+	B. and Babich, A.A. and others},
+  title = {{The Role of polarized positrons and electrons in revealing fundamental
+	interactions at the linear collider}},
+  journal = {Phys.Rept.},
+  year = {2008},
+  volume = {460},
+  pages = {131-243},
+  archiveprefix = {arXiv},
+  bdsk-url-1 = {http://dx.doi.org/10.1016/j.physrep.2007.12.003},
+  doi = {10.1016/j.physrep.2007.12.003},
+  eprint = {hep-ph/0507011},
+  primaryclass = {hep-ph},
+  reportnumber = {CERN-PH-TH-2005-036, DCPT-04-100, DESY-05-059, FERMILAB-PUB-05-060-T,
+	IPPP-04-50, KEK-2005-16, PRL-TH-05-01, SHEP-05-03, SLAC-PUB-11087},
+  slaccitation = {%%CITATION = HEP-PH/0507011;%%}
+}
+
+@ARTICLE{ild:bib:ref:mokka,
+  author = {Mora de Freitas, P. and Videau, H.},
+  title = {{Detector simulation with MOKKA / GEANT4: Present and future}},
+  year = {2002},
+  pages = {623-627},
+  note = {LC-TOOL-2003-010},
+  slaccitation = {%%CITATION = LC-TOOL-2003-010 ETC.;%%}
+}
+
+@ARTICLE{ild:bib:FTD:FEE,
+  author = {Moser, Hans-Gunther},
+  title = {{Silicon detector systems in high energy physics}},
+  journal = {Prog.Part.Nucl.Phys.},
+  year = {2009},
+  volume = {63},
+  pages = {186-237},
+  bdsk-url-1 = {http://dx.doi.org/10.1016/j.ppnp.2008.12.002},
+  doi = {10.1016/j.ppnp.2008.12.002},
+  owner = {vila},
+  slaccitation = {%%CITATION = PPNPD,63,186;%%},
+  timestamp = {2012.09.27}
+}
+
+@ARTICLE{Moser2009,
+  author = {Moser, Hans-Gunther},
+  title = {{Silicon detector systems in high energy physics}},
+  journal = {Prog.Part.Nucl.Phys.},
+  year = {2009},
+  volume = {63},
+  pages = {186-237},
+  bdsk-url-1 = {http://dx.doi.org/10.1016/j.ppnp.2008.12.002},
+  doi = {10.1016/j.ppnp.2008.12.002},
+  slaccitation = {%%CITATION = PPNPD,63,186;%%}
+}
+
+@ARTICLE{ild:dbd:FTD:FBG4,
+  author = {D. Moya and others},
+  title = {{FBG sensor based self-monitoring support structures for trackers}},
+  year = {2012},
+  note = {LC-REP-2012-075},
+  institution = {Inst. of Physics of Cantabria, IFCA (CSIC-UC)},
+  owner = {vila},
+  timestamp = {2012.09.27},
+  url = {http://www-flc.desy.de/lcnotes/notes/LC-REP-2012-075.pdf}
+}
+
+@ARTICLE{ild:dbd:FTD:POWER3,
+  author = {R.M. Nelms and others},
+  title = {{Using a Debye Polarization Cell to Predict Double-Layer Capacitor
+	Performance}},
+  journal = {IEEE Transactions on Industry Applications},
+  year = {2001},
+  volume = {37},
+  pages = {4-9},
+  owner = {vila},
+  timestamp = {2012.09.27}
+}
+
+@ARTICLE{Noble:2007kk,
+  author = {Noble, Andrew and Perelstein, Maxim},
+  title = {{Higgs self-coupling as a probe of electroweak phase transition}},
+  journal = {Phys.Rev.},
+  year = {2008},
+  volume = {D78},
+  pages = {063518},
+  archiveprefix = {arXiv},
+  bdsk-url-1 = {http://dx.doi.org/10.1103/PhysRevD.78.063518},
+  doi = {10.1103/PhysRevD.78.063518},
+  eprint = {0711.3018},
+  primaryclass = {hep-ph},
+  slaccitation = {%%CITATION = ARXIV:0711.3018;%%}
+}
+
+@ARTICLE{ild:bib:VTXplume,
+  author = {Nomerotski, A. and others},
+  title = {{PLUME collaboration: Ultra-light ladders for linear collider vertex
+	detector}},
+  journal = {Nucl.Instrum.Meth.},
+  year = {2011},
+  volume = {A650},
+  pages = {208-212},
+  bdsk-url-1 = {http://dx.doi.org/10.1016/j.nima.2010.12.083},
+  collaboration = {PLUME Collaboration},
+  doi = {10.1016/j.nima.2010.12.083},
+  slaccitation = {%%CITATION = NUIMA,A650,208;%%}
+}
+
+@ARTICLE{ild:bib:Oh:2007zz,
+  author = {Oh, Alexander},
+  title = {{The CMS DAQ and run control system}},
+  journal = {J.Phys.Conf.Ser.},
+  year = {2008},
+  volume = {110},
+  pages = {092020}
+}
+
+@ARTICLE{ild:bib:benchmark:vvhanalysis,
+  author = {Hiroaki Ono},
+  title = {{Higgs branching ratio study for DBD detector benchmarking in ILD}},
+  year = {2013},
+  note = {LC-REP-2013-005},
+  url = {http://www-flc.desy.de/lcnotes/notes/LC-REP-2013-005.pdf}
+}
+
+@ARTICLE{ild:bib:OnoMiyamoto,
+  author = {Ono, H. and Miyamoto, A.},
+  title = {{Evaluation of measurement accuracies of the higgs boson branching
+	fractions in the International Linear Collider}},
+  year = {2012},
+  archiveprefix = {arXiv},
+  eprint = {1207.0300},
+  primaryclass = {hep-ex}
+}
+
+@UNPUBLISHED{ild:bib:Oriunno:2011,
+  author = {M. Oriunno},
+  title = {{Planning the Push-pull}},
+  note = {Presented at ALCPG'11, Eugene, OR, USA},
+  year = {2011}
+}
+
+@ARTICLE{ild:bib:VTXdepfetmechair,
+  author = {Oyanguren, Arantza},
+  title = {{Air cooling for Vertex Detectors}},
+  year = {2012},
+  archiveprefix = {arXiv},
+  eprint = {1202.6239},
+  primaryclass = {physics.ins-det},
+  slaccitation = {%%CITATION = ARXIV:1202.6239;%%}
+}
+
+@ARTICLE{ild:bib:Parker:2009zz,
+  author = {Parker, B. and Mikhailichenko, A. and Buesser, K. and Hauptman, J.
+	and Tauchi, T. and others},
+  title = {{Functional Requirements on the Design of the Detectors and the Interaction
+	Region of an e+ e- Linear Collider with a Push-Pull Arrangement of
+	Detectors}},
+  year = {2009},
+  note = {{SLAC-PUB-13657, ILC-NOTE-2009-050}},
+  slaccitation = {%%CITATION = SLAC-PUB-13657 ETC.;%%}
+}
+
+@ARTICLE{ild:bib:Patti,
+  author = {Patti, R.},
+  title = {{3D IC Overview}},
+  note = {Third Annual Electronics Technology Workshop of NEPP, 2011.},
+  owner = {buesserk},
+  timestamp = {2012.10.17},
+  url = {http://nepp.nasa.gov/workshops/etw2012/talks/Tuesday/T01_Patti_Tezzaron_3D_IC_Overview.pdf}
+}
+
+@ARTICLE{ild:bib:VTXdepfetdcd,
+  author = {Peric, Ivan and Armbruster, Tim and Koch, Manuel and Kreidl, Christian
+	and Fischer, Peter},
+  title = {{DCD: The multi-channel current-mode ADC chip for the readout of
+	DEPFET pixel detectors}},
+  journal = {IEEE Trans.Nucl.Sci.},
+  year = {2010},
+  volume = {57},
+  pages = {743-753},
+  bdsk-url-1 = {http://dx.doi.org/10.1109/TNS.2010.2040487},
+  doi = {10.1109/TNS.2010.2040487},
+  slaccitation = {%%CITATION = IETNA,57,743;%%}
+}
+
+@ARTICLE{ild:bib:VTXdepfetdcd2,
+  author = {Peric, I and others},
+  title = {{DCDB and SWITCHERB, the Readout ASICs for Belle II DEPFET Pixel
+	Detector}},
+  journal = {IEEE Nuclear Science Symposium Conference Record},
+  year = {2011},
+  volume = {N31-5},
+  pages = {1536-1539}
+}
+
+@ARTICLE{ild:bib:ref-tpclcnoteendcap,
+  author = {Daniel Peterson},
+  title = {{Development of a Low-Material TPC Endplate for ILD}},
+  year = {2012},
+  note = {LC-DET-2012-072},
+  url = {http://www-flc.desy.de/lcnotes/notes/LC-DET-2012-072.pdf}
+}
+
+@ARTICLE{ild:bib:Pham,
+  author = {Pham, T.H. and others},
+  journal = {Nucl.Instrum.Meth.},
+  year = {2010},
+  volume = {A623},
+  pages = {498-500},
+  owner = {buesserk},
+  timestamp = {2012.09.26}
+}
+
+@ARTICLE{ild:bib:benchmark:tthanalysis,
+  author = {Tony Price and Nigel Watson and Tomohiko Tanabe and Victoria Martin},
+  title = {{Measurement of the top Yukawa coupling at $\sqrt{s}$ = 1 TeV using
+	the ILD detector}},
+  year = {2013},
+  note = {LC-REP-2013-004},
+  url = {http://www-flc.desy.de/lcnotes/notes/LC-REP-2013-004.pdf}
+}
+
+@ARTICLE{ld:bib:benchmark:tthanalysis,
+  author = {Tony Price and Nigel Watson and Tomohiko Tanabe and Victoria Martin},
+  title = {{Measurement of the top Yukawa coupling at $\sqrt{s}$ = 1 TeV using
+	the ILD detector}},
+  year = {2013},
+  note = {LC-REP-2013-004 },
+  url = {http://www-flc.desy.de/lcnotes/notes/LC-REP-2013-004.pdf}
+}
+
+@ARTICLE{Quiros:1994dr,
+  author = {Quiros, M.},
+  title = {{Field theory at finite temperature and phase transitions}},
+  journal = {Helv.Phys.Acta},
+  year = {1994},
+  volume = {67},
+  pages = {451-583},
+  slaccitation = {%%CITATION = HPACA,67,451;%%}
+}
+
+@ARTICLE{ild:bib:spiroc,
+  author = {L. Raux and others},
+  title = {{SPIROC (SiPM Integrated Read-Out Chip): Dedicated very front-end
+	electronics for an ILC prototype hadronic calorimeter with SiPM read-out}},
+  journal = {JINST},
+  year = {2011},
+  volume = {6},
+  pages = {C01098},
+  date-added = {2012-09-17 16:15:32 +0000},
+  date-modified = {2012-09-17 22:28:48 +0000},
+  owner = {poeschl},
+  timestamp = {2012.09.21}
+}
+
+@ARTICLE{ild:bib:RPC,
+  author = {Repond,J.},
+  title = {{Overview of the DHCAL Project}},
+  year = {2010},
+  archiveprefix = {arXiv},
+  eprint = {1005.0412},
+  primaryclass = {physics.ins-det}
+}
+
+@ARTICLE{ild:bib:calice1,
+  author = {Repond, Jose and others},
+  title = {{Design and Electronics Commissioning of the Physics Prototype of
+	a Si-W Electromagnetic Calorimeter for the International Linear Collider}},
+  journal = {JINST},
+  year = {2008},
+  volume = {3},
+  pages = {P08001},
+  archiveprefix = {arXiv},
+  bdsk-url-1 = {http://dx.doi.org/10.1088/1748-0221/3/08/P08001},
+  collaboration = {CALICE Collaboration},
+  doi = {10.1088/1748-0221/3/08/P08001},
+  eprint = {0805.4833},
+  owner = {poeschl},
+  primaryclass = {physics.ins-det},
+  slaccitation = {%%CITATION = 0805.4833;%%},
+  timestamp = {2012.09.20}
+}
+
+@ARTICLE{ild:bib:ATLAStoroid2006,
+  author = {Rey, J.M. and others},
+  title = {{Cold Mass Integration of the ATLAS Barrel Toroid Magnets at CERN}},
+  journal = {IEEE Trans.Appl.Superconductivity},
+  year = {2006},
+  volume = {16},
+  pages = {553-556},
+  number = {2}
+}
+
+@ARTICLE{ild:bib:benchmark:WWanalysis2,
+  author = {Aura Rosca},
+  title = {{Measurement of the beam polarisation at the ILC using the WW annihilation
+	data}},
+  year = {2013},
+  note = {LC-REP-2013-009},
+  url = {http://www-flc.desy.de/lcnotes/notes/LC-REP-2013-009.pdf}
+}
+
+@ARTICLE{ild:bib:rouene,
+  author = {Rou\"en\'e, J.},
+  title = {{MIP Calibration of the Physics Prototype of the Silicon Tungsten
+	Electromagnetic Calorimeter for the International Linear Collider}},
+  note = {CALICE Collaboration Meeting Heidelberg 2011},
+  bdsk-url-1 = {http://ilcagenda.linearcollider.org/getFile.py/access?contribId=1&sessionId=15&resId=0&materialId=slides&confId=5213},
+  date-added = {2012-09-17 22:54:33 +0000},
+  date-modified = {2012-09-17 22:59:45 +0000},
+  owner = {poeschl},
+  timestamp = {2012.09.21},
+  url = {http://ilcagenda.linearcollider.org/getFile.py/access?contribId=1&sessionId=15&resId=0&materialId=slides&confId=5213}
+}
+
+@ARTICLE{Rubakov:1996vz,
+  author = {Rubakov, V.A. and Shaposhnikov, M.E.},
+  title = {{Electroweak baryon number nonconservation in the early universe
+	and in high-energy collisions}},
+  journal = {Usp.Fiz.Nauk},
+  year = {1996},
+  volume = {166},
+  pages = {493-537},
+  archiveprefix = {arXiv},
+  bdsk-url-1 = {http://dx.doi.org/10.1070/PU1996v039n05ABEH000145},
+  doi = {10.1070/PU1996v039n05ABEH000145},
+  eprint = {hep-ph/9603208},
+  primaryclass = {hep-ph},
+  reportnumber = {CERN-TH-96-13, INR-0913-96},
+  slaccitation = {%%CITATION = HEP-PH/9603208;%%}
+}
+
+@ARTICLE{ild:bib:ref-gem,
+  author = {Sauli, F.},
+  title = {{GEM: A new concept for electron amplification in gas detectors}},
+  journal = {Nucl.Instrum.Meth.},
+  year = {1997},
+  volume = {A386},
+  pages = {531-534},
+  bdsk-url-1 = {http://dx.doi.org/10.1016/S0168-9002(96)01172-2},
+  doi = {10.1016/S0168-9002(96)01172-2},
+  slaccitation = {%%CITATION = NUIMA,A386,531;%%}
+}
+
+@ARTICLE{ild:bib:ASN1,
+  author = {Savoy-Navarro, A.},
+  title = {{Large Area Silicon Tracking: New Perspectives}},
+  note = {and references therein},
+  eprint = {1203.0736},
+  primaryclass = {hep-ex}
+}
+
+@ARTICLE{ild:bib:ASN2,
+  author = {Savoy-Navarro, A.},
+  title = {{SiLC R\&D New Outcomes and Results}},
+  note = {IWLC2012},
+  owner = {buesserk},
+  timestamp = {2012.09.26},
+  url = {http://ilcagenda.linearcollider.org/conferenceOtherViews.py?view=standard&confId=4507}
+}
+
+@ARTICLE{ild:bib:ref-peterschade,
+  author = {P. Schade},
+  title = {{Correction Methods for TPC Operation in Inhomogeneous Magnetic Fields}},
+  year = {2010},
+  note = {LC-DET-2010-001},
+  bdsk-url-1 = {http://www-flc.desy.de/lcnotes},
+  url = {http://www-flc.desy.de/lcnotes}
+}
+
+@ARTICLE{ild:bib:ref-peterschadethesis,
+  author = {Peter Schade},
+  title = {{Development and Construction of a Large TPC Prototype for the ILC
+	and Study of tau Polarisation in tau Decays with the ILD Detector}},
+  year = {2009},
+  note = {PhD Thesis, University of Hamburg, DESY-THESIS-2009-040},
+  bdsk-url-1 = {http://www-library.desy.de/cgi-bin/showprep.pl?desy-thesis-09-040},
+  url = {http://www-library.desy.de/cgi-bin/showprep.pl?desy-thesis-09-040}
+}
+
+@ARTICLE{ild:bib:guineapig,
+  author = {Schulte, Daniel},
+  title = {{Study of Electromagnetic and Hadronic Background in the Interaction
+	Region of the TESLA Collider}},
+  year = {1997},
+  note = {TESLA-97-08},
+  slaccitation = {%%CITATION = TESLA-97-08 ETC.;%%}
+}
+
+@ARTICLE{ild:bib:topws-fs,
+  author = {Katja Seidel and Frank Simon and Michal Tesar},
+  title = {{Prospects for the Measurement of the Top Mass in a Threshold Scan
+	at CLIC and ILC}},
+  note = {LCD-Note-2012-013},
+  owner = {buesserk},
+  timestamp = {2012.09.26},
+  url = {http://cds.cern.ch/record/1498599/files/LCD-2012-013.pdf}
+}
+
+@ARTICLE{ild:bib:anti-did,
+  author = {Seryi, Andrei and Maruyama, Takashi and Parker, Brett},
+  title = {{IR Optimization, DID and anti-DID}},
+  year = {2006},
+  note = {SLAC-PUB-11662},
+  reportnumber = {SLAC-PUB-11662},
+  slaccitation = {%%CITATION = SLAC-PUB-11662 ETC.;%%}
+}
+
+@ARTICLE{ild:bib:ref-lcnotesrs2,
+  author = {R. Settles},
+  title = {{LCTPC and the Magnetic Field for ILD: Update 2010}},
+  year = {2011},
+  note = {LC-DET-2011-002},
+  url = {http://www-flc.desy.de/lcnotes/notes/LC-DET-2011-002.pdf}
+}
+
+@ARTICLE{ild:bib:ref-lcnoteswwrs,
+  author = {R. Settles and W. Wiedenmann},
+  title = {{The Linear Collider TPC: Revised Magnetic-field Requirements}},
+  year = {2008},
+  note = {LC-DET-2008-002},
+  url = {http://www-flc.desy.de/lcnotes/notes/LC-DET-2008-002.pdf}
+}
+
+@ARTICLE{ild:bib:eudet-memo,
+  author = {P. Sicho and others},
+  title = {{A large scale prototype for a SiW electromagnetic calorimeter for
+	a future linear collider - EUDET Module}},
+  year = {2010},
+  note = {EUDET-Memo-2010-17},
+  date-added = {2012-09-17 21:34:31 +0000},
+  date-modified = {2012-09-17 22:30:21 +0000},
+  owner = {poeschl},
+  timestamp = {2012.09.21}
+}
+
+@ARTICLE{Simon:2010hf,
+  author = {Simon, F. and Soldner, C.},
+  title = {{Uniformity Studies of Scintillator Tiles directly coupled to SiPMs
+	for Imaging Calorimetry}},
+  journal = {Nucl.Instrum.Meth.},
+  year = {2010},
+  volume = {A620},
+  pages = {196-201},
+  note = {MPP-2010-10},
+  archiveprefix = {arXiv},
+  bdsk-url-1 = {http://dx.doi.org/10.1016/j.nima.2010.03.142},
+  doi = {10.1016/j.nima.2010.03.142},
+  eprint = {1001.4665},
+  primaryclass = {physics.ins-det},
+  slaccitation = {%%CITATION = ARXIV:1001.4665;%%}
+}
+
+@ARTICLE{ild:bib:Sinram:2011,
+  author = {Sinram, K. and others},
+  title = {{ILD Experimental Hall Design}},
+  year = {2011},
+  note = {SiD/ILD Engineering and Detector Interface Working Meeting, SLAC,
+	2011.},
+  owner = {buesserk},
+  timestamp = {2012.09.26},
+  url = {http://ilcagenda.linearcollider.org/materialDisplay.py?contribId=7&sessionId=3&materialId=slides&confId=5399}
+}
+
+@ARTICLE{Sjostrand:2006za,
+  author = {Sjostrand, Torbjorn and Mrenna, Stephen and Skands, Peter Z.},
+  title = {{PYTHIA 6.4 Physics and Manual}},
+  journal = {JHEP},
+  year = {2006},
+  volume = {0605},
+  pages = {026},
+  archiveprefix = {arXiv},
+  bdsk-url-1 = {http://dx.doi.org/10.1088/1126-6708/2006/05/026},
+  doi = {10.1088/1126-6708/2006/05/026},
+  eprint = {hep-ph/0603175},
+  primaryclass = {hep-ph},
+  reportnumber = {FERMILAB-PUB-06-052-CD-T, LU-TP-06-13},
+  slaccitation = {%%CITATION = HEP-PH/0603175;%%}
+}
+
+@ARTICLE{ild:dbd:FTD:PAMELA,
+  author = {Straulino, S. and Adriani, O. and Bonechi, L. and Bongi, M. and Bottai,
+	S. and others},
+  title = {{Spatial resolution of double-sided silicon microstrip detectors
+	for the pamela apparatus}},
+  journal = {Nucl.Instrum.Meth.},
+  year = {2006},
+  volume = {A556},
+  pages = {100-114},
+  archiveprefix = {arXiv},
+  bdsk-url-1 = {http://dx.doi.org/10.1016/j.nima.2005.10.014},
+  doi = {10.1016/j.nima.2005.10.014},
+  eprint = {hep-ex/0510012},
+  owner = {vila},
+  primaryclass = {hep-ex},
+  slaccitation = {%%CITATION = HEP-EX/0510012;%%},
+  timestamp = {2012.09.27}
+}
+
+@ARTICLE{Stromhagen:2010,
+  author = {Stromhagen, Richard},
+  title = {{Note on the integration of the cryostat into the central barrel
+	- ILD detector}},
+  year = {2010},
+  note = {EDMS ID: D*1010065},
+  bdsk-url-1 = {http://edmsdirect.desy.de/edmsdirect/file.jsp?edmsid=D00000001010065,A,1,1},
+  url = {http://edmsdirect.desy.de/edmsdirect/file.jsp?edmsid=D00000001010065,A,1,1}
+}
+
+@ARTICLE{ild:bib:ref:lcfiplus,
+  author = {Suehara, Taikan and Tanabe, Tomohiko and Yamashita, Satoru},
+  title = {{Improved jet clustering algorithm with vertex information for multi-bottom
+	final states}},
+  year = {2011},
+  archiveprefix = {arXiv},
+  eprint = {1110.5785},
+  primaryclass = {hep-ex},
+  slaccitation = {%%CITATION = ARXIV:1110.5785;%%}
+}
+
+@ARTICLE{ild:bib:VTXfpccd0,
+  author = {Sugimoto, Yasuhiro},
+  title = {{Fine Pixel CCD Option for the ILC Vertex Detector}},
+  journal = {eConf},
+  year = {2005},
+  volume = {C050318},
+  pages = {0804},
+  note = {LCWS-2005-0804},
+  slaccitation = {%%CITATION = ECONF,C050318,0804;%%}
+}
+
+@ARTICLE{ild:bib:VTXfpccd2012,
+  author = {Sugimoto, Yasuhiro and Ikeda, Hirokazu and Kamai, Daisuke and Kato,
+	Eriko and Miyamoto, Akiya and others},
+  title = {{R\&D Status of FPCCD Vertex Detector for ILD}},
+  year = {2012},
+  archiveprefix = {arXiv},
+  eprint = {1202.5832},
+  primaryclass = {physics.ins-det},
+  slaccitation = {%%CITATION = ARXIV:1202.5832;%%}
+}
+
+@ARTICLE{ild:bib:VTXfpccd2,
+  author = {Sugimoto, Yasuhiro and Ikeda, Hirokazu and Miyamoto, Akiya and Nagamine,
+	Tadashi and Takubo, Yousuke and others},
+  title = {{R and D status of FPCCD VTX}},
+  year = {2009},
+  archiveprefix = {arXiv},
+  eprint = {0902.2067},
+  primaryclass = {physics.ins-det},
+  slaccitation = {%%CITATION = ARXIV:0902.2067;%%}
+}
+
+@ARTICLE{ild:bib:ref-lpgridgem,
+  author = {T.Behnke and others},
+  title = {{A Novel Self-supporting GEM-based Amplification Structure for a
+	Time Projection Chamber at the ILC}},
+  year = {2012},
+  archiveprefix = {arXiv},
+  eprint = {1211.4382v1},
+  owner = {buesserk},
+  timestamp = {2013.01.15}
+}
+
+@ARTICLE{Takubo:2009rn,
+  author = {Takubo, Yosuke},
+  title = {{Analysis of ZHH in the 4-jet mode}},
+  year = {2009},
+  archiveprefix = {arXiv},
+  eprint = {0901.3598},
+  primaryclass = {hep-ph},
+  slaccitation = {%%CITATION = ARXIV:0901.3598;%%}
+}
+
+@ARTICLE{Takubo:2009ws,
+  author = {Takubo, Yosuke},
+  title = {{Analysis of higgs Self-coupling with ZHH at ILC}},
+  year = {2009},
+  archiveprefix = {arXiv},
+  eprint = {0907.0524},
+  primaryclass = {hep-ph},
+  slaccitation = {%%CITATION = ARXIV:0907.0524;%%}
+}
+
+@ARTICLE{ild:bib:benchmark:LCFIPlus,
+  author = {Tanabe, Tomohiko and others},
+  title = {{LCFIPlus}},
+  year = {2012},
+  note = {{ILD Workshop, Kyushu, May, 2012}},
+  bdsk-url-1 = {http://ilcagenda.linearcollider.org/getFile.py/%20access?contribId=16%20&sessionId=1%20&resId=0%20&materialId=slides%20&confId=5496},
+  url = {http://ilcagenda.linearcollider.org/getFile.py/ access?contribId=16 &sessionId=1 &resId=0 &materialId=slides &confId=5496}
+}
+
+@ARTICLE{ild:bib:PandoraPFA,
+  author = {Thomson, M.A.},
+  title = {{Particle Flow Calorimetry and the PandoraPFA Algorithm}},
+  journal = {Nucl.Instrum.Meth.},
+  year = {2009},
+  volume = {A611},
+  pages = {25-40},
+  note = {CU-HEP-09-11},
+  archiveprefix = {arXiv},
+  bdsk-url-1 = {http://dx.doi.org/10.1016/j.nima.2009.09.009},
+  doi = {10.1016/j.nima.2009.09.009},
+  eprint = {0907.3577},
+  primaryclass = {physics.ins-det},
+  slaccitation = {%%CITATION = ARXIV:0907.3577;%%}
+}
+
+@ARTICLE{ild:bib:ref-marksteve,
+  author = {Mark Thomson and Steve Aplin},
+  title = {{TPC Endcap X$_0$ Study (All results in~\cite{ild:bib:ref-lcnote2012})}},
+  year = {2010}
+}
+
+@ARTICLE{ild:bib:benchmark:higgsselfc,
+  author = { Junping Tian },
+  title = {{Study of higgs self-coupling at the ILC based on the full detector
+	simulation at $\sqrt{s}$ = 500 GeV and $\sqrt{s}$ = 1 TeV}},
+  year = {2013},
+  note = {LC-REP-2013-003 },
+  url = {http://www-flc.desy.de/lcnotes/notes/LC-REP-2013-003.pdf}
+}
+
+@ARTICLE{ild:bib:benchmark:HSC:Thesis,
+  author = {Tian, Junping},
+  title = {{Study of higgs Self-coupling at ILC}},
+  year = {2011},
+  note = {Ph.D. Thesis (2011.6)}
+}
+
+@ARTICLE{ild:bib:benchmark:HSC:Weighting,
+  author = {Tian, Junping and Fujii, Keisuke},
+  title = {{Update on the higgs self-coupling measurement}},
+  year = {2012},
+  note = {{The 27th General Physics Meeting of the ILC Physics Subgroup }},
+  bdsk-url-1 = {http://ilcphys.kek.jp/meeting/physics/archives/2012-09-08/zhh120908_tianjp.pdf},
+  url = {http://ilcphys.kek.jp/meeting/physics/archives/2012-09-08/zhh120908_tianjp.pdf}
+}
+
+@ARTICLE{Tian:2010np,
+  author = {Tian, Junping and Fujii, Keisuke and Gao, Yuanning},
+  title = {{Study of higgs Self-coupling at ILC}},
+  year = {2010},
+  archiveprefix = {arXiv},
+  eprint = {1008.0921},
+  primaryclass = {hep-ex},
+  slaccitation = {%%CITATION = ARXIV:1008.0921;%%}
+}
+
+@ARTICLE{ild:bib:benchmark:HSC:ZHHFullsim,
+  author = {Tian, Junping and others},
+  title = {{Updates on the higgs self coupling measurement}},
+  year = {2012},
+  note = {{The 26th General Physics Meeting of the ILC Physics Subgroup }},
+  bdsk-url-1 = {http://ilcphys.kek.jp/meeting/physics/archives/2012-06-09/zhh120609_tianjp.pdf},
+  url = {http://ilcphys.kek.jp/meeting/physics/archives/2012-06-09/zhh120609_tianjp.pdf}
+}
+
+@ARTICLE{ild:bib:VTXcps2,
+  author = {Valin, I. and Hu-Guo, C. and Baudot, J. and Bertolone, G. and Besson,
+	A. and others},
+  title = {{A reticle size CMOS pixel sensor dedicated to the STAR HFT}},
+  journal = {JINST},
+  year = {2012},
+  volume = {7},
+  pages = {C01102},
+  bdsk-url-1 = {http://dx.doi.org/10.1088/1748-0221/7/01/C01102},
+  doi = {10.1088/1748-0221/7/01/C01102},
+  slaccitation = {%%CITATION = JINST,7,C01102;%%}
+}
+
+@ARTICLE{ild:bib:VTXdepfettb2,
+  author = {Velthuis, J.J. and Drasal, Z. and Scheirich, D. and Dolezal, Z. and
+	Kodys, P. and others},
+  title = {{A DEPFET based beam telescope with submicron precision capability}},
+  journal = {IEEE Trans.Nucl.Sci.},
+  year = {2008},
+  volume = {55},
+  pages = {662-666},
+  bdsk-url-1 = {http://dx.doi.org/10.1109/TNS.2007.914031},
+  doi = {10.1109/TNS.2007.914031},
+  slaccitation = {%%CITATION = IETNA,55,662;%%}
+}
+
+@ARTICLE{ild:bib:VTXdepfet3,
+  author = {Velthuis, J.J. and Kohrs, R. and Mathes, M. and Raspereza, A. and
+	Reuen, L. and others},
+  title = {{DEPFET, a monolithic active pixel sensor for the ILC}},
+  journal = {Nucl.Instrum.Meth.},
+  year = {2007},
+  volume = {A579},
+  pages = {685-689},
+  bdsk-url-1 = {http://dx.doi.org/10.1016/j.nima.2007.05.278},
+  doi = {10.1016/j.nima.2007.05.278},
+  slaccitation = {%%CITATION = NUIMA,A579,685;%%}
+}
+
+@ARTICLE{ild:bib:ref-adrianvogelthesis,
+  author = {Vogel, Adrian},
+  title = {{Beam-induced backgrounds in detectors at the ILC}},
+  year = {2008},
+  note = {PhD Thesis, University of Hamburg, DESY-THESIS-2008-036},
+  bdsk-url-1 = {http://dx.doi.org/10.3204/DESY-THESIS-2008-036},
+  doi = {10.3204/DESY-THESIS-2008-036},
+  slaccitation = {%%CITATION = DESY-THESIS-2008-036 ETC.;%%}
+}
+
+@ARTICLE{ild:bib:VTXdepfet2,
+  author = {Vos, M. and Fuster, J. and Lacasta, C. and Marinas, C. and Dieguez,
+	A. and others},
+  title = {{DEPFET active pixel detectors}},
+  journal = {PoS},
+  year = {2009},
+  volume = {VERTEX2009},
+  pages = {015},
+  slaccitation = {%%CITATION = POSCI,VERTEX2009,015;%%}
+}
+
+@ARTICLE{ild:bib:TDR_machine_parameters,
+  author = {Walker, Nicholas},
+  title = {{Machine Parameters for the ILC TDR Baseline}},
+  note = {EDMS-ID: D*925325},
+  timestamp = {2013.01.24},
+  url = {http://ilc-edmsdirect.desy.de/ilc-edmsdirect/item.jsp?edmsid=D00000000925325}
+}
+
+@ARTICLE{ild:bib:flavourtag,
+  author = {R. Walsh and others},
+  title = {{Flavour tagging optimisation studies at ILD}},
+  year = {2009},
+  url = {http://ilcild.org/documents/ild-letter-of-intent/ild-loi-material/flavour_tagging.pdf/view}
+}
+
+@ARTICLE{ild:bib:Wing:2006bw,
+  author = {Wing, M. and Warren, M. and Dauncey, Paul D. and Butterworth, J.M.},
+  title = {{A Proposed DAQ system for a calorimeter at the International Linear
+	Collider}},
+  year = {2006}
+}
+
+@UNPUBLISHED{ild:bib:Yamaoka:2010,
+  author = {Yamaoka, H.},
+  title = {{ILD Vibration Studies}},
+  note = {{Presented at LCWS10 and ILC10, Beijing, China}},
+  year = {2010}
+}
+
+@ARTICLE{ild:bib:benchmark:HSC:SimvvHH,
+  author = {Yamashita, S.},
+  title = {{A study of higgs self-coupling measurement at about 1 TeV}},
+  year = {2004},
+  note = {Presentation for LCWS04},
+  bdsk-url-1 = {http://indico.cern.ch/getFile.py/access?contribId=s3t15&sessionId=4&resId=0&materialId=0&confId=a04172},
+  url = {http://indico.cern.ch/getFile.py/access?contribId=s3t15&sessionId=4&resId=0&materialId=0&confId=a04172}
+}
+
+@BOOK{ref-TESLA_TDR,
+  title = {{TESLA: The superconducting electron positron linear collider with
+	an integrated X-ray laser laboratory. Technical design report. Pt.
+	4: A detector for TESLA}},
+  year = {2001},
+  editor = {Behnke, T. and Bertolucci, S. and Heuer, R.D. and Settles, R.},
+  note = {DESY-01-011, DESY-2001-011, DESY-01-011D, DESY-2001-011D, DESY-TESLA-2001-23,
+	DESY-TESLA-FEL-2001-05, ECFA-2001-209},
+  slaccitation = {%%CITATION = DESY-01-011 ETC.;%%}
+}
+
+@BOOK{ild:bib:RDR_detector,
+  title = {{ILC Reference Design Report Volume 4 - Detectors}},
+  year = {2007},
+  editor = {Behnke, T. and Damerell, C. and Jaros, J. and Miyamoto, A.},
+  note = {ILC-REPORT-2007-001},
+  archiveprefix = {arXiv},
+  collaboration = {ILC Global Design Effort and World Wide Study},
+  eprint = {0712.2356},
+  primaryclass = {physics.ins-det},
+  slaccitation = {%%CITATION = ARXIV:0712.2356;%%}
+}
+
+@BOOK{ild:bib:ATLAS-CMP_TDR,
+  title = {{ATLAS computing: Technical design report}},
+  year = {2005},
+  editor = {Duckeck, G. and others},
+  note = {CERN-LHCC-2005-022, ATLAS-TRD-017},
+  collaboration = {ATLAS Collaboration},
+  owner = {buesserk},
+  slaccitation = {%%CITATION = CERN-LHCC-2005-022 ETC.;%%},
+  timestamp = {2012.09.26}
+}
+
+@BOOK{ild:bib:CLICcdr,
+  title = {{Physics and Detectors at CLIC: CLIC Conceptual Design Report}},
+  year = {2012},
+  editor = {Linssen, Lucie and Miyamoto, Akiya and Stanitzki, Marcel and Weerts,
+	Harry},
+  note = {CERN-2012-003, ANL-HEP-TR-12-01, DESY-12-008, KEK-REPORT-2011-7},
+  archiveprefix = {arXiv},
+  eprint = {1202.5940},
+  owner = {behnke},
+  primaryclass = {physics.ins-det},
+  slaccitation = {%%CITATION = ARXIV:1202.5940;%%},
+  timestamp = {2012.09.24}
+}
+
+@BOOK{ild:bib:RDR_machine,
+  title = {{ILC Reference Design Report Volume 3 - Accelerator}},
+  year = {2007},
+  editor = {Phinney, Nan and Toge, Nobukasu and Walker, Nicholas},
+  note = {ILC-REPORT-2007-001},
+  archiveprefix = {arXiv},
+  collaboration = {ILC Global Design Effort and World Wide Study},
+  eprint = {0712.2361},
+  primaryclass = {physics.acc-ph},
+  slaccitation = {%%CITATION = ARXIV:0712.2361;%%}
+}
+
+@BOOK{ild:bib:CMS_TRIDAS,
+  title = {{CMS: The TriDAS project. Technical design report, Vol. 2: Data acquisition
+	and high-level trigger}},
+  year = {2002},
+  editor = {Sphicas, P.},
+  note = {CERN-LHCC},
+  owner = {buesserk},
+  timestamp = {2012.09.26}
+}
+
+@ARTICLE{beam_parameter,
+  note = {ILC beam parameters},
+  url = {http://www.linearcollider.org/GDE/technical-design-documentation}
+}
+
+@ARTICLE{ild:bib:aida,
+  title = {Advanced European Infrastructures for Detectors ad Accelerators},
+  bdsk-url-1 = {https://espace.cern.ch/aida/default.aspx},
+  collaboration = {AIDA},
+  url = {http://aida.web.cern.ch}
+}
+
+@ARTICLE{ild:bib:ATCA,
+  note = {ild-daq.tex ild:bib:ATCA},
+  owner = {buesserk},
+  timestamp = {2012.09.26}
+}
+
+@ARTICLE{ild:bib:bertini,
+  note = {FCAL.tec ild:bib:bertini},
+  owner = {buesserk},
+  timestamp = {2012.09.26}
+}
+
+@ARTICLE{ild:bib:EDMS,
+  note = {{ILC Engineering Data Management System ILC-EDMS}},
+  owner = {buesserk},
+  timestamp = {2012.11.20},
+  url = {ilc-edms.desy.de}
+}
+
+@ARTICLE{ild:bib:eudet,
+  title = {{Detector R\&D towards the International Linear Collider}},
+  collaboration = {EUDET},
+  url = {www.eudet.org}
+}
+
+@ARTICLE{ild:bib:lctpc,
+  collaboration = {LCTPC Collaboration},
+  url = {http://www.lctpc.org}
+}
+
+@ARTICLE{ild:bib:Mokka,
+  note = {{Mokka webpage}},
+  bdsk-url-1 = {http://polzope.in2p3.fr:8081/MOKKA},
+  url = {http://polzope.in2p3.fr:8081/MOKKA}
+}
+
+@ARTICLE{ild:bib:ref_gear,
+  title = {{GEAR - a geometry description toolkit for ILC reconstruction software}},
+  bdsk-url-1 = {http://ilcsoft.desy.de/portal/software%5C_packages/gear},
+  url = {http://ilcsoft.desy.de/portal/software\_packages/gear}
+}
+
+@ARTICLE{ild:bib:ref-lcnotes,
+  note = {LC-Notes Repository},
+  owner = {buesserk},
+  timestamp = {2012.09.26},
+  url = {http://www-flc.desy.de/lcnotes/}
+}
+
+@ARTICLE{ild:bib:sdalinac,
+  note = {S-DALINAC: Superconducting DArmstadt LInear ACcelerator},
+  owner = {buesserk},
+  timestamp = {2012.09.26},
+  url = {http://www.ikp.tu-darmstadt.de/beschleuniger\_1/S-DALINAC.de.jsp}
+}
+
+@ARTICLE{ild:bib:tpcfieldcage,
+  note = {ild-tpc.tex ild:bib:tpcfieldcage},
+  owner = {buesserk},
+  timestamp = {2012.09.26}
+}
+
+@ARTICLE{ild:bib:VTXdepfetcollaboration,
+  bdsk-url-1 = {http://www.depfet.org/},
+  collaboration = {DEPFET collaboration},
+  url = {http://www.depfet.org/}
+}
+
+@ARTICLE{ild:bib:WBS,
+  title = {{ILD Work Breakdown Structure}},
+  note = {EDMS-ID: D*523907},
+  owner = {buesserk},
+  timestamp = {2012.09.26},
+  url = {http://edmsdirect.desy.de/edmsdirect/item.jsp?edmsid=D00000000523907}
+}
+
+@ARTICLE{ild:bib:CAN-016b,
+  title = {{Update of the Analysis of the Test Beam Experiment of the CALICE
+	ScECAL Physics Prototype}},
+  year = {2012},
+  note = {{CALICE Analysis Note CAN-016b}},
+  collaboration = {CALICE Collaboration},
+  owner = {buesserk},
+  timestamp = {2013.02.05}
+}
+
+@ARTICLE{ild:bib:CAN-037,
+  title = {{First results of the CALICE SDHCAL Technological Prototype}},
+  year = {2012},
+  note = {{CALICE Analysis Note CAN-037}},
+  collaboration = {CALICE Collaboration},
+  owner = {buesserk},
+  timestamp = {2013.02.05}
+}
+
+@ARTICLE{ild:bib:ref-desytestbeam2012,
+  year = {2012},
+  note = {{Testbeam runs 2012}},
+  owner = {buesserk},
+  timestamp = {2013.01.15},
+  url = {{http://www.lctpc.org/e201346/e201361/}}
+}
+
+@ARTICLE{ild:bib:ref-lcnotesphilippe,
+  title = {{Considerations for an ion gate for LCTPC}},
+  year = {2012},
+  note = {LC-DET-2012-079},
+  collaboration = {LCTPC Japan Collaboration},
+  url = {http://www-flc.desy.de/lcnotes/notes/LC-DET-2012-079.pdf}
+}
+
+@ARTICLE{ild:dbd:VTXdepfet:whitebook,
+  title = {{The PXD Whitebook}},
+  year = {2012},
+  note = {ild-vxd.tex ild:dbd:VTXdepfet:whitebook},
+  owner = {buesserk},
+  timestamp = {2012.09.26}
+}
+
+@ARTICLE{CAN-022,
+  title = {{Identification of Track Segments in Hadronic Showers in the Analog
+	Hadron Calorimeter - Algorithm and Comparisons to Simulations}},
+  year = {2011},
+  note = {{CALICE Analysis Note CAN-022}},
+  collaboration = {CALICE Collaboration}
+}
+
+@ARTICLE{CAN-026,
+  title = {{Pion Showers in the CALICE AHCAL}},
+  year = {2011},
+  note = {{CALICE Analysis Note CAN-026}},
+  collaboration = {CALICE Collaboration}
+}
+
+@ARTICLE{CAN-033,
+  title = {{First T3B Results - Initial Study of the Time of First Hit in a
+	Scintillator-Tungsten HCAL}},
+  year = {2011},
+  note = {{CALICE Analysis Note CAN-033}},
+  collaboration = {CALICE Collaboration}
+}
+
+@ARTICLE{ild:bib:ref-lcnote2012,
+  title = {{Report to the DESY PRC 2010}},
+  year = {2010},
+  note = {ILC NOTE 2012-063, LC-DET-2012-067},
+  collaboration = {{LCTPC Collaboration}},
+  url = {http://www-flc.desy.de/lcnotes/notes/LC-DET-2012-067.pdf}
+}
+
+@ARTICLE{ild:bib:ref-star,
+  title = {{STAR TPC}},
+  year = {2009},
+  bdsk-url-1 = {http://www.star.bnl.gov/},
+  collaboration = {STAR Collaboration},
+  url = {http://www.star.bnl.gov/}
+}
+
+@ARTICLE{ild:bib:CMS-CMP_TDR,
+  title = {{CMS: The computing project. Technical design report}},
+  year = {2005},
+  note = {CERN-LHCC-2005-023},
+  collaboration = {CMS Collaboration},
+  owner = {buesserk},
+  slaccitation = {%%CITATION = CERN-LHCC-2005-023 ETC.;%%},
+  timestamp = {2012.09.26}
+}
+@ARTICLE{ild:bib:costing,
+	title={{CLIC detector costing}},
+	year=2012,
+	note={LCD-Note-2012-005},
+	collaboration-{CLIC},
+	bdsk-url-1={https://edms.cern.ch/file/1217078/3/LCD-Note-2012-CLIC_Detector_Costing.docx}
+}
+
+@comment{jabref-meta: selector_review:}
+
+@comment{jabref-meta: selector_publisher:}
+
+@comment{jabref-meta: selector_author:}
+
+@comment{jabref-meta: selector_journal:}
+
+@comment{jabref-meta: selector_keywords:}
+

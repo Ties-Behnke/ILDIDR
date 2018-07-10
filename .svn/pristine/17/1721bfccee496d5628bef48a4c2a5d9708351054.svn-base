@@ -1,0 +1,10 @@
+\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{1}
+
+\bibitem{ild:bib:ILDloi}
+{\bf ILD Concept Group}, T.~Abe {\em et al.}, ``{The International Large
+  Detector: Letter of Intent}'' \href{http://arxiv.org/abs/1006.3396}{{\tt
+  arXiv:1006.3396 [hep-ex]}}.
+FERMILAB-LOI-2010-03, FERMILAB-PUB-09-682-E, DESY-2009-87, KEK-REPORT-2009-6.
+%%CITATION = ARXIV:1006.3396;%%.
+
+\end{thebibliography}\endgroup
