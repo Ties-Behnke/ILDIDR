@@ -2,6 +2,7 @@
 %\newcommand{\fix}[1]{} % remove all comments
 
 \chapter{Detector and Physics Performance}
+
 \section{System performance}
 \writer{Frank Gaede}{5}
 \subsection{Vertexing}
@@ -149,17 +150,92 @@ models as a function of the jet energy for uds di-jet events.}
 \section{Physics Benchmarks}
 \writer{Keisuke Fujii, Jenny List}{10}
 \subsection{General Remarks}
-\subsection{Hadronic Branching Ratios of the Higgs Boson}
-\subsection{Higgs Mass from $H \to b\bar{b}$}
-\subsection{Branching Ratio of $H \to \mu^+\mu^-$}
-\subsection{Sensitivity to $H \to $ invisible}
-\subsection{$\tau$ decay modes and polarisation, $A_{FB}$ and $A_{LR}$ in $e^+e^- \to \tau^+\tau^-$}
-\subsection{$W$ mass, Triple Gauge Couplings and Beam Polarisation from $e^+e^- \to WW \to qql\nu$}
-\subsection{Quartic Gauge Couplings in $e^+e^- \to \nu\nu qqqq$}
-\subsection{$A_{LR}$ and Jet Energy Scale Calibration from $e^+e^- \to \gamma Z$}
-\subsection{$A_{FB}$ and $A_{LR}$ from $tt \to bb qqqq$}
+\begin{itemize}
+\item all benchmarks at 500\,GeV or even 1\,TeV since more challening for detector
+\item Luminosity and polarisation according to H20 / running scenario paper: 
+  \begin{itemize}
+   \item 4\,ab$^{-1}$ at 500\,GeV, with $f(-+,+-,++,--) = (40\%,40\%, 10\%, 10\%)$
+   \item 8\,ab$^{-1}$ at 1\,TeV, with $f(-+,+-,++,--) = (40\%,40\%, 10\%, 10\%)$.
+\end{itemize}
+\item benchmarks chosen to illustrate many performance aspects, not to cover complete physics case
+\item analyses not optimised for utmost physics performance
+\item in general DBD sample based analyses remain valid for physics
+\item list of produced samples ?
+\end{itemize}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Hadronic Branching Ratios of the Higgs Boson}
+\begin{itemize}
+\item main physics observables: $\sigma(\nu\bar{\nu} H)\times BR(H\to b\bar{b} / c\bar{c} / gg)$
+\item cross-section and/or generator level numbers ? 
+\item brief analysis description: precuts, MVA, template fit
+\item example MVA input: 
+  \begin{itemize}
+     \item reconstructed $M_H$ for large and small, signal and backgrounds. 
+     \item possibly in addition also separately for $\nu\nu bb$ final state?
+     \item and/or with cheated neutrinos in jets / perfect PFA / ...?
+  \end{itemize}
+\item example flavour tag: 
+  \begin{itemize}
+     \item full sim templates for $H \to bb / cc / gg$ (2D colz instead of lego?)
+     \item cheated and artificially bad performance
+  \end{itemize}
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Higgs Mass from $ZH \to ll b\bar{b}$}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Branching Ratio of $H \to \mu^+\mu^-$}
+\begin{itemize}
+\item main physics observables: $\sigma(\nu\bar{\nu} H)\times BR(H\to \mu^+\mu^-)$
+\item cross-section and/or generator level numbers  
+\item brief analysis description: precuts, MVA, toy MC fit to mass distribution
+\item example variables: 
+  \begin{itemize}
+     \item event-by-event Higgs mass resolution (l5 / s5)
+     \item reconstructed $M_H$ for large and small, signal and backgrounds
+   
+     \item cheated muons / ISR / ?
+  \end{itemize}
+\item BR precision vs momentum resolution: 
+  \begin{itemize}
+     \item full sim results s5 /l5
+     \item on cheated and smeared...
+  \end{itemize}
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Sensitivity to $H \to $ invisible}
+\begin{itemize}
+\item main physics observables: $\sigma(q\bar{q} H)\times BR(H \to \mbox{inv.})$
+\item cross-section and/or generator level numbers 
+\item brief analysis description: precuts, MVA, limit setting
+\item example variables:
+  \begin{itemize}
+     \item reconstructed $M_Z \to q\bar{q}$ and recoil mass for large and small, signal      \item in addition also separately for each jet flavour ?
+     \item and/or with cheated neutrinos in jets / perfect PFA / cheated ISR...?
+  \end{itemize}
+\item results: 
+  \begin{itemize}
+     \item full sim limit
+     \item limit vs JER
+  \end{itemize}
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{$\tau$ decay modes and polarisation, $A_{FB}$ and $A_{LR}$ in $e^+e^- \to \tau^+\tau^-$}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{$W$ mass, Triple Gauge Couplings and Beam Polarisation from $e^+e^- \to WW \to qql\nu$}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Quartic Gauge Couplings in $e^+e^- \to \nu\nu qqqq$}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{$A_{LR}$ and Jet Energy Scale Calibration from $e^+e^- \to \gamma Z$}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{$A_{FB}$ and $A_{LR}$ from $tt \to bb qqqq$}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Discovery Reach for extra Higgs Bosons in $e^+e^- \to Zh$}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Discovery Reach for and Characterisation of low $\Delta M$ Higgsinos}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{WIMP Discovery Reach and Characterisation in the Mono-Photon Channel}
 
