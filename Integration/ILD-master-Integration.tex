@@ -45,6 +45,7 @@ EUDAQ developments towards combined DAQ systems for beamtests
 
 \section{Mechanical structure and studies}
 \writer{Felix Sefkow, Henri Videau, Karsten Buesser, Roman Poeschl, Toshiaki Tauchi}{3}
+\label{ild:sec:mechanical_structures}
 
 Static deformations of both structure options (TESLA/Videau) including LLR-DESY crosscheck.
 
@@ -87,7 +88,6 @@ There was little progress here since the LOI/DBD. Most of the corresponding text
 
 The technical description of the ILD detector concept comprises specification and design documents as well as 3d engineering models, interface descriptions and drawings. All these documents that form the backbone of the ILD technical documentation are stored in the ILC Engineering Data Management System ILC-EDMS~\cite{ild:bib:edms}. As this powerful system is made for experts and requires appropriate attention, an easy accessible frontend ("EDMSdirect") has been made available. The ILD technical documentation is organised in a Work Breakdown Structure (WBS) that is mapped on a tree browser that can be accessed on the web~\cite{ild:bib:edmsdirect}. Figure~\ref{ild:fig:integration:edmsdirect} shows the tree browser for the ILD technical documentation. All WBS top nodes can be expanded by clicking on them. In the figure, this has been done for the node "Design Integration".
 
-GIT TEST!
 
 \begin{figure}[t!]
 
@@ -104,3 +104,37 @@ Figure~\ref{ild:fig:integration:edmsdirect_document} shows the document browser 
 
 \caption{\label{ild:fig:integration:edmsdirect_document}Example document (here:"ILD Conventions and Rules") in the document browser of EDMSdirect.}
 \end{figure}
+
+\subsection{Interface Control Documents}
+
+
+\section{Earthquake Safety}
+Japan is one of most seismically active regions in the world. The proposed sit for the ILC in the Kitakami mountains of northern Honshu has been especially selected putting emphasis on benign seismic conditions. Earthquake history has been taken into account as well as recent surveys on active tectonic faults. Nevertheless, earthquakes can occur and need to be taken into account. Figure~\ref{ild:fig:integration:earthquake_map} shows all earthquakes that were detected during 30 days in winter 2019/2019 in northern Honshu. The ILD interaction region is in a relatively quiet region around (39N, 141,5E).
+
+\begin{figure}[ht]
+\includegraphics[width=0.8\hsize]{Integration/fig/earthquake_map.png}
+
+\caption{\label{ild:fig:integration:earthquake_map}Map of northern Honshu with all detected earthquakes between 23rd December 2018 and 23rd January 2019 (30 days)~\cite{ild:bib:hi-net}. The ILC interaction region is close to coordinates (39N, 141.5E)}
+\end{figure}
+
+\subsection{Structural Design}
+
+Emphasis has been put on the design of the ILD detector with respect to earthquake safety in view of operability of the detector as well as disaster prevention. General rules are provided by the ISO3010 standard: "Bases for design of structures -- seismic actions on structures". The ISO standard states two basic principles:
+\begin{itemize}
+\item The structure should not collapse nor experience other similar forms of structural failure due to severe earthquake ground motions that could occur at the site (ultimate limit state: ULS).
+\item The structure should withstand moderate earthquake ground motions which may be expected to occur at the site during the service life of the structure with damage within accepted limits(serviceability limit state: SLS).
+\end{itemize}
+As guidance rules, ULS events are those which are expected to happen with recurrence rates of 500~years, while SLS events might happen every 20~years. For the envisaged ILC site in Kitakami this corresponds to maximum expected accelerations of $\approx$150~gal and $\approx$450~gal. 
+
+Proper analysis of the ILD mechanical structures is under way using response spectra for standard earthquakes in Kitakami (c.f.~figure~\ref{ild:fig:integration:earthquake_spectra}). Section~\ref{ild:sec:mechanical_structures} gives an overview of the ongoing structural studies for ILD.
+
+\begin{figure}[t!]
+
+\includegraphics[width=0.8\hsize]{Integration/fig/earthquake_spectra.pdf}
+
+\caption{\label{ild:fig:integration:earthquake_spectra}Standard response spectra for earthquakes in Kitakami (hard soil) for structures with different damping behaviour~\cite{ild:bib:earthquake}. A maximum acceleration of 150~gal for an earthquake with a recurrence frequency of 100~years has been assumed.}
+\end{figure}
+
+\subsection{Seismic Isolation}
+
+
