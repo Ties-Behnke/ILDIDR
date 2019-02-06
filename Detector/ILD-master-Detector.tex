@@ -7,7 +7,7 @@
 \section{Overall structure of the detector}
 \writer{Claude Vallee, Karsten Buesser}{1}
 
-The geometrical structure of the ILD detector and the individual layouts of subdetectors were described in details in the ILD LOI [ref] and DBD [ref]. This section shortly reminds the main characteristics with emphasis on the recent evolutions and open options. The main design changes implemented since the DBD take into account continuous progress in detector technology R\&D and the new optics of the ILC interaction region (chapter 3). In the following all dimensions are given for the large version of the detector (see section 4.2 for reduction factors of the small ILD).
+The geometrical structure of the ILD detector and the individual layouts of subdetectors were described in details in the ILD LOI [ref] and DBD [ref]. This section shortly reminds the main characteristics with emphasis on the recent evolutions and open options. The main design changes implemented since the DBD take into account continuous progress in detection technologies and the new optics of the ILC interaction region (chapter 3). In the following all dimensions are given for the large version of the detector (see section 4.2 for reduction factors of the small ILD).
 
 \vspace{2cm}
 
@@ -113,7 +113,7 @@ A key characteristics of the detector is the amount of material crossed by the p
 \subsection{Subdetector layouts}
 \writer{Subdetector technical conveners}{4}
 
-The current baseline design of subdetectors is presented including open options. The potential advantages and drawbacks of the various technologies under consideration are discussed together with prospects for enhanced capabilities in the future. The most recent progress and status of each technology will be summarized in section 5.2.
+The current design of subdetectors is presented including open options and critical aspects, as well as prospects for enhanced capabilities in the future. The most recent progress and status of each detection technology will be summarized in section 5.2.
 
 \vspace{1cm}
 \subparagraph*{\bf Vertex detector}
@@ -135,11 +135,11 @@ Critical parameters of the VTX optimisation are the point resolution for seconda
 \begin{itemize}
     \item {\bf CMOS pixels:} this well-established technology offers the advantages of high granularity with fully monolythic pixel digital electronics available from industrial processes. The most critical points of focus of current R\&D are the readout speed for bunch crossing tagging, the power consumption and the overall material budget of the layers.
     \item {\bf DEPFET pixels:} this technology offers the advantage of high granularity with a small layer material thickness, the digital electronics being shifted at the end of the ladders. Critical aspects are the industrialisation of the fabrication process and the integration of large detector surfaces.
-    \item{\bf Fine Pixel CCD (FP-CCD):} CCD's offer the prospects for the highest granularities associated with low power consumption. Another advantage is the minimal material budget of the detector layer, however counter-balanced by the need of a cryostat to ensure low-temperature operation. Critical aspects under study are the readout speed and the resistance to radiation.  
+    \item{\bf Fine Pixel CCD (FPCCD):} CCD's offer the prospects for the highest granularities associated with low power consumption. Another advantage is the minimal material budget of the detector layer, however counter-balanced by the need of a cryostat to ensure low-temperature operation. Critical aspects under study are the readout speed and the resistance to radiation.  
 \end{itemize}
 
 \vspace{0.5cm}
-The CMOS and DEPFET pixels have typical sizes of 20 microns and are readout in a continuous mode during bunch trains. The readout speed determines the capability to resolve individual bunches. The FPCCD pixels accumulate hits during one bunch train before readout and reset in between trains. Their occupancy is kept acceptable thanks to a smaller pixel size of order 5 microns.  
+The CMOS and DEPFET pixels have typical sizes of 20 microns and are readout in a continuous mode during bunch trains. The readout speed determines the capability to resolve individual bunches. The FPCCD pixels accumulate hits during one bunch train before readout and reset in-between trains. Their occupancy is kept acceptable thanks to a small pixel size of order 5 microns.  
 
 
 \vspace{1cm}
@@ -151,7 +151,7 @@ A system of silicon trackers surrounds the VTX detector. In the barrel, two laye
 \begin{figure}[t!]
 \centering
 %\includegraphics[width=0.8\hsize]{Detector/fig/ILD_quadrant_2.png}
-\includegraphics[width=0.6\hsize]{Detector/fig/FTD.png}
+\includegraphics[width=0.75\hsize]{Detector/fig/FTD.png}
 \caption{layout of the Forward Tracking Detector.}
 \label{fig:det:FTD}
 \end{figure}
@@ -170,7 +170,7 @@ A distinct feature of ILD is a large volume time projection chamber (Figure~\ref
 \includegraphics[width=0.6\hsize,viewport={0 -10 600 500},clip]{Detector/fig/TPC.png} &
 \includegraphics[width=0.4\hsize]{Detector/fig/gating.png}
 \end{tabular}
-\caption[TPC layout]{Left: Glogal layout of the TPC chamber. Right: Principle of the ion GEM gating scheme showing the 2 electric field configurations within (left) and outside (right) bunch trains.}
+\caption[TPC layout]{Left: Glogal layout of the TPC chamber. Right: Principle of the ion GEM gating scheme showing the two electric field configurations within (left) and outside (right) bunch trains.}
 %\end{figure}
 \label{fig:det:TPC}
 %\begin{tabular}{cc}
@@ -183,7 +183,7 @@ Three options are under consideration for the ionisation signal amplification an
     \item GRIDPIX: the ionisation signal is amplified as for the micromegas case but collected on a fine silicon pixel grid providing individual pixel timing.
 \end{itemize}
 \vspace{0.5cm}
-For the GEM and micromegas options, the typical pad sizes are a few mm and spatial resolution is improved by combining the track signals of several adjacent pads. For the GRIDPIX option the pixel size of $\approx$50 microns matches the size of the mesh, providing pixel sensitivity to single ionisation electrons. The spatial resolution is improved and the dE/dx signal measured by counting pixels. 
+For the GEM and micromegas options, the typical pad sizes are a few mm (table~\ref{ild:tab:barrelpara}) and spatial resolution is improved by combining the track signals of several adjacent pads. For the GRIDPIX option the pixel size of $\approx$50 microns matches the size of the mesh, providing pixel sensitivity to single ionisation electrons. The spatial resolution is improved and the dE/dx signal measured by counting pixels. 
 
 %\thisfloatsetup{floatwidth=\SfigwFull,capposition=beside}
 \begin{figure}[t!]
@@ -201,7 +201,7 @@ For the GEM and micromegas options, the typical pad sizes are a few mm and spati
 \subparagraph*{\bf ECAL}
 \textit{(Brient, Ootani)}
 
-Electromagnetic showers are measured with a compact highly-segmented calorimeter (Figure~\ref{fig:det:ECAL}) with absorber planes made of tungsten. The ECAL barrel shape is octogonal with individual stacks laid such as to avoid projective dead zones in azimuth. The baseline number of layers is 30, with an option to reduce the number to 22 keeping the amount of radiation lengths identical and increasing the thickness of the sensitive medium to maintain a similar energy resolution.
+Electromagnetic showers are measured with a compact highly-segmented calorimeter (Figure~\ref{fig:det:ECAL}) whose absorber planes are made of tungsten. The ECAL barrel shape is octogonal with individual stacks laid such as to avoid projective dead zones in azimuth. The baseline number of layers is 30, with an option to reduce the number to 22 keeping the amount of radiation lengths identical and increasing the thickness of the sensitive medium to maintain a similar energy resolution.
 
 \begin{figure}[t!]
 \centering
@@ -210,7 +210,7 @@ Electromagnetic showers are measured with a compact highly-segmented calorimeter
 \label{fig:det:ECAL}
 \end{figure}
 
-The sensitive medium consists in silicon sensors with 5x5 $mm^2$ pads bonded on a PCB equipped with front-end readout ASICs (Figure~\ref{fig:det:ECAL_readout} left). In order to reduce the costs it is also considered to equip part of the sensitive layers with scintillator sensors readout through SiPMs (Figure~\ref{fig:det:ECAL_readout} left). In that case the scintillator strips would have a larger dimension of 30x5$mm^2$ with alternate orthogonal orientation.  
+The sensitive medium consists in silicon sensors with 5x5 $mm^2$ pads bonded on a PCB equipped with front-end readout ASICs (Figure~\ref{fig:det:ECAL_readout} left). In order to reduce the costs it is also considered to equip part of the sensitive layers with scintillator sensors readout through SiPMs (Figure~\ref{fig:det:ECAL_readout} left). In that case the scintillator strips would have a larger dimension of 45x5$mm^2$ with alternate orthogonal orientation.  
 
 \begin{figure}[t!]
 \centering
@@ -224,7 +224,7 @@ The sensitive medium consists in silicon sensors with 5x5 $mm^2$ pads bonded on 
 \subparagraph*{\bf HCAL}
 \textit{(Laktineh, Sefkow)}
 
-The hadronic calorimeter consists in 48 longitudinal samples with steel absorber plates. Two options are currently considered for the mechanical structure, differing mainly in the barrel region (Figure~\ref{fig:det:HCAL}): the "TESLA" barrel made of 2 wheels with signals extracted longitudinally in the gaps between the barrel and endcaps, and the "VIDEAU" barrel made of 3 to 5 wheels with signals extracted at the periphery between the HCAL and coil cryostat. The latter presents no dead zone in azimuth nor at $90^o$ polar angle, and offers a better mechanical stiffness at the cost of a reduced accessibility of the front-end electronics.
+The hadronic calorimeter consists in 48 longitudinal samples with steel absorber plates. Two options are currently considered for the mechanical structure, differing mainly in the barrel region (Figure~\ref{fig:det:HCAL}): the "TESLA" barrel made of 2 wheels with signals extracted longitudinally in the gaps between the barrel and endcaps, and the "VIDEAU" barrel made of 3 to 5 wheels with signals extracted at the periphery between the HCAL and coil cryostat. The latter presents no dead zone in azimuth nor at $90^o$ polar angle, and offers a better mechanical stiffness, at the cost of a reduced accessibility of the front-end electronics.
 
 \begin{figure}[t!]
 \centering
@@ -233,7 +233,7 @@ The hadronic calorimeter consists in 48 longitudinal samples with steel absorber
 \label{fig:det:HCAL}
 \end{figure}
 
-The HCAL layers are instrumented with high granularity for an efficient separation of charged and neutral hadronic showers, necessary for particle flow, as well as for a good muon identification for flavor jet tagging. Two sensor options are under consideration (Figure~\ref{fig:det:HCAL_readout}): scintillator tiles of 3x3 $cm^2$ with analog signals readout through SiPMs, and RPC's with pads of 1 $cm^2$ readout with a semi-digital resolution of 2 bits.
+The HCAL layers are instrumented with high granularity for an efficient separation of charged and neutral hadronic showers, necessary for particle flow, as well as for a good muon identification for flavor jet tagging. Two sensor options are under consideration (Figure~\ref{fig:det:HCAL_readout}): scintillator tiles of 3x3 $cm^2$ with analog readout through SiPMs, and RPC's with pads of 1 $cm^2$ readout with a semi-digital resolution of 2 bits.
 
 \begin{figure}[t!]
 \begin{tabular}{cc}
@@ -253,31 +253,44 @@ The HCAL layers are instrumented with high granularity for an efficient separati
 
 The ILD very forward region is equipped with dedicated detectors to perform:
 \begin{itemize}
-\item a precise determination of the luminosity from Babbha scattering electron pairs (LumiCAL);
+\item a precise determination of the luminosity from Bhabha scattering electron pairs (LumiCAL);
 \item an extension of the hadronic calorimetry coverage in the forward region (LHCAL);
-\item calorimetric hermiticity up to the beam pipe and fast monitoring of beam conditions (BeamCAL).
+\item calorimetric hermeticity down to the beam pipe and fast monitoring of beam conditions (BeamCAL).
 \end{itemize}
-The overal layout of the detectors is shown in Figure~\ref{fig:det:VFS} left. Their longitudinal positioning has been adapted as shown in Figure~\ref{fig:det:VFS} right to account for the new ILC optics (chapter 3).  
+The overall layout of the detectors is shown in Figure~\ref{fig:det:VFS} left. Their longitudinal positioning has been adapted as shown in Figure~\ref{fig:det:VFS} right to account for the new ILC optics (chapter 3).  
 
-%\thisfloatsetup{floatwidth=\SfigwFull,capposition=beside}
 \begin{figure}[t!]
-\begin{tabular}{cc}
-\includegraphics[width=0.5\hsize,viewport={0 -10 600 500},clip]{Detector/fig/VFS_layout.png} &
-\includegraphics[width=0.4\hsize]{Detector/fig/VFS_newoptics.jpg}
-\end{tabular}
-\caption{Overall layout of the Very Forward System (left) and adaptations made for the new ILC optics (right).}
-%\end{figure}
+\centering
+\includegraphics[width=1.0\hsize]{Detector/fig/VFS.jpg}
+\caption{Overal layout of the Very Forward detectors (left) and adaptations performed for the new ILC optics (right).}
 \label{fig:det:VFS}
-%\begin{tabular}{cc}
+\end{figure}
+
+The very forward detectors are based on similar technologies as the ILD electromagnetic calorimeter, taking into account the specific conditions of the forward region such as the harder radiation environment or the need for an improved compactness to identify electromagnetic showers in a high occupancy environment. For the detectors positioned closest to the beam pipe new sensors such as saphire are considered. The LumiCAL has the most advanced design and will be based on silicon sensors similar to the ECAL (Figure~\ref{fig:det:lumical}), with thinner instrumentation layers to minimize the lateral spread of the showers .     
+
+\begin{figure}[t!]
+\centering
+\includegraphics[width=0.8\hsize]{Detector/fig/lumical_layer.jpg}
+\caption{Structure of a sensitive layer of the LumiCAL calorimeter.}
+\label{fig:det:lumical}
 \end{figure}
 
 \vspace{1cm}
 \subparagraph*{\bf Iron instrumentation}
-\textit{(Saveliev): sensitive layers in yoke baseline design and sensor structure}
+\textit{(Saveliev)}
 
-A large volume superconducting coil surrounds the calorimeters, creating an axial $B$-field of nominally 3.5-4\,Tesla.
+A large volume superconducting coil surrounds the calorimeters, creating an axial $B$-field of nominally 3.5 Tesla (large ILD) or 4 Tesla (small ILD). An iron yoke returns the magnetic flux of the solenoid, and, at the same time, serves as a muon filter, muon detector and tail catcher calorimeter. The baseline structure of the yoke is shown in Figure~\ref{fig:det:yoke} left for a configuration accounting for the maximum stray fields allowed in the push-pull configuration (chapter 3). Optimisation of the yoke size is ongoing to minimize the overal cost driven by the amount of iron. A number of iron yoke gaps will be instrumented for muon tracking and measurement of the tails of the hadronic showers. The instrumentation is expected to consist in scintillator bars read with SiPMs (Figure~\ref{fig:det:yoke} right) but RPCs are also considered.   
 
-An iron  yoke, instrumented with scintillator strips or resistive plate chambers (RPCs), returns the magnetic flux of the solenoid, and, at the same time, serves as a muon filter, muon detector and tail catcher calorimeter.
+\begin{figure}[t!]
+\begin{tabular}{cc}
+\includegraphics[width=0.5\hsize,viewport={0 -10 600 500},clip]{Detector/fig/yoke_layout.png} &
+\includegraphics[width=0.4\hsize]{Detector/fig/muon_layer.png}
+\end{tabular}
+\caption{Iron yoke baseline structure (left) and scintillator instrumentation option (right).}
+%\end{figure}
+\label{fig:det:yoke}
+%\begin{tabular}{cc}
+\end{figure}
 
 %\vspace{2cm}
 \newpage
