@@ -71,31 +71,46 @@ Progress on technological design of anti-DID (KEK/Toshiba/Hitachi) and correspon
 \section{Beam background studies}
 \writer{Daniel Jeans, Yan Benhammou, Sergej Schuwalow, Claude Vallee}{2}
 
-Beam-beam BG occupancies with/without anti-DID. New results are expected from Daniel soon to clarify the open points of previous studies and consolidate the estimations. The rates shown in the IDR should if possible be computed for the latest ILC250 beam conditions (input files available from Anne Schuetz).
+The ILD detector response is affected by three main sources of beam-related background: beamstrahlung emitted at the crossing point of the electron and positron bunches, halo muons produced upstream of the detector along the beamline, and low energy neutrons back-scattered from the electron beam dump. Their impact on the detector occupancies has been quantified and possible mitigation investigated.
 
-It would also be good to provide hit maps from backscattered neutrons from the beamdump and from halo muons, possibly using input particle files from Anne Schuetz.
 \subsection{Beamstrahlung}
 
+Beamstrahlung consists in $e^+e^-$ conversion pairs of the photons radiated in the crossing of the dense electron and positron bunches. Most of the pairs are confined within the beam pipe by the large solenoid magnetic field but, due to the crossing angle between the colliding beams, a significant fraction hit the very forward detectors in the region between the incoming and outgoing beam pipes. The central detectors are also affected both directly by the $e^+e^-$ pairs, and indirectly through back-scattering of low-energy particles from the forward detectors. It was proposed to mitigate these effects by the addition of a small dipole field to the main solenoidal field. This so-called "anti-DID" field can be tuned to guide the $e^+e^-$ pairs into the incoming and outgoing beampipes, and the back-scattered particles within the central beampipe. 
+
+These effects have been quantified for the updated 250 GeV ILC conditions (ILC250, see chapter 3), using a full simulation of the beamstrahlung particle production and of their tracking within ILD. Special care has been taken to ensure stable results by adapting the GEANT tracking parameters to low energy particles within the beampipe. The response of the most affected detector, the BeamCal, is shown is Figure~\ref{fig:integration:beamcal} with and without anti-DID. A positive effect of the anti-DID is clearly visible: when the anti-DID field is applied, the energy distribution is more symmetric around the central beampipe, and its overall amount is reduced by about 30\%.
+
 \begin{figure}[t!]
-\includegraphics[width=0.8\hsize]{Integration/fig/BG_beamcal.jpg}
-\caption{\label{fig:integration:beamcal}Beamcal with and without antiDID.}
+\includegraphics[width=1.0\hsize]{Integration/fig/BG_beamcal.jpg}
+\caption{\label{fig:integration:beamcal}Beamstrahlung energy deposition in the BeamCal without (left) and with (right) anti-DID field for the large ILD version at ILC250. }
 \end{figure}
+
+A similar improvement is seen for the central detectors in Figure~\ref{fig:integration:rates}. The most affected are the inner layers of the vertex detector, for which about 3/4 of the background is due to direct hits, and the rest to backscattered particles. Background hits further away from the beampipe are dominated by direct $e^+e^-$ pairs. 
+
+For the small ILD version, the overall beamstrahlung background hit rates are reduced by $\approx$10\%  thanks to better confinement within the beampipe by the higher solenoid field of 4T.
+
+\textit{Add info on beamstrahlung effects on beamcal reconstruction and on HCAL occupancy near beampipe}
 
 \begin{figure}[t!]
 \includegraphics[width=0.8\hsize]{Integration/fig/BG_rates.jpg}
-\caption{\label{fig:integration:rates}BG rates in trackers.}
+\caption{\label{fig:integration:rates}Number of beamstrahlung hits per bunch crossing in the silicon trackers without (left) and with (right) anti-DID field for the large ILD version at ILC250.}
 \end{figure}
 
 \subsection{Halo muons}
 
+The electrons and positrons of the beam halo produce high-energy penetrating muons parallel to the beam by interacting with beamline components such as collimators. Five magnetized muon spoilers and one optional larger magnetized muon wall are foreseen to deviate these muons outside the ILC experimental hall. The resulting rate of muons in ILD has been simulated for ILC250 and ILC500 assuming a beam halo fraction of $10^{-3}$ (Chapter 3). 
+
 \begin{figure}[t!]
-\includegraphics[width=0.8\hsize]{Integration/fig/BG_muons.jpg}
-\caption{\label{fig:integration:rates}Muon spectrum.}
+\includegraphics[width=1.0\hsize]{Integration/fig/BG_muons.jpg}
+\caption{\label{fig:integration:muons}Energy spectrum of muons entering the ILC experimental hall for ILC500, normalized to a full single train of 2625 bunches assuming a beam halo fraction of $10^{-3}$. Red curve: muon filtering with 5 spoilers only; Blue curve: muon filtering with an additional muon wall.}
 \end{figure}
 
+Figure~\ref{fig:integration:muons} shows the energy spectra of the muons crossing the ILD detector for the two filtering options. The muon wall significantly reduces the flux of the lower energy muons below a few 10 GeV. At ILC500 the rate of halo muons crossing ILD is of the order of 4 (resp. 0.6) muons/BC without (resp. with) the optional muon wall. At ILC250 the corresponding numbers are of the order 1 and 0.03 muons/BC for the two filtering options, respectively.
 
-\subsection{backscattered neutrons from beamdump}
+These halo muons will affect the occupancy of the detector but should be easily identified and subtracted from the physics events using topological and timing information.
 
+\subsection{Backscattered neutrons from beamdump}
+
+\textit{Provide hit maps of back-scattered neutrons from the beamdump using input particle files from Anne Schuetz.}
 
 \vspace{2cm}
 
