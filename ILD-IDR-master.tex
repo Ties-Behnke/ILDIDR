@@ -35,7 +35,11 @@
 \usepackage{enumitem}
 \usepackage{booktabs}
 
- 
+\usepackage{hepnames}
+\usepackage{hepunits}
+\usepackage{graphicx}
+\usepackage[section]{placeins}
+\usepackage{adjustbox}
 
 %\usepackage{cite}
 %
@@ -56,6 +60,7 @@
 
 
 \input{commondefs.tex}
+
 % Chapters to process
 %
 %\listfiles
@@ -70,7 +75,7 @@
    Performance/ILD-master-Performance,
    Costing/ILD-master-Costing,
    Organisation/ILD-master-ILD-Organisation,
-   Summary/ILD-master-Summary
+   Future/ILD-master-Future,   Summary/ILD-master-Summary
 }
 % Enable an index
 %
@@ -172,6 +177,7 @@
 \include{Performance/ILD-master-Performance}
 \include{Costing/ILD-master-Costing}
 \include{Organisation/ILD-master-ILD-Organisation}
+\include{Future/ILD-master-Future}
 \include{Summary/ILD-master-Summary}
 
 %------------------------------------------------------------------------------
@@ -191,7 +197,7 @@
 %\end{thebibliography}
 
 \bibliographystyle{utphys_mod}
-\bibliography{ILD-master}
+\bibliography{ILD-master,ILD-software-refs,ILD-benchmark-refs}
 %
 % Lists of figures and tables
 %

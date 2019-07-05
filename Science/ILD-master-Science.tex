@@ -1,4 +1,53 @@
 \chapter{Science with ILC}
-\writer{Keisuke Fujii, Jenny List}{2}
-Executive summary of the scientific goals of the ILC.
-Emphasis on 250\,GeV. Prepare connection to choice of physics benchmarks, where details will of course come in the actual performance section.
+\writer{Keisuke Fujii}{2}
+
+ILD has been designed to operate with electron-positron collisions between 90 GeV and 1 TeV. The science goals of the ILC have been described in detail in \cite{ILCESU1}, and will not be repeated here. It should be pointed out that the analyses which have been performed within the ILD concept group are based on fully simulated events, using a realistic detector model and advanced reconstruction software, and in many cases includes estimates of key systematic effects. This is particularly important when estimating the reach the ILC and ILD will have for specific measurements. Determining, for example, the branching ratios of the Higgs at the percent level depends critically on the detector performance, and thus on the quality of the event simulation and reconstruction. 
+
+In many cases the performance used in the physics analyses has been tested against prototype experiments. The key performance numbers for the vertexing, tracking and calorimeter systems are all based on results from test beam experiments. The particle flow performance, a key aspect of the ILD physics reach, could in the absence of a large scale demonstration experiment not be fully verified, but key aspects have been shown in experiments. This includes the single particle resolution for neutral and charged particles, the particle separation in jets, the linking power between tracking and calorimetry, and key aspects of detailed shower analyses important for particle flow. 
+
+While the physics case studies are based on the version of the ILD detector presented in the detector volume of the ILC DBD~\cite{Behnke:2013lya}, ILD has recently initiated a systematic benchmarking effort to study the performance of the ILD concept, and to determine in particular the correlations between science objectives and detector performance. The list of benchmark analyses which are under study is given in table \ref{tab-benchmark}. Even if the ILC will start operation at a center-of-mass energy of 250\,GeV, the ILD detector is being designed to meet the more challenging requirements of higher center-of-mass energies, since major parts of the detector, e.g.\ the coil, the yoke and the main calorimeters will not be replaced when upgrading the accelerator. Therefore, most of the detector benchmark analyses are performed at a center-of-mass energy of 500\,GeV, and one benchmark even at 1\,TeV. The assumed integrated luminosities and beam polarisation settings follow the canonical running scenario~\cite{Barklow:2015tja}. 
+In addition to the well-established performance aspects of the ILD detector, the potential of new features not yet incorporated in the existing detector prototypes, e.g.\ time-of-flight information, is being evaluated. 
+
+The results of these studies are expected to become available in spring 2019 and will be published in the ILD Design Report~\cite{fwdrefIDR}. They will form the basis for the definition of a new ILD baseline detector model, which will then be used for a new physics-oriented Monte-Carlo production for 250\,GeV. Such a production is planned for 2019, with the most recent beam parameters of the accelerator~\cite{Evans:2017rvt} and significantly improved reconstruction algorithms, and is expected to lead to further improvements of the expected results of the precision physics program of the ILC~\cite{ILCESU1}.
+
+\begin{table}[thb]
+    \centering
+    \begin{tabular}{|p{4cm}|p{5cm}|p {5cm}|}
+\hline
+{\bf    Measurement}     & {\bf Main physics question} & {\bf main issue addressed} \\
+\hline
+Higgs mass in $H\rightarrow b {\bar b}$         &  Precision Higgs mass determination &Flavour tag, jet energy resolution, lepton momentum resolution  \\
+\hline
+Branching ratio $H \rightarrow \mu^+\mu^-$ & Rare decay, Higgs Yukawa coupling to muons & High-momentum $p_t$ resolution, $\mu$ identification \\
+\hline
+Limit on $H \rightarrow$ invisible & Hidden sector / Higgs portal & Jet energy resolution, $Z$ or recoil mass resolution, hermeticity\\
+\hline
+Coupling between Z and left-handed $\tau$ & Contact interactions, new physics related to 3rd generation & Highly boosted topologies, $\tau$ reconstruction, $\pi^0$ reconstruction \\
+\hline
+$WW$ production, $W$ mass & Anomalous triple gauge couplings, $W$ mass&  Jet energy resolution, leptons in forward direction \\
+\hline
+Cross section of $e^+e^- \rightarrow \nu \nu qqqq$ & Vector Bosons Scattering, test validity of SM at high energies&  $W/Z$ separation, jet energy resolution, hermeticity\\
+\hline
+Left-Right asymmetry in $e^+e^- \rightarrow \gamma Z$ & Full dim-6 EFT interpretation of Higgs measurements &  Jet energy scale calibration, lepton and photon reconstruction \\
+\hline
+Hadronic branching ratios for $H\rightarrow b \bar b $ and $c \bar c$ & New physics modifying the Higgs couplings &  Flavour tag, jet energy resolution\\
+
+\hline
+$A_{FB}, A_{LR}$ from $e^+e^- \to b\bar{b}$ and $t \bar t \rightarrow b\bar{b} qqqq / b \bar{b} qql\nu$ & Form factors, electroweak coupling &  Flavour tag, PID, (multi-)jet final states with jet and vertex charge\\
+\hline
+
+Discovery range for low $\Delta M$ Higgsinos & Testing SUSY in an area inaccessible for the LHC& Tracks with very low $p_t$, ISR photon identification, finding multiple vertices\\
+\hline
+Discovery range for WIMP's in mono-photon channel & Invisible particles, Dark sector & Photon detection at all angles, tagging power in the very forward calorimeters\\
+\hline
+Discovery range for extra Higgs bosons in $e^+e^- \rightarrow Zh$ & Additional scalars with reduced couplings to the $Z$ & Isolated muon finding, ISR photon identification.\\
+\hline
+
+%\hline
+%\multicolumn{3}{|l|}{Running above the top threshold:}\\
+
+
+    \end{tabular}
+    \caption{Table of benchmark reactions which are used by ILD to optimize the detector performance. The analyses are mostly conducted at 500\,GeV centre-of-mass energy, to optimally study the detector sensitivty. The channel, the physics motivation, and the main detector performance parameters are given.}
+    \label{tab-benchmark}
+\end{table}

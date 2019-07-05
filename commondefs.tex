@@ -1,14 +1,22 @@
-%\newcommand{\vbdlspacing}{\\[-15pt]}
-%\newcommand{\vbabovecaption}{\vspace{-24pt}}
-%\newcommand{\vbbelowcaption}{\vspace{-12pt}}
-%\newcommand{\vbabove}{\vspace{-12pt}}
-%\newcommand{\vbbelow}{\vspace{-12pt}}
-%\newcommand{\itemspace}{\vspace{-6pt}}
 
-%\renewcommand{\thepage}{\arabic{chapter}.\arabic{section}-\arabic{page}}
-%\renewcommand{\thefigure}{\arabic{chapter}.\arabic{section}-\arabic{figure}}
-%\renewcommand{\thetable}{\arabic{chapter}.\arabic{section}-\arabic{table}}
+\newcommand{\fix}[1]{\textcolor{red}{\texttt{#1}}} % command for comments 
+%\newcommand{\fix}[1]{} % remove all comments
 
+
+%%FG comment out all but the used commands after introduction of hepnames and hepunits 
+
+
+%%FG%\newcommand{\vbdlspacing}{\\[-15pt]}
+%%FG%\newcommand{\vbabovecaption}{\vspace{-24pt}}
+%%FG%\newcommand{\vbbelowcaption}{\vspace{-12pt}}
+%%FG%\newcommand{\vbabove}{\vspace{-12pt}}
+%%FG%\newcommand{\vbbelow}{\vspace{-12pt}}
+%%FG%\newcommand{\itemspace}{\vspace{-6pt}}
+%%FG
+%%FG%\renewcommand{\thepage}{\arabic{chapter}.\arabic{section}-\arabic{page}}
+%%FG%\renewcommand{\thefigure}{\arabic{chapter}.\arabic{section}-\arabic{figure}}
+%%FG%\renewcommand{\thetable}{\arabic{chapter}.\arabic{section}-\arabic{table}}
+%%FG
 %\newcommand\writer[1]{{\vspace{-2mm}\noindent Edited by #1}\vspace{1mm}}
 \newcommand\writer[2]{{\marginpar{\small \vspace{-2cm}\hspace{-4cm}
 \colorbox{green}{\begin{minipage}{4cm}{{#1 \\#2 pages}}\end{minipage}}}}}
@@ -27,102 +35,102 @@
 %\newcommand\writer[1]{{\small \noindent Authors: #1}}
 %\newcommand\writer[1]{}
 %\newcommand\pagestowrite[1]{}
-
-
-\newcommand\epluseminus{{\mathrm e}^+{\mathrm e}^-}
-
-% from ILD LOI
-%end from ILD LOI
-
-
-\renewcommand\floatpagefraction{.98}
-\renewcommand\topfraction{.98}
-\renewcommand\bottomfraction{.98}
-
-\setcounter{totalnumber}{4}
-\setcounter{topnumber}{4}
-
-%\renewcommand{\topfraction}{0.8}
-\renewcommand{\textfraction}{.05}   
-
-\renewcommand{\arraystretch}{1.15}
- 
-\newcommand{\eplus}{\mathrm{e}^+}
-\newcommand{\eminus}{\mathrm{e}^-}
-%\newcommand{\epem}{\eplus\eminus}%
-\newcommand{\mpmm}{\mu^+\mu^-}
-\newcommand{\tptm}{\tau^+\tau^-}
-\newcommand{\lplm}{\ell^+\ell^-}
-\newcommand{\eeX}{\epem X}
-\newcommand{\mmX}{\mpmm X}
-\newcommand{\Zzero}{\mathrm{Z}}
-\newcommand{\Wboson}{\mathrm{W}}
-\newcommand{\WpWm}{\Wboson^+\Wboson^-}
-\newcommand{\Higgs}{\mathrm{H}}
-\newcommand{\Ptau}{P_\tau}
-\newcommand{\qq}{\mathrm{q}\overline{\mathrm{q}}}
-\newcommand{\ttbar}{\mathrm{t}\overline{\mathrm{t}}}
-\newcommand{\uubar}{\mathrm{u}\overline{\mathrm{u}}}
-\newcommand{\ccbar}{\mathrm{c}\overline{\mathrm{c}}}
-\newcommand{\bbbar}{\mathrm{b}\overline{\mathrm{b}}}
-\newcommand{\ddbar}{\mathrm{d}\overline{\mathrm{d}}}
-\newcommand{\ssbar}{\mathrm{s}\overline{\mathrm{s}}}
-\newcommand{\nubar}{\overline{\nu}}
-\newcommand{\GammaZ}{\Gamma_\Zzero}
-\newcommand{\GammaW}{\Gamma_\Wboson}
-\newcommand{\mZ}{m_\Zzero}
-\newcommand{\mW}{m_\Wboson}
-\newcommand{\mH}{m_\Higgs}
-\newcommand{\topquark}{\mathrm{t}}
-\newcommand{\mtop}{m_\topquark}
-\newcommand{\Gtop}{\Gamma_\topquark}
-\newcommand{\roots}{\sqrt{s}}
-\newcommand{\rmsn}{\mathrm{rms}_{90}}
-\newcommand{\rECAL}{R}
-\newcommand{\stau}{\mbox{$\tilde{\tau}$}}
-\def\XN#1{\mbox{$ \tilde{\chi}^0_#1$}}
-\newcommand{\smur}    {\mbox{$ \tilde{\mu}_{\mathrm R}$}}
-\newcommand{\smul}    {\mbox{$ \tilde{\mu}_{\mathrm L}$}}
-\def\MXN#1{\mbox{$ M_{\tilde{\chi}^0_#1}$}}
-\newcommand{\mstone}  {\mbox{$ M_{\tilde{\tau}_1} $}}
-\newcommand{\gev}{GeV}
-\newcommand{\mum}{\mathrm \mu m}
+%%FG
+%%FG
+%%FG\newcommand\epluseminus{{\mathrm e}^+{\mathrm e}^-}
+%%FG
+%%FG% from ILD LOI
+%%FG%end from ILD LOI
+%%FG
+%%FG
+%%FG\renewcommand\floatpagefraction{.98}
+%%FG\renewcommand\topfraction{.98}
+%%FG\renewcommand\bottomfraction{.98}
+%%FG
+%%FG\setcounter{totalnumber}{4}
+%%FG\setcounter{topnumber}{4}
+%%FG
+%%FG%\renewcommand{\topfraction}{0.8}
+%%FG\renewcommand{\textfraction}{.05}   
+%%FG
+%%FG\renewcommand{\arraystretch}{1.15}
+%%FG 
+%%FG\newcommand{\eplus}{\mathrm{e}^+}
+%%FG\newcommand{\eminus}{\mathrm{e}^-}
+%%FG%\newcommand{\epem}{\eplus\eminus}%
+%%FG\newcommand{\mpmm}{\mu^+\mu^-}
+%%FG\newcommand{\tptm}{\tau^+\tau^-}
+%%FG\newcommand{\lplm}{\ell^+\ell^-}
+%%FG\newcommand{\eeX}{\epem X}
+%%FG\newcommand{\mmX}{\mpmm X}
+%%FG\newcommand{\Zzero}{\mathrm{Z}}
+%%FG\newcommand{\Wboson}{\mathrm{W}}
+%%FG\newcommand{\WpWm}{\Wboson^+\Wboson^-}
+%%FG\newcommand{\Higgs}{\mathrm{H}}
+%%FG\newcommand{\Ptau}{P_\tau}
+%%FG\newcommand{\qq}{\mathrm{q}\overline{\mathrm{q}}}
+%%FG\newcommand{\ttbar}{\mathrm{t}\overline{\mathrm{t}}}
+%%FG\newcommand{\uubar}{\mathrm{u}\overline{\mathrm{u}}}
+%%FG\newcommand{\ccbar}{\mathrm{c}\overline{\mathrm{c}}}
+%%FG\newcommand{\bbbar}{\mathrm{b}\overline{\mathrm{b}}}
+%%FG\newcommand{\ddbar}{\mathrm{d}\overline{\mathrm{d}}}
+%%FG\newcommand{\ssbar}{\mathrm{s}\overline{\mathrm{s}}}
+%%FG\newcommand{\nubar}{\overline{\nu}}
+%%FG\newcommand{\GammaZ}{\Gamma_\Zzero}
+%%FG\newcommand{\GammaW}{\Gamma_\Wboson}
+%%FG\newcommand{\mZ}{m_\Zzero}
+%%FG\newcommand{\mW}{m_\Wboson}
+%%FG\newcommand{\mH}{m_\Higgs}
+%%FG\newcommand{\topquark}{\mathrm{t}}
+%%FG\newcommand{\mtop}{m_\topquark}
+%%FG\newcommand{\Gtop}{\Gamma_\topquark}
+%%FG\newcommand{\roots}{\sqrt{s}}
+%%FG\newcommand{\rmsn}{\mathrm{rms}_{90}}
+%%FG\newcommand{\rECAL}{R}
+%%FG\newcommand{\stau}{\mbox{$\tilde{\tau}$}}
+%%FG\def\XN#1{\mbox{$ \tilde{\chi}^0_#1$}}
+%%FG\newcommand{\smur}    {\mbox{$ \tilde{\mu}_{\mathrm R}$}}
+%%FG\newcommand{\smul}    {\mbox{$ \tilde{\mu}_{\mathrm L}$}}
+%%FG\def\MXN#1{\mbox{$ M_{\tilde{\chi}^0_#1}$}}
+%%FG\newcommand{\mstone}  {\mbox{$ M_{\tilde{\tau}_1} $}}
+%%FG\newcommand{\gev}{GeV}
+%%FG\newcommand{\mum}{\mathrm \mu m}
 
 % temporary fix for DAQ chapter
 %\newcommand{\fixme}{FIXME} % command for comments 
 %\newcommand{\fixme}[1]{\textbf{FIXME: \textsf{(#1)}}} % command for comments 
-\newcommand{\fixme}[1]{} % Temporary remove all comments
-% Units spacing and formatting 
-%Used in 3_Detector/ild-daq.tex and 2_Subsystems/Calo/HCAL.tex
-\newcommand{\unit}[1]{\ensuremath{\mathrm{\,#1}}}
-\renewcommand{\u}[1]{\unit{#1}}   
-%\newcommand{\us}{\hbox{\textmu}s}
-\newcommand{\smH}{\ensuremath{h}\xspace}  % SM higgs 
-\newcolumntype{x}[1]{>{\centering\arraybackslash\hspace{0pt}}p{#1}}
+%%FG\newcommand{\fixme}[1]{} % Temporary remove all comments
+%%FG% Units spacing and formatting 
+%%FG%Used in 3_Detector/ild-daq.tex and 2_Subsystems/Calo/HCAL.tex
+%%FG\newcommand{\unit}[1]{\ensuremath{\mathrm{\,#1}}}
+%%FG\renewcommand{\u}[1]{\unit{#1}}   
+%%FG%\newcommand{\us}{\hbox{\textmu}s}
+%%FG\newcommand{\smH}{\ensuremath{h}\xspace}  % SM higgs 
+%%FG\newcolumntype{x}[1]{>{\centering\arraybackslash\hspace{0pt}}p{#1}}
 \newcommand{\DBDnumbers}{}
-
-\newcommand{\ILDfigure}{\thisfloatsetup{floatwidth=\SfigwFull,capposition=beside} \begin{figure}}
-\newcommand{\DBDtable}{\thisfloatsetup{floatwidth=\SfigwFull,capposition=beside}
-\begin{table}}
-
-
-\newcount\Level
-\let\Part=\part\def\part{\global\Level=0\Part}
-\let\Chapter=\chapter\def\chapter{\global\Level=1\Chapter}
-\let\Section=\section\def\section{\global\Level=2\Section}
-\newbool{levelbool}
-
-\def\level{
-\if\the\Level part \setboolean{levelbool}{false}
-\else
-\setboolean{levelbool}{true}
-\fi
-}
-
-
-\def\levelText{ here 
-  \ifcase\the\Level part
-  \or chapter
-  \or section 
-  \else default text \fi}
+%%FG
+%%FG\newcommand{\ILDfigure}{\thisfloatsetup{floatwidth=\SfigwFull,capposition=beside} \begin{figure}}
+%%FG\newcommand{\DBDtable}{\thisfloatsetup{floatwidth=\SfigwFull,capposition=beside}
+%%FG\begin{table}}
+%%FG
+%%FG
+%%FG\newcount\Level
+%%FG\let\Part=\part\def\part{\global\Level=0\Part}
+%%FG\let\Chapter=\chapter\def\chapter{\global\Level=1\Chapter}
+%%FG\let\Section=\section\def\section{\global\Level=2\Section}
+%%FG\newbool{levelbool}
+%%FG
+%%FG\def\level{
+%%FG\if\the\Level part \setboolean{levelbool}{false}
+%%FG\else
+%%FG\setboolean{levelbool}{true}
+%%FG\fi
+%%FG}
+%%FG
+%%FG
+%%FG\def\levelText{ here 
+%%FG  \ifcase\the\Level part
+%%FG  \or chapter
+%%FG  \or section 
+%%FG  \else default text \fi}
 

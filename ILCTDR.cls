@@ -24,7 +24,7 @@
 %-------------------------------------------------------------------------------
 %
 % page layout
-\RequirePackage{fixltx2e}
+%\RequirePackage{fixltx2e}
 \RequirePackage[latin1]{inputenc}
 \RequirePackage[english]{babel}
 %
@@ -32,7 +32,7 @@
 \RequirePackage[usenames,dvipsnames,svgnames,table]{xcolor}
 %
 % headings
-\RequirePackage[compact,explicit,calcwidth]{titlesec}
+%\RequirePackage[compact,explicit,calcwidth]{titlesec}
 \RequirePackage{needspace}
 \RequirePackage{fancyhdr}
 %
@@ -114,24 +114,25 @@
 %\RequirePackage{ulem} 
 \let\minute\undefined
 \let\hour\undefined
-\RequirePackage{siunitx}
-\@ifpackagelater{siunitx}{2010/01/01}{\sisetup{load-configurations=abbreviations}}{}
-% comment next two lines for siunits and math in serif
-\sisetup{detect-weight=true,detect-display-math=true,detect-inline-family=math,detect-family=true,detect-shape=true,detect-mode=true,detect-inline-weight=text,range-phrase=--,range-units=single}
-\AtBeginDocument{\sisetup{math-rm=\mathrm,text-rm=\rmfamily}}
-% defining missing symbols for different siunitx versions (may require further changes)
-\ifx\newunit\undefined
-    \DeclareSIUnit\MV{\mega\volt}
-    \DeclareSIUnit\GeV{\giga\electronvolt}
-    \DeclareSIUnit\TeV{\tera\electronvolt}
-\else
-    \newunit\kW{\kilo\watt}
-    \newunit\MW{\mega\watt}
-    \newunit\um{\micro\meter}
-    \newunit\us{\micro\second}
-    \newunit\s{\second}
-    \newunit\m{\meter}
-\fi 
+
+%%FG \RequirePackage{siunitx}
+%%FG \@ifpackagelater{siunitx}{2010/01/01}{\sisetup{load-configurations=abbreviations}}{}
+%%FG % comment next two lines for siunits and math in serif
+%%FG \sisetup{detect-weight=true,detect-display-math=true,detect-inline-family=math,detect-family=true,detect-shape=true,detect-mode=true,detect-inline-weight=text,range-phrase=--,range-units=single}
+%%FG \AtBeginDocument{\sisetup{math-rm=\mathrm,text-rm=\rmfamily}}
+%%FG % defining missing symbols for different siunitx versions (may require further changes)
+%%FG \ifx\newunit\undefined
+%%FG     \DeclareSIUnit\MV{\mega\volt}
+%%FG     \DeclareSIUnit\GeV{\giga\electronvolt}
+%%FG     \DeclareSIUnit\TeV{\tera\electronvolt}
+%%FG \else
+%%FG     \newunit\kW{\kilo\watt}
+%%FG     \newunit\MW{\mega\watt}
+%%FG     \newunit\um{\micro\meter}
+%%FG     \newunit\us{\micro\second}
+%%FG     \newunit\s{\second}
+%%FG     \newunit\m{\meter}
+%%FG \fi 
 %
 
 %-------------------------------------------------------------------------------
@@ -281,9 +282,14 @@
 \counterwithin{equation}{chapter}
 %
 
-\renewcommand{\thefigure}{\Roman{part}-\arabic{chapter}.\arabic{figure}}
-\renewcommand{\thetable}{\Roman{part}-\arabic{chapter}.\arabic{table}}
-\renewcommand{\theequation}{\Roman{part}-\arabic{chapter}.\arabic{equation}}
+%\renewcommand{\thefigure}{\Roman{part}-\arabic{chapter}.\arabic{figure}}
+%\renewcommand{\thetable}{\Roman{part}-\arabic{chapter}.\arabic{table}}
+%\renewcommand{\theequation}{\Roman{part}-\arabic{chapter}.\arabic{equation}}
+\renewcommand{\thefigure}{\arabic{chapter}.\arabic{figure}}
+\renewcommand{\thetable}{\arabic{chapter}.\arabic{table}}
+\renewcommand{\theequation}{\arabic{chapter}.\arabic{equation}}
+
+
 %
 % set sectioning level
 %
@@ -557,22 +563,25 @@
 }
 %\newcommand{\minitab}[2][1]{{\renewcommand{\arraystretch}{0.9}\begin{tabular}{@{}#1@{}}#2\end{tabular}}}
 % Table Background Color
-\RequirePackage{etoolbox,letltxmacro}
-\newsavebox{\tabularbox}
-\AtBeginEnvironment{table}{%
-  \LetLtxMacro\tabular\colortabular
-  \LetLtxMacro\endtabular\endcolortabular
-}
-\AtBeginDocument{%
-\BeforeBeginEnvironment{tabular*}{\tikzpicture\node[fill=gray!10,anchor=base,inner sep=0pt,outer sep=0pt]\bgroup}%
-\AfterEndEnvironment{tabular*}{\egroup;\endtikzpicture}%
-\LetLtxMacro\colortabular\tabular
-\LetLtxMacro\endcolortabular\endtabular
-\pretocmd{\colortabular}%
-  {\setbox\tabularbox=\hbox\bgroup}{}{}
-\apptocmd{\endcolortabular}%
-  {\egroup\begingroup\fboxsep=0pt\colorbox{gray!10}{\box\tabularbox}\endgroup}{}{}
-}
+%\RequirePackage{etoolbox,letltxmacro}
+%\newsavebox{\tabularbox}
+%\AtBeginEnvironment{table}{%
+%  \LetLtxMacro\tabular\colortabular
+%  \LetLtxMacro\endtabular\endcolortabular
+%}
+%\AtBeginDocument{%
+%\BeforeBeginEnvironment{tabular*}{\tikzpicture\node[fill=gray!10,anchor=base,inner sep=0pt,outer sep=0pt]\bgroup}%
+%\AfterEndEnvironment{tabular*}{\egroup;\endtikzpicture}%
+%\LetLtxMacro\colortabular\tabular
+%\LetLtxMacro\endcolortabular\endtabular
+%\pretocmd{\colortabular}%
+%  {\setbox\tabularbox=\hbox\bgroup}{}{}
+%\apptocmd{\endcolortabular}%
+%  {\egroup\begingroup\fboxsep=0pt\colorbox{gray!10}{\box\tabularbox}\endgroup}{}{}
+%}
+
+
+
 %
 % Tikz layers
 %
@@ -617,34 +626,34 @@
   \end{tikzpicture}%
 }}%
 %
-\titlespacing*{\chapter}{-\columnsep-0.5\titlemarginwidth}{50pt}{40pt}
-\titleformat{\chapter}[display]%
-  {\filright\usekomafont{chapter}\setstretch{1}}%
-  {\chaptertitlename\ \thechapter}%
-  {0em}%
-  {#1}%
+%\titlespacing*{\chapter}{-\columnsep-0.5\titlemarginwidth}{50pt}{40pt}
+%\titleformat{\chapter}[display]%
+%  {\filright\usekomafont{chapter}\setstretch{1}}%
+%  {\chaptertitlename\ \thechapter}%
+%  {0em}%
+%  {#1}%
 %
-\titlespacing*{\section}{-\titlemarginwidth}{*3}{*0}
-\titleformat{\section}%
-  {\needspace{2in}}%
+%\titlespacing*{\section}{-\titlemarginwidth}{*3}{*0}
+%\titleformat{\section}%
+%  {\needspace{2in}}%
 %  {}{0pt}{\boxedsection{#1}{section}{white}{black}{black}{\thesection}\lineskiplimit=-\maxdimen%
-  {}{0pt}{\boxedsection{#1}{section}{white}{black}{white}{\thesection}\lineskiplimit=-\maxdimen%
-}[\titlesechack]%
+%  {}{0pt}{\boxedsection{#1}{section}{white}{black}{white}{\thesection}\lineskiplimit=-\maxdimen%
+%}[\titlesechack]%
 %
-\titlespacing*{\subsection}{-\titlemarginwidth}{*3}{*0}
-\titleformat{\subsection}%
-  {\needspace{1in}}%
-  {}{0pt}{\boxedsection{#1}{subsection}{black}{gray!30}{white}{\thesubsection}\lineskiplimit=-\maxdimen%
-}[\titlesechack]%
+%\titlespacing*{\subsection}{-\titlemarginwidth}{*3}{*0}
+%\titleformat{\subsection}%
+%  {\needspace{1in}}%
+%  {}{0pt}{\boxedsection{#1}{subsection}{black}{gray!30}{white}{\thesubsection}\lineskiplimit=-\maxdimen%
+%}[\titlesechack]%
 %
-\titlespacing*{\subsubsection}{-\titlemarginwidth}{*3}{*0}
-\titleformat{\subsubsection}%
-  {\needspace{1in}}%
-  {}{0pt}{\boxedsection{#1}{subsubsection}{black}{white}{white}{\thesubsubsection}\lineskiplimit=-\maxdimen%
-}[\titlesechack]%
+%\titlespacing*{\subsubsection}{-\titlemarginwidth}{*3}{*0}
+%\titleformat{\subsubsection}%
+%  {\needspace{1in}}%
+%  {}{0pt}{\boxedsection{#1}{subsubsection}{black}{white}{white}{\thesubsubsection}\lineskiplimit=-\maxdimen%
+%}[\titlesechack]%
 %
-\titleformat{\paragraph}[runin]{}{}{0pt}{\underline{#1}}
-\titleformat{\subparagraph}[runin]{}{}{0pt}{\emph{#1}}
+%\titleformat{\paragraph}[runin]{}{}{0pt}{\underline{#1}}
+%\titleformat{\subparagraph}[runin]{}{}{0pt}{\emph{#1}}
 %
 % corrects spacing after section heading
 \makeatletter

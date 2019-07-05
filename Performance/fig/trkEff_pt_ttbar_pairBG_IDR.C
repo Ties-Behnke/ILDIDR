@@ -1,0 +1,235 @@
+void trkEff_pt_ttbar_pairBG_IDR()
+{
+//=========Macro generated from canvas: momentum/momentum
+//=========  (Tue Jun 25 19:20:51 2019) by ROOT version 6.14/04
+   TCanvas *momentum = new TCanvas("momentum", "momentum",1,572,600,600);
+   gStyle->SetOptStat(0);
+   momentum->Range(-1.68,0.4954054,2.32,1.076486);
+   momentum->SetFillColor(10);
+   momentum->SetBorderMode(0);
+   momentum->SetBorderSize(2);
+   momentum->SetLogx();
+   momentum->SetTickx(1);
+   momentum->SetTicky(1);
+   momentum->SetLeftMargin(0.17);
+   momentum->SetRightMargin(0.08);
+   momentum->SetTopMargin(0.08);
+   momentum->SetBottomMargin(0.18);
+   momentum->SetFrameLineWidth(2);
+   momentum->SetFrameBorderMode(0);
+   momentum->SetFrameLineWidth(2);
+   momentum->SetFrameBorderMode(0);
+   Double_t xAxis5[14] = {0.01, 0.1, 0.2, 0.3, 0.5, 0.7, 1, 2, 5, 10, 20, 50, 100, 300}; 
+   
+   TEfficiency * hist_pt_t_clone7 = new TEfficiency("hist_pt_t_clone","",13,xAxis5);
+   
+   hist_pt_t_clone7->SetConfidenceLevel(0.6826895);
+   hist_pt_t_clone7->SetBetaAlpha(1);
+   hist_pt_t_clone7->SetBetaBeta(1);
+   hist_pt_t_clone7->SetWeight(1);
+   hist_pt_t_clone7->SetStatisticOption(0);
+   hist_pt_t_clone7->SetPosteriorMode(0);
+   hist_pt_t_clone7->SetShortestInterval(0);
+   hist_pt_t_clone7->SetTotalEvents(0,0);
+   hist_pt_t_clone7->SetPassedEvents(0,0);
+   hist_pt_t_clone7->SetTotalEvents(1,0);
+   hist_pt_t_clone7->SetPassedEvents(1,0);
+   hist_pt_t_clone7->SetTotalEvents(2,1140);
+   hist_pt_t_clone7->SetPassedEvents(2,801);
+   hist_pt_t_clone7->SetTotalEvents(3,1578);
+   hist_pt_t_clone7->SetPassedEvents(3,1461);
+   hist_pt_t_clone7->SetTotalEvents(4,3287);
+   hist_pt_t_clone7->SetPassedEvents(4,3285);
+   hist_pt_t_clone7->SetTotalEvents(5,2852);
+   hist_pt_t_clone7->SetPassedEvents(5,2850);
+   hist_pt_t_clone7->SetTotalEvents(6,3609);
+   hist_pt_t_clone7->SetPassedEvents(6,3607);
+   hist_pt_t_clone7->SetTotalEvents(7,10674);
+   hist_pt_t_clone7->SetPassedEvents(7,10673);
+   hist_pt_t_clone7->SetTotalEvents(8,12816);
+   hist_pt_t_clone7->SetPassedEvents(8,12816);
+   hist_pt_t_clone7->SetTotalEvents(9,6505);
+   hist_pt_t_clone7->SetPassedEvents(9,6505);
+   hist_pt_t_clone7->SetTotalEvents(10,3283);
+   hist_pt_t_clone7->SetPassedEvents(10,3283);
+   hist_pt_t_clone7->SetTotalEvents(11,1160);
+   hist_pt_t_clone7->SetPassedEvents(11,1159);
+   hist_pt_t_clone7->SetTotalEvents(12,72);
+   hist_pt_t_clone7->SetPassedEvents(12,72);
+   hist_pt_t_clone7->SetTotalEvents(13,0);
+   hist_pt_t_clone7->SetPassedEvents(13,0);
+   hist_pt_t_clone7->SetTotalEvents(14,0);
+   hist_pt_t_clone7->SetPassedEvents(14,0);
+   hist_pt_t_clone7->SetFillColor(10);
+
+   Int_t ci;      // for color index setting
+   TColor *color; // for color definition with alpha
+   ci = TColor::GetColor("#0000ff");
+   hist_pt_t_clone7->SetLineColor(ci);
+   hist_pt_t_clone7->SetLineWidth(2);
+
+   ci = TColor::GetColor("#0000ff");
+   hist_pt_t_clone7->SetMarkerColor(ci);
+   hist_pt_t_clone7->SetMarkerStyle(20);
+   hist_pt_t_clone7->SetMarkerSize(0.9);
+   hist_pt_t_clone7->Draw("ap");
+   Double_t xAxis6[14] = {0.01, 0.1, 0.2, 0.3, 0.5, 0.7, 1, 2, 5, 10, 20, 50, 100, 300}; 
+   
+   TEfficiency * hist_pt_t_clone8 = new TEfficiency("hist_pt_t_clone","",13,xAxis6);
+   
+   hist_pt_t_clone8->SetConfidenceLevel(0.6826895);
+   hist_pt_t_clone8->SetBetaAlpha(1);
+   hist_pt_t_clone8->SetBetaBeta(1);
+   hist_pt_t_clone8->SetWeight(1);
+   hist_pt_t_clone8->SetStatisticOption(0);
+   hist_pt_t_clone8->SetPosteriorMode(0);
+   hist_pt_t_clone8->SetShortestInterval(0);
+   hist_pt_t_clone8->SetTotalEvents(0,0);
+   hist_pt_t_clone8->SetPassedEvents(0,0);
+   hist_pt_t_clone8->SetTotalEvents(1,0);
+   hist_pt_t_clone8->SetPassedEvents(1,0);
+   hist_pt_t_clone8->SetTotalEvents(2,456);
+   hist_pt_t_clone8->SetPassedEvents(2,303);
+   hist_pt_t_clone8->SetTotalEvents(3,914);
+   hist_pt_t_clone8->SetPassedEvents(3,849);
+   hist_pt_t_clone8->SetTotalEvents(4,2718);
+   hist_pt_t_clone8->SetPassedEvents(4,2713);
+   hist_pt_t_clone8->SetTotalEvents(5,2575);
+   hist_pt_t_clone8->SetPassedEvents(5,2571);
+   hist_pt_t_clone8->SetTotalEvents(6,3494);
+   hist_pt_t_clone8->SetPassedEvents(6,3491);
+   hist_pt_t_clone8->SetTotalEvents(7,10583);
+   hist_pt_t_clone8->SetPassedEvents(7,10582);
+   hist_pt_t_clone8->SetTotalEvents(8,12985);
+   hist_pt_t_clone8->SetPassedEvents(8,12984);
+   hist_pt_t_clone8->SetTotalEvents(9,6624);
+   hist_pt_t_clone8->SetPassedEvents(9,6624);
+   hist_pt_t_clone8->SetTotalEvents(10,3345);
+   hist_pt_t_clone8->SetPassedEvents(10,3345);
+   hist_pt_t_clone8->SetTotalEvents(11,1182);
+   hist_pt_t_clone8->SetPassedEvents(11,1182);
+   hist_pt_t_clone8->SetTotalEvents(12,75);
+   hist_pt_t_clone8->SetPassedEvents(12,75);
+   hist_pt_t_clone8->SetTotalEvents(13,0);
+   hist_pt_t_clone8->SetPassedEvents(13,0);
+   hist_pt_t_clone8->SetTotalEvents(14,0);
+   hist_pt_t_clone8->SetPassedEvents(14,0);
+   hist_pt_t_clone8->SetFillColor(10);
+   hist_pt_t_clone8->SetLineWidth(2);
+   hist_pt_t_clone8->SetMarkerStyle(20);
+   hist_pt_t_clone8->SetMarkerSize(0.7);
+   hist_pt_t_clone8->Draw("samep");
+   Double_t xAxis7[14] = {0.01, 0.1, 0.2, 0.3, 0.5, 0.7, 1, 2, 5, 10, 20, 50, 100, 300}; 
+   
+   TEfficiency * hist_pt_t_clone9 = new TEfficiency("hist_pt_t_clone","",13,xAxis7);
+   
+   hist_pt_t_clone9->SetConfidenceLevel(0.6826895);
+   hist_pt_t_clone9->SetBetaAlpha(1);
+   hist_pt_t_clone9->SetBetaBeta(1);
+   hist_pt_t_clone9->SetWeight(1);
+   hist_pt_t_clone9->SetStatisticOption(0);
+   hist_pt_t_clone9->SetPosteriorMode(0);
+   hist_pt_t_clone9->SetShortestInterval(0);
+   hist_pt_t_clone9->SetTotalEvents(0,0);
+   hist_pt_t_clone9->SetPassedEvents(0,0);
+   hist_pt_t_clone9->SetTotalEvents(1,0);
+   hist_pt_t_clone9->SetPassedEvents(1,0);
+   hist_pt_t_clone9->SetTotalEvents(2,456);
+   hist_pt_t_clone9->SetPassedEvents(2,303);
+   hist_pt_t_clone9->SetTotalEvents(3,914);
+   hist_pt_t_clone9->SetPassedEvents(3,844);
+   hist_pt_t_clone9->SetTotalEvents(4,2718);
+   hist_pt_t_clone9->SetPassedEvents(4,2713);
+   hist_pt_t_clone9->SetTotalEvents(5,2575);
+   hist_pt_t_clone9->SetPassedEvents(5,2571);
+   hist_pt_t_clone9->SetTotalEvents(6,3494);
+   hist_pt_t_clone9->SetPassedEvents(6,3491);
+   hist_pt_t_clone9->SetTotalEvents(7,10583);
+   hist_pt_t_clone9->SetPassedEvents(7,10582);
+   hist_pt_t_clone9->SetTotalEvents(8,12985);
+   hist_pt_t_clone9->SetPassedEvents(8,12984);
+   hist_pt_t_clone9->SetTotalEvents(9,6624);
+   hist_pt_t_clone9->SetPassedEvents(9,6624);
+   hist_pt_t_clone9->SetTotalEvents(10,3345);
+   hist_pt_t_clone9->SetPassedEvents(10,3345);
+   hist_pt_t_clone9->SetTotalEvents(11,1182);
+   hist_pt_t_clone9->SetPassedEvents(11,1182);
+   hist_pt_t_clone9->SetTotalEvents(12,75);
+   hist_pt_t_clone9->SetPassedEvents(12,75);
+   hist_pt_t_clone9->SetTotalEvents(13,0);
+   hist_pt_t_clone9->SetPassedEvents(13,0);
+   hist_pt_t_clone9->SetTotalEvents(14,0);
+   hist_pt_t_clone9->SetPassedEvents(14,0);
+   hist_pt_t_clone9->SetFillColor(10);
+
+   ci = TColor::GetColor("#ff0000");
+   hist_pt_t_clone9->SetLineColor(ci);
+   hist_pt_t_clone9->SetLineWidth(2);
+
+   ci = TColor::GetColor("#ff0000");
+   hist_pt_t_clone9->SetMarkerColor(ci);
+   hist_pt_t_clone9->SetMarkerStyle(24);
+   hist_pt_t_clone9->SetMarkerSize(0.95);
+   hist_pt_t_clone9->Draw("samep");
+   
+   TLegend *leg = new TLegend(0.3,0.25,0.9,0.4,NULL,"brNDC");
+   leg->SetBorderSize(0);
+   leg->SetTextFont(62);
+   leg->SetLineColor(1);
+   leg->SetLineStyle(1);
+   leg->SetLineWidth(2);
+   leg->SetFillColor(0);
+   leg->SetFillStyle(1001);
+   TLegendEntry *entry=leg->AddEntry("NULL","t#bar{t} @ 500 GeV - p_{T} > 100 MeV, cos(#theta) < 0.99","h");
+   entry->SetLineColor(1);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(1);
+   entry->SetMarkerColor(1);
+   entry->SetMarkerStyle(21);
+   entry->SetMarkerSize(1);
+   entry->SetTextFont(62);
+   entry=leg->AddEntry("hist_pt_t_clone","IDR-L - no bg.","epl");
+
+   ci = TColor::GetColor("#0000ff");
+   entry->SetLineColor(ci);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(2);
+
+   ci = TColor::GetColor("#0000ff");
+   entry->SetMarkerColor(ci);
+   entry->SetMarkerStyle(20);
+   entry->SetMarkerSize(0.9);
+   entry->SetTextFont(62);
+   entry=leg->AddEntry("hist_pt_t_clone","IDR-L - 1BX bg. ","epl");
+   entry->SetLineColor(1);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(2);
+   entry->SetMarkerColor(1);
+   entry->SetMarkerStyle(20);
+   entry->SetMarkerSize(0.7);
+   entry->SetTextFont(62);
+   entry=leg->AddEntry("hist_pt_t_clone","IDR-L - 2BX bg","epl");
+
+   ci = TColor::GetColor("#ff0000");
+   entry->SetLineColor(ci);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(2);
+
+   ci = TColor::GetColor("#ff0000");
+   entry->SetMarkerColor(ci);
+   entry->SetMarkerStyle(24);
+   entry->SetMarkerSize(0.95);
+   entry->SetTextFont(62);
+   leg->Draw();
+   TText *text = new TText(0.75,0.75,"ILD");
+   text->SetNDC();
+
+   ci = TColor::GetColor("#000099");
+   text->SetTextColor(ci);
+   text->SetTextFont(42);
+   text->SetTextSize(0.07);
+   text->Draw();
+   momentum->Modified();
+   momentum->cd();
+   momentum->SetSelected(momentum);
+}
