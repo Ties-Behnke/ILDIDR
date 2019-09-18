@@ -2,17 +2,17 @@
 \vspace{1.0cm}
 
 \subsection{Vertex detector}
-\writer{Auguste Besson, Akimasa Ishikawa, Marcel Vos}{3}
+%\writer{Auguste Besson, Akimasa Ishikawa, Marcel Vos}{3}
 
 The vertex detector is a high-precision small device which is expected to be one of the latest subdetectors to be built and inserted within ILD. The development of optimal technologies can therefore proceed until a few years before the start of ILC. There has been much progress in this direction in the past 5 years for the three main options under consideration: CMOS, DEPFET and FPCCD sensors.
 
-\subparagraph*{\bf CMOS sensors: }
+\subsubsection{CMOS sensors}
 
-The use of CMOS sensors for particle physics has benefited a lot from the development in the past two decades of the MIMOSA chip series by the IPHC Institute [ref]. A first full scale particle physics detector application has been realized with the STAR vertex detector (Figure~\ref{fig:det:VTX_STAR}) on the RHIC hadron collider. Since then the technology has further developed as a widespread standard for pixel detectors, including many applications to e.g. LHC upgrades or new experiments. 
+The use of CMOS sensors for particle physics has benefited a lot from the development in the past two decades of the MIMOSA chip series by the IPHC Institute. A first full scale particle physics detector application has been realized with the STAR vertex detector~\cite{Contin:2017mck} (Figure~\ref{fig:det:VTX_STAR}) on the RHIC hadron collider. Since then the technology has further developed as a widespread standard for pixel detectors, including many applications to e.g. LHC upgrades or new experiments. 
 
-The general trend of performance improvements towards ILD specifications is summarized in table~\ref{ild:tab:CMOSdev}. Compared to STAR the new applications for the ALICE upgrade and CBM at FAIR have moved to a technology with a smaller pattern, have implemented a new data driven readout scheme, and have improved the time resolution and power consumption to values close to ILD needs. The ALICE detector also concerns a very large area of more than 10 $m^2$, which qualifies the technology for the inner layers of a central tracker.
+The general trend of performance improvements towards ILD specifications is summarized in table~\ref{ild:tab:CMOSdev}. Compared to STAR the new applications for the ALICE upgrade~\cite{AglieriRinella:2017lym} and CBM at FAIR~\cite{Koziel:2017loo} have moved to a technology with a smaller pattern, have implemented a new data driven readout scheme, and have improved the time resolution and power consumption to values close to ILD needs. The ALICE detector also concerns a very large area of more than 10 $m^2$, which qualifies the technology for the inner layers of a central tracker.
 
-With these applications more attention is given to integration aspects of the technology. The chip intrinsic power consumption is now close to the ILD specification and could still be reduced by a factor $\simeq 10$ with power pulsing. To this respect a trade-off will have to be made between readout speed (related to time resolution) and power. With the expected heat production air cooling as done at STAR could be sufficient, but ILD has stronger constraints on the possible air flow due to a more forward instrumentation than STAR. This critical issue requires further studies. Low material ladder supports have been developed with the "PLUME" concept, consisting in a thin foam layer carrying pixel chips on both sides as a double layer [ref]. First PLUME ladders have been built and a second version has been successfully operated for the BELLE II beam commissioning (Figure~\ref{fig:det:VTX_BELLE2} top).
+With these applications more attention is given to integration aspects of the technology. The chip intrinsic power consumption is now close to the ILD specification and could still be reduced by a factor $\simeq 10$ with power pulsing. To this respect a trade-off will have to be made between readout speed (related to time resolution) and power. With the expected heat production air cooling as done at STAR could be sufficient, but ILD has stronger constraints on the possible air flow due to a more forward instrumentation than STAR. This critical issue requires further studies. Low material ladder supports have been developed with the "PLUME" concept~\cite{Nomerotski:2011zz}, consisting in a thin foam layer carrying pixel chips on both sides as a double layer. First PLUME ladders have been built and a second version has been successfully operated for the BELLE II beam commissioning (Figure~\ref{fig:det:VTX_BELLE2} top).
 
 \begin{table}\hspace*{-0cm}\small
 \begin{tabular}{ l c c c c }
@@ -21,7 +21,8 @@ DETECTOR: & STAR-PXL & ALICE-ITS & CBM-MVD & ILD-VXD \\
 & (ULTIMATE) & (ALPIDE) & (MIMOSIS) & (PSIRA) \\
 & 2014-16 & 2021-22 & 2021-22   & 2030 \\
 \midrule
-Technology (AMS): & 0.35 $\mu$m & 0.18 $\mu$m & 0.18 $\mu$m & $<$ 0.18 $\mu$m ? \\
+Technology (AMS): & 0.35 $\mu$m & 0.18 $\mu$m & 0.18 $\mu$m & $<$ 0.18 $\mu$m \\
+Pixel size ($\mu$m$^2)$: & 20.7 x 20.7  & 27 x 29 & 22 x 33 & 22 x 22 or 18 x 18 \\
 Readout mode:   & rolling shutter & data driven & data driven & data driven \\
 Time resolution ($\mu$s):   & 135 & 5-10 & 5 & 1-4 \\
 Power (mW/$cm^2$):   & 150 & 35  & 200  & 50-100 \\
@@ -36,11 +37,11 @@ Material ($X_0$/layer):   & 0.39\% & 0.3\%  &   & 0.15\% \\
 \begin{figure}[t!]
 \centering
 \includegraphics[width=0.6\hsize]{Detector/fig/VTX_STAR.png}
-\caption{The vertex detector of the STAR experiment based on the "ULTIMATE" CMOS pixel sensor.}
+\caption{The vertex detector of the STAR experiment based on the "ULTIMATE" CMOS pixel sensor~\cite{Contin:2017mck}.}
 \label{fig:det:VTX_STAR}
 \end{figure}
 
-\subparagraph*{\bf DEPFET sensors: }
+\subsubsection{DEPFET sensors}
 
 The development of DEPFET sensors in particle physics is reaching maturity. Following the demonstration of small
 prototypes~\cite{Andricek:2011zza,Velthuis:2008zza} and first operational ladders five years ago the technology was 
@@ -59,9 +60,9 @@ taking data, studies towards future BELLE II upgrades based on advanced DEPFET t
 \label{fig:det:VTX_BELLE2}
 \end{figure}
 
-\subparagraph*{\bf FPCCD sensors: }
+\subsubsection{FPCCD sensors}
 
-The FPCCD technology is not yet used in full size detector applications but a first large prototype has been built [ref] with a sufficient size to cover the inner layer of the ILD vertex detector. The prototype is currently undergoing detailed characterization with e.g. radioactive source signals (Figure~\ref{fig:det:VTX_FPCCD}). Irradiation tests of FPCCDs are also being performed since radiation hardness is a critical aspect of this technology.   
+The FPCCD technology is not yet used in full size detector applications but a first large prototype has been built~\cite{ild:bib:FPCCD} with a sufficient size to cover the inner layer of the ILD vertex detector. The prototype is currently undergoing detailed characterization with e.g. radioactive source signals (Figure~\ref{fig:det:VTX_FPCCD}). Irradiation tests of FPCCDs are also being performed since radiation hardness is a critical aspect of this technology.   
 
 \begin{figure}[t!]
 \centering

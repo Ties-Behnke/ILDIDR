@@ -4,7 +4,7 @@ void JER_uds_costh_IDR()
 //=========  (Fri Jun 28 13:55:05 2019) by ROOT version 6.16/00
    TCanvas *can_JES_uds_rel = new TCanvas("can_JES_uds_rel", "Jet Energy, uds samples",33,45,600,600);
 
-   TLegend *leg = new TLegend(0.24,0.5,0.45,0.75,NULL,"brNDC");
+   TLegend *leg = new TLegend(0.24,0.5,0.45,0.80,"IDR-L","brNDC");
 
    gStyle->SetOptStat(0);
    can_JES_uds_rel->Range(-0.307361,0.2812194,0. ,11.84675);
@@ -537,10 +537,10 @@ void JER_uds_costh_IDR()
    pt->SetFillColor(0);
    pt->SetLineWidth(3);
    pt->SetTextAlign(13);
-   pt->SetTextColor(15);
+   pt->SetTextColor(1);
    pt->SetTextFont(42);
    pt->SetTextSize(0.0625);
-   TText *pt_LaTex = pt->AddText("ILD Preliminary");
+   TText *pt_LaTex = pt->AddText("ILD");
    pt->Draw();
    
 //fg    TLegend *leg = new TLegend(0,0,0,0,NULL,"brNDC");

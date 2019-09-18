@@ -1,11 +1,11 @@
 \section{Internal ILD integration}
-\writer{Karsten Buesser, Roman Poeschl, Toshiaki Tauchi}{3}
+%\writer{Karsten Buesser, Roman Poeschl, Toshiaki Tauchi}{3}
 
 The ILD detector concept underwent a dedicated effort to come to an integrated design that from subdetector level up to the major structures gives a conceptual engineering view of the full system. This includes realistic mechanical designs with tolerances, deformations and dead material zones as well as an integrated design of all detector services: electrical, cooling, gases, etc.
 
 \subsection{ILD Mechanical Structure}
 
-The mechanical structure of ILD has not changed since the TDR. The main parts are the three barrel yoke rings and the two endcaps. The central barrel ring carries the solenoid coil in its cryostat; all barrel detectors are suspended from the cryostat. The two other central yoke rings can move over the cryostat. The endcaps can be opened as well. All rings can be moved using airpad systems. Figure~\ref{ILD:fig:mechanical_model} shows the mechanical model of the ILD yoke structure.
+The mechanical structure of ILD has not changed since the DBD~\cite{ild:bib:ILDDBD}. The main parts are the three barrel yoke rings and the two endcaps. The central barrel ring carries the solenoid coil in its cryostat; all barrel detectors are suspended from the cryostat. The two other central yoke rings can move over the cryostat. The endcaps can be opened as well. All rings can be moved using airpad systems. Figure~\ref{ILD:fig:mechanical_model} shows the mechanical model of the ILD yoke structure.
 \begin{figure}[h!]
     \centering
     \includegraphics[width=1.0\hsize]{Integration/fig/ILD_Mechanical.pdf}
@@ -27,15 +27,15 @@ This scheme allows for the opening of the yoke endcaps as well as for moving the
 
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=1.0\hsize]{Integration/fig/cable_paths.pdf}
-    \caption{Service paths in the ILD detector and suggested positions for patch panels~\cite{ild:bib:ILDDBD}.}
+    \includegraphics[width=1.0\hsize]{Integration/fig/cable_paths_new.pdf}
+    \caption{Service paths in the ILD detector and suggested positions for patch panels.}
     \label{ILD:fig:cable_paths}
 \end{figure}
 
 
 \subsection{Inner Detector Integration}
 
-At the heart of ILD, directly at the interaction point, is the inner detector that comprises the beam pipe as well as the vertex detector and the intermediate silicon tracking devices, SIT and FTD~(c.f.~figure~\ref{ILD:fig:inner_detector_schematic}).
+At the heart of ILD, directly at the interaction point, is the inner detector that comprises the beam pipe as well as the vertex detector and the inner silicon tracking devices, SIT and FTD~(c.f.~figure~\ref{ILD:fig:inner_detector_schematic}).
 
 \subsubsection{Mechanical Integration}
 The vertex detector is suspended from the beam pipe that itself is carried together with the Forward Tracking Disks and the Si Intermediate Tracker from the Inner Detector Support Structure (ISS). The ISS is a support tube made out of carbon-fibre reinforced plastic and is suspended from the end flanges of the TPC. A piezo-based active alignment system (see figure~\ref{ILD:fig:inner_detector_integration}) allows for the positioning of the ISS with a precision better than 0.01~mm~\cite{ild:bib:inner_detector_integration}, independently of the main ILD detector structure. This is required to adjust the beam pipe and the inner tracking devices with respect to the beam axis, to better precision than what can be achieved with the complete ILD detector, e.g.~after push-pull operations.
@@ -156,17 +156,17 @@ The distribution of the electrical services for the ScECAL is very similar to th
 \subsection{Hadronic Calorimeters Integration}
 \subsubsection{Mechanical Integration}
 
-Two absorber structures are under study for ILD, the so-called "TESLA" and "Videau" structure~(c.f.~figure~\ref{fig:det:HCAL}). The main differences from the viewpoint of the detector integration are the mechanical behaviour, further discussed in section~\ref{ild:sec:mechanical_structures}, and the layout of the detector electrical and cooling services. Though both technological options for a hadronic calorimeter, the analogue AHCAL and the semi-digital SDHCAL can be adapted to both mechanical structures, the AHCAL has been designed with the "TESLA" structure in mind, while the SD-HCAL is optimised for the "Videau" case.
+Two absorber structures are under study for ILD, the so-called "TESLA" and "Videau" structures~(c.f.~figure~\ref{fig:det:HCAL}). The main differences from the viewpoint of the detector integration are the mechanical behaviour, further discussed in section~\ref{ild:sec:mechanical_structures}, and the layout of the detector electrical and cooling services. Though both technological options for a hadronic calorimeter, the analogue AHCAL and the semi-digital SDHCAL can be adapted to both mechanical structures, the AHCAL has been designed with the "TESLA" structure in mind, while the SDHCAL is optimised for the "Videau" case.
 
 \subsubsection{AHCAL Electrical Services and Cooling}
-An engineering model of the AHCAL barrel section in the "TESLA" structure has been designed and is shown in figure~\ref{ILD:fig:ahcal_module_services}. Eight of these modules form a ring, two rings form the barrel detector. The active layers are read out via electronic boards that are located on the outside of the absorber structure. The front-end electronics are accessible when the endcaps of the ILD detector are open.  
+An engineering model of the AHCAL barrel section in the "TESLA" structure has been designed and is shown in figure~\ref{ILD:fig:ahcal_module_services}. Eight of these modules form a ring, two rings form the barrel detector. The active layers are read out via electronic boards that are located on the outside of the absorber structure. The data concentrators and power interfaces are accessible when the endcaps of the ILD detector are open.  
 \begin{figure}[h!]
     \centering
         \includegraphics[width=0.8\hsize]{Integration/fig/AHCAL_Module_Services.png}
     \caption{Engineering design of an AHCAL module with electrical and cooling services. Only one instrumented layer is shown for the wedge shape outer parts of the module.1}
     \label{ILD:fig:ahcal_module_services}
 \end{figure}
-A close-up of the readout boards, the electrical services and the cooling system is shown in figure~\ref{ILD:fig:ahcal_services_closeup}. The electrical and cooling lines of ECAL, AHCAL, the TPC and the inner detector are routed via the gaps in the AHCAL front between the barrel and the endcap detector, as shown in figure~\ref{ILD:fig:barrel_services}. 
+A close-up of the data concentator boards, the electrical services and the cooling system is shown in figure~\ref{ILD:fig:ahcal_services_closeup}. This service concept has been implemented and successfully used with the AHCAL prototype, Fig.~\ref{fig:AHCAL-TileProto}. The electrical and cooling lines of ECAL, AHCAL, the TPC and the inner detector are routed via the gaps in the AHCAL front between the barrel and the endcap detector, as shown in figure~\ref{ILD:fig:barrel_services}. 
 \begin{figure}[h!]
     \centering
         \includegraphics[width=0.9\hsize]{Integration/fig/AHCAL_Services_Closeup.png}
@@ -180,7 +180,7 @@ A close-up of the readout boards, the electrical services and the cooling system
     \label{ILD:fig:barrel_services}
 \end{figure}
 \subsubsection{SDHCAL Electrical Services and Cooling}
-The SDHCAL barrel detector consists of three or five rings of eight wedge-shaped modules. As the active layers are installed tangential to the ring structure, access requires the removal of the respective barrel rings from the detector solenoid. The cables and cooling services run on the outside of each module to the barrel front face, as shown in figure~\ref{ILD:fig:sdcal_module_services}. The SDHCAL services are routed around the detector solenoid to the outside. The service of the inner detector, the ECAL and the TPC can be routed on the front side of the SDHCAL barrel detector, as shown in figure~\ref{ILD:fig:sdhcal_barrel_services}.
+The SDHCAL barrel detector consists of three or five rings of eight wedge-shaped modules in the Videau configuration. As the active layers are installed tangential to the ring structure, access requires the removal of the respective barrel rings from the detector solenoid. The cables and cooling services run on the outside of each module to the barrel front face, as shown in figure~\ref{ILD:fig:sdcal_module_services}. The SDHCAL services are routed around the detector solenoid to the outside. The service of the inner detector, the ECAL and the TPC can be routed on the front side of the SDHCAL barrel detector, as shown in figure~\ref{ILD:fig:sdhcal_barrel_services}.
 \begin{figure}[h!]
     \centering
         \includegraphics[width=0.8\hsize]{Integration/fig/SDHCAL_Module_Services.pdf}

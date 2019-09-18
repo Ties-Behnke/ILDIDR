@@ -84,7 +84,8 @@ void pvtx_z_resol()
    Graph_gzL1003->GetXaxis()->SetTitleSize(0.05);
    Graph_gzL1003->GetXaxis()->SetTitleOffset(1.4);
    Graph_gzL1003->GetXaxis()->SetTitleFont(42);
-   Graph_gzL1003->GetYaxis()->SetTitle(" Z resolution [#mum]");
+//   Graph_gzL1003->GetYaxis()->SetTitle(" Z resolution [#mum]");
+   Graph_gzL1003->GetYaxis()->SetTitle(" #sigma_{vtx,z} [#mum]");
    Graph_gzL1003->GetYaxis()->SetNdivisions(506);
    Graph_gzL1003->GetYaxis()->SetLabelFont(42);
    Graph_gzL1003->GetYaxis()->SetLabelOffset(0.015);
@@ -178,8 +179,8 @@ void pvtx_z_resol()
    gre->SetHistogram(Graph_gzS1004);
    
    gre->Draw("p ");
-   TLatex *   tex = new TLatex(0.5,0.8,"#scale[1.5]{#font[62]{ILD}} #font[42]{preliminary}");
-tex->SetNDC();
+   TLatex *   tex = new TLatex(0.75,0.85,"#scale[1.5]{#font[42]{ILD}}");
+   tex->SetNDC();
    tex->SetTextFont(42);
    tex->SetLineWidth(2);
    tex->Draw();
@@ -221,4 +222,6 @@ tex->SetNDC();
    cz->Modified();
    cz->cd();
    cz->SetSelected(cz);
+
+   cz->Print("pvtx_z_resol.pdf");
 }

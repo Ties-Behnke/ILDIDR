@@ -160,22 +160,22 @@ void JESs_uds_l5_vs_s5()
    2.075245,
    3.564418,
    5.212665};
-   gre = new TGraphErrors(5,Graph_fx1003,Graph_fy1003,Graph_fex1003,Graph_fey1003);
-   gre->SetName("Graph");
-   gre->SetTitle("Jet energy scale, cos(#theta) < 0.7;Jet energy [GeV];Reconstructed jet energy [GeV]");
+   TGraphErrors* gre2 = new TGraphErrors(5,Graph_fx1003,Graph_fy1003,Graph_fex1003,Graph_fey1003);
+   gre2->SetName("Graph");
+   gre2->SetTitle("Jet energy scale, cos(#theta) < 0.7;Jet energy [GeV];Reconstructed jet energy [GeV]");
 
    ci = TColor::GetColor("#0000ff");
-   gre->SetFillColor(ci);
-   gre->SetFillStyle(0);
+   gre2->SetFillColor(ci);
+   gre2->SetFillStyle(0);
 
    ci = TColor::GetColor("#0000ff");
-   gre->SetLineColor(ci);
-   gre->SetLineWidth(2);
+   gre2->SetLineColor(ci);
+   gre2->SetLineWidth(2);
 
    ci = TColor::GetColor("#0000ff");
-   gre->SetMarkerColor(ci);
-   gre->SetMarkerStyle(20);
-   gre->SetMarkerSize(1.32);
+   gre2->SetMarkerColor(ci);
+   gre2->SetMarkerStyle(20);
+   gre2->SetMarkerSize(1.32);
    
    TH1F *Graph_Graph1003 = new TH1F("Graph_Graph1003","Jet energy scale, cos(#theta) < 0.7",100,0,273);
    Graph_Graph1003->SetMinimum(0);
@@ -206,7 +206,7 @@ void JESs_uds_l5_vs_s5()
    Graph_Graph1003->GetZaxis()->SetTitleSize(0.07);
    Graph_Graph1003->GetZaxis()->SetTitleOffset(1.1);
    Graph_Graph1003->GetZaxis()->SetTitleFont(42);
-   gre->SetHistogram(Graph_Graph1003);
+   gre2->SetHistogram(Graph_Graph1003);
    
    
    TF1 *PerfectJesL7A1004 = new TF1("PerfectJesL7A","x",0,510);
@@ -227,8 +227,8 @@ void JESs_uds_l5_vs_s5()
    PerfectJesL7A1004->GetYaxis()->SetTitleSize(0.07);
    PerfectJesL7A1004->GetYaxis()->SetTitleOffset(1.1);
    PerfectJesL7A1004->GetYaxis()->SetTitleFont(42);
-   gre->GetListOfFunctions()->Add(PerfectJesL7A1004);
-   multigraph->Add(gre,"");
+   gre2->GetListOfFunctions()->Add(PerfectJesL7A1004);
+   multigraph->Add(gre2,"");
    multigraph->Draw("APX");
    multigraph->GetXaxis()->SetRange(0,101);
    multigraph->GetXaxis()->SetNdivisions(506);
@@ -302,22 +302,22 @@ void JESs_uds_l5_vs_s5()
    2.240213,
    3.854026,
    5.759164};
-   gre = new TGraphErrors(5,Graph_fx1005,Graph_fy1005,Graph_fex1005,Graph_fey1005);
-   gre->SetName("Graph");
-   gre->SetTitle("Jet energy scale, cos(#theta) < 0.7;Jet energy [GeV];Reconstructed jet energy [GeV]");
+   gre2 = new TGraphErrors(5,Graph_fx1005,Graph_fy1005,Graph_fex1005,Graph_fey1005);
+   gre2->SetName("Graph");
+   gre2->SetTitle("Jet energy scale, cos(#theta) < 0.7;Jet energy [GeV];Reconstructed jet energy [GeV]");
 
    ci = TColor::GetColor("#ff0000");
-   gre->SetFillColor(ci);
-   gre->SetFillStyle(0);
+   gre2->SetFillColor(ci);
+   gre2->SetFillStyle(0);
 
    ci = TColor::GetColor("#ff0000");
-   gre->SetLineColor(ci);
-   gre->SetLineWidth(2);
+   gre2->SetLineColor(ci);
+   gre2->SetLineWidth(2);
 
    ci = TColor::GetColor("#ff0000");
-   gre->SetMarkerColor(ci);
-   gre->SetMarkerStyle(24);
-   gre->SetMarkerSize(1.4);
+   gre2->SetMarkerColor(ci);
+   gre2->SetMarkerStyle(24);
+   gre2->SetMarkerSize(1.4);
    
    TH1F *Graph_Graph_Graph10011005 = new TH1F("Graph_Graph_Graph10011005","Jet energy scale, cos(#theta) < 0.7",100,0,273);
    Graph_Graph_Graph10011005->SetMinimum(0);
@@ -348,7 +348,7 @@ void JESs_uds_l5_vs_s5()
    Graph_Graph_Graph10011005->GetZaxis()->SetTitleSize(0.07);
    Graph_Graph_Graph10011005->GetZaxis()->SetTitleOffset(1.1);
    Graph_Graph_Graph10011005->GetZaxis()->SetTitleFont(42);
-   gre->SetHistogram(Graph_Graph_Graph10011005);
+   gre2->SetHistogram(Graph_Graph_Graph10011005);
    
    
    TF1 *PerfectJesL7A1006 = new TF1("PerfectJesL7A","x",0,510);
@@ -369,8 +369,8 @@ void JESs_uds_l5_vs_s5()
    PerfectJesL7A1006->GetYaxis()->SetTitleSize(0.07);
    PerfectJesL7A1006->GetYaxis()->SetTitleOffset(1.1);
    PerfectJesL7A1006->GetYaxis()->SetTitleFont(42);
-   gre->GetListOfFunctions()->Add(PerfectJesL7A1006);
-   multigraph->Add(gre,"");
+   gre2->GetListOfFunctions()->Add(PerfectJesL7A1006);
+   multigraph->Add(gre2,"");
    
    Double_t Graph_fx1007[5] = {
    20,
@@ -396,22 +396,22 @@ void JESs_uds_l5_vs_s5()
    2.075245,
    3.564418,
    5.212665};
-   gre = new TGraphErrors(5,Graph_fx1007,Graph_fy1007,Graph_fex1007,Graph_fey1007);
-   gre->SetName("Graph");
-   gre->SetTitle("Jet energy scale, cos(#theta) < 0.7;Jet energy [GeV];Reconstructed jet energy [GeV]");
+   gre2 = new TGraphErrors(5,Graph_fx1007,Graph_fy1007,Graph_fex1007,Graph_fey1007);
+   gre2->SetName("Graph");
+   gre2->SetTitle("Jet energy scale, cos(#theta) < 0.7;Jet energy [GeV];Reconstructed jet energy [GeV]");
 
    ci = TColor::GetColor("#0000ff");
-   gre->SetFillColor(ci);
-   gre->SetFillStyle(0);
+   gre2->SetFillColor(ci);
+   gre2->SetFillStyle(0);
 
    ci = TColor::GetColor("#0000ff");
-   gre->SetLineColor(ci);
-   gre->SetLineWidth(2);
+   gre2->SetLineColor(ci);
+   gre2->SetLineWidth(2);
 
    ci = TColor::GetColor("#0000ff");
-   gre->SetMarkerColor(ci);
-   gre->SetMarkerStyle(20);
-   gre->SetMarkerSize(1.32);
+   gre2->SetMarkerColor(ci);
+   gre2->SetMarkerStyle(20);
+   gre2->SetMarkerSize(1.32);
    
    TH1F *Graph_Graph_Graph10031007 = new TH1F("Graph_Graph_Graph10031007","Jet energy scale, cos(#theta) < 0.7",100,0,273);
    Graph_Graph_Graph10031007->SetMinimum(0);
@@ -442,7 +442,7 @@ void JESs_uds_l5_vs_s5()
    Graph_Graph_Graph10031007->GetZaxis()->SetTitleSize(0.07);
    Graph_Graph_Graph10031007->GetZaxis()->SetTitleOffset(1.1);
    Graph_Graph_Graph10031007->GetZaxis()->SetTitleFont(42);
-   gre->SetHistogram(Graph_Graph_Graph10031007);
+   gre2->SetHistogram(Graph_Graph_Graph10031007);
    
    
    TF1 *PerfectJesL7A1008 = new TF1("PerfectJesL7A","x",0,510);
@@ -463,8 +463,8 @@ void JESs_uds_l5_vs_s5()
    PerfectJesL7A1008->GetYaxis()->SetTitleSize(0.07);
    PerfectJesL7A1008->GetYaxis()->SetTitleOffset(1.1);
    PerfectJesL7A1008->GetYaxis()->SetTitleFont(42);
-   gre->GetListOfFunctions()->Add(PerfectJesL7A1008);
-   multigraph->Add(gre,"");
+   gre2->GetListOfFunctions()->Add(PerfectJesL7A1008);
+   multigraph->Add(gre2,"");
    multigraph->Draw("E");
    multigraph->GetXaxis()->SetRange(0,101);
    multigraph->GetXaxis()->SetNdivisions(506);
@@ -488,12 +488,12 @@ void JESs_uds_l5_vs_s5()
    TPaveText *pt = new TPaveText(0.25,0.8,0.25,0.8,"tbNDC");
    pt->SetBorderSize(0);
    pt->SetFillColor(0);
-   pt->SetLineWidth(2);
+   pt->SetLineWidth(4);
    pt->SetTextAlign(13);
-   pt->SetTextColor(15);
+   pt->SetTextColor(1);
    pt->SetTextFont(42);
    pt->SetTextSize(0.08333334);
-   TText *AText = pt->AddText("ILD Preliminary");
+   TText *AText = pt->AddText("ILD");
    pt->Draw();
    
    TLegend *leg = new TLegend(0.5,0.1,0.9,0.3,NULL,"brNDC");
@@ -504,7 +504,7 @@ void JESs_uds_l5_vs_s5()
    leg->SetLineWidth(2);
    leg->SetFillColor(0);
    leg->SetFillStyle(0);
-   TLegendEntry *entry=leg->AddEntry("Graph","ILD-L","epl");
+   TLegendEntry *entry=leg->AddEntry(gre2,"IDR-L","epl");
 
    ci = TColor::GetColor("#0000ff");
    entry->SetLineColor(ci);
@@ -516,7 +516,7 @@ void JESs_uds_l5_vs_s5()
    entry->SetMarkerStyle(20);
    entry->SetMarkerSize(1.32);
    entry->SetTextFont(62);
-   entry=leg->AddEntry("Graph","ILD-S","epl");
+   entry=leg->AddEntry(gre,"IDR-S","epl");
 
    ci = TColor::GetColor("#ff0000");
    entry->SetLineColor(ci);
@@ -579,26 +579,29 @@ void JESs_uds_l5_vs_s5()
    0.02240213,
    0.02141126,
    0.02303666};
-   gre = new TGraphErrors(5,Graph_fx1009,Graph_fy1009,Graph_fex1009,Graph_fey1009);
-   gre->SetName("Graph");
-   gre->SetTitle("Graph");
+   gre2 = new TGraphErrors(5,Graph_fx1009,Graph_fy1009,Graph_fex1009,Graph_fey1009);
+   gre2->SetName("Graph");
+   gre2->SetTitle("Graph");
 
    ci = TColor::GetColor("#ff0000");
-   gre->SetFillColor(ci);
-   gre->SetFillStyle(0);
+   gre2->SetFillColor(ci);
+   gre2->SetFillStyle(0);
 
    ci = TColor::GetColor("#ff0000");
-   gre->SetLineColor(ci);
-   gre->SetLineWidth(2);
+   gre2->SetLineColor(ci);
+   gre2->SetLineWidth(2);
 
    ci = TColor::GetColor("#ff0000");
-   gre->SetMarkerColor(ci);
-   gre->SetMarkerStyle(24);
-   gre->SetMarkerSize(1.4);
+   gre2->SetMarkerColor(ci);
+   gre2->SetMarkerStyle(24);
+   gre2->SetMarkerSize(1.4);
    
+   double ratioMinY=-0.08 ;
+   double ratioMaxY= 0.08 ;
+
    TH1F *Graph_Graph1009 = new TH1F("Graph_Graph1009","Graph",100,0,273);
-   Graph_Graph1009->SetMinimum(-0.02529579);
-   Graph_Graph1009->SetMaximum(0.0687506);
+   Graph_Graph1009->SetMinimum(ratioMinY);
+   Graph_Graph1009->SetMaximum(ratioMaxY);
    Graph_Graph1009->SetDirectory(0);
    Graph_Graph1009->SetStats(0);
    Graph_Graph1009->SetLineWidth(2);
@@ -623,9 +626,14 @@ void JESs_uds_l5_vs_s5()
    Graph_Graph1009->GetZaxis()->SetTitleSize(0.07);
    Graph_Graph1009->GetZaxis()->SetTitleOffset(1.1);
    Graph_Graph1009->GetZaxis()->SetTitleFont(42);
-   gre->SetHistogram(Graph_Graph1009);
+   gre2->SetHistogram(Graph_Graph1009);
+   gre2->SetMinimum(ratioMinY);
+   gre2->SetMaximum(ratioMaxY);
    
-   multigraph->Add(gre,"");
+   multigraph->Add(gre2,"");
+   multigraph->SetMinimum(ratioMinY);
+   multigraph->SetMaximum(ratioMaxY);
+
    
    Double_t Graph_fx1010[5] = {
    20,
@@ -651,26 +659,26 @@ void JESs_uds_l5_vs_s5()
    0.02075245,
    0.01980232,
    0.02085066};
-   gre = new TGraphErrors(5,Graph_fx1010,Graph_fy1010,Graph_fex1010,Graph_fey1010);
-   gre->SetName("Graph");
-   gre->SetTitle("Graph");
+   gre2 = new TGraphErrors(5,Graph_fx1010,Graph_fy1010,Graph_fex1010,Graph_fey1010);
+   gre2->SetName("Graph");
+   gre2->SetTitle("Graph");
 
    ci = TColor::GetColor("#0000ff");
-   gre->SetFillColor(ci);
-   gre->SetFillStyle(0);
+   gre2->SetFillColor(ci);
+   gre2->SetFillStyle(0);
 
    ci = TColor::GetColor("#0000ff");
-   gre->SetLineColor(ci);
-   gre->SetLineWidth(2);
+   gre2->SetLineColor(ci);
+   gre2->SetLineWidth(2);
 
    ci = TColor::GetColor("#0000ff");
-   gre->SetMarkerColor(ci);
-   gre->SetMarkerStyle(20);
-   gre->SetMarkerSize(1.32);
+   gre2->SetMarkerColor(ci);
+   gre2->SetMarkerStyle(20);
+   gre2->SetMarkerSize(1.32);
    
    TH1F *Graph_Graph1010 = new TH1F("Graph_Graph1010","Graph",100,0,273);
-   Graph_Graph1010->SetMinimum(-0.02627087);
-   Graph_Graph1010->SetMaximum(0.06723791);
+   Graph_Graph1010->SetMinimum(ratioMinY);
+   Graph_Graph1010->SetMaximum(ratioMaxY);
    Graph_Graph1010->SetDirectory(0);
    Graph_Graph1010->SetStats(0);
    Graph_Graph1010->SetLineWidth(2);
@@ -695,9 +703,9 @@ void JESs_uds_l5_vs_s5()
    Graph_Graph1010->GetZaxis()->SetTitleSize(0.07);
    Graph_Graph1010->GetZaxis()->SetTitleOffset(1.1);
    Graph_Graph1010->GetZaxis()->SetTitleFont(42);
-   gre->SetHistogram(Graph_Graph1010);
+   gre2->SetHistogram(Graph_Graph1010);
    
-   multigraph->Add(gre,"");
+   multigraph->Add(gre2,"");
    multigraph->Draw("AP");
    multigraph->GetXaxis()->SetTitle("E_{jet} [GeV]");
    multigraph->GetXaxis()->SetRange(0,101);
@@ -771,26 +779,26 @@ void JESs_uds_l5_vs_s5()
    0.02240213,
    0.02141126,
    0.02303666};
-   gre = new TGraphErrors(5,Graph_fx1011,Graph_fy1011,Graph_fex1011,Graph_fey1011);
-   gre->SetName("Graph");
-   gre->SetTitle("Graph");
+   gre2 = new TGraphErrors(5,Graph_fx1011,Graph_fy1011,Graph_fex1011,Graph_fey1011);
+   gre2->SetName("Graph");
+   gre2->SetTitle("Graph");
 
    ci = TColor::GetColor("#ff0000");
-   gre->SetFillColor(ci);
-   gre->SetFillStyle(0);
+   gre2->SetFillColor(ci);
+   gre2->SetFillStyle(0);
 
    ci = TColor::GetColor("#ff0000");
-   gre->SetLineColor(ci);
-   gre->SetLineWidth(2);
+   gre2->SetLineColor(ci);
+   gre2->SetLineWidth(2);
 
    ci = TColor::GetColor("#ff0000");
-   gre->SetMarkerColor(ci);
-   gre->SetMarkerStyle(24);
-   gre->SetMarkerSize(1.4);
+   gre2->SetMarkerColor(ci);
+   gre2->SetMarkerStyle(24);
+   gre2->SetMarkerSize(1.4);
    
    TH1F *Graph_Graph_Graph10091011 = new TH1F("Graph_Graph_Graph10091011","Graph",100,0,273);
-   Graph_Graph_Graph10091011->SetMinimum(-0.02529579);
-   Graph_Graph_Graph10091011->SetMaximum(0.0687506);
+   Graph_Graph_Graph10091011->SetMinimum(ratioMinY);
+   Graph_Graph_Graph10091011->SetMaximum(ratioMaxY);
    Graph_Graph_Graph10091011->SetDirectory(0);
    Graph_Graph_Graph10091011->SetStats(0);
    Graph_Graph_Graph10091011->SetLineWidth(2);
@@ -815,9 +823,9 @@ void JESs_uds_l5_vs_s5()
    Graph_Graph_Graph10091011->GetZaxis()->SetTitleSize(0.07);
    Graph_Graph_Graph10091011->GetZaxis()->SetTitleOffset(1.1);
    Graph_Graph_Graph10091011->GetZaxis()->SetTitleFont(42);
-   gre->SetHistogram(Graph_Graph_Graph10091011);
+   gre2->SetHistogram(Graph_Graph_Graph10091011);
    
-   multigraph->Add(gre,"");
+   multigraph->Add(gre2,"");
    
    Double_t Graph_fx1012[5] = {
    20,
@@ -843,26 +851,26 @@ void JESs_uds_l5_vs_s5()
    0.02075245,
    0.01980232,
    0.02085066};
-   gre = new TGraphErrors(5,Graph_fx1012,Graph_fy1012,Graph_fex1012,Graph_fey1012);
-   gre->SetName("Graph");
-   gre->SetTitle("Graph");
+   gre2 = new TGraphErrors(5,Graph_fx1012,Graph_fy1012,Graph_fex1012,Graph_fey1012);
+   gre2->SetName("Graph");
+   gre2->SetTitle("Graph");
 
    ci = TColor::GetColor("#0000ff");
-   gre->SetFillColor(ci);
-   gre->SetFillStyle(0);
+   gre2->SetFillColor(ci);
+   gre2->SetFillStyle(0);
 
    ci = TColor::GetColor("#0000ff");
-   gre->SetLineColor(ci);
-   gre->SetLineWidth(2);
+   gre2->SetLineColor(ci);
+   gre2->SetLineWidth(2);
 
    ci = TColor::GetColor("#0000ff");
-   gre->SetMarkerColor(ci);
-   gre->SetMarkerStyle(20);
-   gre->SetMarkerSize(1.32);
+   gre2->SetMarkerColor(ci);
+   gre2->SetMarkerStyle(20);
+   gre2->SetMarkerSize(1.32);
    
    TH1F *Graph_Graph_Graph10101012 = new TH1F("Graph_Graph_Graph10101012","Graph",100,0,273);
-   Graph_Graph_Graph10101012->SetMinimum(-0.02627087);
-   Graph_Graph_Graph10101012->SetMaximum(0.06723791);
+   Graph_Graph_Graph10101012->SetMinimum(ratioMinY);
+   Graph_Graph_Graph10101012->SetMaximum(ratioMaxY);
    Graph_Graph_Graph10101012->SetDirectory(0);
    Graph_Graph_Graph10101012->SetStats(0);
    Graph_Graph_Graph10101012->SetLineWidth(2);
@@ -887,9 +895,9 @@ void JESs_uds_l5_vs_s5()
    Graph_Graph_Graph10101012->GetZaxis()->SetTitleSize(0.07);
    Graph_Graph_Graph10101012->GetZaxis()->SetTitleOffset(1.1);
    Graph_Graph_Graph10101012->GetZaxis()->SetTitleFont(42);
-   gre->SetHistogram(Graph_Graph_Graph10101012);
+   gre2->SetHistogram(Graph_Graph_Graph10101012);
    
-   multigraph->Add(gre,"");
+   multigraph->Add(gre2,"");
    multigraph->Draw("E");
    multigraph->GetXaxis()->SetTitle("E_{jet} [GeV]");
    multigraph->GetXaxis()->SetRange(0,101);
@@ -938,26 +946,26 @@ void JESs_uds_l5_vs_s5()
    0.02240213,
    0.02141126,
    0.02303666};
-   gre = new TGraphErrors(5,Graph_fx1013,Graph_fy1013,Graph_fex1013,Graph_fey1013);
-   gre->SetName("Graph");
-   gre->SetTitle("Graph");
+   gre2 = new TGraphErrors(5,Graph_fx1013,Graph_fy1013,Graph_fex1013,Graph_fey1013);
+   gre2->SetName("Graph");
+   gre2->SetTitle("Graph");
 
    ci = TColor::GetColor("#ff0000");
-   gre->SetFillColor(ci);
-   gre->SetFillStyle(0);
+   gre2->SetFillColor(ci);
+   gre2->SetFillStyle(0);
 
    ci = TColor::GetColor("#ff0000");
-   gre->SetLineColor(ci);
-   gre->SetLineWidth(2);
+   gre2->SetLineColor(ci);
+   gre2->SetLineWidth(2);
 
    ci = TColor::GetColor("#ff0000");
-   gre->SetMarkerColor(ci);
-   gre->SetMarkerStyle(24);
-   gre->SetMarkerSize(1.4);
+   gre2->SetMarkerColor(ci);
+   gre2->SetMarkerStyle(24);
+   gre2->SetMarkerSize(1.4);
    
    TH1F *Graph_Graph_Graph_Graph100910111013 = new TH1F("Graph_Graph_Graph_Graph100910111013","Graph",100,0,273);
-   Graph_Graph_Graph_Graph100910111013->SetMinimum(-0.02529579);
-   Graph_Graph_Graph_Graph100910111013->SetMaximum(0.0687506);
+   Graph_Graph_Graph_Graph100910111013->SetMinimum(ratioMinY);
+   Graph_Graph_Graph_Graph100910111013->SetMaximum(ratioMaxY);
    Graph_Graph_Graph_Graph100910111013->SetDirectory(0);
    Graph_Graph_Graph_Graph100910111013->SetStats(0);
    Graph_Graph_Graph_Graph100910111013->SetLineWidth(2);
@@ -982,9 +990,9 @@ void JESs_uds_l5_vs_s5()
    Graph_Graph_Graph_Graph100910111013->GetZaxis()->SetTitleSize(0.07);
    Graph_Graph_Graph_Graph100910111013->GetZaxis()->SetTitleOffset(1.1);
    Graph_Graph_Graph_Graph100910111013->GetZaxis()->SetTitleFont(42);
-   gre->SetHistogram(Graph_Graph_Graph_Graph100910111013);
+   gre2->SetHistogram(Graph_Graph_Graph_Graph100910111013);
    
-   multigraph->Add(gre,"");
+   multigraph->Add(gre2,"");
    
    Double_t Graph_fx1014[5] = {
    20,
@@ -1010,26 +1018,26 @@ void JESs_uds_l5_vs_s5()
    0.02075245,
    0.01980232,
    0.02085066};
-   gre = new TGraphErrors(5,Graph_fx1014,Graph_fy1014,Graph_fex1014,Graph_fey1014);
-   gre->SetName("Graph");
-   gre->SetTitle("Graph");
+   gre2 = new TGraphErrors(5,Graph_fx1014,Graph_fy1014,Graph_fex1014,Graph_fey1014);
+   gre2->SetName("Graph");
+   gre2->SetTitle("Graph");
 
    ci = TColor::GetColor("#0000ff");
-   gre->SetFillColor(ci);
-   gre->SetFillStyle(0);
+   gre2->SetFillColor(ci);
+   gre2->SetFillStyle(0);
 
    ci = TColor::GetColor("#0000ff");
-   gre->SetLineColor(ci);
-   gre->SetLineWidth(2);
+   gre2->SetLineColor(ci);
+   gre2->SetLineWidth(2);
 
    ci = TColor::GetColor("#0000ff");
-   gre->SetMarkerColor(ci);
-   gre->SetMarkerStyle(20);
-   gre->SetMarkerSize(1.32);
+   gre2->SetMarkerColor(ci);
+   gre2->SetMarkerStyle(20);
+   gre2->SetMarkerSize(1.32);
    
    TH1F *Graph_Graph_Graph_Graph101010121014 = new TH1F("Graph_Graph_Graph_Graph101010121014","Graph",100,0,273);
-   Graph_Graph_Graph_Graph101010121014->SetMinimum(-0.02627087);
-   Graph_Graph_Graph_Graph101010121014->SetMaximum(0.06723791);
+   Graph_Graph_Graph_Graph101010121014->SetMinimum(ratioMinY);
+   Graph_Graph_Graph_Graph101010121014->SetMaximum(ratioMaxY);
    Graph_Graph_Graph_Graph101010121014->SetDirectory(0);
    Graph_Graph_Graph_Graph101010121014->SetStats(0);
    Graph_Graph_Graph_Graph101010121014->SetLineWidth(2);
@@ -1054,9 +1062,9 @@ void JESs_uds_l5_vs_s5()
    Graph_Graph_Graph_Graph101010121014->GetZaxis()->SetTitleSize(0.07);
    Graph_Graph_Graph_Graph101010121014->GetZaxis()->SetTitleOffset(1.1);
    Graph_Graph_Graph_Graph101010121014->GetZaxis()->SetTitleFont(42);
-   gre->SetHistogram(Graph_Graph_Graph_Graph101010121014);
+   gre2->SetHistogram(Graph_Graph_Graph_Graph101010121014);
    
-   multigraph->Add(gre,"");
+   multigraph->Add(gre2,"");
    multigraph->Draw("PX");
    multigraph->GetXaxis()->SetTitle("E_{jet} [GeV]");
    multigraph->GetXaxis()->SetRange(0,101);
@@ -1076,9 +1084,12 @@ void JESs_uds_l5_vs_s5()
    multigraph->GetYaxis()->SetTickLength(0.05);
    multigraph->GetYaxis()->SetTitleOffset(0.33);
    multigraph->GetYaxis()->SetTitleFont(42);
+
    pad2->Modified();
    JESs->cd();
    JESs->Modified();
    JESs->cd();
    JESs->SetSelected(JESs);
+
+   JESs->Print("JESs_uds_l5_vs_s5.pdf") ;
 }

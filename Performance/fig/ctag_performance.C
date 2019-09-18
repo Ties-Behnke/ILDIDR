@@ -1329,7 +1329,7 @@ void ctag_performance()
    gre->SetHistogram(Graph_ge2_21004);
    
    gre->Draw("p ");
-   TLatex *   tex = new TLatex(0.24,0.87,"#scale[1.5]{#font[62]{ILD}} #font[42]{preliminary}");
+   TLatex *   tex = new TLatex(0.24,0.87,"#scale[1.5]{#font[42]{ILD}}");
 tex->SetNDC();
    tex->SetTextFont(42);
    tex->SetLineWidth(2);
@@ -1412,4 +1412,6 @@ tex->SetNDC();
    c1->Modified();
    c1->cd();
    c1->SetSelected(c1);
+
+   c1->Print("ctag_performance.pdf");
 }

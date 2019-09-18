@@ -1,17 +1,32 @@
 \chapter{Costing}
 \writer{Henri Videau}{6}
 \section{Introduction}
-In this chapter the current state of the ILD costing is presented. There is a strong similarity with the costing exercise for the DBD but also quite some differences. The most obvious is that the dimensions have evolved and that we try now to cost two models of ILD: the "large model" very similar to the DBD baseline and the "small model" where the outer radius of the TPC has been reduced grossly by 30cm. One important issue is to relate  the cost difference between the two models with the difference observed in their relative performances. It provides an evaluation of the impact of the size much better defined than was done with just some scaling laws. For the ECal, a version with a slightly coarser sampling is also estimated.
+In this chapter an updated costing of ILD is presented, corresponding to the latest design and dimensions of the detector. The method is very similar to that used in the costing exercise of the DBD, with two notable differences. Two size options are now costed: the large model IDR-L, very similar to the DBD baseline, and the small model IDR-S where the outer radius of the TPC has been reduced by about 30cm. In addition, the required manpower is now included in the costs, with an attempt to identify the in-kind laboratory manpower necessary to assemble the detector. 
+
+The costing can now benefit from the construction of significant technological prototypes of the main subdetectors (chapter 5), as well as from spin-off detectors starting to be built for e.g. HL-LHC. The cost difference of the two models combined with the differences observed in their relative performances (chapter 8) will allow a better evaluation of the impact of the detector size than the simple scaling laws shown in the DBD. 
 
 \section{The method}
-At the time of the DBD the effort had been put on trying to have a costing coherent with the SiD estimate and the method of the accelerator had been used, i.e estimating in an "ILC currency", the ILCU. This implied making translations from different currencies using the exchange rates but mostly "Purchase Power Parities" and the difference between these two estimates may generate huge differences. At that time an ILCU was 0.97 Euros using PPP's. For todays exercise ILD decided to use Euros as counting units. When originating from Japan, like for silicon diode matrices, the prices in euros were provided by the vendors.
+The DBD costing had been made in an "ILC currency", the ILCU, in an effort to have a costing coherent between ILD, SiD and the accelerator. This implied making translations from different currencies using exchange rates and in most cases "Purchase Power Parities" (PPP). At that time an ILCU was 0.97 Euros using PPP's. Within the current exercise Euros(2018) are used as currency unit. When originating from Japan, e.g. for silicon diode matrices, the prices in Euros were provided by the vendors. Extrapolation of the DBD estimates to the present is made by converting the DBD ILCU's to Euros(2013) using PPP's as was done at the time (0.97 Euros for 1 ILCU), and propagating the cost to 2018 using as inflation rate the evolution of manufactured products in Europe [note Berriaud], amounting to 3\% between 2013 and 2018, as shown in figure~\ref{price_index}. At the end the two costs are the same. 
+%(\textit{figure Berriaud}).
 
-Except for this question the method used to establish the costing is totally similar to the DBD. It rests on the knowledge of the fabrication processes and the prices provided by the numerous prototypes built these last years.  The idea is to identify the cost drivers, often very sensitive to strong price evolution, and have a precise Work Breakdown System identifying the procurements, the tooling, the fabrication operations to estimate also the manpower, which is now most often included in the cost. The manpower may be twofold, in house manpower linked mostly to the follow-up of the operations but also to some work when the quality required requests it and the rather limited amount permits it, but we consider also industrial manpower when we do not have already industrial offers and we try to figure out a possible price by estimating the cost of a fabrication.
+\begin{figure}[h!]
+\centering
+\includegraphics[width=1.0\hsize]{Costing/price_index.png}
+\caption{Production price evolution over the 28 countries of UE.}
+\label{price_index}
+\end{figure}
 
-\section{The costing of the different sub-detectors}
-The cost of each sub-detector making ILD is reviewed. This is done for both ILD models, the large and the small. As anything inside the TPC in radius is untouched, there is only one price quoted for the vertex detector, the inner tracker, the forward tracker and the forward calorimetry, this last item being composed of the Lumical, the ECal ring, the LHCal  and the BeamCal. On the contrary the costs for the TPC, the SET, the electromagnetic and hadronic calorimeters, the magnet system and the muon system are to be provided for both versions.
-\subsection{The vertex detector}
-This cost estimate has been provided by the note "ILD VXD and SIT Costing Estimates" by Auguste Besson and Marc Winter (January 2019) which updates the DBD. See table~\ref{vertex_cost}
+Except for the currency the method used to establish the costing is totally similar to that of the DBD. It rests on the detailed knowledge of the fabrication processes and on the prices provided by the numerous prototypes built over the past years.  The idea is to identify the cost drivers, often very sensitive to strong price evolution, and to have a precise Work Breakdown System (WBS) identifying the procurements, the tooling, the fabrication operations. The WBS allows to estimate the manpower, which is now included in the costing. The manpower is twofold: in house laboratory  manpower mostly linked to the follow-up of the operations, but also to some construction work when high quality is required for small quantity items; industrial manpower which has to be estimated on top of the material costs in case no industrial offer is available for a given component.The manpower costs are converted into Euros(2018) assuming 80000 Euros/FTExYear as a mean cost over the different types of competences. The industrial manpower is incorporated into the material costs whereas the in house manpower is shown separately in order to allow an estimation of the in-kind contributions of the participating institutes. 
+
+\section{Subdetector costing}
+The cost of each ILD subdetector is reviewed for both the large and the small ILD models. The inner and forward detectors which have the same configuration in both options (VTX, SIT, FTD, ECAL ring, VFS including LUMICAL, LHCAL, BEAMCAL) have only one quote, whereas others (TPC, ECAL, HCAL, COIL, YOKE and Iron Instrumentation) are costed for their two versions. 
+
+The most expensive subdetector, the SIECAL, has received special attention in updating its costing of both material and manpower contributions, based on an updated detailed WBS. Some other subdetectors have fewer new pieces of information. For those which have only material costs available, the manpower costing has been estimated assuming the same manpower/material ratio as for the SIECAL. When no update is available versus the DBD version, the costing is propagated from the DBD estimate and simple scaling laws are used for the small version.
+
+\subsection{VTX}
+The Vertex Detector costing has been fully revisited [ref \textit{Note "ILD VXD and SIT Costing Estimates" by Marc and Auguste January 2019}] for its CMOS option based on recent detectors built for various experimental projects (see section 5.2.1). The results are summarized in  table~\ref{vertex_cost}.
+
+%\textit{Check that manpower corresponds to in house only, in view of the size it is very likely}
 
 \begin{table}\hspace*{-0cm}\small
 \begin{tabular}[h!]{ l p{0.1\hsize}p{0.1\hsize}p{0.1\hsize} p{0.1\hsize}p{0.1\hsize}p{0.1\hsize} }
@@ -26,7 +41,7 @@ Manpower    & 100    & 500    & 400     & 250 & 200 & 1450 \\
 Total      & 1252   &  952   &  886    & 1020 & 300 & 4410 \\
  \bottomrule
 \end{tabular}
-\caption{\label{vertex_cost}Elements of cost of the vertex detector in kEuros.}
+\caption{\label{vertex_cost}Elements of cost of the vertex detector (CMOS option) in kEuros.}
 \end{table}
 
 %\begin{figure}[h!]
@@ -36,10 +51,14 @@ Total      & 1252   &  952   &  886    & 1020 & 300 & 4410 \\
 %\label{VXD_SIT}
 %\end{figure}
 
-\subsection{The SIT}
-This is a version for a SIT using pixels in contrary to the DBD version which used strips. The costing of this version is provided by the note by A. Besson and M. Winter referenced above for the vertex. Therefore no direct comparison between the DBD cost and this one, in particular since in the DBD SIT and forward tracker were put together.
- See table~\ref{SIT_cost}. 
- \begin{table}\hspace*{-0cm}\small 
+\subsection{SIT}
+In the simulation currently used for estimating the physics potential of the detector the SIT is made of strips like in the DBD. This version is costed, like the SET (see further) by extrapolation from the CMS tracker, it amounts to (0.8, 0.12) MEuros respectively for material and manpower. But the SIT costing has also been revisited in detail in a version based on CMOS pixels, a solution currently favoured. These new inputs are the same as used for the VTX costing [ref \textit{Note "ILD VXD and SIT Costing Estimates" by Marc and Auguste January 2019}]. The results are summarised in table~\ref{SIT_cost}. It can be noted that the pixel option is about ten times more expansive.
+
+%\textit{Check that manpower corresponds to in house only}
+
+Direct comparison to the DBD is not possible since the SIT was combined with the FTD in the DBD costing.
+
+\begin{table}\hspace*{-0cm}\small 
 \begin{tabular}[h!]{ l p{0.1\hsize}p{0.1\hsize}p{0.1\hsize} p{0.1\hsize}p{0.1\hsize}p{0.1\hsize} }
 \toprule
 \multicolumn{7}{ l }{{\bf Silicon Inner Tracking}}\\
@@ -52,17 +71,29 @@ Manpower    & 200    & 500    & 800     & 300 & 200 & 2000 \\
 Total      & 4020   &  1260   &  2075    & 1880 & 310 & 9545 \\
 \bottomrule
 \end{tabular}
-\caption{\label{SIT_cost}Elements of cost of the SIT in kEuros.}
+\caption{\label{SIT_cost}Elements of cost of the SIT (CMOS pixel option) in kEuros.}
 \end{table}
 
-\subsection{The forward tracking}
-No update since the DBD where all the elements using silicon strips (strip forward disks, SIT, SET and even ETD)  were summed together. There are 4 disks using pixel technology, the 12 other disks use strip technology. We guess a global estimate of 2MEuros expecting a  real update from Marcel Vos.
+\subsection{FTD}
+There is no full update since the DBD. The current FTD configuration (chapter 5) includes 4 disks using pixel technology and 12 disks using strip technology. The cost of the pixel disks is estimated from the SIT pixel version, scaling with the area as (1.47, 0.4) Meuros. The cost of the strip disks is inferred from CMS to be (0.6, 0.09) The global cost for the standard option is then of the order of (2.07, 0.5)MEuros. There is a tendency to  wish all disks to be made in pixels. This version can be roughly estimated from the SIT pixel version cost to be:(12.3, 3.3).
+% aires des disques: pixels 0.3 m² , strips 2.22, total 2.52
+%du SET 0.25+0.04 du m². Soit strips 0.56 + 0.09
+% La suface du SIT est 1.53 soit 4.9+1.3 du m²
+%disques pixel 1.47 + 0.4  ou total 12.3 + 3.3
+% donc modele classique 2.03 + 0.5
+%mpdele pixel 12.3 +3.3
+%\textit{How is this 2 Meuro estimated exactly?}
 
-\subsection{The forward calorimeters}
-In the DBD
-This has been updated except for the ECal ring which remains more or less an orphan.
-Since the DBD the L* has been changed and the calorimeters adjusted.
-The three forward calorimeters, namely the BeamCal, the LumiCal and the LHCal have been reexamined in detail considering for each of them the mechanical elements, sensors, ASICs, front-end electronics, power supplies, data acquisition, tooling and manpower. On top of these common items LumiCal and LHCal need some specific fan-outs and the LumiCal needs a laser positioning system. This is summarised in the table~\ref{FCals_summary} for a total of 8.44 MEuros and 6 man-years equivalent to 0.48MEuros.
+%\textit{Is there a chance to get a real update from Marcel Vos?}
+
+\subsection{VFS and ECAL ring}
+
+The three forward calorimeters, namely the BEAMCAL, the LUMICAL and the LHCAL, have been reexamined in detail in their new configuration with the new beam optics (chapter 5). The updated costing includes consideration of the mechanical elements, sensors, ASICs, front-end electronics, power supplies, data acquisition, tooling and manpower, separately for each of the subdetectors. Ancillary systems such as specific fanouts (for LUMICAL and LHCAL) and a laser positioning system needed for LUMICAL are also included. The resulting costs are summarised in the table~\ref{FCals_summary}. They correspond to a total of 8.44 MEuros and 6 FTE-years equivalent to 0.48MEuros.
+
+%\textit{Trivial question: the costing is summing the 2 systems in both beam directions ?} 
+
+The forward region also includes an ECAL ring making the transition to the ECAL endcap. Its costing has been updated based on a rough extrapolation from the SiECAL costing (see below). The rings silicon area is about  1\% of the full ECAL. The electronics is closer to that of the LumiCal.  The the estimated cost of the two rings is 1.5 MEuros + 2 FTE x Year.  All the forward calorimetry, referred to as FCAL in the figure ~\ref{Costing:Large_cost_sharing}, is then estimated to 10 Meuros +8 FTE-years equivalent to 0.64 Meuros.
+
 %\begin{figure}[h!]
 %\centering
 %\includegraphics[width=1.\hsize]{Costing/Fcals_summary.PNG}
@@ -73,7 +104,7 @@ The three forward calorimeters, namely the BeamCal, the LumiCal and the LHCal ha
  \begin{table}\hspace*{-0cm}\small 
 \begin{tabular}[h!]{ l p{0.2\hsize}p{0.2\hsize}p{0.2\hsize} }
 \toprule
-& BeamCal & LumiCal & LHCal \\
+& BEAMCAL & LUMICAL & LHCAL \\
 \midrule
 Mechanics              & 650.   & 635    & 990   \\
 Connectivity           &        & 90     & 140   \\
@@ -87,29 +118,39 @@ Tooling                & 30.    & 30     & 30    \\
 \midrule
 Total                  & 2150.  & 3365   & 2927  \\
 \midrule
-Manpower &2  &2 & 2 \\
+Manpower (FTE x Year)  &2       &2       & 2 \\
 \bottomrule
 \end{tabular}
-\caption{\label{FCals_summary}Elements of cost of the forward calorimeters in kEuros and manpower in MY.}
+\caption{\label{FCals_summary}Elements of cost of the forward calorimeters in kEuros and manpower in FTE x Year.}
 \end{table}
 
-\subsection{The Time Projection Chamber (TPC)}
-Should exist in two versions large and small. In the DBD the TPC price quoted was 35.9 MILCU which translates to 36.6 MEuros of today. This is for the large model, for the small one it may be scaled down to 27.0 MEuros. Should come sometimes dixit Paul Colas.
+\subsection{TPC}
+There is no update since the DBD, where the quoted TPC price was 35.9 MILCU. This translates to 36.6 MEuros of 2018 and corresponds to the large ILD option. Using simple scaling laws the TPC of the small option is estimated to 27.0 MEuros. 
 
-\subsection{The outer silicon tracker (SET)}
-No real design exists. The end cap part, coined ETD, has disappeared since the DBD.The cost from the DBD is quoted 21 MILCU for both SET and ETD. A cost for the SET alone can be guessed from the areas but the number of layers is different; the SET area over the total is about 0.73 and its cost is then claimed to be 15.3 MILCU or 14.84 MEuros 2008, or about 15.5 MEuros 2018 after running the Euro. 
-No cost was established for the small model. It could be scaled from the large with the ratio of the radii: 0.807, providing a cost of 12.6 MEuros.
+\textit{ Any chance to get an update from Paul Colas?}
+\textit{What about manpower ?}
 
-An estimate can more accurately be derived from the cost of the CMS tracker. It is about 275kCHF per square meter of detector, silicon and mechanics. The SET area in the large model is about 52.9 square m with two layers like in the CMS tracker. That makes 14.5 MCHF to which miscellaneous things like cooling power supply and back-end electronics should be added for about 3 MCHF, say 20\%: 14.5 * 1.20 *0.89 = 15.5MEuros. 
-In  the  small model the area is 42.7square m for a cost of 12.5 MEuros.
+\subsection{SET}
+The end cap part of the external silicon tracker, coined ETD, is no longer part of the ILD design as it was in the DBD.
 
-\subsection{The electromagnetic calorimeter (ECal)}
-\subsubsection{The silicon version}
-A costing had been done at the time of the DBD, amounting to 157 MILCU or 152MEuros, about half of it in the cost of the diode matrices. The manpower was left aside.
-The new costing of the silicon electromagnetic calorimeter has been derived from a more detailed WBS in the form of about 400 lines of Excel. This WBS follows a detailed and chronological fabrication description which estimates the procurements for the different operations, the tooling needed and the operations with the amount of manpower and the duration of the operations caring about the fact that none should have a duration longer than two years. 
-Almost all the difference, except for a slight tungsten price rise, between the DBD estimate and the actual large version comes from the change in the diode matrices cost estimate. For the new version we use the offer to CMS for making the HGCAL matrices. The total price, manpower excluded, reaches then 117 MEuros. In this case the manpower has also been estimated at 158 MY equivalent to 13 MEuros, bringing the total amount to 130 MEuros.
+%The cost from the DBD is quoted 21 MILCU for both SET and ETD. A cost for the SET alone can be guessed from the areas but the number of layers is different; the SET area over the total is about 0.73 and its cost is then claimed to be 15.3 MILCU or 14.84 MEuros 2008, or about 15.5 MEuros 2018 after running the Euro. No cost was established for the small model. It could be scaled from the large with the ratio of the radii: 0.807, providing a cost of 12.6 MEuros.
 
-Aside the large version the small one has been also fully costed to 90MEuros + 11MEuros for the manpower making 101 MEuros. For this version a model with the small size but also with a slightly reduced number of active layers (26 instead of 30) is also costed. The impact on the resolution of the sampling is compensated by an increase of the silicon thickness to 725 micrometers. This provides a further reduction of the cost to 80 + 10 MEuros. It has to be noted that the reason for this change in sampling is more dictated by technical reasons than cost. It has also to be noted that these estimates are slightly at the advantage of the large model since most of the tooling has been estimated at the same cost for the different options.These numbers are summarised in table~\ref{ECal_summary}
+An estimate of the barrel part (SET) can now most accurately be derived from the cost of the CMS tracker which is also made of double-layer silicon strips. The CMS tracker cost is about 275kCHF per $m^2$ of detector, including silicon and mechanics. The SET area in the large ILD model is about 52.9 $m^2$, resulting in an estimated cost of 14.5 MCHF for the sensors and mechanics. Adding 20\% for the miscellaneous components such as cooling, power supply and back-end electronics results in a total estimate of 14.5 * 1.20 *0.89 = 15.5MEuros. This estimate, based on the CMS tracker, is coherent with a propagation of the DBD estimate to the surface of the barrel SET only. Using a simple scaling law the small SET model is then estimated to 12.5 MEuros for a surface of 42.7 $m^2$. 
+
+
+
+\subsection{ECAL}
+\subsubsection{Silicon option (SiECAL)}
+The DBD SiECAL costing amounted to 157 MILCU, propagating to about the same amount in MEuros(2018), with about half of the cost corresponding to the silicon diode matrices, and excluding manpower which was not counted in the DBD estimates.
+
+The updated costing of the SIECAL is based on a very detailed WBS informed from the fabrication processes of the SIECAL technological prototypes (chapter 5). This WBS follows a detailed and chronological fabrication description with the procurements for the different operations, the needed tooling and the fabrication steps, including manpower and duration, under the constraint that none should have a duration longer than two years. Most of the tooling has been kept at the same cost for the different ILD size options, which is slightly at the advantage of the large model for comparison of the costings between the different sizes.
+
+Apart for a slight tungsten cost rise, the main difference with the DBD estimate comes from the evolution of the diode matrices estimation. In the updated costing the offer to CMS for the HGCAL matrices is used. The resulting total SIECAL cost reaches 117 MEuros excluding manpower. The in house manpower has also been estimated to 158 FTE x Years, equivalent to 13 MEuros, which results in a total amount of 130 MEuros.
+
+Using similar inputs the small SIECAL version is costed to 90MEuros + 11MEuros for manpower, i.e. 101 MEuros in total. A version of the small SIECAL with a slightly coarser sampling has also been estimated. For this version the number of active layers is slightly reduced from 30 to 26 (section 5.2.4.1). The motivation for such a configuration is dictated by technical reasons rather than cost, but it is worth noting than the impact of the reduced sampling on the energy resolution is expected to be compensated by an increase of the silicon thickness to 725 micrometers. The reduced sampling provides a further cost reduction to 80 + 10 MEuros.  
+
+The various global costings are summarised in table~\ref{ECal_summary}. A breakdown of the contributions of the main items to the cost is shown in Figure~\ref{fig:det:ECalsm_Si_cost_sharing} for the small model with the baseline 30-layers sampling. The silicon matrices cost still dominates the procurements, but other items such as tungsten, printed boards and ASICs also represent significant parts. 
+
 \begin{table}\hspace*{-0cm}\small 
 \begin{tabular}[h!]{ l p{0.2\hsize}p{0.2\hsize}p{0.2\hsize} }
 \toprule
@@ -120,37 +161,50 @@ Small model                       & 90    & 11    & 101   \\
 Small model with reduced sampling & 80.   & 10    & 90  \\
 \bottomrule
 \end{tabular}
-\caption{\label{ECal_summary}Estimates for the three versions of silicon ECal, in MEuros.}
+\caption{\label{ECal_summary}Estimates for the three versions of the SIECAL (MEuros).}
 \end{table}
 
-As a result, the sharing between the main items is presented. If the silicon matrices cost still dominates the procurements, others are important like tungsten, printed boards, ASIcs. This sharing is presented for the small model with reduced sampling in the Figure~\ref{fig:det:ECal26_Si_cost_sharing}.
 \begin{figure}[h!]
 \centering
 \includegraphics[width=0.8\hsize]{Costing/ECal26_Si_cost_sharing.PNG}
-\caption{Contributions of the different items to the cost in the case of the "small model" with a reduced sampling.}
+\caption{Contributions of the different items to the SIECAL cost in the case of the "small model" with a reduced sampling.}
+%\textit{The figure should be given for the baseline 30 layers sampling.}}
 \label{fig:det:ECal26_Si_cost_sharing}
 \end{figure}
-The cost without manpower reaches 80 MEuros for 119 man-years.
 
-\subsubsection{The scintillator version}
-The cost is said to be unchanged from the DBD. It was 74 MILCU which translates to 75 MEuros after applying the price evolution. The assembly remains to be estimated as well as the manpower. No quote given for the small model but a scaling could be attempted.
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.8\hsize]{Costing/ECalsm_Si_cost_sharing.PNG}
+\caption{Contributions of the different items to the SIECAL cost in the case of the "small model".} %\textit{The figure should be given for the baseline 30 layers sampling.}}
+\label{fig:det:ECalsm_Si_cost_sharing}
+\end{figure}
 
-\subsection{The hadron calorimeter}
-\subsubsection{The analogue version}
-No update for the large model, the DBD estimate appears as still valid today for essentially all the items. For the DBD the cost was 44.9 MILCU translating into 45.7 MEuros 2018 with no manpower quoted.
-No detailed quote for the small model, a simple scaling corresponds to a factor 0.84 from the large to the small which cost is then 38.4, 7.3 MEuros less.
+\subsubsection{Scintillator version (SCECAL)}
+The SCECAL material costing from the DBD is considered to be still valid and amounted to 74 MILCU, propagating to 75 MEuros(2018), for the large ILD version. The in-house assembly manpower has since then been estimated to 11.5 MEuros. Applying simple scaling laws the SCECAL small version is costed to 62.5 MEuros for material and 9.5 MEuros for manpower.
 
-\subsubsection{The semi-digital version }
-No update really available for the large model but the cost is estimated to remain similar. For the DBD the cost was 44.8 MILCU translating into 45.6 MEuros 2018 with no manpower quoted.
-No real quote for the small one, a simple scaling corresponds to a factor 0.84 from the large to the small which cost is then 38.3, 7.3 MEuros less.
+\subsection{HCAL}
+\subsubsection{Analog option (AHCAL)}
+Since the DBD the application of the SiPM-on-tile technology to the CMS endcap calorimeter upgrade allows to consolidate the costing further. With about 400000 channels it represents an intermediate scale between the 22000 channel AHCAL prototype and the ILD AHCAL. 
+The cost envelopes for the CMS SiPMs are consistent with the scaling assumed for ILD at the DBD times and so far confirmed in informal contacts with vendors. The AHCAL material costing from the DBD is therefore considered to be still valid. It amounted to 44.9 MILCU, propagating to 45.7 MEuros(2018), for the large ILD version. 
+For the small model, a simple scaling corresponds to a factor 0.84 from the large to the small with a resulting material cost of 38.4 MEuros.
 
-\subsection{The magnet}
-The magnet (coil and yoke) has been revisited fully. The source for the evaluation is still the CMS documents. But the way to derive the numbers has been strongly reconsidered. The CHF costs from CMS have been converted to Euros at the exchange parity of the time, then the prices in Euros have been evolved to 2018. Therefore a comparison between the DBD and actual costs may not be totally relevant. One thing to notice though is the  strong reduction in the yoke cost. This  is due to a change in the reference cost of the iron. At the time of the DBD a price of 6ILCU/kg had been agreed upon with SiD and CLIC, in the current costing, the price payed for CMS has been used, translated in Euros and scaled today providing a price of 3.5 Euros/kg. It is not perfectly clear that this reflects fully a market price. The anti-DID is not taken here into consideration since it is not clearly defined. All this is described in detail in a note by Ch. Berriaud.
+No detailed manpower costing has been done. Assuming the same manpower/material ratio as for the SIECAL the in-house assembly manpower is estimated to ?? MEuros for the large model and ?? MEuros for the small model.
 
-No detailed approach for costing the small version has been taken. A priori we expect the cost for the small version to be reduced but instead of 3.5T the nominal field is 4T. The impact on the coil winding and on the flux return is not trivial and it is not even clear that the cost of the magnet system does not grow.
-A good approximation may be to keep the cost constant. Anyway the cost reduction linked to relaxing the stray field constraint would certainly dominate.
+\subsubsection{Semi-digital option (SDHCAL)}
 
-Some studies are going on with Japanese companies and at some point their offers shall be compared.
+The SDHCAL material costing from the DBD is considered to be still valid and amounted to 44.8 MILCU, propagating to 45.6 MEuros(2018), for the large ILD version. Applying simple scaling laws the SDHCAL small version is costed to 38.3 MEuros for material.
+
+No detailed manpower costing has been done. Assuming the same manpower/material ratio as for the SIECAL the in-house assembly manpower is estimated to ?? MEuros for the large model and ?? MEuros for the small model.
+
+\subsection{Magnet}
+The costing of the magnet (coil and yoke) has been fully revisited [note Berriaud]. As for the DBD the anti-DID option (section 6.4) is not taken into account since its configuration is not fully defined. The main source of the current evaluation consists of the documentation of the CMS magnet, which has a similar size to that of ILD. When extrapolating to ILD the CHF costs from CMS have been converted into Euros at the exchange parity of the CMS magnet construction time, and the Euro inflation to 2018 taken into account. The resulting costs are summarized in table~\ref{magnet_cost}. One important change compared to the DBD estimation is the strong reduction in the yoke cost. At the time of the DBD a price of 6ILCU/kg had been agreed upon with SiD and CLIC, whereas the price payed for CMS corresponds to 3.5 Euros(2018)/kg. 
+
+No attempt to cost the small ILD option has been made. A priori the cost of the small version is expected to be reduced. However the impact of the higher nominal field of 4T on the coil winding and on the flux return is not trivial and may counteract the reduced sizes. Keeping the small magnet cost similar to the large one may be a good approximation for the time being.
+
+The magnet costing is likely to still evolve significantly in the future. For the coil industrial offers are expected from the Japanese companies which are currently studying it, including the anti-DID option. The yoke final cost will strongly depend on the final stray field constraints retained for ILD, as well as on the evolution of the iron market prices until ILD construction.
+
+\textit{Check iron cost used in chapter 6.4 to estimate yoke cost reductions given there for various options.}
+
 \begin{table}\hspace*{-0cm}\small 
 \begin{tabular}[h!]{ l p{0.2\hsize}  p{0.1\hsize} }
 \toprule
@@ -195,63 +249,74 @@ Photogrammetry and survey& 0.3 \\
 %\end{figure}
 
 
-\subsubsection{The muon system}
-In the DBD it is evaluated at 6.5 MILCU equivalent to 6.6 MEuros today. But no assembly, no tooling, no manpower are evaluated. This may add 25\% to the cost growing to 8.3.
+\subsection{Iron instrumentation}
+There is no update since the DBD, where the quoted iron instrumentation material cost was 6.5 MILCU. This translates to 6.6 MEuros of 2018 and corresponds to the large ILD option. Using simple scaling laws the Iron instrumentation of the small option is estimated to 6.0 MEuros.
 
-The small model can be inferred by a simple scaling where the end cap chambers are scaled by the square of the radii and the barrel ones by the radius. This provides an estimate of 6 + 1.55 Meuros for the small  model.
+\textit{For how many instrumented layers ?}
 
-\section{The global cost of each of the models.}
-The information developed in the preceding subsections can be summed up in a table presenting the two models side by side.
+No assembly tooling and manpower has been estimated. Based on the SIECAL detector these contributions can be estimated to ?? MEuros for both the large and small options. 
+
+\section{Global ILD costing.}
+The subdetector costs presented in the preceding subsections are summarized in table~\ref{cost_summary} and summed up for the two ILD models.
 \begin{table}[h!]\hspace*{-0cm}\small
 \begin{tabular}{ l p{0.2\hsize}p{0.1\hsize}p{0.2\hsize} p{0.2\hsize}p{0.1\hsize}}
 \toprule
 \bf {Item}& \bf {Large model} & \bf manpower&  \bf {Small model}&\bf manpower \\
 \midrule
-Vertex detector    & 2.96 &1.45  &  idem &idem \\
-Silicon Internal Tracker & 7.55&2.0 & idem&idem\\
-Forward tracker    & 1.5  &0.5  & idem &idem  \\
-LumiCal & 3.37 & 0.16& idem&idem\\
-ECal ring & 0&0 & idem&idem\\
-LHCal & 2.93 &0.16&idem& idem\\
-BeamCal & 2.15 &0.16& idem&idem\\
+VTX        & 2.96  &1.45  &  idem &idem \\
+SIT strips & 0.8   &0.12 & idem&idem\\
+SIT pixels & 7.55  &2.0 & idem&idem\\
+FTD classic & 2.1   &0.5  & idem &idem  \\
+FTD pixels  & 12.3  &3.3  & idem &idem  \\
+LUMICAL & 3.37  & 0.16& idem&idem\\
+ECAL ring & 1.5 & 0.16 & idem&idem\\
+LHCAL   & 2.93  & 0.16&idem& idem\\
+BEAMCAL & 2.15  & 0.16& idem&idem\\
 \midrule
-Time Projection Chamber & 36.6 & 0&27.0&0\\
-Silicon External Tracker & \it12.6& 1.9&10.8&1.7\\
-Si Electromagnetic Calorimeter & 117 & 13.0 & 90. & 11.\\
-Sc Electromagnetic Calorimeter & 75 & ? & ? & ?\\
-A. Hadron Calorimeter & \it45.7 & ? & \it38.4 & ?\\
-sD. Hadron Calorimeter & \it45.6 & ? & \it38.3 & ?\\
+TPC & \it36.6 & 0 & \it27.0 & 0\\
+%SET & 12.6& 1.9&10.8&1.7\\
+SET    & 13.4& 2.1&10.8&1.7\\
+SIECAL & 117 & 13.0 & 90. & 11.\\
+SCECAL & \it75 & 11.5 & \it62.5 & 9.5\\
+AHCAL  & \it45.7 & ? & \it38.4 & ?\\
+SDHCAL & \it45.6 & ? & \it38.3 & ?\\
 Coil and ancillaries &  40 & 0& idem & 0\\
 Yoke and vacuum tank &  48.4 & 0& idem & 0 \\
-Muon system  &  \it6.6 & 1.7 & 6 & 1.55\\
+Iron instrumentation  &  \it6.6 & 1.7 & 6 & 1.55\\
 \midrule
-Total      & 327   &  21  & 281 & 18.7  \\
+Total      & 328.5   &  21  & 282.5 & 18.9  \\
 \midrule
-Total with MP     & 348   &    & 299.7 & 0  \\
+Total with MP     & 349   &    & 301.3 & 0  \\
  \bottomrule
 \end{tabular}
-\caption{\label{cost_summary}Elements of cost of ILD in MEuros. The numbers in italic are from the DBD. The manpower has been translated from man-years to euros.}
+\caption{\label{cost_summary}Global costing of ILD in MEuros. The numbers in italic are extrapolated from the DBD. The manpower has been translated from FTE-years to euros. The total sums use the classical solutions for SIT and FTD as well as the SIECAL and AHCAL cost estimates. 
+%\textit{SET large cost does not sum to 15.5 ME as in text. }
+\textit{MP numbers should be revisited/completed along the method decribed in the text.} }
 \end{table}
 
-\section{Comparison with the DBD cost estimate.}
- When comparing the prices above to the DBD's 392MILCU it should be recalled that the new prices are in Euros, that for the DBD ECal it was a mix between the scintillator and the silicon versions  and that globally the manpower cost was left out. The sharing between the sub-detectors is shown for the different versions in the figures~\ref{fig:det:DBD_cost_sharing}, ~\ref{Costing:Large_cost_sharing}, ~\ref{Costing:Small_cost_sharing}. Using a reduced sampling in the ECal reduces the cost by 10MEuros, last figure. The increase in the fraction of the ECal comes from the fact that purely the silicon version is quoted here and with manpower. 
+\section{Comparison to the DBD cost estimate.}
+ The DBD ILD total cost amounted to 392MILCU, corresponding to ??? MEuros(2018). The relative sharing between the sub-detectors is shown for the different versions in the figures~\ref{fig:det:DBD_cost_sharing}, ~\ref{Costing:Large_cost_sharing}, ~\ref{Costing:Small_cost_sharing}. 
+ 
 \begin{figure}[h!]
 \centering
 \includegraphics[width=0.8\hsize]{Detector/fig/DBD_cost_sharing.PNG}
-\caption{ILD cost sharing as it is in the DBD}
+\caption{ILD cost sharing as documented in the DBD}
 \label{fig:det:DBD_cost_sharing}
 \end{figure}
 
 \begin{figure}[h!]
 \centering
 \includegraphics[width=0.8\hsize]{Costing/Large_cost_sharing.PNG}
-\caption{ILD cost sharing in the large model}
+\caption{ILD cost sharing in the large model. \textit{Empty FTD to be corrected.}}
 \label{Costing:Large_cost_sharing}
 \end{figure}
 
 \begin{figure}[h!]
 \centering
 \includegraphics[width=0.8\hsize]{Costing/Small_cost_sharing.PNG}
-\caption{ILD cost sharing in the small (26) model}
+\caption{ILD cost sharing in the small (26) model. \textit{The 30-layers baseline option should be shown instead. Empty FTD to be corrected.}}
 \label{Costing:Small_cost_sharing}
 \end{figure}
+
+When comparing the updated estimations to the DBD it should be reminded that the DBD estimations did not include in house manpower and that the DBD ECAL was a mix of the Silicon and Scintillator options. 
+One important message of the new estimation is that the dominant SIECAL contribution has reduced significantly using latest information from the ongoing spinoff projects of the technology, and that further reduction could be achieved by further optimizing the sampling. In the same vein the yoke cost could be reduced by 9 or even 25 MEuros depending on the stray field which can be accepted.

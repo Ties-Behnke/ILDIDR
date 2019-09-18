@@ -96,7 +96,8 @@ void svtx_r_resol()
    Graph_grL1001->GetXaxis()->SetTitleSize(0.05);
    Graph_grL1001->GetXaxis()->SetTitleOffset(1.4);
    Graph_grL1001->GetXaxis()->SetTitleFont(42);
-   Graph_grL1001->GetYaxis()->SetTitle(" Transverse resolution [#mum]");
+//   Graph_grL1001->GetYaxis()->SetTitle(" Transverse resolution [#mum]");
+   Graph_grL1001->GetYaxis()->SetTitle(" #sigma_{vtx,T} [#mum]");
    Graph_grL1001->GetYaxis()->SetNdivisions(506);
    Graph_grL1001->GetYaxis()->SetLabelFont(42);
    Graph_grL1001->GetYaxis()->SetLabelOffset(0.015);
@@ -202,7 +203,7 @@ void svtx_r_resol()
    gre->SetHistogram(Graph_grS1002);
    
    gre->Draw("p ");
-   TLatex *   tex = new TLatex(0.5,0.8,"#scale[1.5]{#font[62]{ILD}} #font[42]{preliminary}");
+   TLatex *   tex = new TLatex(0.75,0.85,"#scale[1.5]{#font[42]{ILD}}");
 tex->SetNDC();
    tex->SetTextFont(42);
    tex->SetLineWidth(2);
@@ -245,4 +246,7 @@ tex->SetNDC();
    cr->Modified();
    cr->cd();
    cr->SetSelected(cr);
+
+   cr->Print("svtx_r_resol.pdf");
+
 }

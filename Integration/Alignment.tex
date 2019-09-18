@@ -1,6 +1,35 @@
-\section{Alignment/ calibration procedures}
-\writer{Graham Wilson, Ties Behnke}{1}
+\section{Calibration/ Alignement procedures}
+%\writer{Graham Wilson, Ties Behnke}{1}
 
-There was little progress here since the LOI/DBD. Most of the corresponding text of these documents could be recovered and summarized for the IDR, taking into account the latest considerations about in-situ calibration with particles/collisions and subdetector requirements.
+The ILD detector is a high-precision instrument. It can reach its designed level of performance only if the sub-systems can be fully calibrated, if the different parts can be aligned relative to each other, and if the calibration and the alignment of the system can be maintained over long times. 
 
-\vspace{2cm}
+For the purpose of this document all tasks which concern the internal description of a sub-detector response are defined as "calibration". Relative positioning of internal parts within a sub-detector, and positioning of sub-detectors relative to each other, are defined as "alignement". 
+
+A detailed calibration and alignment concept of the ILD detector has been presented in the letter-of-intent~\cite{ild:bib:ILDloi} and remains valid. Here the main arguments are repeated and their implementation updated wherever appropriate. In particular significant progress has been made since the publication of the LOI in the experimental demonstration of calibration and alignment using prototypes of the different sub-detectors. 
+
+Data play a central role in the overall calibration and alignment strategy of ILD. Particles recorded during physics running are a powerful tool for the relative alignment of different sub-detectors. They are supplemented by detailed and high precision measurements taken during the construction phase of ILD, and  augmented in some cases by special data taken either from dedicated calibration or alignment systems, or in special calibration runs. 
+
+A particular challenge for ILD is the proposed push-pull scheme. Push-pull implies that the detector is frequently moved from the interaction position into a parking position, and back. Calibration and alignment need to be re-established after each move within a short time, ideally of less than a day, to minimise the loss of integrated luminosity due to re-calibration. 
+Data also play a central role in the re-establishment of the calibration and alignment after a push-pull move. A fast re-establishment of the full calibration is only possible if external means, e.g., metrology or build in sensors, first allow a quick re-establishment of the base calibration of ILD. Based on data recorded during a normal physics run, the full calibration and alignment is then re-established and re-calculated during the physics running, without loosing additional luminosity. Only the very first part, needed to find the base-calibration would potentially result in lost data. 
+
+It is important to understand the required tolerances which are different for different sub-systems. Using a simple track model the dependence of track parameters on alignment tolerances have been studied: 
+\begin{itemize}
+    \item coherent displacement of the VTX: $2.8 \mu$m;
+    \item coherent displacement of the SIT: $3.5 \mu$m;
+    \item coherent displacement of the SET: $6 \mu$m;
+    \item coherent displacement of the TPC: $3.6 \mu$ m;
+    \item coherent displacement of the ECAL: $100 \mu$m;
+    \item coherent displacement of the HCAL: $1000 \mu$m.
+\end{itemize}
+These numbers, which need to be confirmed by further more detailed studies, nevertheless issue important guidelines when optimising the different sub-detectors. 
+
+Another central ingredient into the overall precision reachable for the reconstruction is the degree of knowledge of the magnetic field in ILD. Uncertainties on the size and the direction of the field will directly translate into errors on track parameters. The field knowledge will come from two sources. First, high precision measurements of the magnetic field and its direction will be performed during the building of the detector. These measurements should be able to reach a relative precision of $dB/B < 10^{-4}$.
+%Most recently the calibration of the field in the Belle II detector has reached a comparable precision, demonstrating that this approach is well feasible \cite {BelleII-magnet}. 
+Second, once data are collected stiff tracks will provide a continuous source of tracks for the further relative calibration of the magnetic field, and the correction of local distortions. 
+%Based on data taken with prototype time projection chambers, it has been shown that this approach can correct inhomogeneities at the level of XX $\mu$m. 
+
+The calibration of the calorimeter systems will rely strongly on test-beam based calibration runs before installation. Independent of which technology will be selected in the end, it is envisioned that each module of both the ECAL and HCAL will be exposed to test-beam previous to installation, in order to provide a base calibration. Significant experience with prototypes over many years has shown that the calibration of the ILD calorimeter is robust over time, and can be tracked based on samples of real data. 
+
+The needs for calibration and alignment have to be taken into account from the start of the development of the overall ILD concept. The design of the mechanical structure, of the supports, and of the integration strategy all will have an impact on the calibration and alignment, and will need to be considered. 
+
+Overall it is thought that the current design and integration of ILD will allow to build a detector which can be calibrated to the required precision, aligned mostly based on data, and maintained for long times in a well calibrated and well aligned state. Nevertheless it should be noted that the detailed technical validation and demonstration of the feasibility of the different concepts is still needed before a final design of ILD can be frozen. 

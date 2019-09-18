@@ -1,8 +1,8 @@
 void trkEff_pt_ttbar_pairBG_IDR()
 {
 //=========Macro generated from canvas: momentum/momentum
-//=========  (Tue Jun 25 19:20:51 2019) by ROOT version 6.14/04
-   TCanvas *momentum = new TCanvas("momentum", "momentum",1,572,600,600);
+//=========  (Tue Aug 27 15:42:59 2019) by ROOT version 6.14/04
+   TCanvas *momentum = new TCanvas("momentum", "momentum",1,26,600,600);
    gStyle->SetOptStat(0);
    momentum->Range(-1.68,0.4954054,2.32,1.076486);
    momentum->SetFillColor(10);
@@ -223,9 +223,6 @@ void trkEff_pt_ttbar_pairBG_IDR()
    leg->Draw();
    TText *text = new TText(0.75,0.75,"ILD");
    text->SetNDC();
-
-   ci = TColor::GetColor("#000099");
-   text->SetTextColor(ci);
    text->SetTextFont(42);
    text->SetTextSize(0.07);
    text->Draw();

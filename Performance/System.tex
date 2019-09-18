@@ -95,11 +95,11 @@ is significantly worse than  $\sigma_{d0}$ (see Fig.~\ref{fig:perf:trk_d0} and~\
  \caption{  \label{fig:perf:trkeff_bg}}
  \end{subfigure}
 \begin{subfigure}{0.49\hsize} 
- \includegraphics[width=\hsize]{Performance/fig/newSiliconTracking_10kEvents_effTrk_Momentum_v2.png}
+ \includegraphics[width=\hsize]{Performance/fig/newSiliconTracking_10kEvents_effTrk_Momentum_v3.png}
  \caption{ \label{fig:perf:trkeff_2D_p}}
  \end{subfigure}
 \begin{subfigure}{0.49\hsize} 
- \includegraphics[width=\hsize]{Performance/fig/newSiliconTracking_10kEvents_effTrk_Pt_v2.png}
+ \includegraphics[width=\hsize]{Performance/fig/newSiliconTracking_10kEvents_effTrk_Pt_v3.png}
  \caption{  \label{fig:perf:trkeff_2D_pt}}
  \end{subfigure}
 \caption{
@@ -144,11 +144,11 @@ ISR-photons or confusion in jet clustering that occur in more complex, realistic
  \end{subfigure}
 \begin{subfigure}{0.49\hsize} 
  \includegraphics[width=\hsize]{Performance/fig/JER_uds_costh_IDR.pdf}
- \caption{ \label{fig:perf:pfa_udscb}}
+ \caption{ \label{fig:perf:pfa_costh}}
  \end{subfigure}
 \begin{subfigure}{0.49\hsize} 
  \includegraphics[width=\hsize]{Performance/fig/JERs_bcuds_pfo_vs_pfo_plus_nu.pdf}
- \caption{  \label{fig:perf:pfa_costh}}
+ \caption{  \label{fig:perf:pfa_udscb}}
  \end{subfigure}
 \caption{
   Jet energy resolution (JER), evaluated as defined in eq.~\ref{ild:eq:jer} for $\PZ\rightarrow \Pquark\APquark$-events with $|\cos(\theta_{q\bar q})|<0.7$
@@ -173,8 +173,8 @@ The JER as a function of the polar angle of the jets (the {\em thrust}-axis of t
 large detector model. The observed dependency is rather flat throughout the barrel region, increasing somewhat after the barrel-end-cap transition
 with a visible rise in the very forward region, similar for all energies. The effect of heavy flavor quarks on the jet energy resolution is shown in
 Fig.~\ref{fig:perf:pfa_udscb}, where the resolutions is plotted for $\Pqu,\Pqd,\Pqs$ di-quark events together with $\Pqc\APqc$ and $\Pqb\APqb$ events for the large model.
-The observed degradation in the JER for the heavy quark jets can be fully recovered by correcting the $\Pneutrino$~-energies using Monte Carlo truth information, as
-can be seen from the dashed lines.
+The observed degradation in the JER for the heavy quark jets can be fully recovered by correcting the $\Pneutrino$~-energies using Monte Carlo truth
+information, as can be seen from the dashed lines.
 
 
 
@@ -220,13 +220,11 @@ is very similar, as expected already from the single track impact parameter reso
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Photon Reconstruction}
-\fix{no publishable results for photon ID available ...}
+%%\subsection{Photon Reconstruction}
+%%\fix{no publishable results for photon ID available ...}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
-\subsection{Lepton ID}
-\fix{muons, electrons - no publishable results for lepton ID available ...}
-
-
+%%\subsection{Lepton ID}
+%%\fix{muons, electrons - no publishable results for lepton ID available ...}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Charged Particle identification}
 %\fix{dE/dx, potentially ToF, shower shapes}
@@ -268,9 +266,9 @@ per hit\footnote{While this time resolution seems realisticly possible, it has t
  \includegraphics[width=\hsize]{Performance/fig/Combined_dEdx_TOF100.pdf}
  \caption{  \label{fig:perf:dedxtof_sep}}
  \end{subfigure}
-\caption{ (a) particle separation power (eq.~\ref{ild:eq:seppow}) for $\Ppi,\PK$ and $\PK,\Pp$ based on the $dE/dx$ measurement in the TPC.
+\caption{ (a) particle separation power (eq.~\ref{ild:eq:seppow}) for $\Ppi/\PK$ and $\PK/\Pp$ based on the $dE/dx$ measurement in the TPC.
   (b) improvement of the same separation power if combined with a {\em time-of-flight (TOF)} estimator from the first ten Ecal layers,
-  where $\eta_{dE/dx,TOF}=\eta_{dE/dx} \oplus \eta_{TOF}$
+  where $\eta_{dE/dx,TOF}=\eta_{dE/dx} \oplus \eta_{TOF}$.
 }
 \label{fig:perf:dedxtof}
 \end{figure}

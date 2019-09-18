@@ -1,0 +1,177 @@
+void bcalveto_vv1g_comp()
+{
+//=========Macro generated from canvas: c/
+//=========  (Fri Aug 30 10:30:41 2019) by ROOT version6.08/06
+   TCanvas *c = new TCanvas("c", "",1213,428,400,400);
+   gStyle->SetOptStat(0);
+   c->Range(-1.459459,0.3531724,6.648649,7.090322);
+   c->SetFillColor(10);
+   c->SetBorderMode(0);
+   c->SetBorderSize(2);
+   c->SetLogy();
+   c->SetTickx(1);
+   c->SetTicky(1);
+   c->SetLeftMargin(0.18);
+   c->SetRightMargin(0.08);
+   c->SetTopMargin(0.05);
+   c->SetBottomMargin(0.15);
+   c->SetFrameLineWidth(3);
+   c->SetFrameBorderMode(0);
+   c->SetFrameLineWidth(3);
+   c->SetFrameBorderMode(0);
+   
+   TH1F *hNBcalClusters1ISR_l5_nungSum__1 = new TH1F("hNBcalClusters1ISR_l5_nungSum__1","",6,0,6);
+   hNBcalClusters1ISR_l5_nungSum__1->SetBinContent(1,2991680);
+   hNBcalClusters1ISR_l5_nungSum__1->SetBinContent(2,69849.95);
+   hNBcalClusters1ISR_l5_nungSum__1->SetBinContent(3,2228.958);
+   hNBcalClusters1ISR_l5_nungSum__1->SetBinContent(4,46.21413);
+   hNBcalClusters1ISR_l5_nungSum__1->SetEntries(3063806);
+   hNBcalClusters1ISR_l5_nungSum__1->SetStats(0);
+
+   Int_t ci;      // for color index setting
+   TColor *color; // for color definition with alpha
+   ci = TColor::GetColor("#0000ff");
+   hNBcalClusters1ISR_l5_nungSum__1->SetLineColor(ci);
+   hNBcalClusters1ISR_l5_nungSum__1->SetLineWidth(2);
+   hNBcalClusters1ISR_l5_nungSum__1->SetMarkerStyle(20);
+   hNBcalClusters1ISR_l5_nungSum__1->SetMarkerSize(1.3);
+   hNBcalClusters1ISR_l5_nungSum__1->GetXaxis()->SetTitle("# of BCal clusters");
+   hNBcalClusters1ISR_l5_nungSum__1->GetXaxis()->SetNdivisions(506);
+   hNBcalClusters1ISR_l5_nungSum__1->GetXaxis()->SetLabelFont(42);
+   hNBcalClusters1ISR_l5_nungSum__1->GetXaxis()->SetLabelOffset(0.015);
+   hNBcalClusters1ISR_l5_nungSum__1->GetXaxis()->SetLabelSize(0.06);
+   hNBcalClusters1ISR_l5_nungSum__1->GetXaxis()->SetTitleSize(0.07);
+   hNBcalClusters1ISR_l5_nungSum__1->GetXaxis()->SetTitleFont(42);
+   hNBcalClusters1ISR_l5_nungSum__1->GetYaxis()->SetTitle("Events");
+   hNBcalClusters1ISR_l5_nungSum__1->GetYaxis()->SetNdivisions(506);
+   hNBcalClusters1ISR_l5_nungSum__1->GetYaxis()->SetLabelFont(42);
+   hNBcalClusters1ISR_l5_nungSum__1->GetYaxis()->SetLabelOffset(0.015);
+   hNBcalClusters1ISR_l5_nungSum__1->GetYaxis()->SetLabelSize(0.06);
+   hNBcalClusters1ISR_l5_nungSum__1->GetYaxis()->SetTitleSize(0.07);
+   hNBcalClusters1ISR_l5_nungSum__1->GetYaxis()->SetTitleOffset(1.1);
+   hNBcalClusters1ISR_l5_nungSum__1->GetYaxis()->SetTitleFont(42);
+   hNBcalClusters1ISR_l5_nungSum__1->GetZaxis()->SetLabelFont(42);
+   hNBcalClusters1ISR_l5_nungSum__1->GetZaxis()->SetLabelOffset(0.015);
+   hNBcalClusters1ISR_l5_nungSum__1->GetZaxis()->SetLabelSize(0.06);
+   hNBcalClusters1ISR_l5_nungSum__1->GetZaxis()->SetTitleSize(0.07);
+   hNBcalClusters1ISR_l5_nungSum__1->GetZaxis()->SetTitleOffset(1.1);
+   hNBcalClusters1ISR_l5_nungSum__1->GetZaxis()->SetTitleFont(42);
+   hNBcalClusters1ISR_l5_nungSum__1->Draw("");
+   
+   TH1F *hNBcalClusters1ISR_s5_nungSum__2 = new TH1F("hNBcalClusters1ISR_s5_nungSum__2","",6,0,6);
+   hNBcalClusters1ISR_s5_nungSum__2->SetBinContent(1,2985197);
+   hNBcalClusters1ISR_s5_nungSum__2->SetBinContent(2,67109.86);
+   hNBcalClusters1ISR_s5_nungSum__2->SetBinContent(3,2008.627);
+   hNBcalClusters1ISR_s5_nungSum__2->SetBinContent(4,38.12474);
+   hNBcalClusters1ISR_s5_nungSum__2->SetEntries(3054353);
+   hNBcalClusters1ISR_s5_nungSum__2->SetStats(0);
+
+   ci = TColor::GetColor("#ff0000");
+   hNBcalClusters1ISR_s5_nungSum__2->SetLineColor(ci);
+   hNBcalClusters1ISR_s5_nungSum__2->SetLineStyle(4);
+   hNBcalClusters1ISR_s5_nungSum__2->SetLineWidth(3);
+   hNBcalClusters1ISR_s5_nungSum__2->SetMarkerStyle(20);
+   hNBcalClusters1ISR_s5_nungSum__2->SetMarkerSize(1.3);
+   hNBcalClusters1ISR_s5_nungSum__2->GetXaxis()->SetTitle("# of BCal clusters");
+   hNBcalClusters1ISR_s5_nungSum__2->GetXaxis()->SetNdivisions(506);
+   hNBcalClusters1ISR_s5_nungSum__2->GetXaxis()->SetLabelFont(42);
+   hNBcalClusters1ISR_s5_nungSum__2->GetXaxis()->SetLabelOffset(0.015);
+   hNBcalClusters1ISR_s5_nungSum__2->GetXaxis()->SetLabelSize(0.06);
+   hNBcalClusters1ISR_s5_nungSum__2->GetXaxis()->SetTitleSize(0.07);
+   hNBcalClusters1ISR_s5_nungSum__2->GetXaxis()->SetTitleFont(42);
+   hNBcalClusters1ISR_s5_nungSum__2->GetYaxis()->SetTitle("Events");
+   hNBcalClusters1ISR_s5_nungSum__2->GetYaxis()->SetNdivisions(506);
+   hNBcalClusters1ISR_s5_nungSum__2->GetYaxis()->SetLabelFont(42);
+   hNBcalClusters1ISR_s5_nungSum__2->GetYaxis()->SetLabelOffset(0.015);
+   hNBcalClusters1ISR_s5_nungSum__2->GetYaxis()->SetLabelSize(0.06);
+   hNBcalClusters1ISR_s5_nungSum__2->GetYaxis()->SetTitleSize(0.07);
+   hNBcalClusters1ISR_s5_nungSum__2->GetYaxis()->SetTitleOffset(1.1);
+   hNBcalClusters1ISR_s5_nungSum__2->GetYaxis()->SetTitleFont(42);
+   hNBcalClusters1ISR_s5_nungSum__2->GetZaxis()->SetLabelFont(42);
+   hNBcalClusters1ISR_s5_nungSum__2->GetZaxis()->SetLabelOffset(0.015);
+   hNBcalClusters1ISR_s5_nungSum__2->GetZaxis()->SetLabelSize(0.06);
+   hNBcalClusters1ISR_s5_nungSum__2->GetZaxis()->SetTitleSize(0.07);
+   hNBcalClusters1ISR_s5_nungSum__2->GetZaxis()->SetTitleOffset(1.1);
+   hNBcalClusters1ISR_s5_nungSum__2->GetZaxis()->SetTitleFont(42);
+   hNBcalClusters1ISR_s5_nungSum__2->Draw("same");
+   
+   TLegend *leg = new TLegend(0.71,0.6,0.95,0.7,NULL,"brNDC");
+   leg->SetBorderSize(0);
+   leg->SetTextSize(0.04);
+   leg->SetLineColor(1);
+   leg->SetLineStyle(1);
+   leg->SetLineWidth(3);
+   leg->SetFillColor(0);
+   leg->SetFillStyle(1001);
+   TLegendEntry *entry=leg->AddEntry("hNBcalClusters1ISR_l5_nungSum","IDR-L","l");
+
+   ci = TColor::GetColor("#0000ff");
+   entry->SetLineColor(ci);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(2);
+   entry->SetMarkerColor(1);
+   entry->SetMarkerStyle(21);
+   entry->SetMarkerSize(1);
+   entry->SetTextFont(42);
+   entry=leg->AddEntry("hNBcalClusters1ISR_s5_nungSum","IDR-S","l");
+
+   ci = TColor::GetColor("#ff0000");
+   entry->SetLineColor(ci);
+   entry->SetLineStyle(4);
+   entry->SetLineWidth(3);
+   entry->SetMarkerColor(1);
+   entry->SetMarkerStyle(21);
+   entry->SetMarkerSize(1);
+   entry->SetTextFont(42);
+   leg->Draw();
+   TLatex *   tex = new TLatex(0.57,0.8,"#scale[1.5]{#font[62]{ILD}} #font[42]{preliminary}");
+tex->SetNDC();
+   tex->SetTextFont(42);
+   tex->SetLineWidth(2);
+   tex->Draw();
+      tex = new TLatex(0.73,0.72,"#nu#nu+1#gamma");
+tex->SetNDC();
+   tex->SetTextFont(42);
+   tex->SetLineWidth(2);
+   tex->Draw();
+   
+   TH1F *hNBcalClusters1ISR_l5_nungSum_copy__3 = new TH1F("hNBcalClusters1ISR_l5_nungSum_copy__3","",6,0,6);
+   hNBcalClusters1ISR_l5_nungSum_copy__3->SetBinContent(1,2991680);
+   hNBcalClusters1ISR_l5_nungSum_copy__3->SetBinContent(2,69849.95);
+   hNBcalClusters1ISR_l5_nungSum_copy__3->SetBinContent(3,2228.958);
+   hNBcalClusters1ISR_l5_nungSum_copy__3->SetBinContent(4,46.21413);
+   hNBcalClusters1ISR_l5_nungSum_copy__3->SetEntries(3063806);
+   hNBcalClusters1ISR_l5_nungSum_copy__3->SetDirectory(0);
+   hNBcalClusters1ISR_l5_nungSum_copy__3->SetStats(0);
+
+   ci = TColor::GetColor("#0000ff");
+   hNBcalClusters1ISR_l5_nungSum_copy__3->SetLineColor(ci);
+   hNBcalClusters1ISR_l5_nungSum_copy__3->SetLineWidth(2);
+   hNBcalClusters1ISR_l5_nungSum_copy__3->SetMarkerStyle(20);
+   hNBcalClusters1ISR_l5_nungSum_copy__3->SetMarkerSize(1.3);
+   hNBcalClusters1ISR_l5_nungSum_copy__3->GetXaxis()->SetTitle("# of BCal clusters");
+   hNBcalClusters1ISR_l5_nungSum_copy__3->GetXaxis()->SetNdivisions(506);
+   hNBcalClusters1ISR_l5_nungSum_copy__3->GetXaxis()->SetLabelFont(42);
+   hNBcalClusters1ISR_l5_nungSum_copy__3->GetXaxis()->SetLabelOffset(0.015);
+   hNBcalClusters1ISR_l5_nungSum_copy__3->GetXaxis()->SetLabelSize(0.06);
+   hNBcalClusters1ISR_l5_nungSum_copy__3->GetXaxis()->SetTitleSize(0.07);
+   hNBcalClusters1ISR_l5_nungSum_copy__3->GetXaxis()->SetTitleFont(42);
+   hNBcalClusters1ISR_l5_nungSum_copy__3->GetYaxis()->SetTitle("Events");
+   hNBcalClusters1ISR_l5_nungSum_copy__3->GetYaxis()->SetNdivisions(506);
+   hNBcalClusters1ISR_l5_nungSum_copy__3->GetYaxis()->SetLabelFont(42);
+   hNBcalClusters1ISR_l5_nungSum_copy__3->GetYaxis()->SetLabelOffset(0.015);
+   hNBcalClusters1ISR_l5_nungSum_copy__3->GetYaxis()->SetLabelSize(0.06);
+   hNBcalClusters1ISR_l5_nungSum_copy__3->GetYaxis()->SetTitleSize(0.07);
+   hNBcalClusters1ISR_l5_nungSum_copy__3->GetYaxis()->SetTitleOffset(1.1);
+   hNBcalClusters1ISR_l5_nungSum_copy__3->GetYaxis()->SetTitleFont(42);
+   hNBcalClusters1ISR_l5_nungSum_copy__3->GetZaxis()->SetLabelFont(42);
+   hNBcalClusters1ISR_l5_nungSum_copy__3->GetZaxis()->SetLabelOffset(0.015);
+   hNBcalClusters1ISR_l5_nungSum_copy__3->GetZaxis()->SetLabelSize(0.06);
+   hNBcalClusters1ISR_l5_nungSum_copy__3->GetZaxis()->SetTitleSize(0.07);
+   hNBcalClusters1ISR_l5_nungSum_copy__3->GetZaxis()->SetTitleOffset(1.1);
+   hNBcalClusters1ISR_l5_nungSum_copy__3->GetZaxis()->SetTitleFont(42);
+   hNBcalClusters1ISR_l5_nungSum_copy__3->Draw("sameaxis");
+   c->Modified();
+   c->cd();
+   c->SetSelected(c);
+}

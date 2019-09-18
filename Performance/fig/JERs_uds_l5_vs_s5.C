@@ -123,22 +123,22 @@ void JERs_uds_l5_vs_s5()
    0.01056904,
    0.01047679,
    0.01099595};
-   gre = new TGraphErrors(5,Graph_fx1002,Graph_fy1002,Graph_fex1002,Graph_fey1002);
-   gre->SetName("Graph");
-   gre->SetTitle("Jet energy resolution, cos(#theta) < 0.7;Jet energy [GeV];RMS_{90}(E_{j}) / Mean_{90}(E_{j}) [%]");
+   TGraphErrors* gre2 = new TGraphErrors(5,Graph_fx1002,Graph_fy1002,Graph_fex1002,Graph_fey1002);
+   gre2->SetName("Graph");
+   gre2->SetTitle("Jet energy resolution, cos(#theta) < 0.7;Jet energy [GeV];RMS_{90}(E_{j}) / Mean_{90}(E_{j}) [%]");
 
    ci = TColor::GetColor("#ff0000");
-   gre->SetFillColor(ci);
-   gre->SetFillStyle(0);
+   gre2->SetFillColor(ci);
+   gre2->SetFillStyle(0);
 
    ci = TColor::GetColor("#ff0000");
-   gre->SetLineColor(ci);
-   gre->SetLineWidth(2);
+   gre2->SetLineColor(ci);
+   gre2->SetLineWidth(2);
 
    ci = TColor::GetColor("#ff0000");
-   gre->SetMarkerColor(ci);
-   gre->SetMarkerStyle(24);
-   gre->SetMarkerSize(1.4);
+   gre2->SetMarkerColor(ci);
+   gre2->SetMarkerStyle(24);
+   gre2->SetMarkerSize(1.4);
    
    TH1F *Graph_Graph1002 = new TH1F("Graph_Graph1002","Jet energy resolution, cos(#theta) < 0.7",100,0,273);
    Graph_Graph1002->SetMinimum(2.874828);
@@ -169,9 +169,9 @@ void JERs_uds_l5_vs_s5()
    Graph_Graph1002->GetZaxis()->SetTitleSize(0.07);
    Graph_Graph1002->GetZaxis()->SetTitleOffset(1.1);
    Graph_Graph1002->GetZaxis()->SetTitleFont(42);
-   gre->SetHistogram(Graph_Graph1002);
+   gre2->SetHistogram(Graph_Graph1002);
    
-   multigraph->Add(gre,"");
+   multigraph->Add(gre2,"");
    multigraph->Draw("APL");
    multigraph->GetXaxis()->SetTitle("E_{jet} [GeV]");
    multigraph->GetXaxis()->SetRange(0,101);
@@ -218,22 +218,22 @@ void JERs_uds_l5_vs_s5()
    0.009790456,
    0.009660078,
    0.009932126};
-   gre = new TGraphErrors(5,Graph_fx1003,Graph_fy1003,Graph_fex1003,Graph_fey1003);
-   gre->SetName("Graph");
-   gre->SetTitle("Jet energy resolution, cos(#theta) < 0.7;Jet energy [GeV];RMS_{90}(E_{j}) / Mean_{90}(E_{j}) [%]");
+   gre2 = new TGraphErrors(5,Graph_fx1003,Graph_fy1003,Graph_fex1003,Graph_fey1003);
+   gre2->SetName("Graph");
+   gre2->SetTitle("Jet energy resolution, cos(#theta) < 0.7;Jet energy [GeV];RMS_{90}(E_{j}) / Mean_{90}(E_{j}) [%]");
 
    ci = TColor::GetColor("#0000ff");
-   gre->SetFillColor(ci);
-   gre->SetFillStyle(0);
+   gre2->SetFillColor(ci);
+   gre2->SetFillStyle(0);
 
    ci = TColor::GetColor("#0000ff");
-   gre->SetLineColor(ci);
-   gre->SetLineWidth(2);
+   gre2->SetLineColor(ci);
+   gre2->SetLineWidth(2);
 
    ci = TColor::GetColor("#0000ff");
-   gre->SetMarkerColor(ci);
-   gre->SetMarkerStyle(20);
-   gre->SetMarkerSize(1.32);
+   gre2->SetMarkerColor(ci);
+   gre2->SetMarkerStyle(20);
+   gre2->SetMarkerSize(1.32);
    
    TH1F *Graph_Graph_Graph10011003 = new TH1F("Graph_Graph_Graph10011003","Jet energy resolution, cos(#theta) < 0.7",100,0,273);
    Graph_Graph_Graph10011003->SetMinimum(2.610678);
@@ -264,9 +264,9 @@ void JERs_uds_l5_vs_s5()
    Graph_Graph_Graph10011003->GetZaxis()->SetTitleSize(0.07);
    Graph_Graph_Graph10011003->GetZaxis()->SetTitleOffset(1.1);
    Graph_Graph_Graph10011003->GetZaxis()->SetTitleFont(42);
-   gre->SetHistogram(Graph_Graph_Graph10011003);
+   gre2->SetHistogram(Graph_Graph_Graph10011003);
    
-   multigraph->Add(gre,"");
+   multigraph->Add(gre2,"");
    
    Double_t Graph_fx1004[5] = {
    20,
@@ -292,22 +292,22 @@ void JERs_uds_l5_vs_s5()
    0.01056904,
    0.01047679,
    0.01099595};
-   gre = new TGraphErrors(5,Graph_fx1004,Graph_fy1004,Graph_fex1004,Graph_fey1004);
-   gre->SetName("Graph");
-   gre->SetTitle("Jet energy resolution, cos(#theta) < 0.7;Jet energy [GeV];RMS_{90}(E_{j}) / Mean_{90}(E_{j}) [%]");
+   gre2 = new TGraphErrors(5,Graph_fx1004,Graph_fy1004,Graph_fex1004,Graph_fey1004);
+   gre2->SetName("Graph");
+   gre2->SetTitle("Jet energy resolution, cos(#theta) < 0.7;Jet energy [GeV];RMS_{90}(E_{j}) / Mean_{90}(E_{j}) [%]");
 
    ci = TColor::GetColor("#ff0000");
-   gre->SetFillColor(ci);
-   gre->SetFillStyle(0);
+   gre2->SetFillColor(ci);
+   gre2->SetFillStyle(0);
 
    ci = TColor::GetColor("#ff0000");
-   gre->SetLineColor(ci);
-   gre->SetLineWidth(2);
+   gre2->SetLineColor(ci);
+   gre2->SetLineWidth(2);
 
    ci = TColor::GetColor("#ff0000");
-   gre->SetMarkerColor(ci);
-   gre->SetMarkerStyle(24);
-   gre->SetMarkerSize(1.4);
+   gre2->SetMarkerColor(ci);
+   gre2->SetMarkerStyle(24);
+   gre2->SetMarkerSize(1.4);
    
    TH1F *Graph_Graph_Graph10021004 = new TH1F("Graph_Graph_Graph10021004","Jet energy resolution, cos(#theta) < 0.7",100,0,273);
    Graph_Graph_Graph10021004->SetMinimum(2.874828);
@@ -338,9 +338,9 @@ void JERs_uds_l5_vs_s5()
    Graph_Graph_Graph10021004->GetZaxis()->SetTitleSize(0.07);
    Graph_Graph_Graph10021004->GetZaxis()->SetTitleOffset(1.1);
    Graph_Graph_Graph10021004->GetZaxis()->SetTitleFont(42);
-   gre->SetHistogram(Graph_Graph_Graph10021004);
+   gre2->SetHistogram(Graph_Graph_Graph10021004);
    
-   multigraph->Add(gre,"");
+   multigraph->Add(gre2,"");
    multigraph->Draw("E");
    multigraph->GetXaxis()->SetTitle("E_{jet} [GeV]");
    multigraph->GetXaxis()->SetRange(0,101);
@@ -387,22 +387,22 @@ void JERs_uds_l5_vs_s5()
    0.009790456,
    0.009660078,
    0.009932126};
-   gre = new TGraphErrors(5,Graph_fx1005,Graph_fy1005,Graph_fex1005,Graph_fey1005);
-   gre->SetName("Graph");
-   gre->SetTitle("Jet energy resolution, cos(#theta) < 0.7;Jet energy [GeV];RMS_{90}(E_{j}) / Mean_{90}(E_{j}) [%]");
+   gre2 = new TGraphErrors(5,Graph_fx1005,Graph_fy1005,Graph_fex1005,Graph_fey1005);
+   gre2->SetName("Graph");
+   gre2->SetTitle("Jet energy resolution, cos(#theta) < 0.7;Jet energy [GeV];RMS_{90}(E_{j}) / Mean_{90}(E_{j}) [%]");
 
    ci = TColor::GetColor("#0000ff");
-   gre->SetFillColor(ci);
-   gre->SetFillStyle(0);
+   gre2->SetFillColor(ci);
+   gre2->SetFillStyle(0);
 
    ci = TColor::GetColor("#0000ff");
-   gre->SetLineColor(ci);
-   gre->SetLineWidth(2);
+   gre2->SetLineColor(ci);
+   gre2->SetLineWidth(2);
 
    ci = TColor::GetColor("#0000ff");
-   gre->SetMarkerColor(ci);
-   gre->SetMarkerStyle(20);
-   gre->SetMarkerSize(1.32);
+   gre2->SetMarkerColor(ci);
+   gre2->SetMarkerStyle(20);
+   gre2->SetMarkerSize(1.32);
    
    TH1F *Graph_Graph_Graph_Graph100110031005 = new TH1F("Graph_Graph_Graph_Graph100110031005","Jet energy resolution, cos(#theta) < 0.7",100,0,273);
    Graph_Graph_Graph_Graph100110031005->SetMinimum(2.610678);
@@ -433,9 +433,9 @@ void JERs_uds_l5_vs_s5()
    Graph_Graph_Graph_Graph100110031005->GetZaxis()->SetTitleSize(0.07);
    Graph_Graph_Graph_Graph100110031005->GetZaxis()->SetTitleOffset(1.1);
    Graph_Graph_Graph_Graph100110031005->GetZaxis()->SetTitleFont(42);
-   gre->SetHistogram(Graph_Graph_Graph_Graph100110031005);
+   gre2->SetHistogram(Graph_Graph_Graph_Graph100110031005);
    
-   multigraph->Add(gre,"");
+   multigraph->Add(gre2,"");
    
    Double_t Graph_fx1006[5] = {
    20,
@@ -461,22 +461,22 @@ void JERs_uds_l5_vs_s5()
    0.01056904,
    0.01047679,
    0.01099595};
-   gre = new TGraphErrors(5,Graph_fx1006,Graph_fy1006,Graph_fex1006,Graph_fey1006);
-   gre->SetName("Graph");
-   gre->SetTitle("Jet energy resolution, cos(#theta) < 0.7;Jet energy [GeV];RMS_{90}(E_{j}) / Mean_{90}(E_{j}) [%]");
+   gre2 = new TGraphErrors(5,Graph_fx1006,Graph_fy1006,Graph_fex1006,Graph_fey1006);
+   gre2->SetName("Graph");
+   gre2->SetTitle("Jet energy resolution, cos(#theta) < 0.7;Jet energy [GeV];RMS_{90}(E_{j}) / Mean_{90}(E_{j}) [%]");
 
    ci = TColor::GetColor("#ff0000");
-   gre->SetFillColor(ci);
-   gre->SetFillStyle(0);
+   gre2->SetFillColor(ci);
+   gre2->SetFillStyle(0);
 
    ci = TColor::GetColor("#ff0000");
-   gre->SetLineColor(ci);
-   gre->SetLineWidth(2);
+   gre2->SetLineColor(ci);
+   gre2->SetLineWidth(2);
 
    ci = TColor::GetColor("#ff0000");
-   gre->SetMarkerColor(ci);
-   gre->SetMarkerStyle(24);
-   gre->SetMarkerSize(1.4);
+   gre2->SetMarkerColor(ci);
+   gre2->SetMarkerStyle(24);
+   gre2->SetMarkerSize(1.4);
    
    TH1F *Graph_Graph_Graph_Graph100210041006 = new TH1F("Graph_Graph_Graph_Graph100210041006","Jet energy resolution, cos(#theta) < 0.7",100,0,273);
    Graph_Graph_Graph_Graph100210041006->SetMinimum(2.874828);
@@ -507,9 +507,9 @@ void JERs_uds_l5_vs_s5()
    Graph_Graph_Graph_Graph100210041006->GetZaxis()->SetTitleSize(0.07);
    Graph_Graph_Graph_Graph100210041006->GetZaxis()->SetTitleOffset(1.1);
    Graph_Graph_Graph_Graph100210041006->GetZaxis()->SetTitleFont(42);
-   gre->SetHistogram(Graph_Graph_Graph_Graph100210041006);
+   gre2->SetHistogram(Graph_Graph_Graph_Graph100210041006);
    
-   multigraph->Add(gre,"");
+   multigraph->Add(gre2,"");
    multigraph->Draw("PX");
    multigraph->GetXaxis()->SetTitle("E_{jet} [GeV]");
    multigraph->GetXaxis()->SetRange(0,101);
@@ -531,12 +531,12 @@ void JERs_uds_l5_vs_s5()
    TPaveText *pt = new TPaveText(0.3,0.85,0.3,0.85,"tbNDC");
    pt->SetBorderSize(0);
    pt->SetFillColor(0);
-   pt->SetLineWidth(2);
+   pt->SetLineWidth(4);
    pt->SetTextAlign(13);
-   pt->SetTextColor(15);
+   pt->SetTextColor(1);
    pt->SetTextFont(42);
    pt->SetTextSize(0.0625);
-   TText *AText = pt->AddText("ILD Preliminary");
+   TText *AText = pt->AddText("ILD");
    pt->Draw();
    
    TLegend *leg = new TLegend(0.5,0.4,0.9,0.55,NULL,"brNDC");
@@ -547,32 +547,37 @@ void JERs_uds_l5_vs_s5()
    leg->SetLineWidth(2);
    leg->SetFillColor(0);
    leg->SetFillStyle(1001);
-   TLegendEntry *entry=leg->AddEntry("Graph","ILD-L","epl");
+   TLegendEntry *entry=leg->AddEntry(gre,"IDR-L","epl");
 
-   ci = TColor::GetColor("#0000ff");
-   entry->SetLineColor(ci);
-   entry->SetLineStyle(1);
-   entry->SetLineWidth(2);
+   /* ci = TColor::GetColor("#0000ff"); */
+   /* entry->SetLineColor(ci); */
+   /* entry->SetLineStyle(1); */
+   /* entry->SetLineWidth(2); */
 
-   ci = TColor::GetColor("#0000ff");
-   entry->SetMarkerColor(ci);
-   entry->SetMarkerStyle(20);
-   entry->SetMarkerSize(1.32);
-   entry->SetTextFont(62);
-   entry=leg->AddEntry("Graph","ILD-S","epl");
+   /* ci = TColor::GetColor("#0000ff"); */
+   /* entry->SetMarkerColor(ci); */
+   /* entry->SetMarkerStyle(20); */
+   /* entry->SetMarkerSize(1.32); */
+   /* entry->SetTextFont(62); */
 
-   ci = TColor::GetColor("#ff0000");
-   entry->SetLineColor(ci);
-   entry->SetLineStyle(1);
-   entry->SetLineWidth(2);
+   TLegendEntry* entry2=leg->AddEntry(gre2,"IDR-S","epl");
 
-   ci = TColor::GetColor("#ff0000");
-   entry->SetMarkerColor(ci);
-   entry->SetMarkerStyle(24);
-   entry->SetMarkerSize(1.4);
-   entry->SetTextFont(62);
+   /* ci = TColor::GetColor("#ff0000"); */
+   /* entry2->SetLineColor(ci); */
+   /* entry2->SetLineStyle(1); */
+   /* entry2->SetLineWidth(2); */
+
+   /* ci = TColor::GetColor("#ffffff"); */
+   /* entry2->SetMarkerColor(ci); */
+   /* entry2->SetMarkerStyle(24); */
+   /* entry2->SetMarkerSize(1.4); */
+   /* entry2->SetTextFont(62); */
+
    leg->Draw();
    JERs->Modified();
    JERs->cd();
    JERs->SetSelected(JERs);
+
+
+   JERs->Print("JERs_uds_l5_vs_s5.pdf") ;
 }

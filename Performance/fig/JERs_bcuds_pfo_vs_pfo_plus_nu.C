@@ -19,6 +19,15 @@ void JERs_bcuds_pfo_vs_pfo_plus_nu()
    JERs->SetFrameLineWidth(2);
    JERs->SetFrameBorderMode(0);
    
+   TLegend *leg = new TLegend(0.5,0.6,0.9,0.75,NULL,"brNDC");
+   leg->SetBorderSize(0);
+   leg->SetTextFont(62);
+   leg->SetLineColor(1);
+   leg->SetLineStyle(1);
+   leg->SetLineWidth(2);
+   leg->SetFillColor(0);
+   leg->SetFillStyle(1001);
+
    TMultiGraph *multigraph = new TMultiGraph();
    multigraph->SetName("");
    multigraph->SetTitle("");
@@ -472,6 +481,8 @@ void JERs_bcuds_pfo_vs_pfo_plus_nu()
    
    multigraph->Add(gre,"");
    multigraph->Draw("APL");
+   entry=leg->AddEntry("Graph","cc (PFO + #nu_{MC})","epl");
+
    multigraph->GetXaxis()->SetTitle("E_{jet} [GeV]");
    multigraph->GetXaxis()->SetRange(0,101);
    multigraph->GetXaxis()->SetNdivisions(506);
@@ -940,6 +951,8 @@ void JERs_bcuds_pfo_vs_pfo_plus_nu()
    
    multigraph->Add(gre,"");
    multigraph->Draw("E");
+   entry=leg->AddEntry("Graph","bb (PFO)","epl");
+
    multigraph->GetXaxis()->SetTitle("E_{jet} [GeV]");
    multigraph->GetXaxis()->SetRange(0,101);
    multigraph->GetXaxis()->SetNdivisions(506);
@@ -1408,6 +1421,8 @@ void JERs_bcuds_pfo_vs_pfo_plus_nu()
    
    multigraph->Add(gre,"");
    multigraph->Draw("PX");
+   entry=leg->AddEntry("Graph","bb (PFO + #nu_{MC})","epl");
+
    multigraph->GetXaxis()->SetTitle("E_{jet} [GeV]");
    multigraph->GetXaxis()->SetRange(0,101);
    multigraph->GetXaxis()->SetNdivisions(506);
@@ -1436,14 +1451,6 @@ void JERs_bcuds_pfo_vs_pfo_plus_nu()
    TText *AText = pt->AddText("ILD Preliminary");
    pt->Draw();
    
-   TLegend *leg = new TLegend(0.5,0.6,0.9,0.75,NULL,"brNDC");
-   leg->SetBorderSize(0);
-   leg->SetTextFont(62);
-   leg->SetLineColor(1);
-   leg->SetLineStyle(1);
-   leg->SetLineWidth(2);
-   leg->SetFillColor(0);
-   leg->SetFillStyle(1001);
    TLegendEntry *entry=leg->AddEntry("Graph","uds (PFO)","epl");
 
    ci = TColor::GetColor("#00ff00");
