@@ -9,7 +9,7 @@
 \section{Overall structure of the detector}
 %\writer{Claude Vallee, Karsten Buesser}{1}
 
-The geometrical structure of the ILD detector and the individual layouts of subdetectors were described in details in the ILD LOI~\cite{ild:bib:ILDloi} and DBD~\cite{ild:bib:ILDDBD}. This section shortly reminds the main characteristics with emphasis on the recent evolutions and open options. The main design changes implemented since the DBD take into account continuous progress in detection technologies and the new optics of the ILC interaction region (chapter 3). 
+The geometrical structure of the ILD detector and the individual layouts of subdetectors were described in detail in the ILD LOI~\cite{ild:bib:ILDloi} and DBD~\cite{ild:bib:ILDDBD}. This section shortly reminds the main characteristics with emphasis on the recent evolutions and open options. The main design changes implemented since the DBD take into account continuous progress in detection technologies and the new optics of the ILC interaction region (chapter 3). 
 
 %\vspace{2cm}
 
@@ -71,7 +71,7 @@ HCAL    &  2058     & 3345      & 2350      & Fe absorber                    &  
         &           &           & &&& \\
 \midrule
 Coil    & 3425      & 4175      & 3872      &                                & 3.5 T field                         &   int.lengths = $2 \lambda $  \\
-        &\ilds{3082}&\ilds{3832}& &&& \\
+        &\ilds{3082}&\ilds{3832}& & &\ilds{4.0 T field} & \\
 Muon    & 4450      & 7755      & 4047      &  scintillator  sensor          & 14  layers                          &   \\
         &\ilds{4107}&\ilds{7412}&           &                                & \unit{$3\times 3$}{\cm^2} cells     & \\
 %\hline
@@ -127,7 +127,7 @@ LHCAL   & 2680        & 3160       &  130     & 315   & W absorber      &       
 %
 % ===================================================================================================================================================================================
 %
-A key characteristics of the detector is the amount of material crossed by the particles: particle flow requires a thin tracker to minimise interactions before the calorimeter, and a thick calorimeter to fully absorb the showers and measure neutral hadrons. Figure~\ref{fig:det:material} shows the amount of radiation lengths of the trackers material and the total interaction lengths including the calorimeter system. 
+A key characteristic of the detector is the amount of material crossed by the particles: particle flow requires a thin tracker to minimise interactions before the calorimeter, and a thick calorimeter to fully absorb the showers and measure neutral hadrons. Figure~\ref{fig:det:material} shows the amount of radiation lengths of the trackers material and the total interaction lengths including the calorimeter system. 
 
 \thisfloatsetup{floatwidth=\SfigwFull,capposition=beside}
 \begin{figure}[t!]
@@ -146,7 +146,7 @@ A key characteristics of the detector is the amount of material crossed by the p
 \subsection{Subdetector layouts}
 %\writer{Subdetector technical conveners}{4}
 
-The current design of subdetectors is presented including open options and critical aspects, as well as prospects for enhanced capabilities in the future. The most recent progress and status of each detection technology will be summarized in section 5.2.
+The current design of subdetectors is presented including open options and critical aspects, as well as prospects for enhanced capabilities in the future. The most recent progress and status of each detection technology will be summarised in section 5.2.
 
 \vspace{1cm}
 \subsubsection*{\bf Vertex detector}
@@ -160,14 +160,14 @@ the first double-layer is only half as long as the outer two.
 \begin{figure}[t!]
 \centering
 \includegraphics[width=0.8\hsize]{Detector/fig/vertex.png}
-\caption{layout of the vertex detector.}
+\caption{Layout of the vertex detector.}
 \label{fig:det:vertex}
 \end{figure}
 
-Critical parameters of the VTX optimisation are the point resolution for secondary vertex tagging, required to be better than 3$\mu m$, and the material thickness which should not exceed $\simeq 0.15\%$ $X_0$ per layer to minimize multiple scattering. Three main technologies are under consideration to achieve the required goals:
+Critical parameters of the VTX optimisation are the point resolution for secondary vertex tagging, required to be better than 3$\mu m$, and the material thickness which should not exceed $\simeq 0.15\%$ $X_0$ per layer to minimise multiple scattering. Three main technologies are under consideration to achieve the required goals:
 \begin{itemize}
     \item {\bf CMOS pixels:} this well-established technology offers the advantages of high granularity with fully monolithic pixel digital electronics available from industrial processes. The most critical points of focus of current R\&D are the readout speed, aimed to provide single bunch tagging capacity while keeping the power consumption low enough (with or without power pulsing), and the overall material budget of the layers.
-    \item {\bf DEPFET pixels:} The DEpleted Field Effect Transistor (DEPFET) concept implements a first amplification stage in a FET in the high-resistivity, depleted silicon detector. Active pixel detectors with a rolling shutter read-out can meet the stringent requirements of the ILD vertex detector~\cite{Alonso:2012ss,Richter:2003dn}. This technology offers the advantage of high granularity with a small layer material thickness, the digital electronics being shifted at the end of the ladders: the all-silicon ladder design~\cite{Andricek:2004cj}, that is fully self-supporting and requires no external support, minimizes the material in the active area to approximately 0.12\% $X_{0}$. Critical aspects are the industrialisation of the fabrication process and the integration of large detector surfaces.
+    \item {\bf DEPFET pixels:} The DEPleted Field Effect Transistor (DEPFET) concept implements a first amplification stage in a FET in the high-resistivity, depleted silicon detector. Active pixel detectors with a rolling shutter read-out can meet the stringent requirements of the ILD vertex detector~\cite{Alonso:2012ss,Richter:2003dn}. This technology offers the advantage of high granularity with a small layer material thickness, the digital electronics being shifted at the end of the ladders: the all-silicon ladder design~\cite{Andricek:2004cj}, that is fully self-supporting and requires no external support, minimizes the material in the active area to approximately 0.12\% $X_{0}$. Critical aspects are the industrialisation of the fabrication process and the integration of large detector surfaces.
     \item{\bf Fine Pixel CCD (FPCCD):} CCD's offer the prospects for the highest granularities associated with low power consumption. Another advantage is the minimal material budget of the detector layer, however counter-balanced by the need of a cryostat to ensure low-temperature operation. Critical aspects under study are the readout speed and the resistance to radiation.  
 \end{itemize}
 
@@ -181,27 +181,27 @@ The CMOS and DEPFET pixels have typical sizes of 20 microns and are readout in a
 
 A system of silicon trackers surrounds the VTX detector. 
 
-In the barrel, two layers of silicon detectors (SIT) are arranged to bridge the gap between the VTX and the TPC, and one silicon outer layer (SET) is foreseen inbetween the TPC and the ECAL. The baseline technology for the large area trackers of the DBD was silicon strips, but the progress made since then with CMOS detectors would now allow to equip the SIT with pixels instead of strips. The design of the SET is still open including the option to implement it as the first layer of the ECAL Calorimeter. The use of high resolution timing detectors is considered in order to provide a TOF functionality for particle identification. 
+In the barrel, two layers of silicon detectors (SIT) are arranged to bridge the gap between the VTX and the TPC, and one silicon outer layer (SET) is foreseen in-between the TPC and the ECAL. The baseline technology for the large area trackers of the DBD was silicon strips, but the progress made since then with CMOS detectors would now allow to equip the SIT with pixels instead of strips. The design of the SET is still open including the option to implement it as the first layer of the ECAL Calorimeter. The use of sensors with a high timing resolution of O(10ps) is considered in order to provide a time of flight (TOF) functionality  for particle identification. 
 
-The forward tracking disks (FTD) complete the coverage of the ILD experiment for charged particles emitted at shallow angles with respect to the beam (Figure~\ref{fig:det:FTD}). The FTD provides at least one hit for tracks with polar angles below 35 degrees ($|\cos \theta| < $ 0.82) and provides nearly standalone tracking for tracks below 16 degrees ($|\cos \theta| <$ 0.96).
+The forward tracking detector (FTD) completes the coverage of the ILD experiment for charged particles emitted at shallow angles with respect to the beam (Figure~\ref{fig:det:FTD}). The FTD provides at least one hit for tracks with polar angles below 35 degrees ($|\cos \theta| < $ 0.82) and nearly standalone tracking for tracks below 16 degrees ($|\cos \theta| <$ 0.96).
 
 \begin{figure}[t!]
 \centering
 %\includegraphics[width=0.8\hsize]{Detector/fig/ILD_quadrant_2.png}
 \includegraphics[width=0.75\hsize]{Detector/fig/FTD.png}
-\caption{layout of the Forward Tracking Detector.}
+\caption{Layout of the Forward Tracking Detector.}
 \label{fig:det:FTD}
 \end{figure}
 
 The first two disks are installed close to the vertex detector and are equipped with highly granular pixel detectors that provide precise 3D space points with a resolution of approximately 3-5 $\mu\mathrm{m}$. The technology candidates for these disks are similar to those of the vertex detector: CMOS, DEPFET, FPCCD, SOI, and future 3D-integrated devices. 
 
-The remaining five disks extend out to the inner envelope of the TPC at $r=$ 30 cm. While the requirement on the resolution of the $r\phi$ measurement remains stringent, the cell dimension aligned with the $r$-coordinate is less constrained. These requirements can be met with micro-strip detectors: two single-sided detector mounted under a small stereo angle may provide the required resolution. A solution based on CMOS monolithic pixel detectors with elongated pixels is likely to be quite competitive. Also the possibility o.f a Time-Of-Flight measurement in the outermost disks merits further study.
+The remaining five disks extend out to the inner envelope of the TPC at $r=$ 30 cm. While the requirement on the resolution of the $r\phi$ measurement remains stringent, the cell dimension aligned with the $r$-coordinate is less constrained. These requirements can be met with micro-strip detectors: two single-sided detectors mounted under a small stereo angle may provide the required resolution. A solution based on CMOS monolithic pixel detectors with elongated pixels is likely to be quite competitive. Also the possibility of a TOF measurement in the outermost disks merits further study.
 
 \vspace{1cm}
 \subsubsection*{\bf TPC}
 %\textit{(Colas, Sugiyama)}
 
-A distinct feature of ILD is a large volume time projection chamber (Figure~\ref{fig:det:TPC} left). The TPC allows a continuous 3-dimensional tracking, d$E$/d$x$-based particle identification and minimum material. The required performance of the TPC as a standalone tracker is a momentum resolution $\delta(1/P_T)$ better than $10^{-4} GeV^{-1}$, corresponding to a single point resolution of $100\mu$ over about 200 points, and a d$E$/d$x$ resolution better than 5\%. One critical issue concerns potential field distortions due to ion accumulation within the chamber. At ILC this can be mitigated by implementing an ion gating between bunch trains: ions produced in the gas amplification region during bunch trains are confined and eliminated outside bunch trains by reverting the electric field configuration. This can be implemented with GEM foils as shown in Figure~\ref{fig:det:TPC} right.
+A distinct feature of ILD is a large volume time projection chamber (Figure~\ref{fig:det:TPC} left). The TPC allows a continuous 3-dimensional tracking, dE/dx-based particle identification and minimum material. The required performance of the TPC as a standalone tracker is a momentum resolution $\delta(1/p_T)$ better than $10^{-4} GeV^{-1}$, corresponding to a single point resolution of $100\mu$ over about 200 points, and a dE/dx resolution better than 5\%. One critical issue concerns potential field distortions due to ion accumulation within the chamber. At ILC this can be mitigated by implementing an ion gating between bunch trains: ions produced in the gas amplification region during bunch trains are confined and eliminated outside bunch trains by reverting the electric field configuration. This can be implemented with GEM foils as shown in Figure~\ref{fig:det:TPC} right.
 
 %\thisfloatsetup{floatwidth=\SfigwFull,capposition=beside}
 \begin{figure}[t!]
@@ -222,7 +222,7 @@ Three options are under consideration for the ionisation signal amplification an
     \item GridPix: the ionisation signal is amplified as for the Micromegas case but collected on a fine silicon pixel grid providing individual pixel timing.
 \end{itemize}
 \vspace{0.5cm}
-For the GEM and Micromegas options, the typical pad sizes are a few mm (table~\ref{ild:tab:barrelpara}) and spatial resolution is improved by combining the track signals of several adjacent pads. For the GridPix option the pixel size of $\approx$50 microns matches the size of the mesh, providing pixel sensitivity to single ionisation electrons. The spatial resolution is improved and the dE/dx signal is measured by counting pixels or clusters. 
+For the GEM and Micromegas options, the typical pad sizes are a few mm$^2$ (table~\ref{ild:tab:barrelpara}) and spatial resolution is improved by combining the track signals of several adjacent pads. For the GridPix option the pixel size of $\approx$50 microns matches the size of the mesh, providing pixel sensitivity to single ionisation electrons. The spatial resolution is improved and the dE/dx signal is measured by counting pixels or clusters. 
 
 %\thisfloatsetup{floatwidth=\SfigwFull,capposition=beside}
 \begin{figure}[t!]
@@ -240,7 +240,7 @@ For the GEM and Micromegas options, the typical pad sizes are a few mm (table~\r
 \subsubsection*{\bf ECAL}
 %\textit{(Brient, Ootani)}
 
-Electromagnetic showers are measured with a compact highly-segmented calorimeter (Figure~\ref{fig:det:ECAL}) which absorber planes are made of tungsten. The ECAL barrel shape is octagonal with individual stacks laid such as to avoid projective dead zones in azimuth. The baseline number of layers is 30, with options to reduce the number to 26 or even 22, keeping the amount of radiation lengths identical and increasing the thickness of the sensitive medium to maintain a similar energy resolution. 
+Electromagnetic showers are measured with a compact highly-segmented calorimeter (Figure~\ref{fig:det:ECAL}) with absorber plates made of tungsten. The ECAL barrel shape is octagonal with individual stacks laid such as to avoid projective dead zones in azimuth. The baseline number of layers is 30, with options to reduce the number to 26 or even 22, keeping the amount of radiation lengths identical and increasing the thickness of the sensitive medium to maintain a similar energy resolution. 
 
 \begin{figure}[t!]
 \centering
@@ -249,7 +249,7 @@ Electromagnetic showers are measured with a compact highly-segmented calorimeter
 \label{fig:det:ECAL}
 \end{figure}
 
-The sensitive medium consists in silicon sensors with about 5x5 $mm^2$ pads bonded on a PCB equipped with front-end readout ASICs (Figure~\ref{fig:det:ECAL_readout} left). In order to reduce the costs it is considered to equip part of the sensitive layers with scintillator sensors readout through SiPMs (Figure~\ref{fig:det:ECAL_readout} right). In that case the scintillator strips would have a larger dimension of 45x5$mm^2$ with alternate orthogonal orientation. The option to equip the first layer with high-resolution timing sensors is also under consideration to provide a TOF functionality.
+The sensitive medium consists of silicon sensors with about 5x5 mm$^2$ pads bonded on a PCB equipped with front-end readout ASICs (Figure~\ref{fig:det:ECAL_readout} left). In order to reduce the costs it is considered to equip part of the sensitive layers with scintillator sensors readout through SiPMs (Figure~\ref{fig:det:ECAL_readout} right). In that case the scintillator strips would have a larger dimension of 45x5mm$^2$ with alternate orthogonal orientation. The option to equip the first layer with high-resolution timing sensors is also under consideration to provide a TOF functionality.
 
 \begin{figure}[t!]
 \centering
@@ -263,7 +263,7 @@ The sensitive medium consists in silicon sensors with about 5x5 $mm^2$ pads bond
 \subsubsection*{\bf HCAL}
 %\textit{(Laktineh, Sefkow)}
 
-The hadronic calorimeter consists in 48 longitudinal samples with steel absorber plates. Two options are currently considered for the mechanical structure, differing mainly in the barrel region (Figure~\ref{fig:det:HCAL}): the "TESLA" barrel made of 2 wheels with signals extracted longitudinally in the gaps between the barrel and endcaps, and the "VIDEAU" barrel made of 3 or 5 wheels with signals extracted at the periphery between the HCAL and coil cryostat. The TESLA wheels are assembled from iron plates screwed to each other whereas the VIDEAU wheels are self sustainable welded structures. The VIDEAU configuration presents no projective dead zone in azimuth nor at $90^o$ polar angle, and offers a better mechanical stiffness, at the cost of a reduced accessibility of the interfaces for data concentration and power supply.
+The hadronic calorimeter consists of 48 longitudinal samples with steel absorber plates. Two options are currently considered for the mechanical structure, differing mainly in the barrel region (Figure~\ref{fig:det:HCAL}): the "TESLA" barrel made of 2 wheels with signals extracted longitudinally in the gaps between the barrel and endcaps, and the "VIDEAU" barrel made of 3 or 5 wheels with signals extracted at the periphery between the HCAL and coil cryostat. The TESLA wheels are assembled from iron plates screwed to each other whereas the VIDEAU wheels are self sustainable welded structures. The VIDEAU configuration presents no projective dead zone in azimuth nor at $90^o$ polar angle, and offers a better mechanical stiffness, at the cost of a reduced accessibility of the interfaces for data concentration and power supply.
 
 \begin{figure}[t!]
 \centering
