@@ -149,10 +149,10 @@ A key characteristic of the detector is the amount of material crossed by the pa
 The current design of subdetectors is presented including open options and critical aspects, as well as prospects for enhanced capabilities in the future. The most recent progress and status of each detection technology will be summarised in section 5.2.
 
 \vspace{1cm}
-\subsubsection*{\bf Vertex detector}
+\subsubsection*{\bf Vertex detector (VTX)}
 %\textit{(Besson, Ishikawa, Vos)}
 
-The vertex detector (VTX, Figure~\ref{fig:det:vertex}) is realised as a multi-layer pixel detector with three double-layers. The detector has a pure barrel geometry. To minimise the occupancy from background hits,
+The vertex detector is realised as a multi-layer pixel detector with three double-layers (Figure~\ref{fig:det:vertex}). The detector has a pure barrel geometry. To minimise the occupancy from background hits,
 the first double-layer is only half as long as the outer two. 
 
 
@@ -176,12 +176,12 @@ The CMOS and DEPFET pixels have typical sizes of 20 microns and are readout in a
 
 
 \vspace{1cm}
-\subsubsection*{\bf Silicon trackers}
+\subsubsection*{\bf Silicon trackers (SIT, SET, FTD)}
 %\textit{(Besson, Vos, Vila)}
 
 A system of silicon trackers surrounds the VTX detector. 
 
-In the barrel, two layers of silicon detectors (SIT) are arranged to bridge the gap between the VTX and the TPC, and one silicon outer layer (SET) is foreseen in-between the TPC and the ECAL. The baseline technology for the large area trackers of the DBD was silicon strips, but the progress made since then with CMOS detectors would now allow to equip the SIT with pixels instead of strips. The design of the SET is still open including the option to implement it as the first layer of the ECAL Calorimeter. The use of sensors with a high timing resolution of O(10ps) is considered in order to provide a time of flight (TOF) functionality  for particle identification. 
+In the barrel, two layers of silicon sensors are arranged as a silicon internal tracker (SIT) to bridge the gap between the VTX and the TPC, and a one-layer silicon external tracker (SET) is foreseen in-between the TPC and the ECAL. The baseline technology for the large area trackers of the DBD was silicon strips, but the progress made since then with CMOS detectors would now allow to equip the SIT with pixels instead of strips. The design of the SET is still open including the option to implement it as the first layer of the ECAL Calorimeter. The use of sensors with a high timing resolution of O(10ps) is considered in order to provide a time of flight (TOF) functionality  for particle identification. 
 
 The forward tracking detector (FTD) completes the coverage of the ILD experiment for charged particles emitted at shallow angles with respect to the beam (Figure~\ref{fig:det:FTD}). The FTD provides at least one hit for tracks with polar angles below 35 degrees ($|\cos \theta| < $ 0.82) and nearly standalone tracking for tracks below 16 degrees ($|\cos \theta| <$ 0.96).
 
@@ -198,10 +198,10 @@ The first two disks are installed close to the vertex detector and are equipped 
 The remaining five disks extend out to the inner envelope of the TPC at $r=$ 30 cm. While the requirement on the resolution of the $r\phi$ measurement remains stringent, the cell dimension aligned with the $r$-coordinate is less constrained. These requirements can be met with micro-strip detectors: two single-sided detectors mounted under a small stereo angle may provide the required resolution. A solution based on CMOS monolithic pixel detectors with elongated pixels is likely to be quite competitive. Also the possibility of a TOF measurement in the outermost disks merits further study.
 
 \vspace{1cm}
-\subsubsection*{\bf TPC}
+\subsubsection*{\bf Time projection chamber (TPC)}
 %\textit{(Colas, Sugiyama)}
 
-A distinct feature of ILD is a large volume time projection chamber (Figure~\ref{fig:det:TPC} left). The TPC allows a continuous 3-dimensional tracking, dE/dx-based particle identification and minimum material. The required performance of the TPC as a standalone tracker is a momentum resolution $\delta(1/p_T)$ better than $10^{-4} GeV^{-1}$, corresponding to a single point resolution of $100\mu$ over about 200 points, and a dE/dx resolution better than 5\%. One critical issue concerns potential field distortions due to ion accumulation within the chamber. At ILC this can be mitigated by implementing an ion gating between bunch trains: ions produced in the gas amplification region during bunch trains are confined and eliminated outside bunch trains by reverting the electric field configuration. This can be implemented with GEM foils as shown in Figure~\ref{fig:det:TPC} right.
+A distinct feature of ILD is a large volume time projection chamber (Figure~\ref{fig:det:TPC} left). The TPC allows a continuous 3-dimensional tracking, dE/dx-based particle identification and minimum material. The required performance of the TPC as a standalone tracker is a momentum resolution $\delta(1/p_T)$ better than $10^{-4}$GeV$^{-1}$, corresponding to a single point resolution of $100\mu$ over about 200 points, and a dE/dx resolution better than 5\%. One critical issue concerns potential field distortions due to ion accumulation within the chamber. At ILC this can be mitigated by implementing an ion gating between bunch trains: ions produced in the gas amplification region during bunch trains are confined and eliminated outside bunch trains by reverting the electric field configuration. This can be implemented with GEM foils as shown in Figure~\ref{fig:det:TPC} right.
 
 %\thisfloatsetup{floatwidth=\SfigwFull,capposition=beside}
 \begin{figure}[t!]
@@ -209,7 +209,7 @@ A distinct feature of ILD is a large volume time projection chamber (Figure~\ref
 \includegraphics[width=0.6\hsize,viewport={0 -10 600 500},clip]{Detector/fig/TPC.png} &
 \includegraphics[width=0.5\hsize]{Detector/fig/gate.jpg}
 \end{tabular}
-\caption[TPC layout]{Left: Global layout of the TPC chamber. Right: Principle of the ion GEM gating scheme showing the two electric field configurations within (left) and outside (right) bunch trains.}
+\caption[TPC layout]{Left: Global layout of the TPC. Right: Principle of the ion GEM gating scheme showing the two electric field configurations within (left) and outside (right) bunch trains.}
 %\end{figure}
 \label{fig:det:TPC}
 %\begin{tabular}{cc}
@@ -237,7 +237,7 @@ For the GEM and Micromegas options, the typical pad sizes are a few mm$^2$ (tabl
 \end{figure}
 
 \vspace{1cm}
-\subsubsection*{\bf ECAL}
+\subsubsection*{\bf Electromagnetic calorimeter (ECAL)}
 %\textit{(Brient, Ootani)}
 
 Electromagnetic showers are measured with a compact highly-segmented calorimeter (Figure~\ref{fig:det:ECAL}) with absorber plates made of tungsten. The ECAL barrel shape is octagonal with individual stacks laid such as to avoid projective dead zones in azimuth. The baseline number of layers is 30, with options to reduce the number to 26 or even 22, keeping the amount of radiation lengths identical and increasing the thickness of the sensitive medium to maintain a similar energy resolution. 
@@ -253,14 +253,14 @@ The sensitive medium consists of silicon sensors with about 5x5 mm$^2$ pads bond
 
 \begin{figure}[t!]
 \centering
-\includegraphics[width=1.0\hsize]{Detector/fig/ECAL_readout.jpg}
-\caption{ECAL sensitive layer: left: silicium option; right: scintillator option.}
+\includegraphics[width=0.8\hsize]{Detector/fig/ECAL_readout.pdf}
+\caption{ECAL sensitive layer: left: silicon option; right: scintillator option.}
 \label{fig:det:ECAL_readout}
 \end{figure}
 
 
 \vspace{1cm}
-\subsubsection*{\bf HCAL}
+\subsubsection*{\bf Hadronic calorimeter (HCAL)}
 %\textit{(Laktineh, Sefkow)}
 
 The hadronic calorimeter consists of 48 longitudinal samples with steel absorber plates. Two options are currently considered for the mechanical structure, differing mainly in the barrel region (Figure~\ref{fig:det:HCAL}): the "TESLA" barrel made of 2 wheels with signals extracted longitudinally in the gaps between the barrel and endcaps, and the "VIDEAU" barrel made of 3 or 5 wheels with signals extracted at the periphery between the HCAL and coil cryostat. The TESLA wheels are assembled from iron plates screwed to each other whereas the VIDEAU wheels are self sustainable welded structures. The VIDEAU configuration presents no projective dead zone in azimuth nor at $90^o$ polar angle, and offers a better mechanical stiffness, at the cost of a reduced accessibility of the interfaces for data concentration and power supply.
@@ -272,22 +272,28 @@ The hadronic calorimeter consists of 48 longitudinal samples with steel absorber
 \label{fig:det:HCAL}
 \end{figure}
 
-The HCAL layers are instrumented with high granularity for an efficient separation of charged and neutral hadronic showers, necessary for particle flow, as well as for a good muon identification for flavor jet tagging. Two sensor options are under consideration (Figure~\ref{fig:det:HCAL_readout}): scintillator tiles of 3x3 $cm^2$ with analog readout through SiPMs, and RPC's with pads of 1 $cm^2$ readout with a semi-digital resolution of 2 bits. A timing functionality is implemented in the scintillator option and under consideration for RPCs: a resolution of O(1ns) already achieved with the scintillator option allows to tag late neutral components of the showers for particle flow, whereas a resolution of a few 10 ps, achievable with multigap RPCs, would provide TOF measurements. 
-
+The HCAL layers are instrumented with high granularity for an efficient separation of charged and neutral hadronic showers, necessary for particle flow, as well as for a good muon identification for flavor jet tagging. Two sensor options are under consideration (Figure~\ref{fig:det:HCAL_readout}): scintillator tiles of 3x3 cm$^2$ with analog readout through SiPMs, and RPCs with pads of 1 cm$^2$ readout with a semi-digital resolution of 2 bits. A timing functionality is implemented in the scintillator option and under consideration for RPCs: a resolution of O(1ns) already achieved with the scintillator option allows to tag late neutral components of the showers for particle flow, whereas a resolution of a few 10 ps, achievable with multigap RPCs, would provide TOF measurements. 
 \begin{figure}[t!]
-\begin{tabular}{cc}
-\includegraphics[width=0.5\hsize,viewport={0 -10 600 500},clip]{Detector/fig/AHCAL_layer.png} &
-\includegraphics[width=0.5\hsize]{Detector/fig/SDHCAL_layer.png}
-\end{tabular}
-\caption{HCAL sensitive layer; left: scintillator option; right: RPC option.}
-%\end{figure}
+\centering
+\includegraphics[width=1.0\hsize]{Detector/fig/HCAL_readout.jpg}
+\caption{HCAL sensitive layer; top: scintillator option; bottom: RPC option.}
 \label{fig:det:HCAL_readout}
-%\begin{tabular}{cc}
 \end{figure}
+
+%\begin{figure}[t!]
+%\begin{tabular}{cc}
+%\includegraphics[width=0.5\hsize,viewport={0 %-10 600 500},clip]{Detector/fig/AHCAL_layer.p%ng} &
+%\includegraphics[width=0.5\hsize]{Detector/fig/SDHCAL_layer.png}
+%\end{tabular}
+%\caption{HCAL sensitive layer; left: scintillator option; right: RPC option.}
+%\end{figure}
+%\label{fig:det:HCAL_readout}
+%\begin{tabular}{cc}
+%\end{figure}
 
 
 \vspace{1cm}
-\subsubsection*{\bf VFS}
+\subsubsection*{\bf Very forward detectors (LumiCAL, LHCAL, BeamCAL)}
 %\textit{(Benhammou, Schuwalow)}
 
 The ILD very forward region is equipped with dedicated detectors to perform:
@@ -296,12 +302,12 @@ The ILD very forward region is equipped with dedicated detectors to perform:
 \item an extension of the hadronic calorimetry coverage in the forward region (LHCAL);
 \item calorimetric hermeticity down to the beam pipe and fast monitoring of beam conditions (BeamCAL).
 \end{itemize}
-The overall layout of the detectors is shown in Figure~\ref{fig:det:VFS} left. Their longitudinal positioning has been adapted as shown in Figure~\ref{fig:det:VFS} right to account for the new ILC optics (chapter 3).  
+The longitudinal configuration of the very forward detectors has been adapted to the new beam optics as discussed in Chapter 3 (Figure~\ref{ild:fig:Forward_QD0}). The current overall layout of the detectors is shown in Figure~\ref{fig:det:VFS}.  
 
 \begin{figure}[t!]
 \centering
-\includegraphics[width=1.0\hsize]{Detector/fig/VFS.jpg}
-\caption{Overal layout of the Very Forward detectors (left) and adaptations performed for the new ILC optics (right).}
+\includegraphics[width=0.6\hsize]{Detector/fig/VFS_layout.png}
+\caption{Overal layout of the very forward detectors.}
 \label{fig:det:VFS}
 \end{figure}
 
@@ -318,7 +324,7 @@ The very forward detectors are based on similar technologies as the ILD electrom
 \subsubsection*{\bf Iron instrumentation}
 %\textit{(Saveliev)}
 
-A large volume superconducting coil surrounds the calorimeters, creating an axial $B$-field of nominally 3.5 Tesla (IDR-L) or 4 Tesla (IDR-S). An iron yoke returns the magnetic flux of the solenoid, and, at the same time, serves as a muon filter, muon detector and tail catcher calorimeter. The baseline structure of the yoke is shown in Figure~\ref{fig:det:yoke} left for a configuration accounting for the maximum stray fields allowed in the push-pull configuration (chapter 3). Optimisation of the yoke size is ongoing to minimize the overal cost driven by the amount of iron (section 6.4.2). A number of iron yoke gaps will be instrumented for muon tracking and measurement of the tails of the hadronic showers. The required muon tracking precision is of the order of 1 cm in azimuth and of a few cm longitudinally. The instrumentation is expected to consist in scintillator bars but RPCs are also considered. In the scintillator option the light will be collected by Wave Length Shifting (WLS) fibers readout with SiPMs at both extremities~\cite{SavelievSiPM} (Figure~\ref{fig:det:yoke} right top). The WLS fibers will be positioned either in an extruded groove at the center of the large side of the bar, or along the small side of the bar (Figure~\ref{fig:det:yoke} right bottom).  
+A large volume superconducting coil surrounds the calorimeters, creating an axial $B$-field of nominally 3.5 Tesla (IDR-L) or 4 Tesla (IDR-S). An iron yoke returns the magnetic flux of the solenoid, and, at the same time, serves as a muon filter, muon detector and tail catcher calorimeter. The baseline structure of the yoke is shown in Figure~\ref{fig:det:yoke} left for a configuration accounting for the maximum stray fields allowed in the push-pull configuration (chapter 3). Optimisation of the yoke size is ongoing to minimize the overal cost driven by the amount of iron (section 6.4.2). A number of iron yoke gaps will be instrumented for muon tracking and measurement of the tails of the hadronic showers. The required muon tracking precision is of the order of 1 cm in azimuth and of a few cm longitudinally. The instrumentation is expected to consist in scintillator bars but RPCs are also considered. In the scintillator option the light will be collected by Wave Length Shifting (WLS) fibers readout with SiPMs at both extremities~\cite{SavelievSiPM} (Figure~\ref{fig:det:yoke} right top). The WLS fibers will be positioned either in an extruded groove at the center of the large side of the bar (Figure~\ref{fig:det:yoke} right middle), or along the small side of the bar (Figure~\ref{fig:det:yoke} right bottom).  
 
 %\begin{figure}[t!]
 %\begin{tabular}{cc}

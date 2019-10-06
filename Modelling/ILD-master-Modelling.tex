@@ -6,7 +6,7 @@
 
 
 \chapter{ \label{chap:modelling} Physics and Detector Modelling}
-\writer{F.Gaede, A.Miyamoto}{4}
+%\writer{F.Gaede, A.Miyamoto}{4}
 
 Accurate and detailed modelling of the physics interactions as well as the detector
 response are crucial for making realistic predictions about the expected physics and detector
@@ -22,14 +22,15 @@ It will be described in more detail in the next sections.
 %%or better write:   \emph{ \Pem \Pep $\rightarrow $ \Pgtm \Pgtp }  ??
 %
 Large, realistic Monte Carlo samples with the full Standard Model physics ($E_{cms}=500~\GeV$) as well as various
-BSM scenarios have been created for the purpose of detector optimization and performance evaluation as
-presented in chapter~\ref{chap:performance}. The input samples for the full detector simulation
+BSM scenarios have been created for the purpose of detector optimization and performance evaluation, to be presented in detail in
+chapter~\ref{chap:performance}. The input samples for the full detector simulation
 are created with the Whizard~\cite{Kilian:2007gr} event generator.
 Whizard uses tree-level matrix elements and loop corrections to generate events with the final state partons and leptons
 based on a realistic beam energy spectrum, the so called \emph{hard sub-process}. The hadronization into the visible final state
 is performed with Pythia~\cite{Sjostrand:2006za} tuned to describe the LEP data.
 The beam energy input spectrum is created with Guinea-Pig~\cite{Schulte:1998au}, a dedicated simulation program for computing
-beam-beam interactions at linear colliders. The two main effects of the strong beam-beam interactions are the energy loss due to
+beam-beam interactions at linear colliders - see also the discussion in section~\ref{sec:beam:conditions}.
+The two main effects of the strong beam-beam interactions are the energy loss due to
 beamstrahlung leading to the available luminosity spectrum (see Fig~\ref{fig:ilc:ecmspect}) and the creation of
 incoherent $\Pep\Pem$-pairs that are the source of the dominating background at the ILC.
 These electrons and positrons are predominantly created in a forward cone as shown in Fig~\ref{fig:pair_bg_cone}.
@@ -51,18 +52,23 @@ It is this cone that restricts the minimal allowed radius of the innermost layer
   corresponding to the largest radial extend of the helical trajectory as a function of $\log{\theta}$.
   Also shown are the inner detector elements of the ILD detector (horizontal lines represent
   barrel elements and diagonal lines represent end-cap elements). All detector layers are well outside of the background cone,
-  except for the face of the BeamCal.}
+  except for the face of the BeamCal and the beam pipe endcap in fron of it (the two leftmost diagonal lines in the plot).}
 \end{figure}
 %%%%%%%%%%%%%%%%%
 Another source of background at the ILC are $\Pgamma \Pgamma \to hadrons$ events, due to beamstrahlung photons.
-These type of events are generated for $\Pgamma \Pgamma$ cms-energies from $300~\MeV ~2~\GeV$ with a dedicated generator based
+These type of events are generated for $\Pgamma \Pgamma$ cms-energies from \unit{300}{\MeV} to \unit{2}{\GeV} with a dedicated generator based
 on ~\cite{Chen:1993dba}, whereas for higher energies Pythia is used.
 %
 %
 For the large Monte Carlo data sets both backgrounds are overlaid to the actual physics event that is simulated. For the incoherent pairs, only
-\emph{reconstructable tracks}, i.e. those that leave at least three hits in the tracking detectors, are selected. $\Pgamma \Pgamma \to hadrons$
-events are overlaid according to a Poisson-distribution with a total expectation value of $\lambda= 1.1$, resulting from the four
-different combinations of the photon virtuality (see table~\ref{tab:ild_aalowpt}).
+\emph{reconstructable tracks}, i.e. those that leave at least three hits in the tracking detectors, are overlaid as these constitute an irreducible
+background. The majority of the pair particles do not leave enough hits to be reconstructed as particle tracks and therefore give rise to a
+large number of seemingly uncorrelated background hits. As shown in section~\ref{sec:performance:tracking}, these additional hits have little
+effect on the resulting track finding efficiency and therefore can safely be omitted for the large scale production.
+$\Pgamma \Pgamma \to hadrons$ events are randomly overlaid according to Poisson-distributions describing the expected number of events per bunch
+crossing (BX) for the four different combinations of the photon virtuality as shown in table~\ref{tab:ild_aalowpt}. Also shown in the table are
+the spread of the z-position of the vertex and its mean value. It is interesting to note that the $\Pgamma \Pgamma \to hadrons$ events with exactly
+one virtual photon have a non-zero offset of the vertex z-position. On average $1.1$~events per BX are overlaid.
 
 %-----------------------------------------------------------------------
 \begin{table}[htbp]
@@ -108,7 +114,7 @@ geometry needed for reconstruction.
 \includegraphics[width=0.45\hsize]{Modelling/fig/ILD_l5_v02_sideview_gimp_2.jpg}
 \includegraphics[width=0.55\hsize]{Modelling/fig/hits_rz_small_large_ILD.png}
 \caption{\label{fig:sim_model_quad}Left: Quadrant view of the (large) ILD simulation model. Not labeled in the figure are the inner
-  silicon tracking detectors: VXD, SIT and FTD, the outer silicon tracker SET as well as the forward calorimeters LCal, LHCal and BeamCal.
+  silicon tracking detectors: VTX, SIT and FTD, the outer silicon tracker SET as well as the forward calorimeters LCal, LHCal and BeamCal.
   Right: Simulated hits in the large and small ILD simulation models in the $rz$-view.
 }
 \end{tabular}
@@ -117,13 +123,14 @@ geometry needed for reconstruction.
 
 \subsection{\label{sec:det-models} ILD Simulation Models}
 
-For detector optimization studies two ILD simulation models: \emph{ ILD\_l5\_v02} (large)
+For detector optimization studies two ILD simulation models, \emph{ ILD\_l5\_v02} (large)
 and \emph{ ILD\_s5\_v02} (small) with the dimensions described in tables~\ref{ild:tab:barrelpara} and~\ref{ild:tab:endcappara},
-have been implemented using DD4hep and released in a dedicated software package: lcgeo~\cite{bib:lcgeo}.
-Note that for simplicity in the reminder of this document these two simulation models are referred to as \textbf{IDR-L} and \textbf{IDR-S}.
+have been implemented using DD4hep and released in a dedicated software package, lcgeo~\cite{bib:lcgeo}.
+Note that for simplicity in the remainder of this document these two simulation models are referred to as \textbf{IDR-L} and \textbf{IDR-S}.
 A quadrant view of the large simulation model is shown in Fig.~\ref{fig:sim_model_quad} together with a plot of simulated
 hits in the large and small detector model for comparison. The main difference between the two models are the reduced radii of
-the TPC, the barrels of Ecal, Hcal, Yoke and the Coil. All other detector dimensions including all material thicknesses have not been modified.
+the TPC, the barrels of Ecal, Hcal, Yoke and the Coil. All other detector dimensions, in particular the longitudenal extents,
+and all material thicknesses have not been modified. Thus, the two model have a different aspect ratio.
 %
 Considerable effort has been invested into making the ILD simulation models as realistic as possible, in particular by
 \begin{itemize}
@@ -151,8 +158,9 @@ inner tracking region close to the IP.
 \includegraphics[width=0.6\hsize]{Modelling/fig/ILD_large_inner_tracker_x0_scan.png}
 \end{tabular}
 \caption{\label{fig:sim_large_small}Left: Integrated radiation lengths of the tracking detectors in the ILD simulation models.
-  Right: Material scan in inner tracking region of the simulation model (inverse X0 in arbitrary units) showing detector components of the VXD, SIT and FTD as well
-  as dead material from the beam pipe, support structures, cables and services.}
+  Right: Material scan in inner tracking region of the simulation model showing detector components of the VTX, SIT and FTD as well
+  as dead material from the beam pipe, support structures, cables and services. Plotted is the local material budget per bin in units of X0
+  with an arbitrary scaling factor applied.) }
 \end{figure}
 %%%%%%%%%%%%%%%%%
 
@@ -162,7 +170,7 @@ inner tracking region close to the IP.
 In order to be able to study and compare the different calorimeter technologies proposed for ILD
 (see chapter~\ref{ild:sec:HCAL}) \emph{hybrid simulation} models have been implemented for the
 ILD simulation models, where two different readout technologies are implemented in the
-gaps of the sandwich absorber structure as shown in Fig.~\ref{fig:hybridsim}~(right). 
+gaps of the sandwich absorber structure as shown in Fig.~\ref{fig:hybridsim}~(right).
 %
 %%%%%%%%%%%%%%%%
 \thisfloatsetup{floatwidth=\SfigwFull,capposition=beside}
@@ -177,9 +185,11 @@ gaps of the sandwich absorber structure as shown in Fig.~\ref{fig:hybridsim}~(ri
   the hybrid simulation (\emph{with scintillator}).}
 \end{figure}
 %%%%%%%%%%%%%%%%%
-As the calorimeter shower development is almost entirely dominated by the absorber structure, this approach
-provides results that are equivalent to the stand alone simulation of each individual technology to better than 1\%,
-as shown in Fig.~\ref{fig:hybridsim}~(left) for the longitudinal shower profile. Equivalent results have
+In this approach the respective other technology replaces the electronics and services present in the gaps in a
+real calorimeter, resulting in a very similar material budget in the sensitive part of the layer.
+The calorimeter shower development is additionally, almost entirely dominated by the absorber structure. Therefore,
+this approach provides results that are equivalent to the stand alone simulation of each individual technology to
+better than 1\%, as shown in Fig.~\ref{fig:hybridsim}~(left) for the longitudinal shower profile. Equivalent results have
 been obtained for other parameters, such as the total number of hits and the transverse shower profile.
 With this approach one can simulate a large set of Monte Carlo events for
 several calorimeter technologies using only little more CPU time than would be needed for simulating just one
@@ -252,20 +262,20 @@ neighboring channels.
 \subsection{Track reconstruction}
 
 The ILD track reconstruction is described in more detail in~\cite{Gaede:2014aza}. The \emph{pattern recognition}
-step is carried out independently in three regions:
+step is carried out independently in three regions, the:
 \begin{itemize}
-\item inner Si-trackers  VXD and SIT ( and partly FTD)\\
+\item inner Si-trackers  VTX and SIT ( and partly FTD)\\
   brute-force triplet seeding followed by a road search using extrapolations to the next layer
 \item forward Si-tracker: FTD \\
   a Cellular-Automaton finding many track candidates; reduced to a unique and consistent set through the use of a Hopfield Network.
-\item the TPC \\
+\item TPC \\
   topological clustering in the outer TPC pad row layers for seeding, followed by a Kalman-Filter based road search inwards
 \end{itemize}
 In a final step the track candidates and segments are combined into a unique set and then, after assignment of left-over hits, a final
 refit is performed with a Kalman filter.
 %
 The correct reconstruction of the kinematics of charged particles requires a sufficiently detailed description of the material
-the particles have traversed, in order to correctly account for effects of energy-loss and multiple-scattering in the fit.
+the particles have traversed in order to correctly account for effects of energy-loss and multiple-scattering in the fit.
 The DD4hep component DDRec provides dedicated surface classes for track reconstruction and fitting. These surface classes provide the
 geometric information of the corresponding measurement surfaces as well as material properties, averaged automatically from
 the detailed model. Surfaces are also used to account for effects from dead material layers, such as support structures or cables and services.
@@ -302,20 +312,21 @@ created in the event in order to take the best available measurement for the giv
  there is always confusion in the assignment of individual \emph{CalorimeterHits} to Clusters and showers as well as in the assignment
  of tracks to clusters. The best PFA implementation to date is PandoraPFA~\cite{Marshall:2015rfa}, which is available in iLCSoft and used
  by ILD. The input to PandoraPFA are the reconstructed tracks, candidates for  kinks and  $V0$s as well as all digitized calorimeter hits.
- A number of sophisticated clustering algorithms are the applied in an iterative way, thereby optimizing th track-cluster matching
+ A number of sophisticated clustering algorithms are then applied in an iterative way, thereby optimizing the track-cluster matching
  based on the momentum-energy consistency.
 
 \subsection{High Level Reconstruction}
 
 After having reconstructed all the individual particles in the event, the next step in the processing is the reconstruction of
 primary and secondary vertices. This is carried out in iLCSoft with the LCFIPlus~\cite{Suehara:2015ura} package.
-The primary vertex of the event is found in a tear-down procedure taking into account constraints from the expected beam spot
-$(\sigma_x=516~\rm{nm}, \sigma_y=7.7~\rm{nm},\sigma_z \sim 200~\mu\rm{m}~~\rm{at}~~~E_{cms}=250~\rm{GeV})$.
+The primary vertex of the event is found in a \emph{tear-down} procedure, starting with all tracks and gradually removing tracks with
+the largest $\chi^2$~-contribution, up to a given  $\chi^2$~-threshold. Thereby, the constraints from the expected beam spot
+$(\sigma_x=516~\rm{nm}, \sigma_y=7.7~\rm{nm},\sigma_z \sim 200~\mu\rm{m}~~\rm{at}~~~E_{cms}=250~\rm{GeV})$ are taken into account .
 In a second step LCFIPlus tries to identify secondary vertices, applying suitable requirements for invariant masses, momentum directions
 and $\chi^2$s. Secondary vertices and optionally isolated Leptons can be used by LCFIPlus for jet clustering, aiming at high efficiency for correctly
 identifying heavy flavor jets. The actual jet clustering is then performed by using a cone-based clustering with a Durham-like algorithm.
-Alternatively users can use $k_T$ jet clustering algorithms from the Fastjet~\cite{Cacciari:2006sm} that is interfaced to Marlin in a dedicated
-package MarlinFastJet. LCFIPlus also provides algorithms for jet flavor tagging using boosted decision trees (BDTs) based on suitable
+Alternatively users can use $k_T$ jet clustering algorithms from the Fastjet~\cite{Cacciari:2006sm} library that is interfaced to Marlin in a
+dedicated package MarlinFastJet. LCFIPlus also provides algorithms for jet flavor tagging using boosted decision trees (BDTs) based on suitable
 variables from tracks and vertices. A palette of additional high level reconstruction algorithms is used for physics analyses:
 \begin{itemize}
 \item particle identification using dE/dx, shower shapes and multi-variate methods
@@ -375,8 +386,8 @@ calibration & single particle, $q\bar{q}$ events & $27.71\times 10^6$ \\
 \hline
 \end{tabular}
 \caption{\label{tab:mcprod_evtnum} Number of Monte Carlo events produced for the different event classes. 
-About same number of events were produced for the large and the small ILD simulation model.
-Sum of two models are shown in the table.} 
+Approximately the same number of events were produced for the large and the small ILD simulation model.
+The sum of events produced for the two models are shown in the table.} 
 \end{table}
 
 

@@ -10,9 +10,9 @@ The vertex detector is a high-precision small device which is expected to be one
 
 The use of CMOS sensors for particle physics has benefited a lot from the development in the past two decades of the MIMOSA chip series by the IPHC Institute. A first full scale particle physics detector application has been realized with the STAR vertex detector~\cite{Contin:2017mck} (Figure~\ref{fig:det:VTX_STAR}) on the RHIC hadron collider. Since then the technology has further developed as a widespread standard for pixel detectors, including many applications to e.g. LHC upgrades or new experiments. 
 
-The general trend of performance improvements towards ILD specifications is summarized in table~\ref{ild:tab:CMOSdev}. Compared to STAR the new applications for the ALICE upgrade~\cite{AglieriRinella:2017lym} and CBM at FAIR~\cite{Koziel:2017loo} have moved to a technology with a smaller pattern, have implemented a new data driven readout scheme, and have improved the time resolution and power consumption to values close to ILD needs. The ALICE detector also concerns a very large area of more than 10 $m^2$, which qualifies the technology for the inner layers of a central tracker.
+The general trend of performance improvements towards ILD specifications is summarized in table~\ref{ild:tab:CMOSdev}. Compared to STAR the new applications for the ALICE upgrade~\cite{AglieriRinella:2017lym} and CBM at FAIR~\cite{Koziel:2017loo} have moved to a technology with a smaller pattern, have implemented a new data driven readout scheme, and have improved the time resolution and power consumption to values close to ILD needs. The ALICE detector also concerns a very large area of more than 10 m$^2$, which qualifies the technology for the inner layers of a central tracker.
 
-With these applications more attention is given to integration aspects of the technology. The chip intrinsic power consumption is now close to the ILD specification and could still be reduced by a factor $\simeq 10$ with power pulsing. To this respect a trade-off will have to be made between readout speed (related to time resolution) and power. With the expected heat production air cooling as done at STAR could be sufficient, but ILD has stronger constraints on the possible air flow due to a more forward instrumentation than STAR. This critical issue requires further studies. Low material ladder supports have been developed with the "PLUME" concept~\cite{Nomerotski:2011zz}, consisting in a thin foam layer carrying pixel chips on both sides as a double layer. First PLUME ladders have been built and a second version has been successfully operated for the BELLE II beam commissioning (Figure~\ref{fig:det:VTX_BELLE2} top).
+With these applications more attention is given to integration aspects of the technology. The chip intrinsic power consumption is now close to the ILD specification and could still be reduced by a factor 10-20 with power pulsing. To this respect a trade-off will have to be made between readout speed (related to time resolution) and power. With the expected heat production air cooling as done at STAR could be sufficient, but ILD has stronger constraints on the possible air flow due to a more forward instrumentation than STAR. This critical issue requires further studies. Low material ladder supports have been developed with the PLUME concept~\cite{Nomerotski:2011zz}, consisting of a thin foam layer carrying pixel chips on both sides as a double layer. First PLUME ladders have been built and a second version has been successfully operated for the BELLE II beam commissioning (Figure~\ref{fig:det:VTX_BELLE2} top).
 
 \begin{table}\hspace*{-0cm}\small
 \begin{tabular}{ l c c c c }
@@ -25,7 +25,7 @@ Technology (AMS): & 0.35 $\mu$m & 0.18 $\mu$m & 0.18 $\mu$m & $<$ 0.18 $\mu$m \\
 Pixel size ($\mu$m$^2)$: & 20.7 x 20.7  & 27 x 29 & 22 x 33 & 22 x 22 or 18 x 18 \\
 Readout mode:   & rolling shutter & data driven & data driven & data driven \\
 Time resolution ($\mu$s):   & 135 & 5-10 & 5 & 1-4 \\
-Power (mW/$cm^2$):   & 150 & 35  & 200  & 50-100 \\
+Power (mW/cm$^2$):   & 150 & 35  & 200  & 50-100 \\
 Material ($X_0$/layer):   & 0.39\% & 0.3\%  &   & 0.15\% \\
 \bottomrule
 \end{tabular}
@@ -37,7 +37,7 @@ Material ($X_0$/layer):   & 0.39\% & 0.3\%  &   & 0.15\% \\
 \begin{figure}[t!]
 \centering
 \includegraphics[width=0.6\hsize]{Detector/fig/VTX_STAR.png}
-\caption{The vertex detector of the STAR experiment based on the "ULTIMATE" CMOS pixel sensor~\cite{Contin:2017mck}.}
+\caption{The vertex detector of the STAR experiment based on the ULTIMATE CMOS pixel sensor~\cite{Contin:2017mck}.}
 \label{fig:det:VTX_STAR}
 \end{figure}
 
@@ -56,7 +56,7 @@ taking data, studies towards future BELLE II upgrades based on advanced DEPFET t
 \begin{figure}[t!]
 \centering
 \includegraphics[width=1.0\hsize]{Detector/fig/VTX_BELLE2.jpg}
-\caption{Pixel detectors of the BELLE II experiment. Top: beam commissioning with "PLUME" CMOS (inclined sensors) and DEPFET (barrel) ladders. Bottom: the BELLE II DEPFET vertex detector.}
+\caption{Pixel detectors of the BELLE II experiment. Top: beam commissioning with PLUME CMOS (inclined sensors) and DEPFET (barrel) ladders. Bottom: the BELLE II DEPFET vertex detector.}
 \label{fig:det:VTX_BELLE2}
 \end{figure}
 

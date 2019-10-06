@@ -3,21 +3,21 @@
 
 The silicon sensors surrounding the vertex detector will directly benefit from the previous pixel detector R\&D as regards their high-spatial resolution components. In the past years the specific silicon R\&D has focused around two lines: a generic development of high-resolution timing sensors, and the prototyping of mechanical support structures of the Forward Tracking Detector.
 
-\subsubsection{ILGADs for precise tracking and time stamping (4D-tracking)}
+\subsubsection{iLGADs for precise tracking and time stamping (4D-tracking)}
 
 The Low Gain Avalanche Detector (LGAD) is the baseline sensing technology of the recently proposed Minimum Ionizing Particle (MIP) end-cap timing detectors (MTD) at the Atlas and CMS experiments. LGADs are n-on-p silicon detectors with an internal gain. To obtain this gain, an extra, highly doped, layer is added just below the p-n junction of a PIN diode. This highly doped region creates a very high electric field region. This electric field induces an avalanche multiplication of the electrons and thus create additional electron-hole pairs\cite{PELLEGRINI201412}. 
 
-The current MTD's sensor is designed as a multi-pad matrix detector delivering a poor position resolution, due to the relatively large pad area, around 1 $mm^2$; and a good timing resolution, around 20-30 ps. Besides, in his current technological incarnation, the timing resolution of the MTD's LGAD sensors is severely degraded once the MIP particle hits the inter-pad region since the signal amplification is missing for this region. This limitation is named as the LGAD fill-factor problem. For the ILD, a true 4D tracking  must overcome the poor spatial resolution and fill factor limitations. A new p-in-p LGAD architecture named as inverse LGAD (iLGAD) tackles both issues\cite{Carulla_2016}. Contrary to the conventional LGAD design, the iLGAD has a non-segmented multiplication layer, and it should ideally present a constant gain value over all the sensitive region of the device without gain drops between the signal collecting electrodes, see figure\,\ref{fig:det:cross-section}. This feature has been experimentally confirmed on a strip-like segmented iLGAD and compared against a conventional strip-like LGAD and PIN devices\cite{Curras2019}. 
+The current MTD's sensor is designed as a multi-pad matrix detector delivering a poor position resolution, due to the relatively large pad area, around 1 mm$^2$; and a good timing resolution, around 20-30 ps. Besides, in its current technological implementation, the timing resolution of the MTD's LGAD sensors is severely degraded for MIP particle hitting the inter-pad region since the signal amplification is missing for this region. This limitation is named as the LGAD fill-factor problem. For the ILD, a true 4D tracking  must overcome the poor spatial resolution and fill factor limitations. A new p-in-p LGAD architecture named as inverse LGAD (iLGAD) tackles both issues\cite{Carulla_2016}. Contrary to the conventional LGAD design, the iLGAD has a non-segmented multiplication layer, and it should ideally present a constant gain value over all the sensitive region of the device without gain drops between the signal collecting electrodes, see figure\,\ref{fig:det:cross-section}. This feature has been experimentally confirmed on a strip-like segmented iLGAD and compared against a conventional strip-like LGAD and PIN devices\cite{Curras2019}. 
 
 \begin{figure}[t!]
 \centering
-\includegraphics[width=0.6\hsize]{Detector/fig/cross-section.png}
+\includegraphics[width=1.0\hsize]{Detector/fig/cross-section.png}
 \caption{Cross-sections of the core layout of LGAD (left) and iLGAD (right) microstrip designs.}
 \label{fig:det:cross-section}
 \end{figure}
 
 The tracking performances of one LGAD and one iLGAD strip detector manufactured at IMB-CNM were studied in a test beam at CERN-SPS and compared with a standard PIN strip detector. These three strip detectors were unirradiated and consisted of 45\,strips with a 160\,$\mu$m pitch. 
-The big advantage of the iLGAD technology was confirmed during the test beam. It was proved that while in the LGAD strip detector the signal is severely degraded in the inter-pad region, the iLGAD presents a very constant gain value over all the sensitive region of the device. These results are shown on figure\,\ref{fig:det:fill-factor}. The charge distribution of the LGAD measured during the test beam presents two peaks: one around 24\,ke, corresponding to the MIP particles that cross the interstrip region where the generated signal is not amplified (same charge measure in the PIN strip); and one around 77\,ke, corresponding to the particles that cross the region where the signal is amplified. On the other hand, the same plot produced for the iLGAD detector presents only one peak in the charge distribution around 75\,ke. In this case,  the signals produced for all MIP particles that cross the sensitive region of the device are amplified, resulting in a much better and uniform response along the sensitive region. The tracking and timing performances were also quantified during the test beam: they achieve values of tens of microns and picosenconds, respectively.
+The big advantage of the iLGAD technology was confirmed during the test beam. It was proved that while in the LGAD strip detector the signal is severely degraded in the inter-pad region, the iLGAD presents a very constant gain value over all the sensitive region of the device. These results are shown on figure\,\ref{fig:det:fill-factor}. The charge distribution of the LGAD measured during the test beam presents two peaks: one around 24\,ke, corresponding to the MIP particles that cross the interstrip region where the generated signal is not amplified (same charge measure in the PIN strip); and one around 77\,ke, corresponding to the particles that cross the region where the signal is amplified. On the other hand, the same plot produced for the iLGAD detector presents only one peak in the charge distribution around 75\,ke. In this case,  the signals produced for all MIP particles that cross the sensitive region of the device are amplified, resulting in a much better and uniform response along the sensitive region. The tracking and timing performances were also quantified during the test beam: they achieve values of tens of microns and picoseconds, respectively.
 
 
 \begin{figure}[t]
@@ -64,28 +64,28 @@ dominate the total contribution.
     glue                          &   0.0006  \\ \hline
     total                         &     0.042      \\ \hline
     \end{tabular}
-    \caption{Contribution to the material bugdet of the Forward Tracking Disks. The contributions are determined for perpendicular incidence and average over the area
+    \caption{Contribution to the material bugdet of one disk of the Forward Tracking Detector. The contributions are determined for perpendicular incidence and average over the area
     of the disk.}
     \label{tab:ftd_disk_material_budget}
 \end{table}
 
 The thermo-mechanical performance of the loaded disk has been tested extensively. The 
 support disk is found to have a planarity of 200 $\mu \mathrm{m}$ (RMS). Despite the 
-minimal material it is very stiff, with an eigenfrequency greater than 1 $kHZ$. The
+minimal material it is very stiff, with an eigenfrequency greater than 1 kHz. The
 silicon petals are mounted kinematically, such that they are free to expand in response
 to a thermal load, while distortions of the sensors out of the nominal plane remain
 very tightly constrained. The torque applied to the screws must be carefully 
-chosen: a torque of 3 $mN \cdot m$ is found to be optimal. 
-With this choice, the first eigenfrequency of a free petal (167 $Hz$) is nearly
-doubled (to $\sim$ 270 $Hz$) when the sensor is clamped to the disk 
+chosen: a torque of 3 mN.m is found to be optimal. 
+With this choice, the first eigenfrequency of a free petal (167 Hz) is nearly
+doubled (to $\sim$ 270 Hz) when the sensor is clamped to the disk 
 
 The impact of air cooling on the mechanical stability is studied with a local, 
 laminar air flow. The power consumption pattern mimics that of a DEPFET
 active pixel detector, assuming that the application of power pulsing reduces
 the average power consumption by a factor 20.
 In these conditions, a gentle, laminar flow of 1 $\mathrm{m/s}$ is found to be sufficient
-to keep the temperature gradient over the sensor to within 10 degrees C, 
-Vibrations due to air flow have an  amplitude of less than 1 $\mu \mathrm{m}$ 
+to keep the temperature gradient over the sensor to within 10$^{\circ}$C, 
+Vibrations due to air flow have an  amplitude of less than 1~$\mu \mathrm{m}$ 
 for laminar air flow with a velocity up to 4 $\mathrm{m/s}$. 
 
 These results indicate that an aggressive design based on a thin Carbon fibre

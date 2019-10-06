@@ -273,11 +273,11 @@ No assembly tooling and manpower has been estimated. Based on the SIECAL detecto
 The subdetector costs presented in the preceding subsections are summarized in table~\ref{cost_summary} and summed up for the two ILD models.The global sum has been computed using the DBD solutions for SIT and FTD: SIT strips and FTD with 4 pixel disks and the rest with strips. It is obtained with the SiECal and AHCal versions in calorimetry but using the sDHCal makes no difference.
 The inner system which offers no difference between the two sizes sums up to 15.8 + 2.7 = 18.5 for the "classical" solution and 32.8 + 7.4 = 40.2 for the favoured solution. The outer system sums up to 325.3 + 26.7 = 352.0 for the large model and 278.1 + 23.5 = 301.6  for the small one.
 \begin{table}[h!]\hspace*{-0cm}\small
-\begin{tabular}{ l p{0.2\hsize}p{0.1\hsize}p{0.2\hsize} p{0.2\hsize}p{0.1\hsize}}
+\begin{tabular}{ l p{0.15\hsize}p{0.15\hsize}p{0.15\hsize} p{0.15\hsize}p{0.15\hsize}}
 \toprule
-\bf {Item}& \bf {Large model} & \bf manpower&  \bf {Small model}&\bf manpower \\
+\bf {Item}& \bf {Large model} & \bf              &  \bf {Small model}&\bf \\
+\bf       & \bf material cost & \bf manpower cost&  \bf material cost&\bf manpower cost\\
 \midrule
-Inner part&&&&\\
 Beam tube & 0.5 &  0.& idem&idem \\
 VTX        & 2.96  &1.45  &  idem &idem \\
 SIT strips & 0.8   &0.12 & idem&idem\\
@@ -289,6 +289,8 @@ ECAL ring & 1.5 & 0.16 & idem&idem\\
 LHCAL   & 2.93  & 0.16&idem& idem\\
 BEAMCAL & 2.15  & 0.16& idem&idem\\
 %FCAL    & 9.95  & 0.64& idem&idem\\
+Inner part classic&15.8&2.7&idem&idem\\
+Inner part new    &32.8&7.4&idem&idem\\
 \midrule
 TPC & \it36.6 & 0 & \it27.0 & 0\\
 %SET & 12.6& 1.9&10.8&1.7\\
@@ -300,15 +302,18 @@ SDHCAL & \it45.6 & 4.1 & \it38.3 & 3.4\\
 Coil and ancillaries &  40 & 4& idem & idem\\
 Yoke and vacuum tank &  48.4 & 5.2& idem & idem \\
 Iron instrumentation  &  \it6.6 & 0.6 & 6 & 0.54\\
-DAQ       & 1.1 & 0.16& idem& idem\\
-Integration & 1.5 & 0 &idem&idem\\
-Transportation& 12 & 0 & idem & idem \\
+Outer part&325.3&26.7&278.1&23.5\\
 \midrule
-Classical version & 341.1   &  29.4  & 303.1 & 26.5  \\
-New version & 358.1   &  34.1  & 311.5 & 31.2  \\
+DAQ           & 1.1 & 0.16& idem& idem\\
+Integration   & 1.5 & 0   & idem& idem\\ 
+Transportation& 12  & 0   & idem & idem \\
+Global        &14.6 &0.16& idem& idem\\
 \midrule
-Total including MP classical     & 370.5   &    & 329.6 & 0  \\
-Total including MP new     & 392.1   &    & 342.7 & 0  \\
+Classical version & 341.1   &  29.5  & 263.5 & 23.4  \\
+New version       & 358.1   &  34.1  & 310.9 & 31.0  \\
+\midrule
+Total including MP classical     & 370.5   &    & 320.2 &   \\
+Total including MP new     & 392.3   &    & 341.8 &   \\
  \bottomrule
 \end{tabular}
 \caption{\label{cost_summary}Global costing of ILD in MEuros. The numbers in italic are extrapolated from the DBD. The manpower has been translated from FTE-years to euros. The total sums use the classical solutions for SIT and FTD as well as the SIECAL and AHCAL cost estimates. 

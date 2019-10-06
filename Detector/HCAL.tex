@@ -5,7 +5,7 @@
 
 \subsubsection{Scintillator option (AHCAL)}
 
-A CALICE AHCAL physics prototype had been built and operated in 2006-2011, allowing to demonstrate the particle flow~\cite{Adloff:2011ha} and energy resolution performance~\cite{Adloff:2012gv} of the scintillator SiPM ("SiPM-on-Tile") technology for the DBD. In subsequently published papers~\cite{Adloff:2013vra,Adloff:2013kio,Adloff:2013jqa,Adloff:2014rya,Bilki:2014bga,Lucaci-Timoce:2013tkf,Price:2016sce} the adequate modelling of instrumental effects and shower evolution has been further established, and the hadronic energy resolution and linearity of a combined system with a scintillator tungsten ECAL in front was shown~\cite{Repond:2018flg} to be as good as that of the AHCAL alone, see Fig.\ref{fig:ahcal-linres}. The software used to model the detector effects such as photo-electron statistics in the SiPM has been validated by the test beam data and is also used in ILD, after adjusting for a small difference in sampling fraction only~\cite{Hartbrich:2016bbz}.
+A CALICE AHCAL physics prototype was built and operated in 2006-2011, allowing to demonstrate the particle flow~\cite{Adloff:2011ha} and energy resolution performance~\cite{Adloff:2012gv} of the scintillator SiPM ("SiPM-on-Tile") technology for the DBD. In subsequently published papers~\cite{Adloff:2013vra,Adloff:2013kio,Adloff:2013jqa,Adloff:2014rya,Bilki:2014bga,Lucaci-Timoce:2013tkf,Price:2016sce} the adequate modelling of instrumental effects and shower evolution has been further established, and the hadronic energy resolution and linearity of a combined system with a scintillator tungsten ECAL in front was shown~\cite{Repond:2018flg} to be as good as that of the AHCAL alone, see Fig.\ref{fig:ahcal-linres}. The software used to model the detector effects such as photo-electron statistics in the SiPM has been validated by the test beam data and is also used in ILD, after adjusting for a small difference in sampling fraction only~\cite{Hartbrich:2016bbz}.
 \begin{figure}[hbt]
 \centering
 \includegraphics[width=0.39\textwidth]{Detector/fig/AHCAL-Linearity_Ini_GC_LC.pdf}
@@ -20,7 +20,7 @@ The new AHCAL technological prototype~\cite{Sefkow:2018rhp} consists of a non-ma
 The structure has been produced from standard rolled plates, which had undergone a cost-effective roller-levelling procedure, ensuring a flatness of $\pm 1$~mm, demonstrated over an area of 2$\times$2~m$^2$. The plates were assembled using screws as foreseen for the full ILD structure in the TESLA mechanical layout. 
 The basic unit of the active elements is the HCAL Base Unit HBU~\cite{Reinecke:2013zua}, with a size of 36 $\times$ 36 cm$^2$, holding 144 SiPMs controlled by four SPIROC2E ASICs \cite{Bouchel:2011zz}.  A key element of the electronics is the capability for power-pulsed operation.
 %to reduce the power consumption and eliminate the need for active cooling, making use of the low duty cycle in the linear collider beam time structure. 
-In addition to dual-gain energy measurement, the electronics also provides a cell-by-cell auto trigger and time stamping on the few ns level in test beam operations. In operating conditions with shorter data-taking windows closer to the bunch train structure of linear colliders, sub-ns time resolution is achieved. 
+In addition to dual-gain energy measurement, the electronics also provides a cell-by-cell auto trigger and time stamping at the few ns level in test beam operations. In operating conditions with shorter data-taking windows closer to the bunch train structure of linear colliders, sub-ns time resolution is achieved. 
 
 The prototype uses Hamamatsu MPPC S13360-1325PE photon sensors and injection-moulded polystyrene scintillator tiles with a central dimple \cite{Liu:2015cpe} for optimal light collection, as shown in Fig.~\ref{fig:AHCAL-TileProto}. 
 \begin{figure}[hbt]
@@ -35,7 +35,7 @@ The prototype uses Hamamatsu MPPC S13360-1325PE photon sensors and injection-mou
 Spot-samples of all SiPM lots, and each one of the ASICs, had undergone semi-automatic testing procedures before soldering the HBUs \cite{Munwes:2634923}. The gain of the SiPMs was found to be uniform within~2.4\% when operated at a common over-voltage.
 Without any further surface treatment, the scintillator tiles are wrapped in laser-cut reflective foil by a robotic procedure and mounted on the HBUs using a pick-and-place machine, after glue dispensing with a screen printer.   
 %
-The HBUs have been integrated into cassettes with interfaces for DAQ \cite{Kvasnicka:2017bpx}, LED pulsing and power distribution, which provide active compensation of temperature variations by automatic adjustments of the common bias voltage of the photon sensors in each layer. This was routinely used in test beam operation and stabilises the gain within $\pm 1\%$.
+The HBUs have been integrated into cassettes with interfaces for DAQ \cite{Kvasnicka:2017bpx}, LED pulsing and power distribution. The latter provides active compensation of temperature variations by automatic adjustments of the common bias voltage of the photon sensors in each layer. This was routinely used in test beam operation and stabilises the gain within $\pm 1\%$.
 %Figure~\ref{fig:ActiveLayer} shows the top side of one active layer, with the scintillator tiles visible. 
 %All layers have been  calibrated in the DESY test beam, and 99.96\% of the total 21888 channels are working.
 %\begin{figure}
@@ -71,7 +71,7 @@ Figure~\ref{fig:AHCAL-nhit-longslab} from the quasi-instantaneous data quality m
 \end{figure}
 %
 While electron showers are characterised by a relatively narrow distribution of number of hits and a cog near the front face of the detector, hadrons exhibit a wider distribution of the cog, and a larger number of hits, decreasing as the cog moves towards the rear of the detector, and leakage increases.
-Muons appear as a narrow band with $\sim 38$ hits and a cog on z ay about half the depth of the detector. 
+Muons appear as a narrow band with $\sim 38$ hits and a cog on z at about half the depth of the detector. 
 
 %The figure shows how the detailed topological information of the AHCAL can be used for the identification of particle types. The width of the distribution for electrons, and tails towards lower number of hits, suggest a compromised beam quality for the May period shown here, which indeed was resolved for the June period.
 %
@@ -88,7 +88,7 @@ The new CMS endcap calorimeter will establish the SiPM-on-Tile technology in a c
 
 \subsubsection{RPC option (SDHCAL)}
 
-The SDHCAL technological prototype built in 2011 has been regularly tested in beams in the past years with various configurations, including a combined test with the SiECAL prototype in 2018 (previous section). The SDHCAL prototype consists in 48 single-gap RPC layers of 1 $m^2$ (Figure~\ref{fig:det:SDHCAL_proto}). Each detection gap is instrumented with 6 Active Sensitive Units (ASU) made of a  50 x 33 $cm^2$ PCB with 24 "HARDROC" ASICs from OMEGA~\cite{Callier:2014uqa}. The RPC pad size is 1 $cm^2$ and the pad signals can be readout either in digital (1 bit and 1 threshold) or semi-digital (2 bits and 3 thresholds) modes.
+The SDHCAL technological prototype built in 2011 has been regularly tested in beams in the past years with various configurations, including a combined test with the SiECAL prototype in 2018 (previous section). The SDHCAL prototype consists of 48 single-gap RPC layers of 1 m$^2$ (Figure~\ref{fig:det:SDHCAL_proto}). Each detection gap is instrumented with 6 Active Sensitive Units (ASU) made of a  50 x 33 cm$^2$ PCB with 24 "HARDROC" ASICs from OMEGA~\cite{Callier:2014uqa}. The RPC pad size is 1 cm$^2$ and the pad signals can be readout either in digital (1 bit and 1 threshold) or semi-digital (2 bits and 3 thresholds) modes.
 
 \begin{figure}[t!]
 \centering
@@ -106,7 +106,7 @@ The numerous data sets collected at CERN with high-energy hadron beams have been
 \label{fig:det:SDHCAL_perf}
 \end{figure}
 
-In the recent years the SDHCAL teams have focused on adapting the technology to the full-size ILD requirements, in order to cover detection surfaces of up to 1 x 3 $m^2$ required by the ILD Hadronic Calorimeter in its "Videau" configuration (section 5.1.2). An improved RPC gas circulation system with better uniformity has been designed and validated with the construction of two large RPC's. Larger ASUs of 100 x 33 $cm^2$ have been designed with a new version of the HARDROC ASIC including 0-suppression (Figure~\ref{fig:det:SDHCAL_dev} left), and their interconnection improved to allow chaining of up to 9 ASUs. Efforts have also been invested in the manufacturing process of self-sustained hadron calorimeter structures with high precision mechanical tolerance as required by the RPC insertion. A method of "roller levelling" has been used to machine steel absorber plates with a high flatness. A high precision electro-welding has been used to built a first large size prototype of 4 calorimeter layers (Figure~\ref{fig:det:SDHCAL_dev} right) which has proven that gap size variations well below 1 mm can be reached on such large structures. 
+In recent years the SDHCAL teams have focused on adapting the technology to the full-size ILD requirements, in order to cover detection surfaces of up to 1 x 3 m$^2$ required by the ILD Hadronic Calorimeter in its "Videau" configuration (section 5.1.2). An improved RPC gas circulation system with better uniformity has been designed and validated with the construction of two large RPC's. Larger ASUs of 100 x 33 $cm^2$ have been designed with a new version of the HARDROC ASIC including zero-suppression (Figure~\ref{fig:det:SDHCAL_dev} left), and their interconnection improved to allow chaining of up to 9 ASUs. Efforts have also been invested in the manufacturing process of self-sustained hadron calorimeter structures with high precision mechanical tolerance as required by the RPC insertion. A method of "roller levelling" has been used to machine steel absorber plates with a high flatness. A high precision electro-welding has been used to built a first large size prototype of 4 calorimeter layers (Figure~\ref{fig:det:SDHCAL_dev} right) which has proven that gap size variations well below 1 mm can be reached on such large structures. 
 
 For the longer term the option of multi-gap RPC's with a high timing resolution of $\approx$20 ps is prototyped based on the "PETIROC" ASIC~\cite{Fleury:2014hfa}. 
 
