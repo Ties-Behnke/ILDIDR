@@ -3,14 +3,19 @@
 %\fix{Each benchmark has its own confluence page, where a lot more material, including the draft of the ILD note and the names of the main analysis reponsibles can be found: {\small \url{https://confluence.desy.de/display/ILD/Benchmarks+for+physics-driven+detector+optimisation}} Note that several benchmark are still work in progress. A short comment at the beginning of each section gives a rough summary of the status.}
 
 The performance of the two ILD detector models IDR-L and IDR-S has been
-evaluated on a number of physics benchmarks, which will be discussed in this section. Despite the fact that a 250-GeV version of the ILC is currently under political consideration in Japan, the detector benchmarking has been performed at higher center-of-mass energies, mostly at 500\,GeV, and in one case even at 1\,TeV. This choice has been made in order to make sure that both detector models perform adequately also under the more challenging experimental conditions of the higher energy stages, and in order to cover e.g.\ a wider range of jet, lepton and photon energies.
-
-Unless stated otherwise, all results have been scaled to the integrated luminosity and beam polarisation of the full H20 running scenario originally defined in~\cite{Barklow:2015tja}, which is --- for the higher center-of-mass energies --- unchanged since~\cite{Bambade:2019fyw}. In particular, the H20 scenario comprises 4\,ab$^{-1}$ at 500\,GeV, with beam polarisation absolute values of 80\% for the electron and 30\% for the positron beam. The total luminosity is shared between the different polarisation sign combinations according to $f(-+,+-,++,--) = (40\%,40\%, 10\%, 10\%)$. 
-Analoguously, 8\,ab$^{-1}$ are considered at 1\,TeV, with absolute polarisation values of 80\% for the electron and 30\% for the positron beam, with the same $f(-+,+-,++,--) = (40\%,40\%, 10\%, 10\%)$ sharing.
+evaluated on a number of physics benchmarks, which will be discussed in this section. 
+Despite the fact that a 250-GeV version of the ILC is currently under political consideration in Japan, the detector benchmarking has been performed at higher center-of-mass energies, mostly at 500\,GeV, and in one case even at 1\,TeV. This choice has been made in order to make sure that both detector models perform adequately also under the more challenging experimental conditions of the higher energy stages, and in order to cover e.g.\ a wider range of jet, lepton and photon energies.
 
 The benchmarks presented in this section have been chosen to illustrate many performance aspects with a minimum number of physics channels, and are not to meant to cover the {\em complete} physics case. The main focus of the analysis work was not always the pure optimisation for utmost physics performance, but rather to better understand and highlight the role of individual performance aspects and their interplay.
 
 Unless stated otherwise, the analyses performed for and since the time of the DBD remain valid in their physics message. For an up-to-date review of the ILC physics case, based on ILD detector simulations, see e.g.~\cite{Bambade:2019fyw}.
+
+\subsection{Luminosity, Energy and Polarisation for the Physics Benchmarks}
+\label{sec:benchmarks:lep}
+The benchmark studies are based on the Monte-Carlo samples created with the conditions and software described in Sec.~\ref{chap:modelling}. About 150 million events have been produced in total as detailed in Tab.~\ref{tab:mcprod_evtnum}. 
+
+All results have been scaled to the integrated luminosity and beam polarisation of the full H20 running scenario originally defined in~\cite{Barklow:2015tja}, which is --- for the higher center-of-mass energies --- unchanged since~\cite{Bambade:2019fyw}. In particular, the H20 scenario comprises 4\,ab$^{-1}$ at 500\,GeV, with beam polarisation absolute values of 80\% for the electron and 30\% for the positron beam. The total luminosity is shared between the different polarisation sign combinations according to $f(-+,+-,++,--) = (40\%,40\%, 10\%, 10\%)$. This configuration is referred to as ILC500 in the following.
+Analoguously, 8\,ab$^{-1}$ are considered at 1\,TeV, with absolute polarisation values of 80\% for the electron and 20\% for the positron beam, with the same $f(-+,+-,++,--) = (40\%,40\%, 10\%, 10\%)$ sharing.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Hadronic Branching Ratios of the Higgs Boson}
@@ -42,7 +47,7 @@ Figure~\ref{fig:Hbbccgg:mh} shows the distributions of the reconstructed Higgs m
 \begin{center}
  \includegraphics[width=\textwidth]{Performance/fig/IDRplot4.pdf}
 \end{center}
-\caption{Visulisation of the flavour tag performance in $\nu\bar{\nu} H$. The panels show the 2D distributions of $c$- vs $b$-likeliness separately for $H \to b\bar{b}$, $H \to c\bar{c}$, $H \to gg$, $H \to$other, the SM background and their mix expected in data.
+\caption{Visualisation of the flavour tag performance in $\nu\bar{\nu} H$. The panels show the 2D distributions of $c$- vs $b$-likeliness separately for $H \to b\bar{b}$, $H \to c\bar{c}$, $H \to gg$, $H \to$other, the SM background and their mix expected in data.
 }
 \label{fig:Hbbccgg:likeli}
 \end{figure}
@@ -677,7 +682,7 @@ Figure~\ref{fig:extraH:limit} shows the resulting $95\%$ CL sensitivity on the m
 \begin{center} 
 \includegraphics[width=0.55\textwidth]{Performance/fig/exclusion_limits_compare_LEP.pdf}
 \end{center}
-\caption{Expected sensitivity at the $95\%$ CL for IDR-L and IDR-S compared to the existing limit from LEP~\cite{Abbiendi:2002qp}. Note that for scalar masses below about $140$\,GeV, the ILC run at $\sqrt{s}=250$\,GeV probes significantly smaller mixing angles $\sin^2{\theta}$~\cite{FIPnote:ESU_BSM}.}
+\caption{Expected sensitivity at the $95\%$ CL for IDR-L and IDR-S for ILC500 as defined in Sec.~\ref{sec:benchmarks:lep} compared to the existing limit from LEP~\cite{Abbiendi:2002qp}. Note that for scalar masses below about $140$\,GeV, the ILC run at $\sqrt{s}=250$\,GeV probes significantly smaller mixing angles $\sin^2{\theta}$~\cite{FIPnote:ESU_BSM}.}
 \label{fig:extraH:limit}
 \end{figure}
 
@@ -701,9 +706,17 @@ and the difference visible in Fig~\ref{fig:higgsino:trkeffi} will lead to a larg
 The low $p_t$ tracking efficiency could be recovered at least partially by reducing the radii of the vertex detector layers for IDR-S, which is possible since the higher magnetic field also confines the pair background at smaller radii.
 \begin{figure}[htbp]
 \begin{center}
- \includegraphics[width=0.6\textwidth]{Performance/fig/Tracking_efficiency.pdf}
+\begin{subfigure}{0.49\hsize} 
+ \includegraphics[width=\textwidth]{Performance/fig/efficiency_higgsinos.pdf}
+ \caption{ \label{fig:higgsino:trkeffi:effi}}
+ \end{subfigure}
+%\hspace{0.03\textwidth}
+\begin{subfigure}{0.49\hsize} 
+\includegraphics[width=\textwidth]{Performance/fig/pt_tracks_higgsinos.pdf}
+ \caption{  \label{fig:higgsino:trkeffi:pt}}
+ \end{subfigure}
 \end{center}
-\caption{Tracking efficiency obtained in IDR-L and IDR-S for pair production of charginos which are only $770$\,MeV more heavy than the LSP and thus have only very few and soft visible decay products.
+\caption{(a) Tracking efficiency obtained in IDR-L and IDR-S for pair production of charginos which are only $770$\,MeV more heavy than the LSP and thus have only very few and soft visible decay products. (b) Transverse momentum distribution of charged particles in the same chargino sample.
 }
 \label{fig:higgsino:trkeffi}
 \end{figure}
@@ -736,9 +749,9 @@ The search for WIMP production via the mono-photon signature is another example 
 %  \caption{  \label{fig:WIMP:Ngamma:theta}}
 %  \end{subfigure}
 %\end{center}
-\caption{Ratio of recontructed and generated PFOs per event 
+\caption{Ratio of recontructed and generated PFOs per $\nu\nu\gamma$ event for ILC500 as defined in Sec.~\ref{sec:benchmarks:lep}
 (a) based on PFOs identified as photons as function of the photon energy, excluding the corner region between barrel and endcap ($|\cos{\theta}|\simeq 0.8$)
-(b) based all PFOs as function of the photon polar angle.}
+(b) based on all PFOs as function of the photon polar angle.}
 
 %(c) based on PFOs identified as photons as function of the photon energy
 %(d) based PFOs identified as photons as function of the photon polar angle. 
@@ -746,11 +759,11 @@ The search for WIMP production via the mono-photon signature is another example 
 \label{fig:WIMP:Ngamma}
 \end{figure}
 
-Figure~\ref{fig:WIMP:Ngamma} shows the ratio of recontructed and generated photons per event as a function of
+Figure~\ref{fig:WIMP:Ngamma} shows the ratio of reconstructed and generated photons per $\nu\nu\gamma$ event as a function of
 the photon's energy and polar angle. While it has been shown in~\cite{Habermehl:2018yul} that the actual energy
 resolution is not very critical in this analysis, it is important that the number of photons is correct, since the signature of a single photon and no other significant detector activity forms the basis of the selection.
 As can be seen in Fig.~\ref{fig:WIMP:Ngamma:Egood}, the average number of reconstructed photons per generated photon tends to be a few permille below 1 at low photon energies. With increasing photon energy, the tendency of the particle flow reconstruction to split a photon into two increases, but stays below the level of 1\% for IDR-L and below 2\% for IDR-S. In both cases, the corner region between barrel and endcap has been excluded, because the current reconstruction software tends to split PFOs in this region. This can be clearly seen in 
-Fig.~\ref{fig:WIMP:NPFO:theta} which shows the ratio of reconstructed PFOs vs generated particles as a function of $\cos{\theta}$. Also indicated are the locations of the barrel-endcap transition for IDR-L and IDR-S, which occurs at different  due to the different $\cos{\theta}$ values due to the different aspect ratios of the two detector models.  All the features in these two plots are expected to be reducable with further development of the particle flow reconstruction.
+Fig.~\ref{fig:WIMP:NPFO:theta} which shows the ratio of reconstructed PFOs vs generated particles as a function of $\cos{\theta}$. Also indicated are the locations of the barrel-endcap transition for IDR-L and IDR-S, which occurs at different polar angles due to the different aspect ratios of the two detector models.  All the features in these two plots are expected to be reducable with further development of the particle flow reconstruction.
 
 \begin{figure}[htbp]
 %\begin{center}
@@ -766,12 +779,12 @@ Fig.~\ref{fig:WIMP:NPFO:theta} which shows the ratio of reconstructed PFOs vs ge
 \caption{$e^+e^- N\gamma$ \label{fig:WIMP:BCal:IDR-S}}
  \end{subfigure}
 %\end{center}
-\caption{Number of BeamCal clusters reconstructed in radiative neutrino and radiative Bhabha events for IDR-L and IDR-S. No significant difference between the detector models is observed.
+\caption{Number of BeamCal clusters reconstructed in radiative neutrino and radiative Bhabha events for IDR-L and IDR-S, for ILC500 as defined in Sec.~\ref{sec:benchmarks:lep}. No significant difference between the detector models is observed.
 }
 \label{fig:WIMP:BCal}
 \end{figure}
 
-Figure~\ref{fig:WIMP:BCal} compares the number of reconstructed clusters in the BeamCal of the two detector models. Ideally, the $\nu\bar{\nu}\gamma$ events, which serve as proxy for the WIMP signal, should have no BeamCal cluster, while in case of the $e^+e^-\gamma$ events at least one BeamCal cluster should be found. Events with at least one cluster in the BeamCal will be rejected in the analysis. Due to its higher $B$ field, the background from $e^+e^-$ pairs is confined to somewhat smaller radii in case of IDR-S. This, however, does not lead to a significant effect on the number of reconstructed clusters in the BeamCal.
+Figure~\ref{fig:WIMP:BCal} compares the number of reconstructed clusters in the BeamCal of the two detector models. Ideally, the $\nu\bar{\nu}\gamma$ events, which serve as proxy for the WIMP signal, should have no BeamCal cluster, while for the majority of the $e^+e^-\gamma$ events at least one BeamCal cluster should be found. Events with at least one cluster in the BeamCal will be rejected in the analysis. Due to its higher $B$ field, the background from $e^+e^-$ pairs is confined to somewhat smaller radii in case of IDR-S. This, however, does not lead to a significant effect on the number of reconstructed clusters in the BeamCal.
 
 \begin{figure}[htbp]
 \begin{center}
@@ -785,9 +798,9 @@ Figure~\ref{fig:WIMP:BCal} compares the number of reconstructed clusters in the 
  \caption{logarithmic mass scale\label{fig:WIMP:limit:lowM}}
  \end{subfigure}
 \end{center}
-\caption{Expected sensitivity at $95$\% CL in the plane of the new physics scale $\Lambda$ vs the WIMP mass $M_{\chi}$ for the cases of a vector, axial-vector or scalar operator describing the WIMP-SM interaction.}
+\caption{Expected sensitivity of ILC500 as defined in Sec.~\ref{sec:benchmarks:lep} at $95$\% CL in the plane of the new physics scale $\Lambda$ vs the WIMP mass $M_{\chi}$ for the cases of a vector, axial-vector or scalar operator describing the WIMP-SM interaction.}
 \label{fig:WIMP:limit}
 \end{figure}
 
-The final result of the analysis is compared in Fig.~\ref{fig:WIMP:limit} for the two detector models for scalar, vector, and axial-vector operators, on a linear and on a logarithmic mass scale. At this level, no difference between IDR-L and IDR-S is perceivable.
+The final result of the analysis is compared in Fig.~\ref{fig:WIMP:limit:std} for the two detector models for scalar, vector, and axial-vector operators for WIMP masses down to $1$\,GeV. At this level, no difference between IDR-L and IDR-S is perceivable. Figure~\ref{fig:WIMP:limit:lowM} extends the projection down to masses of $1$\,eV in order to illustrate the sensitivity to light feably interacting particles.
 

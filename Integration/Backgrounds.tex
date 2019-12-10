@@ -1,13 +1,13 @@
-\section{Beam background studies}
+\section{\label{sec:beam:background} Beam background studies}
 %\writer{Daniel Jeans, Yan Benhammou, Sergej Schuwalow, Claude Vallee}{2}
 \label{ild:sec:beam_backgrounds}
-The ILD detector response is affected by three main sources of beam-related background: beamstrahlung emitted at the crossing point of the electron and positron bunches, halo muons produced upstream of the detector along the beamline, and low energy neutrons back-scattered from the electron beam dumps. Their impact on the detector occupancies has been quantified and possible mitigation investigated. Results are similar for both options of the ILD detector and are shown here for the large version.
+The ILD detector response is affected by three main sources of beam-related background: beamstrahlung emitted at the crossing point of the electron and positron bunches, halo muons produced upstream of the detector along the beamline, and low energy neutrons back-scattered from the beam dumps. Their impact on the detector occupancies has been quantified and possible mitigation investigated\cite{ild:bib:Machine_Backgrounds,ild:bib:schuetz_thesis}. Results are similar for both options of the ILD detector and are shown here for the large version.
 
 \subsection{Beamstrahlung}
 
-Beamstrahlung consists in $e^+e^-$ conversion pairs of the photons radiated in the crossing of the dense electron and positron bunches. Most of the low-energy pairs are confined close to the z axis by the large solenoid magnetic field but, due to the crossing angle between the colliding beams, a significant fraction hit the very forward detectors in the region between the incoming and outgoing beam pipes. The central detectors are also affected, both directly by the $e^+e^-$ pairs, and indirectly through back-scattering of low-energy particles from the forward detectors. It was proposed to mitigate these effects by the addition of a small dipole field to the main solenoidal field. This so-called "anti-DID" field can be tuned to guide the $e^+e^-$ pairs into the outgoing beampipe. 
+Beamstrahlung photons are radiated from the ILC beam particles in the interaction with the electromagnetic fields of the strongly focused oncoming bunches. These photons can convert to $e^+e^-$ pairs with a broad energy spectrum. Most of the low-energy pairs are confined close to the z axis by the solenoid magnetic field but, due to the crossing angle between the colliding beams, a significant fraction hit the very forward detectors near the incoming and outgoing beam pipes. The central detectors are also affected, both directly by the $e^+e^-$ pairs, and indirectly through back-scattering of low-energy particles from the forward detectors. It was proposed to mitigate these effects by the addition of a small dipole field to the main solenoidal field. This so-called "anti-DID" field can be tuned to guide a large fraction of the  $e^+e^-$ pairs into the outgoing beampipe. 
 
-These effects have been quantified for the updated 250 GeV ILC conditions (ILC250, see chapter 3), using a full simulation of the beamstrahlung particle production and of their tracking within ILD. Special care has been taken to ensure stable results by adapting the GEANT tracking parameters to low energy particles within the beampipe. A realistic field map of both solenoid and anti-DID fields has been used. The response of the most affected detector, the BeamCal, is shown in Figure~\ref{fig:integration:beamcal} with and without anti-DID. A positive effect of the anti-DID is clearly visible: when the anti-DID field is applied, the energy distribution is more symmetric around the central beampipe, and its overall amount is reduced by about 30\%.
+These effects have been quantified for the updated 250 GeV ILC conditions (ILC250, see Section~\ref{ild:sec:ilc}), using a full simulation of the beamstrahlung particle production and of their tracking within ILD~\cite{ild:bib:Machine_Backgrounds}. Special care has been taken to ensure stable results by adapting the GEANT4 tracking parameters to low energy particles. A realistic field map of both solenoid and anti-DID fields has been used. The response of the most affected detector, the BeamCal, is shown in Figure~\ref{fig:integration:beamcal} with and without anti-DID. A positive effect of the anti-DID is clearly visible: when the anti-DID field is applied, the particle distribution is more symmetric around the central beampipe, and the overall energy deposition in BeamCal is reduced by about 30\%.
 
 \begin{figure}[t!]
 \includegraphics[width=1.0\hsize]{Integration/fig/BG_beamcal.jpg}
@@ -50,7 +50,7 @@ SET 2: & 46 $\pm$ 36 & 18 $\pm$ 12 & 0.00003 $\pm$ 0.00002 \\
 
 
 
-A similar improvement is seen for the central detectors in table~\ref{ild:tab:BGhits}. The most affected are the inner layers of the vertex detector, where the background is equally shared between direct hits rather uniformly distributed, and back-scattered particles showing hot spots in azimuth. Background hits further away from the beampipe are dominated by direct $e^+e^-$ pairs. The anti-DID has a little effect on direct $e^+e^-$ hits but efficiently suppresses back-scattered particles and associated hot spots in the central detectors.
+A similar improvement is seen for the central detectors in table~\ref{ild:tab:BGhits}. The most affected are the inner layers of the vertex detector, where the background is equally shared between direct hits rather uniformly distributed, and back-scattered particles showing hot spots in azimuth. Background hits further away from the beampipe are dominated by direct $e^+e^-$ pairs. The anti-DID has little effect on direct $e^+e^-$ hits but helps to suppress back-scattered particles and associated hot spots in the central detectors.
 %\textit{Comment also on TPC hits}.
 
 For the small ILD version, the overall beamstrahlung background hit rates are reduced by $\approx$10\%  thanks to better confinement within the beampipe by the higher solenoid field of 4T.
@@ -64,14 +64,14 @@ For the small ILD version, the overall beamstrahlung background hit rates are re
 
 \subsection{Halo muons}
 
-The electrons and positrons of the beam halo produce high-energy penetrating muons parallel to the beam by interacting with beamline components such as collimators. Five magnetized muon spoilers and one optional larger magnetized muon wall are foreseen to deviate these muons outside the ILC experimental hall. The resulting rate of muons in ILD has been simulated for ILC250 and ILC500 assuming a beam halo fraction of $10^{-3}$ (Chapter 3). 
+The electrons and positrons of the beam halo produce high-energy penetrating muons parallel to the beam by interacting with beamline components such as collimators. Beam simulations~\cite{Keller:2019aak} predict that a fraction of $10^{-3}$ of the incident beam electrons hit a machine component of the beam delivery system and may therefore produce muons. Five magnetized muon spoilers and one optional larger magnetized muon wall are foreseen to deviate these muons outside the ILC experimental hall. The resulting rate of muons in ILD has been simulated for ILC250 and ILC500. 
 
 \begin{figure}[t!]
 \includegraphics[width=1.0\hsize]{Integration/fig/BG_muons.jpg}
 \caption{\label{fig:integration:muons}Energy spectrum of muons entering the ILC experimental hall for ILC500, normalized to a full single train of 2625 bunches assuming a beam halo fraction of $10^{-3}$. Red curve: muon filtering with 5 spoilers only; Blue curve: muon filtering with an additional muon wall~\cite{ild:bib:schuetz_thesis}.}
 \end{figure}
 
-Figure~\ref{fig:integration:muons} shows the energy spectra of the muons crossing the ILD detector for the two filtering options. The muon wall significantly reduces the flux of the lower energy muons below a few 10 GeV. At ILC500 the rate of halo muons crossing ILD is of the order of 4 (resp. 0.6) muons/BC without (resp. with) the optional muon wall. At ILC250 the corresponding numbers are of the order 1 and 0.03 muons/BC for the two filtering options, respectively.
+Figure~\ref{fig:integration:muons} shows the energy spectra of the muons crossing the ILD detector for the two filtering options. The muon wall significantly reduces the flux of the lower energy muons below a few 10 GeV. At ILC500 the rate of halo muons crossing ILD is of the order of 4 (resp. 0.6) muons/BX without (resp. with) the optional muon wall. At ILC250 the corresponding numbers are of the order 1 and 0.03 muons/BX for the two filtering options, respectively.
 
 These halo muons will affect the occupancy of the detector but should be easily identified and subtracted from the physics events using topological and timing information.
 

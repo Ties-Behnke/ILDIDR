@@ -10,11 +10,11 @@ A CALICE AHCAL physics prototype was built and operated in 2006-2011, allowing t
 \centering
 \includegraphics[width=0.39\textwidth]{Detector/fig/AHCAL-Linearity_Ini_GC_LC.pdf}
 \includegraphics[width=0.59\textwidth]{Detector/fig/AHCALpion_resolution_data_ahcaljinst.pdf}
-\caption{Performance of the CALICE AHCAL physics prototype for pions. Left: Response without and with global or local software compensation for the AHCAL alone (with tail-catcher, from~\cite{Adloff:2012gv}). Right: resolution of the AHCAL with ("Standard") and without ("SC") a scintillator ECAL in front (from~\cite{Repond:2018flg})}
+\caption{Performance of the CALICE AHCAL physics prototype for pions. Left: Response without and with global or local software compensation for the AHCAL alone (with tail-catcher, from~\cite{Adloff:2012gv}). Right: resolution of the AHCAL with a scintillator ECAL in front ("Data") and in standalone mode ("AHCAL"), without ("Standard") and with ("SC") software compensation (from~\cite{Repond:2018flg})}
 \label{fig:ahcal-linres}
 \end{figure}
 
-With the establishment of the principal viability of the AHCAL technology, the focus has shifted from the study of the physical performance characteristics of such a detector to the demonstration of the feasibility of the concept while satisfying the spatial constraints and scalability requirements of collider experiments such as ILD. For this purpose a new AHCAL technological prototype has been built. It is based on a scintillator tile design well-suited for mass production and automatic assembly, originally proposed in~\cite{Blazey:2009zz} and subsequently varied and optimised in further studies \cite{Simon:2010hf, Liu:2015cpe}. 
+With the establishment of the principal viability of the AHCAL technology, the focus has shifted from the study of the physical performance characteristics of such a detector to the demonstration of the feasibility of the concept while satisfying the spatial constraints and scalability requirements of collider experiments such as ILD. For this purpose a new AHCAL technological prototype has been built. It is based on a scintillator tile design well-suited for mass production and automatic assembly, originally proposed in~\cite{Blazey:2009zz} and subsequently varied and optimised in further studies~\cite{Simon:2010hf, Liu:2015cpe}. 
 
 The new AHCAL technological prototype~\cite{Sefkow:2018rhp} consists of a non-magnetic stainless steel absorber structure with 38 active layers and has 21888 channels. 
 The structure has been produced from standard rolled plates, which had undergone a cost-effective roller-levelling procedure, ensuring a flatness of $\pm 1$~mm, demonstrated over an area of 2$\times$2~m$^2$. The plates were assembled using screws as foreseen for the full ILD structure in the TESLA mechanical layout. 
@@ -32,7 +32,7 @@ The prototype uses Hamamatsu MPPC S13360-1325PE photon sensors and injection-mou
 \end{figure}
 %
 %The SiPMs were delivered in lots of 600 pieces with a uniform break-down voltage within $\pm 100$~mV. 
-Spot-samples of all SiPM lots, and each one of the ASICs, had undergone semi-automatic testing procedures before soldering the HBUs \cite{Munwes:2634923}. The gain of the SiPMs was found to be uniform within~2.4\% when operated at a common over-voltage.
+Spot-samples of all SiPM lots, and each individual ASIC, had undergone semi-automatic testing procedures before soldering the HBUs \cite{Munwes:2634923}. The gain of the SiPMs was found to be uniform within~2.4\% when operated at a common over-voltage.
 Without any further surface treatment, the scintillator tiles are wrapped in laser-cut reflective foil by a robotic procedure and mounted on the HBUs using a pick-and-place machine, after glue dispensing with a screen printer.   
 %
 The HBUs have been integrated into cassettes with interfaces for DAQ \cite{Kvasnicka:2017bpx}, LED pulsing and power distribution. The latter provides active compensation of temperature variations by automatic adjustments of the common bias voltage of the photon sensors in each layer. This was routinely used in test beam operation and stabilises the gain within $\pm 1\%$.
@@ -81,19 +81,19 @@ Muons appear as a narrow band with $\sim 38$ hits and a cog on z at about half t
 The rich data sample collected in the two test beam periods in 2018  is being used for shower separation studies based on 5-dimensional reconstruction algorithms exploiting the high spatial, energy and time resolution of the prototype. 
 While this is in progress, it can already be noted that in several aspects the  performance exceeds that of the physics prototype: the noise is a factor 100 lower, the dynamic range of the SiPMs is 3 times larger, and 99.96\% of the total 21888 channels are working.
 
-The HBUs of the new prototype have also been used to build a large layer with two slabs of 6 HBUs each, corresponding to the full length of an ILD barrel sector in the TESLA layout, see Figure~\ref{fig:AHCAL-nhit-longslab}. The signal quality was unaffected, and the rise time of the power pulsing was within specifications. 
+The HBUs of the new prototype have also been used to build a large layer with two slabs of 6 HBUs each, corresponding to the full $\approx$2m length of an ILD barrel sector in the TESLA layout, see Figure~\ref{fig:AHCAL-nhit-longslab}. The signal quality was unaffected, and the rise time of the power pulsing was within specifications. 
 
 The AHCAL developments have also inspired the design of the scintillator section of the CMS end-cap calorimeter upgrade for the high luminosity phase of the LHC~\cite{Collaboration:2293646}, and the new prototype has been used together with silicon-instrumented sections in front in a common beam test, further illustrating the maturity of the technology. 
 The new CMS endcap calorimeter will establish the SiPM-on-Tile technology in a collider environment at an intermediate scale between the AHCAL prototype and the full ILD detector. 
 
 \subsubsection{RPC option (SDHCAL)}
 
-The SDHCAL technological prototype built in 2011 has been regularly tested in beams in the past years with various configurations, including a combined test with the SiECAL prototype in 2018 (previous section). The SDHCAL prototype consists of 48 single-gap RPC layers of 1 m$^2$ (Figure~\ref{fig:det:SDHCAL_proto}). Each detection gap is instrumented with 6 Active Sensitive Units (ASU) made of a  50 x 33 cm$^2$ PCB with 24 "HARDROC" ASICs from OMEGA~\cite{Callier:2014uqa}. The RPC pad size is 1 cm$^2$ and the pad signals can be readout either in digital (1 bit and 1 threshold) or semi-digital (2 bits and 3 thresholds) modes.
+The SDHCAL technological prototype built in 2011 has been regularly tested in beams in the past years with various configurations, including a combined test with the SiECAL prototype in 2018 (section 5.2.4.1). The SDHCAL prototype consists of 48 single-gap RPC layers of 1 m$^2$ (Figure~\ref{fig:det:SDHCAL_proto} left). Each detection gap is instrumented with 6 Active Sensitive Units (ASU) made of a  50 x 33 cm$^2$ PCB with 24 "HARDROC" ASICs from OMEGA~\cite{Callier:2014uqa}. The RPC pad size is 1 cm$^2$ and the pad signals can be read out either in digital (1 bit and 1 threshold) or semi-digital (2 bits and 3 thresholds) modes (Figure~\ref{fig:det:SDHCAL_proto} right).
 
 \begin{figure}[t!]
 \centering
-\includegraphics[width=0.8\hsize]{Detector/fig/SDHCAL_proto.jpg}
-\caption{Technological prototype of the Semi-Digital Hadronic Calorimeter.}
+\includegraphics[width=1.0\hsize]{Detector/fig/SDHCAL_proto.jpg}
+\caption{Left: technological prototype of the Semi-Digital Hadronic Calorimeter in its beam line at CERN. Right: event display of a 70 GeV pion measured in a recent beam test combined with a few layers of SiECAL calorimeter.}
 \label{fig:det:SDHCAL_proto}
 \end{figure}
 
@@ -102,11 +102,11 @@ The numerous data sets collected at CERN with high-energy hadron beams have been
 \begin{figure}[t!]
 \centering
 \includegraphics[width=1.0\hsize]{Detector/fig/SDHCAL_performance.jpg}
-\caption{Performance of the SDHCAL technological prototype as measured in beam tests: linearity (left) and energy resolution for the digital and semi-digital readout options (right).}
+\caption{Performance of the SDHCAL technological prototype as measured in beam tests. Left: linearity with the semi-digital readout option. Right: energy resolutions with the digital and semi-digital readout options in a hadron beam dominated by pions.}
 \label{fig:det:SDHCAL_perf}
 \end{figure}
 
-In recent years the SDHCAL teams have focused on adapting the technology to the full-size ILD requirements, in order to cover detection surfaces of up to 1 x 3 m$^2$ required by the ILD Hadronic Calorimeter in its "Videau" configuration (section 5.1.2). An improved RPC gas circulation system with better uniformity has been designed and validated with the construction of two large RPC's. Larger ASUs of 100 x 33 $cm^2$ have been designed with a new version of the HARDROC ASIC including zero-suppression (Figure~\ref{fig:det:SDHCAL_dev} left), and their interconnection improved to allow chaining of up to 9 ASUs. Efforts have also been invested in the manufacturing process of self-sustained hadron calorimeter structures with high precision mechanical tolerance as required by the RPC insertion. A method of "roller levelling" has been used to machine steel absorber plates with a high flatness. A high precision electro-welding has been used to built a first large size prototype of 4 calorimeter layers (Figure~\ref{fig:det:SDHCAL_dev} right) which has proven that gap size variations well below 1 mm can be reached on such large structures. 
+In recent years the SDHCAL teams have focused on adapting the technology to the full-size ILD requirements, in order to cover detection surfaces of up to 1 x 3 m$^2$ required by the ILD Hadronic Calorimeter in its "Videau" configuration (section 5.1.2). An improved RPC gas circulation system with better uniformity has been designed and validated with the construction of two large RPC's. Larger ASUs of 100 x 33 $cm^2$ have been designed with a new version of the HARDROC ASIC including zero-suppression (Figure~\ref{fig:det:SDHCAL_dev} left), and their interconnection improved to allow chaining of up to 9 ASUs. Efforts have also been invested in the manufacturing process of self-sustained hadron calorimeter structures with high precision mechanical tolerance as required by the RPC insertion. A method of "roller levelling" has been used to machine steel absorber plates with a high flatness. A high precision electro-welding has been used to build a first large size prototype of 4 calorimeter layers (Figure~\ref{fig:det:SDHCAL_dev} right) which has proven that gap size variations well below 1 mm can be reached on such large structures. 
 
 For the longer term the option of multi-gap RPC's with a high timing resolution of $\approx$20 ps is prototyped based on the "PETIROC" ASIC~\cite{Fleury:2014hfa}. 
 
@@ -116,5 +116,3 @@ For the longer term the option of multi-gap RPC's with a high timing resolution 
 \caption{SDHCAL ongoing developments for the final ILD dimensions: two active sensor units of 100 x 33 $cm^2$ chained to each other and connected to the outside with a new compact DAQ interface (left), and self-sustained welded structure of 4 calorimeter plates of 1x3 $m^2$   with the required mechanical tolerances (right).}
 \label{fig:det:SDHCAL_dev}
 \end{figure}
-
-\vspace{2cm}

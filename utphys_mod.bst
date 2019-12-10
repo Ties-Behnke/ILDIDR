@@ -478,7 +478,7 @@ FUNCTION {format.date.paren}
 FUNCTION {format.collaboration}
 { collaboration empty$
     {""}
-    { "{\bf " collaboration * "}" * "" *}
+    { "{ " collaboration * "}" * "" *}
   if$
 }
 
@@ -596,7 +596,7 @@ FUNCTION {format.pages.nopp}
 FUNCTION {format.volume}
 { volume empty$
     { "" }
-    { "{\bf " volume * "} " * }
+    { "{ " volume * "} " * }
   if$
 }
 

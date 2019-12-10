@@ -1,17 +1,19 @@
-e\section{Coil and yoke studies}
+\section{Coil and yoke studies}
 %\writer{Karsten Buesser, Uwe Schneekloth}{3}
 
-A conceptual design of the ILD solenoid, the yoke and the cryostat had been developed for the ILD DBD, c.f.~\cite{ild:bib:Magnet_Note, ild:bib:Cryostat_Note}. Recently, studies have been done to optimise the engineering design of the magnet, to study the magnetic properties of the large and small ILD detector models, and to explore possible cost reductions.
+A conceptual design of the ILD solenoid, the yoke and the cryostat had been developed for the ILD DBD~\cite{ild:bib:Magnet_Note, ild:bib:Cryostat_Note}. Recently, studies have been done to optimise the engineering design of the magnet, to study the magnetic properties of the large and small ILD detector models, and to explore possible cost reductions.
 
 \subsection{Magnet Engineering Studies}
-A common study by KEK, Toshiba and Hitachi has been started to better understand the engineering challenges in the design and manufacturing of the ILD solenoid coil and the Anti-DID. Figure~\ref{ILD:fig:solenoid_manufacturing} shows a conceptual design of the manufacturing process. While the three solenoid modules and the Anti-DID coils would be fabricated in industry, transportation boundary conditions require the assembly of the complete magnet on or close to the final detector site.
+A common study by KEK, Toshiba and Hitachi has been started to better understand the engineering challenges in the design and manufacturing of the ILD solenoid coil and the Anti-DID, which adds a small additional dipole field to the solenoid for better suppression of background particles in the detector~(c.f. section~\ref{ild:sec:beam_backgrounds} and \cite{ild:bib:anti-did}).
+
+Figure~\ref{ILD:fig:solenoid_manufacturing} shows a conceptual design of the manufacturing process. While the three solenoid modules and the Anti-DID coils would be fabricated in industry, transportation boundary conditions require the assembly of the complete magnet on or close to the final detector site.
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.8\hsize]{Integration/fig/Solenoid_Manufacturing.pdf}
-    \caption{Conceptual manufacturing process of the ILD solenoid and the Anti-DID coils~\cite{ild:bib:Solenoid_Manufacturing}.}
+    \caption{Illustration of the manufacturing process of the ILD solenoid and the Anti-DID coils~\cite{ild:bib:Solenoid_Manufacturing}.}
     \label{ILD:fig:solenoid_manufacturing}
 \end{figure}
-A case study by Toshiba concluded that the main solenoid modules can be transported on street with the use of a specialised Jumbo Carrier while the modules of the Anti-DID would fit on a flatbed trailer~(Figure~\ref{ILD:fig:magnet_transport}).
+A case study by Toshiba concluded that the main solenoid modules can be transported on the road with the use of a specialised Jumbo Carrier while the modules of the Anti-DID would fit on a flatbed trailer~(Figure~\ref{ILD:fig:magnet_transport}).
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.8\hsize]{Integration/fig/Magnet_Transport.pdf}
@@ -19,7 +21,7 @@ A case study by Toshiba concluded that the main solenoid modules can be transpor
     \label{ILD:fig:magnet_transport}
 \end{figure}
 
-The so-called "Anti-DID" coil has been proposed to add a small additional dipole field to the solenoid for better suppression of backgrounds~(c.f. section~\ref{ild:sec:beam_backgrounds} and \cite{ild:bib:anti-did}). Figure~\ref{ILD:fig:anti_did_design} shows a conceptual design of the Anti-DID coils and the resulting simulated dipole field with a maximum value of 0.036~T. Splitting the Anti-DID coils in four makes construction at the manufacturer and transport to the ILC site easier (c.f.~Figure~\ref{ILD:fig:magnet_transport}).
+ Figure~\ref{ILD:fig:anti_did_design} shows a conceptual design of the Anti-DID coils and the resulting simulated dipole field with a maximum value of 0.036~T. Splitting the Anti-DID coils in four makes construction at the manufacturer and transport to the ILC site easier (c.f.~Figure~\ref{ILD:fig:magnet_transport}).
 
 \begin{figure}[h!]
 %\begin{center}
@@ -31,7 +33,7 @@ The so-called "Anti-DID" coil has been proposed to add a small additional dipole
 \caption{  \label{ild:fig:anti-did-field}}
  \end{subfigure}
 %\end{center}
-\caption{Conceptual design study of the Anti-DID coils (a) and simulated Anti-DID field (b)~\cite{ild:bib:anti-did-design}}
+\caption{Conceptual design study of the Anti-DID coils (a) and simulated Anti-DID field (b, in T)~\cite{ild:bib:anti-did-design}}
 \label{ILD:fig:anti_did_design}
 \end{figure}
 
@@ -49,7 +51,7 @@ The coil and yoke system should provide at the same time a high magnetic field i
 \caption{  \label{ild:fig:magnet_nominal_field}}
  \end{subfigure}
 \end{center}
-\caption{Field map of the ILD solenoid for the large ILD model with a maximum field of 4~T (a) and field distribution along the detector axis (b)~\cite{ild:bib:Magnet_Simulations}}
+\caption{Field map of the ILD solenoid for the large ILD model with a maximum field of 4~T (a) and field distribution along the detector axis (b, in T)~\cite{ild:bib:Magnet_Simulations}}
 \label{ILD:fig:magnet_nominal}
 \end{figure}
 
@@ -63,7 +65,7 @@ The coil and yoke system should provide at the same time a high magnetic field i
 \caption{  \label{ild:fig:magnet_small_field}}
  \end{subfigure}
 \end{center}
-\caption{Field map of the ILD solenoid for the small ILD model with a maximum field of 4.5~T (a) and field distribution along the detector axis (b)~\cite{ild:bib:Magnet_Simulations}}
+\caption{Field map of the ILD solenoid for the small ILD model with a maximum field of 4.5~T (a) and field distribution along the detector axis (b, in T)~\cite{ild:bib:Magnet_Simulations}}
 \label{ILD:fig:magnet_small}
 \end{figure}
 
@@ -79,7 +81,7 @@ The ILD detector is expected to share its experimental environment with another 
 \caption{  \label{ild:fig:magnet_nominal_stray_field}}
  \end{subfigure}
 \end{center}
-\caption{Map of the ILD solenoid strayfield for the large ILD model with a maximum central field of 4~T (a) and field distribution at a distance of 15~m parallel to the detector axis (b)~\cite{ild:bib:Magnet_Simulations}.}
+\caption{Map of the ILD solenoid strayfield for the large ILD model with a maximum central field of 4~T (a) and field distribution at a distance of 15~m parallel to the detector axis (b, in T)~\cite{ild:bib:Magnet_Simulations}.}
 \label{ILD:fig:magnet_nominal_stray}
 \end{figure}
 
@@ -93,15 +95,15 @@ The ILD detector is expected to share its experimental environment with another 
 \caption{  \label{ild:fig:magnet_small_stray_field}}
  \end{subfigure}
 \end{center}
-\caption{Field map of the ILD solenoid for the small ILD model with a maximum field of 4.5~T (top) and field distribution at a distance of 15~m parallel to the detector axis (bottom)~\cite{ild:bib:Magnet_Simulations}.}
+\caption{Field map of the ILD solenoid for the small ILD model with a maximum field of 4.5~T (a) and field distribution at a distance of 15~m parallel to the detector axis (b, in T)~\cite{ild:bib:Magnet_Simulations}.}
 \label{ILD:fig:magnet_small_stray}
 \end{figure}
 
 Simulations have been done with different codes and the results are very consistent with an average value for the large detector of 5.6$\pm$0.6~mT for the maximum stray field at 15~m~\cite{ild:bib:Magnet_Simulations}. The stray fields for the small detector model are very similar. 
 
-The stringent limits on the stray fields are a cost driver for ILC as they drive the thickness of the iron return yoke. If the thickness would be reduced by 60~cm, the maximum stray fields at 15~m would increase to 9.3$\pm$0.8~mT but at the same time reduce the cost for the yoke by about 20\% for the large ILD detector model~\cite{ild:bib:Magnet_Simulations}.
+The stringent limits on the stray fields are a cost issue for ILD as they drive the thickness of the iron return yoke. If the thickness would be reduced by 60~cm, the maximum stray fields at 15~m would increase to 9.3$\pm$0.8~mT but at the same time reduce the cost for the yoke by about 20\% for the large ILD detector model~\cite{ild:bib:Magnet_Simulations}.
 
-A cost reduction of in total $\approx$50\% can be reached if the iron yoke is reduced further to a thickness of 2.04~m (including gaps). The stray fields at 1~m distance from the outside of the yoke would be at the level of 100~mT which is acceptable for the operation of magnetically sensitive equipment and which is well below limits given by human safety regulations. The far stray fields in direction of the other detector need to be shielded in that case, e.g. by using a magnetic shielding wall. Figure~\ref{ILD:fig:magnet_wall} shows the simulation of the large ILD detector model magnetic fields with a reduced yoke and a shielding wall.
+A cost reduction of in total $\approx$50\% can be reached if the iron yoke is reduced further to a thickness of 2.04~m (including gaps). The stray fields at 1~m distance from the outside of the yoke would be at the level of 100~mT which is acceptable for the operation of magnetically sensitive equipment and which is well below limits given by human safety regulations. The far stray fields in the direction of the other detector need to be shielded in that case, e.g. by using a magnetic shielding wall. Figure~\ref{ILD:fig:magnet_wall} shows the simulation of the large ILD detector model magnetic fields with a reduced yoke and a shielding wall.
 
 Though this concept looks attractive, further studies are required. The shielding wall needs to be mobile and has to follow the push-pull movements. An engineering solution needs to be developed. Another problem is the radiation shielding. In the present design, the thick iron yoke serves as a radiation shield and allows for access to the outer side of the detector while the ILC delivers beams to the interaction region~\cite{ild:bib:Radiation_Hall}. A reduced yoke might be too thin to serve for this purpose alone and additional radiation shielding, e.g. made from concrete, might need to be added. 
 \begin{figure}[htb]

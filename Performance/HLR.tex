@@ -1,10 +1,9 @@
-
 \subsection{Flavour-Tag Performance}
 \label{sec:perf:hlr:lcfi}
 The efficient identification of heavy flavour jets in hadronic events is an indispensable ingredient to many important physics analyses, such as
 the $\PH\rightarrow\Pqc\APqc$ and $\PH\rightarrow\Pqb\APqb$ branching ratio  measurements.
 The flavour tagging performance is studied using simulated and fully reconstructed samples
-of dedicated $\Pep \Pem \rightarrow 6~\Pquark$ events at $\sqrt{s}=\unit{500}{\GeV}$, where all quarks are chosen to have the same flavour.
+of dedicated, artificial $\Pep \Pem \rightarrow 6~\Pquark$ events at $\sqrt{s}=\unit{500}{\GeV}$, where all quarks are chosen to have the same flavour.
 The samples are divided into two sub-samples, where one is used for training the BDT and the other is used
 as a test sample. The resulting performance is shown in Fig.~\ref{fig:HLR-flavtag} for the large and small ILD detector model.
 In (a) the background rate as a function of the c-tagging efficiency for b-quark and light flavour quark jets is plotted and (b) shows the
@@ -28,10 +27,10 @@ As expected from the impact parameter and vertex resolutions there are no signif
 for the flavour tagging performance.
 The flavour tagging performance has been seen to vary with the jet energy and jet multiplicity~\cite{Suehara:2015ura}.
 The ideal performance in a physics study can be achieved by retraining the BDTs for the corresponding signal event topology.
-In practice, several sets of training weights are centrally produced, which are compared and chosen for the best performance.
+%%In practice, several sets of training weights are centrally produced, which are compared and chosen for the best performance.
 
 %\subsection{neutral - \Ppizero}
-\subsection{Hadronically decaying $\tau$ ID}
+\subsection[Hadronically decaying tau ID]{Hadronically decaying {\protect$\tau$ ID}}
 \label{sec:perf:hlr:tau}
 
 The correct identification of $\tau$ lepton decay modes is of particular importance in the extraction of observables sensitive to the $\tau$ lepton spin direction: examples are measurements of the $\tau$ polarisation and Higgs CP based on spin correlations in $H \to \tau \tau$ decays.
@@ -46,7 +45,7 @@ The performance of $\tau$ decay mode identification was studied in $\tau$-pair p
 These very highly boosted $\tau$ decays are the most challenging to reconstruct due to the small distance between particles in the highly collimated $\tau$ decay jets.
 The standard ILD reconstruction algorithms were applied to these events.
 
-In each event, two high momentum, back-to-back, charged PFOs were identified as $\tau$ jet "seeds". Figure~\ref{fig:HLR-tauID} shows the number of photon PFOs identified in a cone around these $\tau$ seed tracks, in the case when the $\tau$ lepton decayed to $\pi^\pm \pi^0 \nu$.
+In each event, two high momentum, back-to-back, charged \emph{particle flow objects  (PFOs)} were identified as $\tau$ jet "seeds". Figure~\ref{fig:HLR-tauID} shows the number of photon PFOs identified in a cone around these $\tau$ seed tracks, in the case when the $\tau$ lepton decayed to $\pi^\pm \pi^0 \nu$.
 In these events, exactly two photons are expected in the vast majority of cases. 
 The distribution shows that it is challenging to reconstruct both photons: in around half of the cases only a single photon cluster was reconstructed, which is due to the merging of the two photons into a single reconstructed particle. 
 A difference is seen between the two detector models, with the large version somewhat more often correctly resolving the two photons, which can be understood as being due to the larger ECAL radius increasing the distance between the photons' electromagnetic showers.
@@ -75,7 +74,7 @@ The product of selection efficiency and purity varies between around 30\% and 75
 The large detector model performs slightly better, as expected thanks to the larger inner ECAL radius.
 
 %\subsection{V0 / in flight decays vs radius}
-\subsection{$J/\psi$ reconstruction}
+\subsection[J/Psi reconstruction]{$J/\psi$ reconstruction}
 With the excellent particle flow, particle identification and vertexing capabilities
 of ILD discussed in the previous sections, there is a great potential to reconstruct
 various exclusive decay chains of short-lived baryons and mesons. This is of special

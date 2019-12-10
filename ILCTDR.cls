@@ -591,9 +591,12 @@
 % Titles
 %
 \setkomafont{chapter}{\fontfamily{pag}\selectfont\Huge}%
-\setkomafont{section}{\normalfont\bfseries}
-\setkomafont{subsection}{\normalfont\bfseries}
-\setkomafont{subsubsection}{\normalfont}
+\setkomafont{section}{\fontfamily{pag}\selectfont\Large}
+\setkomafont{subsection}{\fontfamily{pag}\selectfont\large}
+\setkomafont{subsubsection}{\fontfamily{pag}}
+%\setkomafont{section}{\normalfont\bfseries\selectfont\Large}
+%\setkomafont{subsection}{\normalfont\bfseries\selectfont\large}
+%\setkomafont{subsubsection}{\normalfont\bfseries}
 \setkomafont{sectioning}{\normalfont}
 %
 \makeatletter

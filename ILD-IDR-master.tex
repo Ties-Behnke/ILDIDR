@@ -44,6 +44,8 @@
 \usepackage[modulo,pagewise]{lineno}
 \linenumbers
 
+\usepackage{datatool-base}
+
 %\usepackage{cite}
 %
 % Directories containing figures
@@ -77,8 +79,6 @@
    Modelling/ILD-master-Modelling,
    Performance/ILD-master-Performance,
    Costing/ILD-master-Costing,
-   Organisation/ILD-master-ILD-Organisation,
-   Future/ILD-master-Future,
    Summary/ILD-master-Summary
 }
 % Enable an index
@@ -170,7 +170,6 @@
 \setcounter{chapter}{0}
 \input{./resetcounters.tex}
 
-
 \renewcommand{\DBDnumbers}{-numbers}
 
 \include{Introduction/ILD-master-Introduction}
@@ -182,7 +181,7 @@
 \include{Modelling/ILD-master-Modelling}
 \include{Performance/ILD-master-Performance}
 \include{Costing/ILD-master-Costing}
-\include{Organisation/ILD-master-ILD-Organisation}
+%\include{Organisation/ILD-master-ILD-Organisation}
 %\include{Future/ILD-master-Future}
 \include{Summary/ILD-master-Summary}
 
@@ -202,8 +201,8 @@
 %
 % Lists of figures and tables
 %
-\listoffigures
-\listoftables
+%\listoffigures
+%\listoftables
 %
 % Index
 %
