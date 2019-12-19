@@ -83,7 +83,7 @@ void efficiency_higgsinos()
    Graph_Graph3001->SetLineWidth(2);
    Graph_Graph3001->SetMarkerStyle(20);
    Graph_Graph3001->SetMarkerSize(0.7);
-   Graph_Graph3001->GetXaxis()->SetTitle("p_{T} [GeV]");
+   Graph_Graph3001->GetXaxis()->SetTitle("p_{t} / GeV");
    Graph_Graph3001->GetXaxis()->SetNdivisions(506);
    Graph_Graph3001->GetXaxis()->SetLabelFont(42);
    Graph_Graph3001->GetXaxis()->SetLabelOffset(0.015);

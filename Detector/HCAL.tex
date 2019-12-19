@@ -3,9 +3,11 @@
 %\writer{Felix Sefkow, Imad Laktineh}{4}
 %\textit{AHCAL beamtest results from large technological prototype, CMS HGCAL spinoff.}
 
+The technological status of both options considered for the highly granular multi-layer sampling hadronic calorimeter is summarised below. 
+
 \subsubsection{Scintillator option (AHCAL)}
 
-A CALICE AHCAL physics prototype was built and operated in 2006-2011, allowing to demonstrate the particle flow~\cite{Adloff:2011ha} and energy resolution performance~\cite{Adloff:2012gv} of the scintillator SiPM ("SiPM-on-Tile") technology for the DBD. In subsequently published papers~\cite{Adloff:2013vra,Adloff:2013kio,Adloff:2013jqa,Adloff:2014rya,Bilki:2014bga,Lucaci-Timoce:2013tkf,Price:2016sce} the adequate modelling of instrumental effects and shower evolution has been further established, and the hadronic energy resolution and linearity of a combined system with a scintillator tungsten ECAL in front was shown~\cite{Repond:2018flg} to be as good as that of the AHCAL alone, see Fig.\ref{fig:ahcal-linres}. The software used to model the detector effects such as photo-electron statistics in the SiPM has been validated by the test beam data and is also used in ILD, after adjusting for a small difference in sampling fraction only~\cite{Hartbrich:2016bbz}.
+A CALICE AHCAL physics prototype was built and operated in 2006-2011, allowing to demonstrate the particle flow~\cite{Adloff:2011ha} and energy resolution performance~\cite{Adloff:2012gv} of the scintillator SiPM ("SiPM-on-Tile") technology for the DBD. In subsequently published papers~\cite{Adloff:2013vra,Adloff:2013kio,Adloff:2013jqa,Adloff:2014rya,Bilki:2014bga,Lucaci-Timoce:2013tkf,Price:2016sce} the adequate modelling of instrumental effects and shower evolution has been further established, and the hadronic energy resolution and linearity of a combined system with a scintillator tungsten ECAL in front was shown~\cite{Repond:2018flg} to be as good as that of the AHCAL alone, see Figure~\ref{fig:ahcal-linres}. The software used to model the detector effects such as photo-electron statistics in the SiPM has been validated by the test beam data and is also used in ILD, after adjusting for a small difference in sampling fraction only~\cite{Hartbrich:2016bbz}.
 \begin{figure}[hbt]
 \centering
 \includegraphics[width=0.39\textwidth]{Detector/fig/AHCAL-Linearity_Ini_GC_LC.pdf}
@@ -22,7 +24,7 @@ The basic unit of the active elements is the HCAL Base Unit HBU~\cite{Reinecke:2
 %to reduce the power consumption and eliminate the need for active cooling, making use of the low duty cycle in the linear collider beam time structure. 
 In addition to dual-gain energy measurement, the electronics also provides a cell-by-cell auto trigger and time stamping at the few ns level in test beam operations. In operating conditions with shorter data-taking windows closer to the bunch train structure of linear colliders, sub-ns time resolution is achieved. 
 
-The prototype uses Hamamatsu MPPC S13360-1325PE photon sensors and injection-moulded polystyrene scintillator tiles with a central dimple \cite{Liu:2015cpe} for optimal light collection, as shown in Fig.~\ref{fig:AHCAL-TileProto}. 
+The prototype uses Hamamatsu MPPC S13360-1325PE photon sensors and injection-moulded polystyrene scintillator tiles with a central dimple \cite{Liu:2015cpe} for optimal light collection, as shown in Figure~\ref{fig:AHCAL-TileProto}. 
 \begin{figure}[hbt]
 \centering
 \includegraphics[width=0.39\textwidth]{Detector/fig/hcal-tiles.jpeg}
@@ -58,10 +60,10 @@ Data concentration, power distribution and cooling service systems of the protot
 %has been commissioned with cosmic muons, exploiting its self-triggering capabilities and then
 %; see Figure~\ref{fig:EventDisplay}.
 %Two event displays are shown from cosmic rays interacting in the calorimeter. The top figures is a straight track from a minimum-ionising muon and the bottom is most likely a shower developed from an inelastic interaction of a muon with the absorber material.
-The AHCAL technological prototype was installed in the test beam for data taking at the CERN SPS, see Fig.~\ref{fig:AHCAL-TileProto}.
+The AHCAL technological prototype was installed in the test beam for data taking at the CERN SPS, see Figure~\ref{fig:AHCAL-TileProto}.
 During two periods in May and in June 2018, several $10^7$ events with muon tracks, as well as electron and pion showers in the energy ranges  10 -- 100~GeV and 10 -- 200~GeV, respectively, have been recorded. 
 %The data taking rate averaged over the about 5~s long spills was up to 400 events per second.
-Figure~\ref{fig:AHCAL-nhit-longslab} from the quasi-instantaneous data quality monitoring shows the distribution of the number of hits vs.\ the hit-energy weighted centre-of-gravity (cog) along the beam axis z for an electron run with a beam momentum of 100~GeV/c and admixtures of muons and hadrons. The different particle types populate different regions of the plot.
+Figure~\ref{fig:AHCAL-nhit-longslab} left, from the quasi-instantaneous data quality monitoring, shows the distribution of the number of hits vs.\ the hit-energy weighted centre-of-gravity (cog) along the beam axis z for an electron run with a beam momentum of 100~GeV/c and admixtures of muons and hadrons. The different particle types populate different regions of the plot.
 \begin{figure}[hbt]
 \centering
 \includegraphics[width=0.64\textwidth]{Detector/fig/AHCAL-cogz_nhits.pdf}
@@ -81,7 +83,7 @@ Muons appear as a narrow band with $\sim 38$ hits and a cog on z at about half t
 The rich data sample collected in the two test beam periods in 2018  is being used for shower separation studies based on 5-dimensional reconstruction algorithms exploiting the high spatial, energy and time resolution of the prototype. 
 While this is in progress, it can already be noted that in several aspects the  performance exceeds that of the physics prototype: the noise is a factor 100 lower, the dynamic range of the SiPMs is 3 times larger, and 99.96\% of the total 21888 channels are working.
 
-The HBUs of the new prototype have also been used to build a large layer with two slabs of 6 HBUs each, corresponding to the full $\approx$2m length of an ILD barrel sector in the TESLA layout, see Figure~\ref{fig:AHCAL-nhit-longslab}. The signal quality was unaffected, and the rise time of the power pulsing was within specifications. 
+The HBUs of the new prototype have also been used to build a large layer with two slabs of 6 HBUs each, corresponding to the full $\approx$2m length of an ILD barrel sector in the TESLA layout, see Figure~\ref{fig:AHCAL-nhit-longslab} right. The signal quality was unaffected, and the rise time of the power pulsing was within specifications. 
 
 The AHCAL developments have also inspired the design of the scintillator section of the CMS end-cap calorimeter upgrade for the high luminosity phase of the LHC~\cite{Collaboration:2293646}, and the new prototype has been used together with silicon-instrumented sections in front in a common beam test, further illustrating the maturity of the technology. 
 The new CMS endcap calorimeter will establish the SiPM-on-Tile technology in a collider environment at an intermediate scale between the AHCAL prototype and the full ILD detector. 

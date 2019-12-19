@@ -17,11 +17,7 @@ It will be described in more detail in the next sections.
 
 \section{\label{sec:generator} Modelling of ILC Conditions and Physics Processes}
 %
-%%\emph{ quick test of hepnames and hepunits:}
-%%At $E_{\rm{cms}} = 250~\GeV~$ we cannot measure: $\Pem \Pep \rightarrow \Pqt \Paqt$
-%%but of course \Pem \Pep $\rightarrow $ \Pgtm \Pgtp
-%%or better write:   \emph{ \Pem \Pep $\rightarrow $ \Pgtm \Pgtp }  ??
-%
+
 Large, realistic Monte Carlo samples with the full Standard Model physics ($E_{cms}=500~\GeV$) as well as various
 BSM scenarios have been created for the purpose of detector optimization and performance evaluation, to be presented in detail in
 chapter~\ref{chap:performance}. The input samples for the full detector simulation
@@ -59,8 +55,8 @@ It is this cone that restricts the minimal allowed radius of the innermost layer
 Another source of background at the ILC are $\Pgamma \Pgamma \to hadrons$ events, due to beamstrahlung photons.
 These type of events are generated for $\Pgamma \Pgamma$ cms-energies from \unit{300}{\MeV} to \unit{2}{\GeV} with a dedicated generator based
 on ~\cite{Chen:1993dba}, whereas for higher energies Pythia is used.
-%
-%
+
+
 For the large Monte Carlo data sets both backgrounds are overlaid to the actual physics event that is simulated. For the incoherent pairs, only
 \emph{reconstructable tracks}, i.e. those that leave at least three hits in the tracking detectors, are overlaid as these constitute an irreducible
 background. The majority of the pair particles do not leave enough hits to be reconstructed as particle tracks and therefore give rise to a
@@ -354,7 +350,7 @@ created in the event taking the best available measurement for each given type, 
  based on the momentum-energy consistency. The output of PandoraPFA is a list of reconstructed particles, typically referred to as
  \emph{particle flow objects (PFO)}.
 
-\subsection{High Level Reconstruction}
+\subsection{\label{sec:model:hlr} High Level Reconstruction}
 
 After having reconstructed all the individual particles in the event, the next step in the processing is the reconstruction of
 primary and secondary vertices. This is carried out in iLCSoft with the LCFIPlus~\cite{Suehara:2015ura} package.
@@ -363,7 +359,7 @@ the largest $\chi^2$~-contribution, up to a given  $\chi^2$~-threshold. Thereby,
 $(\sigma_x=516~\rm{nm}, \sigma_y=7.7~\rm{nm},\sigma_z \sim 200~\mu\rm{m}~~\rm{at}~~~E_{cms}=250~\rm{GeV})$ are taken into account .
 In a second step LCFIPlus tries to identify secondary vertices, applying suitable requirements for invariant masses, momentum directions
 and $\chi^2$s. Secondary vertices and optionally isolated leptons can be used by LCFIPlus for jet clustering, aiming at high efficiency for correctly
-identifying heavy flavor jets. The actual jet clustering is then performed by using a cone-based clustering with a Durham-like algorithm.
+identifying heavy flavor jets. The actual jet clustering is then performed by using a cone-based clustering with a Durham-like algorithm~\cite{Catani:1991hj}.
 Alternatively users can use $k_T$ jet clustering algorithms from the Fastjet~\cite{Cacciari:2006sm} library that is interfaced to Marlin in a
 dedicated package MarlinFastJet. LCFIPlus also provides algorithms for jet flavor tagging using boosted decision trees (BDTs) based on suitable
 variables from tracks and vertices. A palette of additional high level reconstruction algorithms is used for physics analyses:

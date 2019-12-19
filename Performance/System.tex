@@ -113,7 +113,7 @@ is significantly worse than  $\sigma_{d0}$ (see Fig.~\ref{fig:perf:trk_d0} and~\
 
 The track finding efficiency of the algorithms described in section~\ref{sec:reco} is evaluated with $\Ptop\APtop$-events
 at $E_{cms}=\unit{500}{\GeV}$ fully simulated and reconstructed for both detector models.
-The tracking efficiency is defined as the ratio of the number of correctly reconstructed tracks with a hit purity of 75~\% to the
+The tracking efficiency is defined as the ratio of the number of correctly reconstructed tracks with a hit purity higher than 75~\% to the
 number of Monte Carlo tracks that are created within \unit{10}{\cm} of the {\em IP}, left at least 4 hits in the detector and
 did not decay in flight. The resulting efficiency is shown in Fig.~\ref{fig:perf:trkeff} as a function of momentum $p$ in (a),
 transverse momentum $p_T$ in (b) and $\cos(\theta$) in (c). As can be seen in (c), the tracking is almost perfect for particles
@@ -132,8 +132,8 @@ background overlaid. Only a very small degradation of the tracking efficiency at
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Particle Flow performance and JER}
-The performance of the Particle Flow Algorithm (PFA) is evaluated with dedicated  $\PZ\rightarrow \Pquark\APquark$-events, where
-the \PZ is chosen to have the desired mass of twice the jet energy and decays at rest. This allows to distinguish the measurement of the
+The performance of the Particle Flow Algorithm (PFA) is evaluated with dedicated  $\PZ\rightarrow \Pquark\APquark$-events, $\Pquark \in [\Pqu,\Pqd,\Pqs]$,
+where the \PZ is chosen to have the desired mass of twice the jet energy and decays at rest. This allows to distinguish the measurement of the
 actual jet energy resolution (JER) from other effects like ISR-photons or confusion in jet clustering that occur in more complex,
 realistic events.
 %
@@ -163,7 +163,7 @@ realistic events.
 \caption{
   Jet energy resolution (JER), evaluated as defined in eq.~\ref{ild:eq:jer} for $\PZ\rightarrow \Pquark\APquark$-events and $\Pquark \in [\Pqu,\Pqd,\Pqs]$.
   (a) comparison of the JER for the large and small ILD detector in the barrel region with
-  $|\cos(\theta_{q\bar q})|<0.7$  (b) the same for the endcap region with  $|\cos(\theta_{q\bar q})|>0.7$
+  $|\cos(\theta_{thrust})|<0.7$  (b) the same for the endcap region with  $0.7<|\cos(\theta_{thrust})|<0.98$
   (c) JER as function of the polar angle ({\em thrust}-axis) of the event. (d) JER for $\Pqu,\Pqd,\Pqs$ di-jet events together with $\Pqc\APqc$ and $\Pqb\APqb$ events,
   with (dashed lines) and without (solid lines) correcting the $\Pneutrino$ energies using Monte Carlo truth information. (e) Jet energy scale for the large and small model
   for barrel events.
@@ -176,14 +176,15 @@ The jet energy resolution is then evaluated as
 \begin{equation}\label{ild:eq:jer}
 \frac{ \sigma_{E_{jet}} } { E_{jet}}  :=  \frac{\rmsn(E_{jet})}{ \mathrm{mean}_{90}(E_{jet})}
 \end{equation}
-for $\PZ\rightarrow \Pquark\APquark$-events with $|\cos(\theta_{q\bar q})|<0.7$ and $\Pquark \in [\Pqu,\Pqd,\Pqs]$.
+%%%for $\PZ\rightarrow \Pquark\APquark$-events with $|\cos(\theta_{q\bar q})|<0.7$ and $\Pquark \in [\Pqu,\Pqd,\Pqs]$.
 The $\rmsn$ is defined to be the $rms$ of the central $90\%$ of the distribution and the $\mathrm{mean}_{90}$ is its mean value.
 This measure is robust against large tails and
 should be multiplied by a factor of $\sim1.1$ to obtain an equivalent Gaussian analyzing power\cite{ild:bib:PandoraPFA}.
 Fig.~\ref{fig:perf:pfa_jer} shows the JER as a function of the jet energy for selected energies $E_{jet}=\unit{(20, 45, 100, 175, 250)}{\GeV}$
-for the large and small detector model in the barrel region. For $E_{jet}\geq \unit{45}{\GeV}$ the resolution is better than 4\% and
-approaches 3\% (3.2\%) for the large (small) model at higher energies. In the forward region ( $|\cos(\theta_{q\bar q})|<0.7$ ) the JER is
-slightly worse and the difference between large and small detector is less pronounced as can bee seen in Fig.~\ref{fig:perf:pfa_jer_endcap}.
+for the large and small detector model in the barrel region ($|\cos(\theta_{thrust})|<0.7$) . For $E_{jet}\geq \unit{45}{\GeV}$ the resolution is better than 4\% and
+approaches 3\% (3.2\%) for the large (small) model at higher energies. In the forward region ($|\cos(\theta_{thrust})|>0.7$) the JER is
+slightly worse and the difference between large and small detector is less pronounced as can bee seen in Fig.~\ref{fig:perf:pfa_jer_endcap}. In order to
+ensure that the jets are fully contained in the acceptance of the detector, an additional cut of  $|\cos(\theta_{thrust})|<0.98$ is applied.
 The JER as a function of the polar angle of the jets (the {\em thrust}-axis of the di-quark events) is shown in Fig.~\ref{fig:perf:pfa_costh} for the
 large detector model. The observed dependency is rather flat throughout the barrel region, increasing somewhat after the barrel-end-cap transition
 with a visible rise in the very forward region, similar for all energies. The effect of heavy flavor quarks on the jet energy resolution is shown in
@@ -197,12 +198,16 @@ The linearity of the jet energy measurement is shown in Fig.~\ref{fig:perf:pfa_j
 \subsection{Vertexing}
 
 The correct identification of heavy flavour decays in jets requires a precise measurement of the coordinates of secondary vertices.
-The vertex resolution is studied using  dedicated, artificial $\Pep\Pem \rightarrow 6~\Pqc$ events, along the longitudinal direction $\vec{e}_L$
+The vertex resolution is studied with the dedicated $\Pep\Pem \rightarrow 6~\Pqc$ events that are also used for the flavour tagging
+training and performance studies, described in section~\ref{sec:perf:hlr:lcfi}.
+%
+The resolution is measured along the longitudinal direction of the jet $\vec{e}_L$
 and two transverse directions $\vec{e}_{T1}$ and $\vec{e}_{T2}$, defined as:
+%
 \begin{equation}
 \vec{e}_L = \frac{ \vec{p}_c }{|\vec{p}_c| }~; ~~~~~~~  \vec{e}_{T1} = \vec{e}_L \times \vec{z} ~; ~~~~~~~  \vec{e}_{T2} = \vec{e}_L \times \vec{e}_{T1}
 \end{equation}
-whith the 3-momentum of the $\Pqc$-quark $\vec{p}_c$.
+whith the 3-momentum of the $\Pqc$-quark $\vec{p}_c$ taken from Monte Carlo truth.
 The result is shown for the transverse (a) and longitudinal (b) components of the secondary vertices as a function of the distance from the $IP$
 in Fig.~\ref{fig:perf:vtxres}.
 \begin{figure}[htbp]
@@ -218,7 +223,7 @@ in Fig.~\ref{fig:perf:vtxres}.
  \includegraphics[width=\hsize]{Performance/fig/pvtx_z_resol.pdf}
  \caption{  \label{fig:perf:pvtx_z}}
  \end{subfigure}
-\caption{ Vertex resolutions for the large and small ILD detector models.
+\caption{ Vertex resolutions for the large and small ILD detector models for  $\Pep\Pem \rightarrow 6~\Pqc$ events at $\sqrt{s}=\unit{500}{\GeV}$.
   (a) Resolution of the transverse component of secondary vertices as a function of the distance from the $IP$ and the same for the longitudenal component in (b).
   (c) Resolution of the z-coordinate of the primary vertex as a function of the number of tracks used in the fit. 
   Note that the radial component of the primary vertex is known extremely well to \unit{O(10)}{\nm} from the beam-spot position.
@@ -245,17 +250,20 @@ is very similar, as expected already from the single track impact parameter reso
 %\fix{dE/dx, potentially ToF, shower shapes}
 %
 %
-Measuring the energy loss of charged particles in the ILD-TPC provides powerful tool for identifying the type of the particle.
-\thisfloatsetup{floatwidth=\SfigwFull,capposition=beside}
-\begin{figure}[b!]
+Measuring the energy loss of charged particles in the ILD-TPC provides a powerful tool for identifying the type of the particle.
+%%\thisfloatsetup{floatwidth=\SfigwFull,capposition=below}
+\begin{figure}[htbp]
 \includegraphics[width=0.8\hsize]{Performance/fig/dEdx_BBAll_lowGran_bigCap.png}
 \caption{\label{fig:perf:dedx_tpc}
-  $dE/dx$ as a function of particle momentum as reconstructed from a full simulation of particles in the TPC of the large detector model.
+  $dE/dx$ as a function of particle momentum as reconstructed from a full simulation of single particle events ($\Pe, \Pmu, \Ppi, \PK$ and $\Pproton$)
+  in the TPC of the large ILD detector model. The particles were simulated with a logarithmic momentum distribution and isotropic direction. Spurious
+  entries in the bands for more massive particles, such as the deuteron, as well as entries from low momentum particles, below the TPC acceptance,
+  are due to secondaries created in the events.
 }
 \end{figure}
 %
 Fig.~\ref{fig:perf:dedx_tpc} shows the $dE/dx$ reconstructed from a truncated mean for charged particle tracks in the TPC as a function of
-the particle momentum, clearly revealing the bands of the most abundant particle types $\Pepm, \Pmupm, \Ppipm, \PKpm$ and $\Pproton$.
+the particle momentum, clearly revealing the bands of the most abundant particle types $\Pepm, \Pmupm, \Ppipm, \PKpm$ and $p^{\pm}$.
 By fitting Gaussian distributions, with mean $\mu(p)$ and standard deviation $\sigma(p)$, to individual bands in momentum bins one can
 define a separation power $\eta_{A,B}$ for distinguishing the two particle types A and B:
 \begin{equation}
@@ -284,7 +292,7 @@ in the ILD calorimeters.
  \end{subfigure}
 \caption{ (a) particle separation power (eq.~\ref{ild:eq:seppow}) for $\Ppi/\PK$ and $\PK/\Pp$ based on the $dE/dx$ measurement in the TPC.
   (b) improvement of the same separation power if combined with a {\em time-of-flight (TOF)} estimator from the first ten Ecal layers,
-  where $\eta_{dE/dx,TOF}=\eta_{dE/dx} \oplus \eta_{TOF}$.
+  where $\eta_{dE/dx,TOF}=\eta_{dE/dx} \oplus \eta_{TOF}$. The curves are shown to guide the eye.
 }
 \label{fig:perf:dedxtof}
 \end{figure}
@@ -299,7 +307,8 @@ An example in the context of physics analyses can be seen in Fig.~\ref{fig:perf:
     resolution. Details on the analyses can be found in Sec.~\ref{subsec:bench:bbbar} and~\ref{subsec:bench:ttbar}.
   }
 \end{figure}
-Additional methods for charged particle identification using calorimeter shower shapes have been developed and used in specific physics analyses~\fix{[need references...]}
+Additional methods for charged particle identification using calorimeter shower shapes have also been developed and used in specific physics analyses.
+%~\fix{[need references...]}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

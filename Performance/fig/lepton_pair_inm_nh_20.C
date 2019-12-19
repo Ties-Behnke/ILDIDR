@@ -37,7 +37,7 @@ void lepton_pair_inm_nh20()
    _stack_1_stack_2_stack_3->GetXaxis()->SetLabelOffset(0.015);
    _stack_1_stack_2_stack_3->GetXaxis()->SetLabelSize(0.06);
    _stack_1_stack_2_stack_3->GetXaxis()->SetTitleSize(0.07);
-   _stack_1_stack_2_stack_3->GetXaxis()->SetTitleOffset(1);
+   _stack_1_stack_2_stack_3->GetXaxis()->SetTitleOffset(1.2);
    _stack_1_stack_2_stack_3->GetXaxis()->SetTitleFont(42);
    _stack_1_stack_2_stack_3->GetYaxis()->SetTitle("Events/0.2GeV");
    _stack_1_stack_2_stack_3->GetYaxis()->SetNdivisions(506);
@@ -400,7 +400,7 @@ void lepton_pair_inm_nh20()
    pt->SetFillColor(0);
    pt->SetLineWidth(2);
    pt->SetTextFont(42);
-   TText *pt_LaTex = pt->AddText("ILD (preliminary)");
+   TText *pt_LaTex = pt->AddText("ILD");
    pt_LaTex->SetTextColor(1);
    pt_LaTex->SetTextFont(62);
    pt->Draw();

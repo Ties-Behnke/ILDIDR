@@ -3,19 +3,36 @@
 
 void exclusion_limits_08_03_compare_LEP() {
 
-	TCanvas* c1=new TCanvas("c1","",0,0,1000,800);
+TCanvas* c1=new TCanvas("c1","",0,0,1000,800);
+   gStyle->SetOptStat(0);
+   c1->Range(-103.4967,-2.835463,438.9869,0.1336082);
+   c1->SetFillColor(0);
+   c1->SetBorderMode(0);
+   c1->SetBorderSize(2);
+   c1->SetLogy();
+   c1->SetGridx();
+   c1->SetGridy();
+   c1->SetTickx(1);
+   c1->SetTicky(1);
+   c1->SetLeftMargin(0.18);
+   c1->SetRightMargin(0.035);
+   c1->SetTopMargin(0.09);
+   c1->SetBottomMargin(0.18);
+   c1->SetFrameLineWidth(2);
+   c1->SetFrameBorderMode(0);
+   c1->SetFrameLineWidth(2);
+   c1->SetFrameBorderMode(0);
 
-	c1->SetLogy();
-	c1->cd();
-	//	TMultiGraph *mg = new TMultiGraph();
-	//	mg->SetTitle(";M_{h} (GeV);#kappa_{hZZ}^{95}");
+   c1->cd();
+//	TMultiGraph *mg = new TMultiGraph();
+//	mg->SetTitle(";M_{h} (GeV);#kappa_{hZZ}^{95}");
 
-	const Int_t nILC= 48;
-	const Int_t nLEP_recoil = 72;
+const Int_t nILC= 48;
+const Int_t nLEP_recoil = 72;
 
-	Double_t xILC_po_l5_bin_5[nILC] , yILC_po_l5_bin_5[nILC];
-	Double_t xILC_po_s5_bin_5[nILC] , yILC_po_s5_bin_5[nILC];
-	Double_t xLEP_recoil[nLEP_recoil], yLEP_recoil[nLEP_recoil];
+Double_t xILC_po_l5_bin_5[nILC] , yILC_po_l5_bin_5[nILC];
+Double_t xILC_po_s5_bin_5[nILC] , yILC_po_s5_bin_5[nILC];
+Double_t xLEP_recoil[nLEP_recoil], yLEP_recoil[nLEP_recoil];
 
 
 xILC_po_l5_bin_5[0]= 10 ;
@@ -122,10 +139,10 @@ yILC_po_l5_bin_5[47]= 0.831744 ;
 	gr2->SetMarkerColor(4);
 	gr2->SetLineStyle(1);
 	gr2->SetLineColor(4);
-	gr2->GetXaxis()->SetLimits(5,420);
+	gr2->GetXaxis()->SetLimits(0,420);
 	gr2->GetYaxis()->SetLimits(0.05,4);
-	gr2->SetTitle(";M_{S} (GeV); sin^{2}(#theta)");
-	gr2->SetMinimum(0.005);
+	gr2->SetTitle(";M_{S^{0}} / GeV; sin^{2}(#theta)");
+	gr2->SetMinimum(0.001);
 	gr2->SetMaximum(1);
 	gr2->Draw("aC");
 
@@ -232,7 +249,7 @@ yILC_po_s5_bin_5[47]= 0.831744 ;
 	gr3->SetMarkerStyle(34);
 	gr3->SetMarkerSize(3);
 	gr3->SetMarkerColor(4);
-	gr3->SetLineStyle(2);
+	gr3->SetLineStyle(1);
 	gr3->SetLineColor(2);
 	gr3->GetXaxis()->SetLimits(5,420);
 	gr3->GetYaxis()->SetLimits(0.05,4);
@@ -315,43 +332,160 @@ yILC_po_s5_bin_5[47]= 0.831744 ;
 	xLEP_recoil[69]=97.4810287379824; yLEP_recoil[69]= (3.65477973701179);
 	xLEP_recoil[70]=98.9346406208804; yLEP_recoil[70]= (3.50743215221508);
 	xLEP_recoil[71]=99.7711571281899; yLEP_recoil[71]= (3.42188934649228);
-	TGraph *gr1 = new TGraph(nLEP_recoil,xLEP_recoil,yLEP_recoil);
-	gr1->SetLineWidth(8);
-	gr1->SetLineColor(632);
+	
+        
+        
+        TGraph *gr1 = new TGraph(nLEP_recoil,xLEP_recoil,yLEP_recoil);
+	gr1->SetLineWidth(4);
+	gr1->SetLineColor(4);
 	gr1->SetMarkerStyle(20);
 	gr1->SetMarkerSize(0);
-	gr1->SetLineStyle(1);
+	gr1->SetLineStyle(2);
 	gr1->GetYaxis()->SetLimits(0.05,4);
 	gr1->GetXaxis()->SetLimits(10,125);
 	gr1->GetYaxis()->SetLimits(0.05,4);
 	gr1->SetTitle(";M_{S^{0}} (GeV/c^{2}); k_{95}");
 	gr1->SetMinimum(0.001);
-	gr1->SetMaximum(40);
+	gr1->SetMaximum(1);
 	gr1->Draw("same");
+        
+///////////////////////////////////////////////////////////////////        
+
+
+   Double_t Graph2_fx3[48] = {
+   10,
+   20,
+   30,
+   40,
+   50,
+   60,
+   70,
+   80,
+   85,
+   90,
+   95,
+   100,
+   105,
+   110,
+   115,
+   120,
+   130,
+   135,
+   140,
+   160,
+   180,
+   200,
+   220,
+   240,
+   260,
+   280,
+   290,
+   300,
+   310,
+   320,
+   325,
+   330,
+   335,
+   340,
+   345,
+   350,
+   355,
+   360,
+   365,
+   370,
+   375,
+   380,
+   385,
+   390,
+   395,
+   400,
+   405,
+   408};
+   Double_t Graph2_fy3[48] = {
+   0.00589328,
+   0.00544443,
+   0.00585379,
+   0.00597346,
+   0.00530617,
+   0.00566219,
+   0.00530617,
+   0.00729201,
+   0.012867,
+   0.023104,
+   0.022799,
+   0.0199926,
+   0.0190942,
+   0.0177778,
+   0.0184184,
+   0.0187517,
+   0.0193278,
+   0.0177778,
+   0.0174699,
+   0.0165929,
+   0.0173691,
+   0.016782,
+   0.0177778,
+   0.0193278,
+   0.022799,
+   0.0318528,
+   0.0322301,
+   0.0370197,
+   0.0433552,
+   0.0525078,
+   0.0601041,
+   0.0624315,
+   0.0711111,
+   0.0750069,
+   0.0832943,
+   0.0942924,
+   0.110787,
+   0.126914,
+   0.143204,
+   0.16,
+   0.183329,
+   0.225625,
+   0.268512,
+   0.333177,
+   0.436749,
+   0.675062,
+   0.831744,
+   0.831744};
+        TGraph *gr0 = new TGraph(48,Graph2_fx3,Graph2_fy3);
+	gr0->SetLineWidth(4);
+	gr0->SetLineColor(2);
+	gr0->SetMarkerStyle(20);
+	gr0->SetMarkerSize(0);
+	gr0->SetLineStyle(2);
+	gr0->GetYaxis()->SetLimits(0.05,4);
+	gr0->GetXaxis()->SetLimits(10,125);
+	gr0->GetYaxis()->SetLimits(0.05,4);
+	gr0->SetTitle(";M_{S^{0}} (GeV/c^{2}); k_{95}");
+	gr0->SetMinimum(0.001);
+	gr0->SetMaximum(1);
+	gr0->Draw("same");
+
+///////////////////////////////////////////////////////////////////        
 
 
 
+	TLegend *leg = new TLegend(0.416834, 0.236129, 0.96493, 0.43871);  
 
-	TLegend *leg = new TLegend(0.709419, 0.223514, 0.937876, 0.414729);  
 
-
-	leg->SetMargin(0.3);
-	leg->AddEntry(gr2,"IDR-L","l");
-	leg->AddEntry(gr3,"IDR-S","l");
-	leg->AddEntry(gr1,"LEP","l");
+	leg->SetBorderSize(5);
+	leg->SetHeader("Search for light extra scalars in e^{+}e^{-} #rightarrow ZS^{0}");
+        leg->SetShadowColor(0);
+	leg->AddEntry(gr1,"OPAL, Eur.Phys.J. C27 (2003) 311-329","l");
+	leg->AddEntry(gr2,"IDR-L, 500 GeV","l");
+	leg->AddEntry(gr3,"IDR-S, 500 GeV","l");
+	leg->AddEntry(gr0,"Pythia stable particle level, 500 GeV","l");
 	leg->Draw();
 
-	TPaveText *pt0 = new TPaveText(43.0153  , -0.563752, 210.916  , -0.176412, "nb");
-	TText *pt_LaTex0 = pt0->AddText("ILD (preliminary)");
+	TPaveText *pt0 = new TPaveText(300.92, -0.415954, 363.974, -0.105876, "nb");
+	TText *pt_LaTex0 = pt0->AddText("ILD");
 	pt_LaTex0->SetTextColor(1);
 	pt_LaTex0->SetTextFont(62);
 	pt0->Draw();
 
-
-	gPad->SetLeftMargin(0.20);
-	gPad->SetRightMargin(0.035);
-	gPad->SetTopMargin(0.045);
-	gPad->SetBottomMargin(0.18);
 
 	// TCanvas::Update() draws the frame, after which one can change it
 	c1->Update();

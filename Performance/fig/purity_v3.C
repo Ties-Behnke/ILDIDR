@@ -1,4 +1,4 @@
-void purity_v2()
+void purity_v3()
 {
 //=========Macro generated from canvas: canvas2/canvas2
 //=========  (Thu Apr 25 15:05:49 2019) by ROOT version 6.11/01
@@ -54,7 +54,7 @@ void purity_v2()
    Graph_Graph1001->SetLineWidth(2);
    Graph_Graph1001->SetMarkerStyle(20);
    Graph_Graph1001->SetMarkerSize(1.5);
-   Graph_Graph1001->GetXaxis()->SetTitle("category");
+   //  Graph_Graph1001->GetXaxis()->SetTitle("category");
    Graph_Graph1001->GetXaxis()->SetBinLabel(1,"Vtx+Vtx");
    Graph_Graph1001->GetXaxis()->SetBinLabel(2,"K+K");
    Graph_Graph1001->GetXaxis()->SetBinLabel(3,"Vtx+K (diff. jet)");

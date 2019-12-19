@@ -4,11 +4,11 @@
 \chapter{Detector Layout and Technologies}
 \label{chap:technologies}
 
-In the first section of this chapter the overall layout of ILD and the conceptual design of the subdetectors is summarized, with the focus on the evolution since the DBD. In the second section the results of the intense R\&D performed since the DBD on the subdetector technologies is presented, and possible future steps anticipated towards a final ILD design are discussed. This chapter is intended to give a snapshot of the current state of the art and a view of the trends of future studies for the coming years.      
+In the first section of this chapter the overall layout of ILD and the conceptual design of the subdetectors is summarised, with a focus on the evolution since the DBD. In the second section the results of the intense R\&D performed since the DBD on the subdetector technologies is presented, and possible future steps towards a final ILD design are discussed. This chapter is intended to give a snapshot of the current state of the art and a view of the trends of future studies for the coming years.      
 \section{Overall Structure of the Detector}
 %\writer{Claude Vallee, Karsten Buesser}{1}
 
-The geometrical structure of the ILD detector and the individual layouts of subdetectors were described in detail in the ILD LOI~\cite{ild:bib:ILDloi} and the ILD DBD~\cite{ild:bib:ilddbd}. In this section the main characteristics with a special emphasis on recent developments and open options is given. The main design changes implemented since the DBD take into account the continuous progress in detection technologies and the new optics of the ILC interaction region (see chapter~\ref{chap:ILC}). 
+The geometrical structure of the ILD detector and the individual layouts of subdetectors were described in detail in the ILD LOI~\cite{ild:bib:ILDloi} and the ILD DBD~\cite{ild:bib:ilddbd}. In this section the main characteristics with a special emphasis on recent developments and open options is given. The main design changes implemented since the DBD take into account the continuous progress in detection technologies and the new optics of the ILC interaction region (see chapter~\ref{chap:ilc}). 
 
 %\vspace{2cm}
 
@@ -156,7 +156,7 @@ A key feature of the detector is the amount of material crossed by the particles
 
 The current design of subdetectors is presented including open options and critical aspects, as well as prospects for enhanced capabilities in the future. The most recent progress and status of each detection technology will be summarised in section~\ref{sec:subdetectors}.
 
-\subsubsection*{Vertex detector (VTX)}
+\subsubsection{Vertex detector (VTX)}
 %\textit{(Besson, Ishikawa, Vos)}
 
 The vertex detector is realised as a multi-layer pixel detector with three double-layers (Figure~\ref{fig:det:vertex}). The detector has a pure barrel geometry. To minimise the occupancy from background hits,
@@ -172,14 +172,14 @@ the double-layer closest to the beam is twice shorter than the other two.
 Critical parameters of the VTX optimisation are the point resolution for secondary vertex tagging, required to be better than 3$\mu m$, and the material thickness which should not exceed $\simeq 0.15\%$ $X_0$ per layer to minimise multiple scattering. Three main technologies are under consideration to achieve the required goals:
 \begin{itemize}
     \item {\bf CMOS pixels:} this well-established technology offers the advantages of high granularity with fully monolithic pixel digital electronics available from industrial processes. The most critical points of focus of current R\&D~\cite{Besson:2016ivb} are the readout speed, aimed to provide single bunch tagging capacity while keeping the power consumption low enough (with or without power pulsing), and the overall material budget of the layers.
-    \item {\bf DEPFET pixels:} the DEPleted Field Effect Transistor (DEPFET) concept implements a first amplification stage in a FET in the high-resistivity, depleted silicon detector. Active pixel detectors with a rolling shutter read-out can meet the stringent requirements of the ILD vertex detector~\cite{Alonso:2012ss,Richter:2003dn}. This technology offers the advantage of high granularity with a small layer material thickness, the digital electronics being shifted at the end of the ladders: the all-silicon ladder design~\cite{Andricek:2004cj}, that is fully self-supporting and requires no external support, minimises the material in the active area to approximately 0.12\% $X_{0}$. Critical aspects of DEPFETs are the industrialisation of the fabrication process and the integration of large detector surfaces.
+    \item {\bf DEPFET pixels:} the DEPleted Field Effect Transistor (DEPFET) concept implements a first amplification stage in a FET in the high-resistivity, depleted silicon detector. Such active pixel detectors with a rolling shutter read-out can meet the stringent requirements of the ILD vertex detector~\cite{Alonso:2012ss,Richter:2003dn}. The technology offers the advantage of high granularity with a small layer material thickness, the digital electronics being shifted at the end of the ladders: the all-silicon ladder design~\cite{Andricek:2004cj}, that is fully self-supporting and requires no external support, minimises the material in the active area to approximately 0.12\% $X_{0}$. Critical aspects of DEPFETs are the industrialisation of the fabrication process and the integration of large detector surfaces.
     \item{\bf Fine Pixel CCD (FPCCD):} fine pixel CCD's ~\cite{Paredes:2014kda} offer the prospects for the highest granularities associated with low power consumption. Another advantage is the minimal material budget of the detector layer, however counter-balanced by the need of a cryostat to ensure low-temperature operation. Critical aspects under study are the readout speed and the resistance to radiation.  
 \end{itemize}
 
 \vspace{0.5cm}
 The CMOS and DEPFET pixels have typical sizes of 20 microns and are readout in a continuous mode during bunch trains. The readout speed determines the capability to resolve individual bunches. The FPCCD pixels accumulate hits during one bunch train before readout and reset in-between trains. Their occupancy is kept acceptable thanks to a small pixel size of order 5 microns.  
 
-\subsubsection*{Silicon trackers (SIT, SET, FTD)}
+\subsubsection{Silicon trackers (SIT, SET, FTD)}
 %\textit{(Besson, Vos, Vila)}
 
 A system of silicon trackers surrounds the VTX detector (Figure~\ref{fig:det:silicon}). 
@@ -206,10 +206,10 @@ The first two disks are installed close to the vertex detector and are equipped 
 
 The remaining five disks extend out to the inner envelope of the TPC at $r=$ 30 cm. While the requirement on the resolution of the $r\phi$ measurement remains stringent, the cell dimension aligned with the $r$-coordinate is less constrained. These requirements can be met with micro-strip detectors: two single-sided detectors mounted under a small stereo angle may provide the required resolution. A solution based on CMOS monolithic pixel detectors with elongated pixels is likely to be quite competitive. Also the possibility of a TOF measurement in the outermost disks merits further study.
 
-\subsubsection*{Time projection chamber (TPC)}
+\subsubsection{Time projection chamber (TPC)}
 %\textit{(Colas, Sugiyama)}
 
-A distinct feature of ILD is a large volume time projection chamber (Figure~\ref{fig:det:TPC} left). The TPC allows a continuous 3-dimensional tracking, dE/dx-based particle identification and minimum material. The required performance of the TPC as a standalone tracker is a momentum resolution $\sigma(1/p_T)$ better than $10^{-4}$GeV$^{-1}$, corresponding to a single point resolution of $100\mu$ over about 200 points, and a dE/dx resolution better than 5\%. One critical issue concerns potential field distortions due to ion accumulation within the chamber. At ILC this can be mitigated by implementing an ion gating between bunch trains, using large aperture GEM foils as shown in Figure~\ref{fig:det:TPC} right: during bunch trains, the voltage difference between the GEM sides is configured to allow electrons cross the GEM and reach the amplification region. Outside bunch trains, the voltage difference is reversed so that ions produced in the gas amplification region stay confined and are guided to the GEM surface where they are absorbed. 
+A distinct feature of ILD is a large volume time projection chamber (Figure~\ref{fig:det:TPC} left). The TPC allows a continuous 3-dimensional tracking, dE/dx-based particle identification and minimum material. The required performance of the TPC as a standalone tracker is a momentum resolution $\sigma(1/p_T)$ better than $10^{-4}$GeV$^{-1}$, corresponding to a single point resolution of $100\mu$ over about 200 points, and a dE/dx resolution better than 5\%. One critical issue concerns potential field distortions due to ion accumulation within the chamber. At ILC this can be mitigated by implementing an ion gating between bunch trains, using large aperture GEM foils as shown in Figure~\ref{fig:det:TPC} right: during bunch trains, the voltage difference between the GEM sides is configured to allow drift electrons cross the GEM and reach the amplification region. Outside bunch trains, the voltage difference is reversed so that ions produced in the gas amplification region stay confined and are guided to the GEM surface where they are absorbed. 
 
 %\thisfloatsetup{floatwidth=\SfigwFull,capposition=beside}
 \begin{figure}[t!]
@@ -249,7 +249,7 @@ For the GEM and Micromegas options, the typical pad sizes are a few mm$^2$ (tabl
 %\begin{tabular}{cc}
 \end{figure}
 
-\subsubsection*{Electromagnetic calorimeter (ECAL)}
+\subsubsection{Electromagnetic calorimeter (ECAL)}
 %\textit{(Brient, Ootani)}
 
 Electromagnetic showers are measured with a compact highly-segmented calorimeter (Figure~\ref{fig:det:ECAL}) with absorber plates made of tungsten. The ECAL barrel shape is octagonal with individual stacks laid such as to avoid projective dead zones in azimuth. The baseline number of layers is 30, with options to reduce the number to 26 or even 22, keeping the amount of radiation lengths identical and increasing the thickness of the sensitive medium to maintain a similar energy resolution for single particles. 
@@ -271,7 +271,7 @@ The sensitive medium consists of silicon sensors with about 5x5 mm$^2$ pads bond
 \end{figure}
 
 
-\subsubsection*{Hadronic calorimeter (HCAL)}
+\subsubsection{Hadronic calorimeter (HCAL)}
 \label{ild:sec:hcal}
 %\textit{(Laktineh, Sefkow)}
 
@@ -304,7 +304,7 @@ The HCAL layers are instrumented with high granularity for an efficient separati
 %\end{figure}
 
 
-\subsubsection*{Very forward detectors (LumiCAL, LHCAL, BeamCAL, ECAL ring)}
+\subsubsection{Very forward detectors (LumiCAL, LHCAL, BeamCAL, ECAL ring)}
 %\textit{(Benhammou, Schuwalow)}
 
 The very forward region in the ILD detector is equipped with dedicated detectors to perform:
@@ -332,10 +332,10 @@ The very forward detectors are based on similar technologies as the ILD electrom
 \label{fig:det:lumical}
 \end{figure}
 
-\subsubsection*{Iron yoke instrumentation}
+\subsubsection{Iron yoke instrumentation}
 %\textit{(Saveliev)}
 
-A large volume superconducting coil surrounds the calorimeters, creating an axial $B$-field of nominally 3.5 Tesla (IDR-L) or 4 Tesla (IDR-S). An iron yoke returns the magnetic flux of the solenoid, and, at the same time, serves as a muon filter, muon detector and tail catcher calorimeter. The baseline structure of the yoke is shown in Figure~\ref{fig:det:yoke} left for a configuration accounting for the maximum stray fields allowed in the push-pull configuration (chapter \ref{chap:ILD}). Optimization of the yoke size is ongoing to minimize the overal cost driven by the amount of iron (section 6.4.2). A number of iron yoke gaps will be instrumented for muon tracking and measurement of the tails of the hadronic showers. The required muon tracking precision is of the order of 1 cm in azimuth and of a few cm longitudinally. The instrumentation is expected to consist of scintillator bars but RPCs are also considered. In the scintillator option the light will be collected by wave length shifting (WLS) fiber readout with SiPMs at both ends~\cite{SavelievSiPM} (Figure~\ref{fig:det:yoke} right top). The WLS fibers will be positioned either in an extruded groove at the center of the large side of the bar (Figure~\ref{fig:det:yoke} right middle), or along the small side of the bar (Figure~\ref{fig:det:yoke} right bottom).  
+A large volume superconducting coil surrounds the calorimeters, creating an axial $B$-field of nominally 3.5 Tesla (IDR-L) or 4 Tesla (IDR-S). An iron yoke returns the magnetic flux of the solenoid, and, at the same time, serves as a muon filter, muon detector and tail catcher calorimeter. The baseline structure of the yoke is shown in Figure~\ref{fig:det:yoke} left for a configuration accounting for the maximum stray fields allowed in the push-pull configuration (chapter \ref{chap:ilc}). Optimization of the yoke size is ongoing to minimize the overal cost driven by the amount of iron (section 6.4.2). A number of iron yoke gaps will be instrumented for muon tracking and measurement of the tails of the hadronic showers. The required muon tracking precision is of the order of 1 cm in azimuth and of a few cm longitudinally. The instrumentation is expected to consist of scintillator bars but RPCs are also considered. In the scintillator option the light will be collected by wave length shifting (WLS) fiber readout with SiPMs at both ends~\cite{SavelievSiPM} (Figure~\ref{fig:det:yoke} right top). The WLS fibers will be positioned either in an extruded groove at the center of the large side of the bar (Figure~\ref{fig:det:yoke} right middle), or along the small side of the bar (Figure~\ref{fig:det:yoke} right bottom).  
 
 %\begin{figure}[t!]
 %\begin{tabular}{cc}

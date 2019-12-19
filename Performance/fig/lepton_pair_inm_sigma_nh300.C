@@ -33,7 +33,7 @@ void lepton_pair_inm_sigma_nh300()
    _stack_1_stack_2->GetXaxis()->SetLabelOffset(0.015);
    _stack_1_stack_2->GetXaxis()->SetLabelSize(0.06);
    _stack_1_stack_2->GetXaxis()->SetTitleSize(0.07);
-   _stack_1_stack_2->GetXaxis()->SetTitleOffset(1);
+   _stack_1_stack_2->GetXaxis()->SetTitleOffset(1.2);
    _stack_1_stack_2->GetXaxis()->SetTitleFont(42);
    _stack_1_stack_2->GetYaxis()->SetTitle("Events/0.01GeV");
    _stack_1_stack_2->GetYaxis()->SetNdivisions(506);
@@ -312,7 +312,7 @@ void lepton_pair_inm_sigma_nh300()
    pfo_input_lepton_obv_sigma_inm1_stack_2_stack_2->Draw("same");
    
    TLegend *leg = new TLegend(0.60,0.60,0.91,0.77,NULL,"brNDC");
-   leg->SetHeader("#splitline{Z #rightarrow #mu^{+} #mu^{-} in e^{+} e^{-} #rightarrow Zh}{with M_{h}=300GeV}");
+   leg->SetHeader("#splitline{Z #rightarrow #mu^{+}#mu^{-} in e^{+}e^{-} #rightarrow ZS^{0}}{with M_{S^{0}} = 300 GeV}");
    leg->SetBorderSize(0);
    leg->SetTextFont(62);
    leg->SetLineColor(1);
@@ -320,6 +320,7 @@ void lepton_pair_inm_sigma_nh300()
    leg->SetLineWidth(2);
    leg->SetFillColor(0);
    leg->SetFillStyle(1001);
+   leg->SetEntrySeparation(0.025);
    TLegendEntry *entry=leg->AddEntry("pfo_input_lepton_obv_sigma_inm0_stack_1_stack_1","IDR-L","l");
    entry->SetLineColor(4);
    entry->SetLineStyle(1);
@@ -338,11 +339,11 @@ void lepton_pair_inm_sigma_nh300()
    entry->SetTextFont(62);
    leg->Draw();
    
-   TPaveText *pt = new TPaveText(0.5055444,1332.823,0.95169,1536.752,"nb");
+   TPaveText *pt = new TPaveText(0.4055444,1352.823,0.97169,1526.752,"nb");
    pt->SetFillColor(0);
    pt->SetLineWidth(2);
    pt->SetTextFont(42);
-   TText *pt_LaTex = pt->AddText("ILD preliminary");
+   TText *pt_LaTex = pt->AddText("ILD");
    pt_LaTex->SetTextColor(1);
    pt_LaTex->SetTextFont(62);
    pt->Draw();
