@@ -17,6 +17,8 @@ void compare_normalized_b()
    c1->SetFrameBorderMode(0);
    c1->SetFrameBorderMode(0);
    
+   TGaxis::SetMaxDigits(4);
+
    TH1F *cosGen_l5__1 = new TH1F("cosGen_l5__1","e_{L}^{-}e_{R}^{+}#rightarrow t#bar{t} @ 500GeV",20,-1,1);
    cosGen_l5__1->SetBinContent(1,6556.452);
    cosGen_l5__1->SetBinContent(2,7015.191);
@@ -364,7 +366,7 @@ void compare_normalized_b()
    leg->SetLineWidth(1);
    leg->SetFillColor(0);
    leg->SetFillStyle(1001);
-   TLegendEntry *entry=leg->AddEntry("cosGen_l5","Parton level","l");
+   TLegendEntry *entry=leg->AddEntry("cosGen_l5","LO EW matrix element - Whizard 1.95","l");
 
    ci = TColor::GetColor("#999999");
    entry->SetLineColor(ci);
@@ -374,6 +376,7 @@ void compare_normalized_b()
    entry->SetMarkerStyle(21);
    entry->SetMarkerSize(1);
    entry->SetTextFont(42);
+   entry->SetTextSize(0.0325);
    entry=leg->AddEntry("cosReco_l5","IDR-L","lep");
 
    ci = TColor::GetColor("#0000ff");
@@ -386,6 +389,7 @@ void compare_normalized_b()
    entry->SetMarkerStyle(21);
    entry->SetMarkerSize(1);
    entry->SetTextFont(42);
+   entry->SetTextSize(0.0325);
    entry=leg->AddEntry("cosReco_s5","IDR-S","lep");
 
    ci = TColor::GetColor("#ff0000");
@@ -397,6 +401,7 @@ void compare_normalized_b()
    entry->SetMarkerColor(ci);
    entry->SetMarkerStyle(22);
    entry->SetMarkerSize(1);
+   entry->SetTextSize(0.0325);
    entry->SetTextFont(42);
    leg->Draw();
    TLatex *   tex = new TLatex(0.8,0.2,"ILD");
@@ -415,7 +420,7 @@ tex->SetNDC();
    pt->SetName("title");
    pt->SetBorderSize(0);
    pt->SetFillStyle(0);
-   AText = pt->AddText("e_{L}^{-}e_{R}^{+}#rightarrow t#bar{t} @ 500GeV");
+   pt->AddText("e_{L}^{-}e_{R}^{+}#rightarrow t#bar{t} @ 500GeV");
    pt->Draw();
    c1->Modified();
    c1->cd();

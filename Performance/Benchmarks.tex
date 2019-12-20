@@ -387,7 +387,7 @@ These results demonstrate the need for development of more sophisticated high-le
 
 Di-fermion production, with or without radiative return to the $Z$ pole, is an integral part of the ILC physics case. In addition, the radiative return events offer an important
 opportunity to cross calibrate the energy scales of various subdetectors. As a detector benchmark, we chose here the example of calibrating the photon energy scale against the momentum scale of the tracker. Thereby, the momenta and angles of the muons as well as the 
-polar and aziumuthal angle of the photon serve as input, from which the energy of the photon and the amount of energy lost in beamstrahlung and collinear ISR are determined by
+polar and azimuthal angle of the photon serve as input, from which the energy of the photon and the amount of energy lost in beamstrahlung and collinear ISR are determined by
 requiring conservation of energy and $p_y$ between initial and final state. It should be stressed that it is not necessary to apply a $Z$ mass constraint, which would introduce an additional uncertainty due to the large natural width of the $Z$ resonance. A full description of this and alternative methods can be found in~\cite{ILDNote:gammaZ}.
  
 
@@ -444,7 +444,7 @@ Resolution of the photon energy when using non-perfectly calibrated PFO-level en
 \label{fig:gammaZ:angles}
 \end{figure}
 
-The resolution of the angular method, i.e.\ the width of the blue distribution in Fig.~\ref{fig:gammaZ:meanE:allE} is shown for IDR-L and IDR-R in Fig.~\ref{fig:gammaZ:sigmaE:rel} as a function of the photon energy. This translates into
+The resolution of the angular method, i.e.\ the width of the blue distribution in Fig.~\ref{fig:gammaZ:meanE:allE} is shown for IDR-L and IDR-S in Fig.~\ref{fig:gammaZ:sigmaE:rel} as a function of the photon energy. This translates into
 an absolute uncertainty on the photon energy scale calibration of about $10$\,MeV for high-energy photons, as shown in Fig.~\ref{fig:gammaZ:sigmaE:abs}. 
 The angular dependencies of the resolution of this method are shown in Fig.~\ref{fig:gammaZ:angles}. As a function of the polar angle, Fig.~\ref{fig:gammaZ:angles:theta} clearly shows the effect of the better momentum resolution of IDR-L for central high-momentum tracks, while in the two most forward bins, the small detector performs better due to its higher magnetic field. As a function of the azimuthal angle, there is no particular region where the performance of the two detector models differs, as can be seen in Fig.~\ref{fig:gammaZ:angles:phi}. The modulation of the resolution with $\phi$ is an effect of using the $p_y$ constraint only, which is the easiest method as the $p_y$ conservation is not influenced by the beam crossing angle. The modulation will be reduced when also $p_x$ balance is exploited e.g.\ in a kinematic fit.
 
@@ -455,7 +455,7 @@ The angular dependencies of the resolution of this method are shown in Fig.~\ref
 %\fix{approved by Roman, joint note with $e^+e^- \to t\bar{t}$ very close to final}
 
 The measurement of the polar angle spectrum and hence of the forward backward asymmetries of $b$-quarks requires to distinguish the $b$-jet from the $\bar{b}$-jet. The two most important techniques for this are the reconstruction of the charge at the secondary vertex, and the identification of charged Kaons in the $b$-decay chain. While the first method requires a complete reconstruction of all tracks from the secondary vertices, the Kaon ID hinges upon a special
-feature of ILD, namely the measurement of the specific energy loss $dE/dx$ in the TPC. In order to arrive at a reliable $b$-charge measurement, a consistent double-tag is required for each event, allowing for all four  possible combinations of the two techniques. All details of the event reconstruction and selection can be found in~\cite{ILDNote:bbtt}.
+feature of ILD, namely the measurement of the specific energy loss $dE/dx$ in the TPC. In order to arrive at a reliable $b$-charge measurement, a consistent double-tag is required for each event, allowing for all four possible combinations of the two techniques: Either each of the two $b$-tagged jets contributes one tag (``K+K'', ``Vtx+Vtx'', ``Vtx+K (diff. jet)''), or both charge tags are found in the same $b$-tagged jet (``Vtx+K (same jet)''). The efficiency of the Kaon identification is compared for both detector models in Fig.~\ref{fig:perf:KaonID} in Sec.~\ref{sec:perf:sys:pid}. All details of the event reconstruction and selection can be found in~\cite{ILDNote:bbtt}.
 
 \begin{figure}[htbp]
 %\begin{center}
@@ -477,10 +477,10 @@ feature of ILD, namely the measurement of the specific energy loss $dE/dx$ in th
 \end{figure}
 
 Figure~\ref{fig:bbbar:effipur:effi} compares the acceptance of the $b$-jet reconstruction for the large and the small version of ILD.
-For $|\cos{\theta_b}|<0.5$, corresponding to a large part of the endcap 
-region, the acceptance of IDR-L if about 1\% larger than for IDR-S. The purity of the four combinations of charge-ID (two methods times two jets) is shown in Fig.~\ref{fig:bbbar:effipur:pur}. While the charge-ID via vertex charge performs identically for both detectors, the Kaon-charge ID yields a higher purity for IDR-L due to the larger radius of the TPC, which improves the $dE/dx$ resolution. 
+For $|\cos{\theta_b}|>0.5$, corresponding to a large part of the endcap 
+region, the acceptance of IDR-L is about 1\% larger than for IDR-S. The purity of the four combinations of charge-ID is shown in Fig.~\ref{fig:bbbar:effipur:pur}. While the charge-ID via vertex charge performs identically for both detectors, the Kaon-charge ID yields a higher purity for IDR-L due to the larger radius of the TPC, which improves the $dE/dx$ resolution. 
 
-The reconstructed  $|\cos{\theta_b}|$ distribution is shown in Fig.~\ref{fig:bbbar:result} for an integrated luminosity of $46$\,fb$^{-1}$ with purely left-handed electrons and right-handed positrons. The distributions obtained for both detectors are compared with the parton level. The results for both detector models agree within the statistical uncertainty corresponding to the size of the simulated sample. However there seems to be a larger migration in case of the small detector model.
+The reconstructed  $|\cos{\theta_b}|$ distribution is shown in Fig.~\ref{fig:bbbar:result} for an integrated luminosity of $46$\,fb$^{-1}$ with purely left-handed electrons and right-handed positrons. The distributions obtained for both detectors are compared with the parton level. The results for both detector models agree within the statistical uncertainty given by the size of the simulated sample. However the migration from larger to smaller $\cos{\theta_b}$ seems to be larger in case of the small detector model.
 
 
 \begin{figure}[htbp]
@@ -496,18 +496,24 @@ The reconstructed  $|\cos{\theta_b}|$ distribution is shown in Fig.~\ref{fig:bbb
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\fix{approved by Roman, joint note with $e^+e^- \to b\bar{b}$ very close to final}
 
-The forward-backward asymmetry and the polarised cross sections of $e^+e^- \to t\bar{t}$ are crucial ingredients to the determination of the couplings of top quark to the photon and the $Z$ boson. 
-As a benchmark, the semi-leptonic channel, which represents 43.5\% of all $t \bar t$ decays has been studied~\cite{ILDNote:bbtt}. In the semi-leptonic decay channel the lepton charge is available to distiguish between the $t$ and the $\bar{t}$ quark. In the fully hadronic case, representing 46.5\% of all $t\bar t$ decays, only vertex and kaon charge is available. It is therefore instructive to study and add events in which also vertex charge and Kaon-ID information have been used, based on the analysis techniques employed for the $e^+e^- \to b\bar{b}$ benchmark described in the previous section.
+The forward-backward asymmetry and the polarised cross sections of $e^+e^- \to t\bar{t}$ are crucial ingredients to the determination of the couplings of top quark to the photon and the $Z$ boson. In the semi-leptonic channel, which represents 43.5\% of all $t \bar t$ decays, the lepton charge is available to distiguish between the $t$ and the $\bar{t}$ quark. In the fully hadronic case, representing 46.5\% of all $t\bar t$ decays, $t$ and the $\bar{t}$ can only be distinguished by identifying the $b$ and $\bar{b}$-jets. For this purpose, the same techniques as presented in the previous subsection can be used, namely the charge at the secondary vertex and the charge of a Kaon in the jet (if present). While these techniques are common between the $e^+e^- \to b\bar{b}$ and $e^+e^- \to t\bar{t}$ cases, the two benchmarks probe very different momentum ranges for the Kaon as well as for the tracks forming the secondary vertex: The $b\bar{b}$ case offers a sample of back-to-back jets with typically $200-250$\,GeV each, while the $t\bar{t}$ case, the majority of the $b(\bar{b})$ jets have momenta of less than $50$\,GeV. Furthermore, the 6-fermion final state presents a much more busy environment than the 2-fermion final state.
+Therefore, the two channels are complementary in terms of evaluating the detector performance. This is for instance reflected by the $5\%$ higher purity of the Kaon ID in case of the $t\bar{t}$ benchmark, c.f.\ Fig.~\ref{fig:perf:KaonID} in Sec.~\ref{sec:perf:sys:pid}.
 
-The purities of several double-tag combinations are compared for the large and small detector models in Fig.~\ref{fig:ttbar:effi}. While the size of the detector has no direct influence on the semi-leptonic analysis, especially the Kaon-ID based methods achieve a higher purity in case of the large detector. 
+As a $t\bar{t}$ benchmark for this document, the semi-leptonic channel was chosen, because it also tests the lepton (charge) reconstruction. Nevertheless, the Kaon and vertex charge tags can be applied on the $b(\bar{b})$-jets in addition. The inclusion of the The full description of the analysis can be found in~\cite{ILDNote:bbtt}. 
 
+Like in the $e^+e^- \to b\bar{b}$ case, an event is considered only if two independent charge tags give consistent information. They can be from the lepton and one of the $b$-tagged jets (``K+L'', ``Vtx+L'') from both $b$-tagged jets (``K+K'', ``Vtx+Vtx'', ``Vtx+K'') or even from the same $b$-tagged jet (``Vtx+K$'$''). The purities of several double-tag combinations are compared for the large and small detector models in Fig.~\ref{fig:ttbar:effi}. While the size of the detector has no direct influence on the semi-leptonic analysis, especially the Kaon-ID based methods achieve a higher purity in case of the large detector. Overall, the combination of all the double-tag methods
+increases the available statistics by about $40\%$ compared to using the lepton charge alone, from $22\%$ to $30\%$. 
 
 \begin{figure}[htbp]
 \begin{center} \includegraphics[width=0.55\textwidth]{Performance/fig/p_value_l5_ele_mu_noLcut-v1.pdf}
 \end{center}
-\caption{Purity of various methods to identify the charge of the $t$/$\bar{t}$ quarks.}
+\caption{Purity of the different double-tag methods to identify the charge of the $t$/$\bar{t}$ quarks. ``Vtx+K'' and `Vtx+K$'$'' refer to the vertex and Kaon charge tags in different jets and in the same jet, respectively. As expected, the double Kaon tag shows the largest difference between the two detector models due to the different TPC radius. \fix{clarify with Roman whether L or L$_{\mathrm{cut}}$ is correct!}}
 \label{fig:ttbar:effi}
 \end{figure}
+
+If the lepton tag is (artificially) ignored, the channel is a perfect proxy for estimating the performance achievable in the fully hadronic channel. The jet-based double-tag methods alone yield an efficiency of about $15\%$. This means that from a future inclusion of the fully hadronic channel in the analysis a $50\%$ increase in the statistics available for the asymmetry and cross-section measurements.
+
+
 
 \begin{figure}[htbp]
 %\begin{center}
@@ -528,7 +534,7 @@ The purities of several double-tag combinations are compared for the large and s
 \label{fig:ttbar:result}
 \end{figure}
 
-The reconstructed  polar angle ($\cos{\theta_t}$) distribution is shown for the purely left-handed electron and purely right-handed positron case in Fig.~\ref{fig:ttbar:costhetat}. Figure~\ref{fig:ttbar:costhetab} shows the polar angle spectrum of the $b$ quark that is emitted from the $t$ decay. This observable has been studied for the first time for the IDR and adds to the physics potential of ILD.  Both, the polar angle spectrum of the $t$ quark and of the $b$ quark, have been compared to the parton level for the two detector models under study. No difference is found here between the two detector models.
+The reconstructed  polar angle ($\cos{\theta_t}$) distribution is shown for the purely left-handed electron and purely right-handed positron case in Fig.~\ref{fig:ttbar:costhetat}. Thereby, $\cos{\theta_t}$ is the polar angle of the three-momentum calculated from the two reconstructed tops as $\vec{p}_{t\bar{t}} = \vec{p}_t-\vec{p}_{\bar t}$. Figure~\ref{fig:ttbar:costhetab} shows the -- analoguously calculated -- polar angle spectrum of the $b$ quark that is emitted from the $t$ decay. This observable has been studied for the first time for the IDR and adds to the physics potential of ILD.  Both, the polar angle spectrum of the $t$ quark and of the $b$ quark,  as reconstructed with the two detector models under study are compared to the leading-order electroweak matrix element prediction. No difference is found here between the two detector models.
  
 \begin{figure}[htbp]
 %\begin{center}
@@ -549,9 +555,9 @@ The reconstructed  polar angle ($\cos{\theta_t}$) distribution is shown for the 
 \label{fig:ttbar:resultRL}
 \end{figure}
 
-The analogous distributions are shown in Fig.~\ref{fig:ttbar:resultRL} for the opposite beam helicity configuration, again compared to the parton level. Also here, no difference is found here between the two detector models.  Note the difference in the polar angle spectra of the $b$ quark between Figs.~\ref{fig:ttbar:costhetab} and~\ref{fig:ttbar:costhetabRL} that are due to the $V-A$ interaction at the $tbW$ vertex.
+The analogous distributions are shown in Fig.~\ref{fig:ttbar:resultRL} for the opposite beam helicity configuration, again compared to the leading-order electroweak matrix element level. Also here, no difference is found here between the two detector models.  Note the difference in the polar angle spectra of the $b$ quark between Figs.~\ref{fig:ttbar:costhetab}, and~\ref{fig:ttbar:costhetabRL} which is due to the $V-A$ interaction at the $tbW$ vertex.
 
-The resulting precisions on the polarised cross sections as well as on $A_{FB}$ as expected for the $P(e^-,e^+)=(\pm 80\%, \mp 30\%)$ data sets are equal for the two detector models as given in Tab.~\ref{tab:AFBtt}.
+The resulting precisions on the polarised cross sections as well as on $A_{FB}$ as expected for the $P(e^-,e^+)=(\pm 80\%, \mp 30\%)$ data sets of ILC500 as defined in Sec.~\ref{sec:benchmarks:lep} are equal for the two detector models as given in Tab.~\ref{tab:AFBtt}.
 
 \begin{table}[htb]
 \begin{center}
@@ -568,12 +574,12 @@ The resulting precisions on the polarised cross sections as well as on $A_{FB}$ 
 \label{tab:AFBtt}   
 \end{table}    
 
-In order to put these results into perspective, these results are translated into $1\sigma$ precisions on the electromagnetic form factors of the top quark. They are displayed in Fig.~\ref{fig:ttbar:formfac} in comparison to the most recent projections for HL-LHC. %and estimates for FCCee~\cite{Janot:2015yza}. 
+In order to put these results into perspective, they have been translated into $1\sigma$ precisions on the electromagnetic form factors of the top quark. These are displayed in Fig.~\ref{fig:ttbar:formfac} in comparison to the most recent projections for HL-LHC. %and estimates for FCCee~\cite{Janot:2015yza}. 
 The projections for HL-LHC are derived from the {\em individual} constraints of EFT Wilson coefficients presented in Tab.\,C2.3 of Ref.~\cite{Durieux:2019rbz} (the most favorable scenario for HL-LHC). This figure clearly demonstrates the superiority of a linear $e^+e^-$ collider with polarised beams operated at an adequate center-of-mass energy.             
 \begin{figure}[htbp]
 \begin{center} \includegraphics[width=0.6\textwidth]{Performance/fig/couplilclhc}
 \end{center}
-\caption{Expected precision on electromagnetic form factors of the top quark from this study compared to HL-LHC.}
+\caption{Expected precision on electromagnetic form factors of the top quark from this study, based on ILC500 as defined in Sec.~\ref{sec:benchmarks:lep}, compared to recent projections for the HL-LHC~\cite{Durieux:2019rbz}.}
 \label{fig:ttbar:formfac}
 \end{figure}
 

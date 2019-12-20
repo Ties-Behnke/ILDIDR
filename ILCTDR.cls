@@ -44,7 +44,7 @@
 % line spacing
 \RequirePackage{setspace}
 \onehalfspacing
-\setlength{\parindent}{20pt}
+\setlength{\parindent}{15pt}
 %
 % infix notation for counter and length
 \RequirePackage{calc}
@@ -319,82 +319,6 @@
 \newcommand{\artitle}[1]{}
 \newcommand{\artitlekeep}[1]{``#1''}
 \newcommand{\booktitle}[1]{``#1''}
-%
-% Commands for Accelerator conferences
-%
-% Conference             Macro
-% SRF89, Tsukuba:   \srfninetynine{pages}{CODE007}{code007.pdf}
-% SRF93, Newport News:   \srfninetythree{pages}{CODE007}{code007.pdf}
-% SRF95, Gif-sur-Yvette:   \srfninetyfive{pages}{CODE007}{code007.pdf}
-% SRF97, Abano Terme, Padua: \srfninetyseven{pages}{CODE007}{code007.pdf}
-% LINAC98, Chicago:   \linacninetyeight{pages}{CODE007}
-% PAC99, New York:   \pacninetynine{pages}{CODE007}
-% SRF99, Santa Fe:   \srfninetynine{pages}{CODE007}{code007.pdf}
-% EPAC00, Vienna:    \epaczero{pages}{CODE007}
-% PAC01, Chicago:       \pacone{pages}{CODE007}
-% SRF01, Tsukuba:   \srfone{pages}{CODE007}{code007.pdf}
-% EPAC02, Paris:       \epactwo{pages}{CODE007}
-% PAC03, Portland:       \pacthree{pages}{CODE007}
-% SRF03, Travemunde:   \srfthree{pages}{CODE007}{code007.pdf}
-% LINAC04, Lubeck:       \linacfour{pages}{CODE007}
-% EPAC04, Lucerne:       \epacfour{pages}{CODE007}
-% PAC05, Knoxville:      \pacfive{pages}{CODE007}
-% SRF05, Cornell:       \srffive{pages}{CODE007}
-% EPAC06, Edinburgh:      \epacsix{pages}{CODE007}
-% LINAC06, Knoxville:    \linacsix{pages}{CODE007}
-% PAC07, Albuquerque:    \pacseven{pages}{CODE007}
-% SRF07, Beijing:       \srfseven{pages}{CODE007}
-% EPAC08, Genoa:      \epaceight{pages}{CODE007}{code007.pdf}
-% LINAC08, Victoria:      \linaceight{pages}{CODE007}{code007.pdf}
-% PAC09, Vancouver:      \pacnine{pages}{CODE007}{code007.pdf}
-% SRF09, Berlin:      \srfnine{pages}{CODE007}{code007.pdf}
-% IPAC10, Kyoto:         \ipacten{pages}{CODE007}{code007.pdf}
-% LINAC10, Tsukuba:      \linacten{pages}{CODE007}{code007.pdf}
-% ECLOUD10, Cornell:     \ecloudten{contribId}{sessionId}
-% FEL11, Shanghai:      \feleleven{pages}{CODE007}{code007.pdf}
-% IPAC11, San Sebastian: \ipaceleven{pages}{CODE007}{code007.pdf}
-% PAC11, New York:     \paceleven{pages}{CODE007}{code007.pdf}
-% SRF11, Chicago:      \srfeleven{pages}{CODE007}{code007.pdf}
-% IPAC12, New Orleans: \ipactwelve{pages}{CODE007}{code007.pdf}
-% LINAC12, Tel-Aviv:   \linactwelve{pages}{CODE007}{code007.pdf}
-%
-
-% Long text version:
-
-%\newcommand{\srfeightynine}[3]{\emph{In the Proceedings of 4th Workshop on RF Superconductivity (SRF'89), Tsukuba, Aug. 14-18, 1989, pp. #1 (\htmladdnormallink{{#2}}{http://accelconf.web.cern.ch/AccelConf/SRF89/papers/#3})}}
-%\newcommand{\srfninetythree}[3]{\emph{In the Proceedings of 6th Workshop on RF Superconductivity (SRF'93), October 4-8, 1993, Newport News, VA, pp. #1 (\htmladdnormallink{{#2}}{http://accelconf.web.cern.ch/AccelConf/SRF93/papers/#3})}}
-%\newcommand{\srfninetyfive}[3]{\emph{In the Proceedings of 7th Workshop on RF Superconductivity (SRF'95), Gif-sur-Yvette, Oct. 17-20, 1995; Part.\ Accel.\ {\bf 53} (1996) #1 (\htmladdnormallink{{#2}}{http://accelconf.web.cern.ch/AccelConf/SRF95/papers/#3})}}
-%\newcommand{\srfninetyseven}[3]{{\it In the Proceedings of 8th Workshop on RF Superconductivity (SRF'97), Abano Terme, Padua, Italy, October 6-10, 1997, Part.\ Accel.\ {\bf 60} (1998) #1 (\htmladdnormallink{{#2}}{http://accelconf.web.cern.ch/AccelConf/SRF97/papers/#3})}}
-% \newcommand{\linacninetyeight}[2]{\emph{In the Proceedings of 19th International Linear Accelerator Conference (Linac 98), Chicago, IL, 23-28 Aug 1998, pp. #1 (\htmladdnormallink{{#2}}{http://accelconf.web.cern.ch/AccelConf/l98/PAPERS/#2.PDF})}}
-% \newcommand{\pacninetynine}[2]{\emph{In the Proceedings of IEEE Particle Accelerator Conference (PAC~99), New York, NY, 29 Mar - 2 Apr 1999, pp. #1 (\htmladdnormallink{{#2}}{http://accelconf.web.cern.ch/AccelConf/p99/PAPERS/#2.PDF})}}
-%\newcommand{\srfninetynine}[3]{\emph{In the Proceedings of 9th Workshop on RF Superconductivity (SRF'99), Santa Fe, NM, Oct 31-Nov 5, 1999, pp. #1 (\htmladdnormallink{{#2}}{http://accelconf.web.cern.ch/AccelConf/SRF99/papers/#3})}}
-%\newcommand{\epaczero}[2]{\emph{In the Proceedings of 7th European Particle Accelerator Conference (EPAC 2000), Vienna, Austria, 26-30 Jun 2000, pp. #1 (\htmladdnormallink{{#2}}{http://accelconf.web.cern.ch/AccelConf/e00/PAPERS/#2.PDF})}}
-%\newcommand{\pacone}[2]{\emph{In the Proceedings of IEEE Particle Accelerator Conference (PAC 2001), Chicago, Illinois, 18-22 Jun 2001, pp. #1 (\htmladdnormallink{{#2}}{http://accelconf.web.cern.ch/AccelConf/p01/PAPERS/#2.PDF})}}
-%\newcommand{\srfone}[3]{\emph{In the Proceedings of 10th Workshop on RF Superconductivity (SRF2001), Tsukuba, Sep. 6-11, 2001, pp. #1 (\htmladdnormallink{{#2}}{http://accelconf.web.cern.ch/AccelConf/SRF2001/papers/#3})}}
-%\newcommand{\epactwo}[2]{\emph{In the Proceedings of 8th European Particle Accelerator Conference (EPAC~2002), Paris, France, 3-7 Jun 2002, pp. #1 (\htmladdnormallink{{#2}}{http://accelconf.web.cern.ch/AccelConf/e02/papers/#2.PDF})}}
-%\newcommand{\pacthree}[2]{\emph{In the Proceedings of Particle Accelerator Conference (PAC~03), Portland, OR, 12-16 May 2003, pp. #1 (\htmladdnormallink{{#2}}{http://accelconf.web.cern.ch/AccelConf/p03/PAPERS/#2.PDF})}}
-%\newcommand{\srfthree}[2]{\emph{In the Proceedings of 11th Workshop on RF Superconductivity (SRF~2003), Travem\"unde, Germany, Sep. 8-11, 2003, pp. #1 (\htmladdnormallink{{#2}}{http://accelconf.web.cern.ch/AccelConf/SRF2003/papers/#2.PDF})}}
-%\newcommand{\linacfour}[2]{\emph{In the Proceedings of 22nd International Linear Accelerator Conference (LINAC 2004), L\"ubeck, Germany, Aug. 16-20, 2004, pp. #1 (\htmladdnormallink{{#2}}{http://accelconf.web.cern.ch/AccelConf/l04/papers/#2.PDF})}}
-%\newcommand{\epacfour}[2]{\emph{In the Proceedings of 9th European Particle Accelerator Conference (EPAC~04), Lucerne,  Switzerland, 5-9 Jul 2004, pp. #1 (\htmladdnormallink{{#2}}{http://accelconf.web.cern.ch/AccelConf/e04/papers/#2.PDF})}}
-%\newcommand{\pacfive}[2]{\emph{In the Proceedings of Particle Accelerator Conference (PAC~05), Knoxville, TN, 16-20 May 2005, pp. #1 (\htmladdnormallink{{#2}}{http://accelconf.web.cern.ch/AccelConf/p05/PAPERS/#2.PDF})}}
-%\newcommand{\srffive}[3]{\emph{In the Proceedings of 12th International Workshop on RF Superconductivity (SRF~2005), Cornell, Ithaca, NY, Jul. 10-15, 2005, pp. #1 (\htmladdnormallink{{#2}}{http://accelconf.web.cern.ch/AccelConf/SRF2005/papers/#3})}}
-%\newcommand{\epacsix}[2]{\emph{In the Proceedings of 10th European Particle Accelerator Conference (EPAC~06), Edinburgh, Scotland, 26-30 Jun 2006, pp. #1 (\htmladdnormallink{{#2}}{http://accelconf.web.cern.ch/AccelConf/e06/papers/#2.PDF})}}
-%\newcommand{\linacsix}[2]{\emph{In the Proceedings of 23rd International Linear Accelerator Conference (LINAC~06), Knoxville, TN, Aug. 21�25, 2006, pp. #1 (\htmladdnormallink{{#2}}{http://accelconf.web.cern.ch/AccelConf/l06/PAPERS/#2.PDF})}}
-%\newcommand{\pacseven}[2]{\emph{In the Proceedings of  Particle Accelerator Conference (PAC~07), Albuquerque, NM, 25-29 Jun 2007, pp. #1 (\htmladdnormallink{{#2}}{http://accelconf.web.cern.ch/AccelConf/p07/PAPERS/#2.PDF})}}
-%\newcommand{\srfseven}[2]{\emph{In the Proceedings of13th International Conference on RF Superconductivity (SRF~2007), Beijing, China, Oct. 14-19, 2007, pp. #1 (\htmladdnormallink{{#2}}{http://accelconf.web.cern.ch/AccelConf/SRF2007/papers/#2.PDF})}}
-%\newcommand{\epaceight}[3]{\emph{In the Proceedings of 11th European Particle Accelerator Conference (EPAC~08), Magazzini del Cotone, Genoa, Italy, 23-27 Jun 2008, pp. #1 (\htmladdnormallink{{#2}}{http://accelconf.web.cern.ch/AccelConf/e08/papers/#3})}}
-%\newcommand{\linaceight}[3]{\emph{In the Proceedings of 24th International Linear Accelerator Conference (LINAC~08), Victoria, BC, Sep. 29 - Oct. 3, 2008, pp. #1 (\htmladdnormallink{{#2}}{http://accelconf.web.cern.ch/AccelConf/LINAC08/papers/#3})}}
-%\newcommand{\pacnine}[3]{\emph{In the Proceedings of Particle Accelerator Conference (PAC~09), Vancouver, BC, Canada, 4-8 May 2009, pp. #1 (\htmladdnormallink{{#2}}{http://accelconf.web.cern.ch/AccelConf/PAC2009/papers/#3})}}
-%\newcommand{\srfnine}[3]{\emph{In the Proceedings of 14th International Conference on RF Superconductivity (SRF~2009), Berlin, Germany, Sep. 20-25, 2009, pp. #1 (\htmladdnormallink{{#2}}{http://accelconf.web.cern.ch/AccelConf/SRF2009/papers/#3})}}
-%\newcommand{\ipacten}[3]{\emph{In the Proceedings of 1st International Particle Accelerator Conference (IPAC'10), Kyoto, Japan, 23-28 May 2010, pp. #1 (\htmladdnormallink{{#2}}{http://accelconf.web.cern.ch/AccelConf/IPAC10/papers/#3})}}
-%\newcommand{\linacten}[3]{\emph{In the Proceedings of 25th International Linear Accelerator Conference (LINAC~10), Tsukuba, Japan, Sep. 12-17, 2010, pp. #1 (\htmladdnormallink{{#2}}{http://accelconf.web.cern.ch/AccelConf/LINAC10/papers/#3})}}
-%\newcommand{\ecloudten}[2]{\emph{To appear in the Proceedings of 49th ICFA Beam Dynamics Workshop on Electron Cloud Physics ECLOUD'10, Cornell, Ithaca, NY, Oct. 8-12, 2010, (\htmladdnormallink{{slides}}{http://edms.classe.cornell.edu/agenda/contributionDisplay.py?contribId=#1&sessionId=#2&confId=10})}}
-%\newcommand{\feleleven}[3]{\emph{In the Proceedings of 33rd International Free Electron Laser Conference (FEL'11), Shanghai, China, 22-26 Aug 2011, pp. #1 (\htmladdnormallink{{#2}}{http://accelconf.web.cern.ch/AccelConf/FEL2011/papers/#3})}}
-%\newcommand{\ipaceleven}[3]{\emph{In the Proceedings of 2nd International Particle Accelerator Conference (IPAC~2011), San Sebastian, Spain, 4-9 Sep 2011, pp. #1 (\htmladdnormallink{{#2}}{http://accelconf.web.cern.ch/AccelConf/IPAC2011/papers/#3})}}
-%\newcommand{\paceleven}[3]{\emph{In the Proceedings of Particle Accelerator Conference (PAC~11), New York, NY, 28 Mar--1 Apr, 2011, pp. #1 (\htmladdnormallink{{#2}}{http://accelconf.web.cern.ch/AccelConf/PAC2009/papers/#3})}}
-%\newcommand{\srfeleven}[3]{\emph{In the Proceedings of 15th International Conference on RF Superconductivity (SRF~2011), Chicago, IL, Jul. 25-29, 2011, pp. #1 (\htmladdnormallink{{#2}}{http://accelconf.web.cern.ch/AccelConf/SRF2011/papers/#3})}}
-%\newcommand{\ipactwelve}[3]{\emph{In the Proceedings of 3rd International Particle Accelerator Conference (IPAC'12), New Orleans, LA, May 20 - 25, 2012, pp. #1 (\htmladdnormallink{{#2}}{http://accelconf.web.cern.ch/AccelConf/IPAC2012/papers/#3})}}
-%\newcommand{\linactwelve}[3]{\emph{In the Proceedings of 26th International Linear Accelerator Conference (LINAC~12), Tel-Aviv, Israel, Sep. 9-14, 2012, pp. #1 (\htmladdnormallink{{#2}}{http://accelconf.web.cern.ch/AccelConf/LINAC12/papers/#3})}}
 
 % Concise version:
 
