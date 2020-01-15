@@ -37,7 +37,7 @@ The optimal performance in a physics study can be achieved by retraining the BDT
 The correct identification of $\tau$ lepton decay modes is of particular importance in the extraction of observables sensitive to the $\tau$ lepton spin direction: examples are measurements of the $\tau$ polarisation and Higgs CP based on spin correlations in $H \to \tau \tau$ decays.
 Hadronic $\tau$ decays typically offer the highest sensitivity to the spin, due the presence of a single neutrino. 
 The identification of these hadronic decay modes can be factorised into the charged and neutral components. 
-The charged part is typically rather straight-forward in the TPC of ILD, so we concentrate efforts on understanding the identification of the neutral part, which consists largely of photons from neutral pion (and to a lesser extent other neutral meson) decays. 
+We focus here in particular on understanding the identification of the neutral part, which consists largely of photons from neutral pion (and to a lesser extent other neutral meson) decays. 
 In the decays of highly boosted taus, these photons are typically rather close to both a charged particle and one or more additional photons produced in the same $\tau$ decay. 
 The separation between these photons in the calorimeter depends on its inner radius, while the distance to charged particles additionally depends on the magnetic field strength. 
 We can therefore expect some differences in performance for the large and small ILD detector models.
@@ -46,7 +46,7 @@ The performance of $\tau$ decay mode identification was studied in $\tau$-pair p
 These very highly boosted $\tau$ decays are the most challenging to reconstruct due to the small distance between particles in the highly collimated $\tau$ decay jets.
 The standard ILD reconstruction algorithms were applied to these events.
 
-In each event, two high momentum, back-to-back, charged \emph{particle flow objects  (PFOs)} were identified as $\tau$ jet "seeds". Figure~\ref{fig:HLR-tauID} shows the number of photon PFOs identified in a cone around these $\tau$ seed tracks, in the case when the $\tau$ lepton decayed to $\pi^\pm \pi^0 \nu$.
+In each event, two high momentum, back-to-back, charged \emph{particle flow objects (PFOs)} were identified as $\tau$ jet "seeds". Figure~\ref{fig:HLR-tauID} shows the number of photon PFOs identified in a cone around these $\tau$ seed tracks, in the case when the $\tau$ lepton decayed to $\pi^\pm \pi^0 \nu$.
 In these events, exactly two photons are expected in the vast majority of cases. 
 The distribution shows that it is challenging to reconstruct both photons: in around half of the cases only a single photon cluster was reconstructed, which is due to the merging of the two photons into a single reconstructed particle. 
 A difference is seen between the two detector models, with the large version somewhat more often correctly resolving the two photons, which can be understood as being due to the larger ECAL radius increasing the distance between the photons' electromagnetic showers.
@@ -83,20 +83,20 @@ interest in case the ILC will be operated at the $Z$ pole, but also at higher en
 once this potential is fully exploited in reconstruction and analyses. This is an area where new algorithmic developments could still lead to a significant improvement
 of the ILD performance.
 
-At the current stage, we only provide a very simple example, namely the reconstruction of $J/\psi \to \mu^+\mu^-$ decays. Due to its extremely well-known mass (known to 3.6\,ppm~\cite{Tanabashi:2018oca}), the $J/\psi$ is an important standard candle, e.g.\ for calibration of the tracker momentum scale.
+At the current stage, we only provide a very simple example as a proof of principle, namely the reconstruction of $J/\psi \to \mu^+\mu^-$ decays. Due to its extremely well-known mass (known to 3.6\,ppm~\cite{Tanabashi:2018oca}), the $J/\psi$ is an important standard candle, e.g.\ for calibration of the tracker momentum scale.
 
 \begin{figure}[htbp]
 \begin{center}
  \includegraphics[width=0.75\textwidth]{Performance/fig/JPsi_InvMassS5_vs_L5.pdf}
 \end{center}
-\caption{$J/\psi \to \mu^+\mu^-$ candidates as reconstructed with IDR-L and IDR-S.}
+\caption{$J/\psi \to \mu^+\mu^-$ candidates as reconstructed with IDR-L and IDR-S for ILC500 as defined in Sec.~\ref{sec:benchmarks:lep}.}
 \label{fig:hlr:jpsi}
 \end{figure}
 
 Figure~\ref{fig:hlr:jpsi} shows the invariant mass spectrum of reconstructed muon pairs in the $J/\psi$ region, comparing the large and small detector. All available
-SM MC events from the optimisation production at $\sqrt{s}=500$\,GeV have been used and weighted to the full luminosity of $4$\,ab$^{-1}$ with the canonical sharing between the polarisation configurations. The combinatorial background has been determined from like-sign muon pairs and has been subtracted from the opposite-sign pairs, leading to the fluctuations around zero in the off-peak regions.
+SM MC events from the optimisation production at $\sqrt{s}=500$\,GeV (c.f.\ Sec.~\ref{chap:modelling}) have been used and weighted to the ILC500 conditions as defined in Sec.~\ref{sec:benchmarks:lep}. The combinatorial background has been determined from like-sign muon pairs and has been subtracted from the opposite-sign pairs, leading to the fluctuations around zero in the off-peak regions.
 At $500$\,GeV, most $J/\psi$ candidates are produced in the forward direction, with $|\cos{\theta}|>0.8$ and at rather low transverse momenta, typically below $30$\,GeV.
-Therefore, the small detector has a smaller acceptance than the large detector, with about $10$k vs $12$k recontructed $J/\psi$'s compared to about $20$k available at generator level. On the other hand, the better momentum resolution of the small detector in the forward region leads to a narrower peak.
+Due to the larger $B$-field, the small detector has a smaller acceptance at low $p_t$ than the large detector, with about $10$k vs $12$k recontructed $J/\psi$'s compared to about $20$k available at generator level. On the other hand, the better momentum resolution of the small detector in the forward region leads to a more narrow peak.
 % \fix{
 % \begin{itemize}
 % \item $\Lambda^+_c \to pK^- \pi^+$

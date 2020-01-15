@@ -197,7 +197,7 @@ void IDR3EResolutionPhi()
    ci = TColor::GetColor("#00ccff");
    gre->SetMarkerColor(ci);
    gre->SetMarkerStyle(21);
-   gre->SetMarkerSize(0.7);
+   gre->SetMarkerSize(0.9);
    
    TH1F *Graph_Graph1001 = new TH1F("Graph_Graph1001","",100,-3.675663,3.675663);
    Graph_Graph1001->SetMinimum(0);
@@ -819,7 +819,7 @@ void IDR3EResolutionPhi()
    ci = TColor::GetColor("#ff3399");
    gre->SetMarkerColor(ci);
    gre->SetMarkerStyle(21);
-   gre->SetMarkerSize(0.7);
+   gre->SetMarkerSize(0.9);
    
    TH1F *Graph_Graph1004 = new TH1F("Graph_Graph1004","Graph",100,-3.675663,3.675663);
    Graph_Graph1004->SetMinimum(0.00980107);
@@ -852,7 +852,7 @@ void IDR3EResolutionPhi()
    
    gre->Draw("p ");
    
-   TLegend *leg = new TLegend(0.55,0.72,0.94,0.9,NULL,"brNDC");
+   TLegend *leg = new TLegend(0.50,0.72,0.9,0.9,NULL,"brNDC");
    leg->SetBorderSize(0);
    leg->SetTextFont(62);
    leg->SetTextSize(0.03787879);
@@ -869,7 +869,7 @@ void IDR3EResolutionPhi()
    ci = TColor::GetColor("#00ccff");
    entry->SetMarkerColor(ci);
    entry->SetMarkerStyle(21);
-   entry->SetMarkerSize(0.7);
+   entry->SetMarkerSize(0.9);
    entry->SetTextFont(62);
    entry=leg->AddEntry("Graph3","PFO IDR-S","p");
    entry->SetLineColor(1);
@@ -879,7 +879,7 @@ void IDR3EResolutionPhi()
    ci = TColor::GetColor("#ff3399");
    entry->SetMarkerColor(ci);
    entry->SetMarkerStyle(21);
-   entry->SetMarkerSize(0.7);
+   entry->SetMarkerSize(0.9);
    entry->SetTextFont(62);
    entry=leg->AddEntry("Graph1","Ang. Method IDR-L","p");
    entry->SetLineColor(1);
@@ -898,8 +898,9 @@ void IDR3EResolutionPhi()
    entry->SetMarkerSize(0.9);
    entry->SetTextFont(62);
    leg->Draw();
-   TLatex *   tex = new TLatex(-3.05,0.027,"ILD preliminary");
+   TLatex *   tex = new TLatex(-2.5,0.025,"ILD");
    tex->SetLineWidth(2);
+   tex->SetTextSize(0.075);
    tex->Draw();
    c148->Modified();
    c148->cd();

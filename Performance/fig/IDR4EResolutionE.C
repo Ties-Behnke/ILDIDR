@@ -1,4 +1,4 @@
-void IDR42EResolutionE()
+void IDR4EResolutionE()
 {
 //=========Macro generated from canvas: c38/c38
 //=========  (Wed May  1 00:26:23 2019) by ROOT version6.08/06
@@ -61,7 +61,7 @@ void IDR42EResolutionE()
    ci = TColor::GetColor("#00ccff");
    gre->SetMarkerColor(ci);
    gre->SetMarkerStyle(21);
-   gre->SetMarkerSize(0.7);
+   gre->SetMarkerSize(0.9);
    
    TH1F *Graph_Graph1001 = new TH1F("Graph_Graph1001","",100,109,271);
    Graph_Graph1001->SetMinimum(-0);
@@ -137,7 +137,7 @@ void IDR42EResolutionE()
    ci = TColor::GetColor("#ff0099");
    gre->SetMarkerColor(ci);
    gre->SetMarkerStyle(21);
-   gre->SetMarkerSize(0.7);
+   gre->SetMarkerSize(0.9);
    
    TH1F *Graph_Graph1002 = new TH1F("Graph_Graph1002","Graph",100,109,271);
    Graph_Graph1002->SetMinimum(0.01026948);
@@ -308,7 +308,7 @@ void IDR42EResolutionE()
    
    gre->Draw("p ");
    
-   TLegend *leg = new TLegend(0.55,0.63,0.81,0.81,NULL,"brNDC");
+   TLegend *leg = new TLegend(0.5,0.675,0.8,0.875,NULL,"brNDC");
    leg->SetBorderSize(0);
    leg->SetTextFont(62);
    leg->SetTextSize(0.04);
@@ -325,7 +325,7 @@ void IDR42EResolutionE()
    ci = TColor::GetColor("#00ccff");
    entry->SetMarkerColor(ci);
    entry->SetMarkerStyle(21);
-   entry->SetMarkerSize(0.7);
+   entry->SetMarkerSize(0.9);
    entry->SetTextFont(62);
    entry=leg->AddEntry("Graph1","PFO IDR-S","p");
    entry->SetLineColor(1);
@@ -335,7 +335,7 @@ void IDR42EResolutionE()
    ci = TColor::GetColor("#ff0099");
    entry->SetMarkerColor(ci);
    entry->SetMarkerStyle(21);
-   entry->SetMarkerSize(0.7);
+   entry->SetMarkerSize(0.9);
    entry->SetTextFont(62);
    entry=leg->AddEntry("Graph2","Ang. Method IDR-L","p");
    entry->SetLineColor(1);
@@ -354,8 +354,9 @@ void IDR42EResolutionE()
    entry->SetMarkerSize(0.9);
    entry->SetTextFont(62);
    leg->Draw();
-   TLatex *   tex = new TLatex(185,0.0353,"ILD preliminary");
+   TLatex *   tex = new TLatex(130,0.034,"ILD");
    tex->SetLineWidth(2);
+   tex->SetTextSize(0.075);
    tex->Draw();
    c38->Modified();
    c38->cd();

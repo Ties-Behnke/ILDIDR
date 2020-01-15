@@ -1,4 +1,4 @@
-void IDR52ECentervalueE()
+void IDR5ECentervalueE()
 {
 //=========Macro generated from canvas: c38/c38
 //=========  (Wed May  1 00:07:23 2019) by ROOT version6.08/06
@@ -61,7 +61,7 @@ void IDR52ECentervalueE()
    ci = TColor::GetColor("#00ccff");
    gre->SetMarkerColor(ci);
    gre->SetMarkerStyle(21);
-   gre->SetMarkerSize(0.7);
+   gre->SetMarkerSize(0.9);
    
    TH1F *Graph_Graph1001 = new TH1F("Graph_Graph1001","",100,107,273);
    Graph_Graph1001->SetMinimum(-0.01);
@@ -70,7 +70,7 @@ void IDR52ECentervalueE()
    Graph_Graph1001->SetStats(0);
    Graph_Graph1001->SetLineWidth(3);
    Graph_Graph1001->SetMarkerStyle(21);
-   Graph_Graph1001->SetMarkerSize(0.5);
+   Graph_Graph1001->SetMarkerSize(0.9);
    Graph_Graph1001->GetXaxis()->SetTitle("E_{#gamma} [GeV]");
    Graph_Graph1001->GetXaxis()->SetRange(5,96);
    Graph_Graph1001->GetXaxis()->SetNdivisions(506);
@@ -136,8 +136,8 @@ void IDR52ECentervalueE()
 
    ci = TColor::GetColor("#33cc33");
    gre->SetMarkerColor(ci);
-   gre->SetMarkerStyle(21);
-   gre->SetMarkerSize(0.7);
+   gre->SetMarkerStyle(22);
+   gre->SetMarkerSize(0.9);
    
    TH1F *Graph_Graph1002 = new TH1F("Graph_Graph1002","Graph",100,107,273);
    Graph_Graph1002->SetMinimum(-0.01);
@@ -145,8 +145,8 @@ void IDR52ECentervalueE()
    Graph_Graph1002->SetDirectory(0);
    Graph_Graph1002->SetStats(0);
    Graph_Graph1002->SetLineWidth(3);
-   Graph_Graph1002->SetMarkerStyle(21);
-   Graph_Graph1002->SetMarkerSize(0.5);
+   Graph_Graph1002->SetMarkerStyle(22);
+   Graph_Graph1002->SetMarkerSize(0.9);
    Graph_Graph1002->GetXaxis()->SetNdivisions(506);
    Graph_Graph1002->GetXaxis()->SetLabelFont(42);
    Graph_Graph1002->GetXaxis()->SetLabelOffset(0.015);
@@ -205,7 +205,7 @@ void IDR52ECentervalueE()
    gre->SetLineColor(4);
    gre->SetLineWidth(3);
    gre->SetMarkerColor(4);
-   gre->SetMarkerStyle(22);
+   gre->SetMarkerStyle(20);
    gre->SetMarkerSize(0.9);
    
    TH1F *Graph_Graph1003 = new TH1F("Graph_Graph1003","Graph",100,107,273);
@@ -214,8 +214,8 @@ void IDR52ECentervalueE()
    Graph_Graph1003->SetDirectory(0);
    Graph_Graph1003->SetStats(0);
    Graph_Graph1003->SetLineWidth(3);
-   Graph_Graph1003->SetMarkerStyle(21);
-   Graph_Graph1003->SetMarkerSize(0.5);
+   Graph_Graph1003->SetMarkerStyle(20);
+   Graph_Graph1003->SetMarkerSize(0.9);
    Graph_Graph1003->GetXaxis()->SetNdivisions(506);
    Graph_Graph1003->GetXaxis()->SetLabelFont(42);
    Graph_Graph1003->GetXaxis()->SetLabelOffset(0.015);
@@ -239,7 +239,7 @@ void IDR52ECentervalueE()
    
    gre->Draw("p ");
    
-   TLegend *leg = new TLegend(0.6,0.65,0.93,0.85,NULL,"brNDC");
+   TLegend *leg = new TLegend(0.6,0.675,0.93,0.875,NULL,"brNDC");
    leg->SetBorderSize(0);
    leg->SetTextFont(62);
    leg->SetTextSize(0.03787879);
@@ -248,38 +248,46 @@ void IDR52ECentervalueE()
    leg->SetLineWidth(3);
    leg->SetFillColor(0);
    leg->SetFillStyle(1001);
+   
    TLegendEntry *entry=leg->AddEntry("Graph2","Ang. Method","p");
    entry->SetLineColor(1);
    entry->SetLineStyle(1);
    entry->SetLineWidth(1);
    entry->SetMarkerColor(4);
-   entry->SetMarkerStyle(22);
+   entry->SetMarkerStyle(20);
    entry->SetMarkerSize(0.9);
    entry->SetTextFont(62);
+   
    entry=leg->AddEntry("Graph0","PFO","p");
    entry->SetLineColor(1);
    entry->SetLineStyle(1);
    entry->SetLineWidth(1);
-
    ci = TColor::GetColor("#00ccff");
    entry->SetMarkerColor(ci);
    entry->SetMarkerStyle(21);
-   entry->SetMarkerSize(0.7);
+   entry->SetMarkerSize(0.9);
    entry->SetTextFont(62);
+   
    entry=leg->AddEntry("Graph1","Calibrated PFO","p");
    entry->SetLineColor(1);
    entry->SetLineStyle(1);
    entry->SetLineWidth(1);
-
    ci = TColor::GetColor("#33cc33");
    entry->SetMarkerColor(ci);
-   entry->SetMarkerStyle(21);
-   entry->SetMarkerSize(0.7);
+   entry->SetMarkerStyle(22);
+   entry->SetMarkerSize(0.9);
    entry->SetTextFont(62);
+   
    leg->Draw();
-   TLatex *   tex = new TLatex(190,0.036,"ILD preliminary");
+   
+   TLatex *   tex = new TLatex(140,0.032,"ILD");
+   tex->SetTextSize(0.075);
    tex->SetLineWidth(2);
    tex->Draw();
+   TLatex *   tex2 = new TLatex(140,0.025,"IDR-L");
+   tex2->SetLineWidth(2);
+   tex2->SetTextSize(0.05);
+   tex2->Draw();
    c38->Modified();
    c38->cd();
    c38->SetSelected(c38);

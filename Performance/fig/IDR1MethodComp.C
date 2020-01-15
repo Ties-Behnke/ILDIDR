@@ -401,8 +401,8 @@ void IDR1MethodComp()
 
    ci = TColor::GetColor("#0033ff");
    h09l__1->SetMarkerColor(ci);
-   h09l__1->SetMarkerStyle(21);
-   h09l__1->SetMarkerSize(0.5);
+   h09l__1->SetMarkerStyle(20);
+   h09l__1->SetMarkerSize(0.9);
    h09l__1->GetXaxis()->SetTitle("(E_{#gamma}-E_{#gamma}^{MC})/E_{#gamma}^{MC}");
    h09l__1->GetXaxis()->SetNdivisions(506);
    h09l__1->GetXaxis()->SetLabelFont(42);
@@ -743,7 +743,7 @@ void IDR1MethodComp()
    ci = TColor::GetColor("#00ccff");
    h08l__2->SetMarkerColor(ci);
    h08l__2->SetMarkerStyle(21);
-   h08l__2->SetMarkerSize(0.5);
+   h08l__2->SetMarkerSize(0.9);
    h08l__2->GetXaxis()->SetNdivisions(506);
    h08l__2->GetXaxis()->SetLabelFont(42);
    h08l__2->GetXaxis()->SetLabelOffset(0.015);
@@ -1063,8 +1063,8 @@ void IDR1MethodComp()
 
    ci = TColor::GetColor("#33cc33");
    h10l__3->SetMarkerColor(ci);
-   h10l__3->SetMarkerStyle(21);
-   h10l__3->SetMarkerSize(0.5);
+   h10l__3->SetMarkerStyle(22);
+   h10l__3->SetMarkerSize(0.9);
    h10l__3->GetXaxis()->SetNdivisions(506);
    h10l__3->GetXaxis()->SetLabelFont(42);
    h10l__3->GetXaxis()->SetLabelOffset(0.015);
@@ -1102,8 +1102,8 @@ void IDR1MethodComp()
 
    ci = TColor::GetColor("#0033ff");
    entry->SetMarkerColor(ci);
-   entry->SetMarkerStyle(21);
-   entry->SetMarkerSize(0.5);
+   entry->SetMarkerStyle(20);
+   entry->SetMarkerSize(0.9);
    entry->SetTextFont(62);
    entry=leg->AddEntry("h08l","PFO","p");
    entry->SetLineColor(1);
@@ -1113,7 +1113,7 @@ void IDR1MethodComp()
    ci = TColor::GetColor("#00ccff");
    entry->SetMarkerColor(ci);
    entry->SetMarkerStyle(21);
-   entry->SetMarkerSize(0.5);
+   entry->SetMarkerSize(0.9);
    entry->SetTextFont(62);
    entry=leg->AddEntry("h10l","Calibrated PFO","p");
    entry->SetLineColor(1);
@@ -1122,13 +1122,20 @@ void IDR1MethodComp()
 
    ci = TColor::GetColor("#33cc33");
    entry->SetMarkerColor(ci);
-   entry->SetMarkerStyle(21);
-   entry->SetMarkerSize(0.5);
+   entry->SetMarkerStyle(22);
+   entry->SetMarkerSize(0.9);
    entry->SetTextFont(62);
    leg->Draw();
-   TLatex *   tex = new TLatex(-0.19,26000,"ILD preliminary");
+   
+   TLatex *   tex = new TLatex(-0.16,26000,"ILD");
    tex->SetLineWidth(2);
+   tex->SetTextSize(0.075);
    tex->Draw();
+   TLatex *   tex2 = new TLatex(-0.16,21000,"IDR-L");
+   tex2->SetLineWidth(2);
+   tex2->SetTextSize(0.05);
+   tex2->Draw();
+   
    c1->Modified();
    c1->cd();
    c1->SetSelected(c1);

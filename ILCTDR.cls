@@ -28,7 +28,8 @@
 \RequirePackage[latin1]{inputenc}
 \RequirePackage[english]{babel}
 %
-\RequirePackage[letterpaper,asymmetric,bindingoffset=36pt,left=108pt,right=54pt,top=41pt,bottom=41pt,headsep=13pt,headheight=14pt,footskip=23pt,marginparwidth=72pt]{geometry}
+%\RequirePackage[letterpaper,asymmetric,bindingoffset=36pt,left=108pt,right=54pt,top=41pt,bottom=41pt,headsep=13pt,headheight=14pt,footskip=23pt,marginparwidth=72pt]{geometry}
+\RequirePackage[letterpaper,asymmetric,bindingoffset=36pt,left=78pt,right=78pt,top=41pt,bottom=41pt,headsep=13pt,headheight=14pt,footskip=23pt,marginparwidth=72pt]{geometry}
 \RequirePackage[usenames,dvipsnames,svgnames,table]{xcolor}
 %
 % headings
@@ -427,8 +428,11 @@
 \fancyhead[RO]{\scriptsize\nouppercase{\rightmark}}
 %\fancyfootoffset[LE]{\marginparwidth}
 \fancyfootoffset[LE,RO]{\marginparwidth}
-\fancyfoot[LE]{\scriptsize\makebox[\marginparwidth]{\hfill\thepage\qquad}\pubtitle: Volume \Roman{volume}\ifdefempty{\parttitle}{}{, \partname\ \Roman{part}}}
-\fancyfoot[RO]{\scriptsize\pubtitle: Volume \Roman{volume}\ifdefempty{\parttitle}{}{, \partname\ \Roman{part}}\makebox[\marginparwidth]{\qquad\thepage\hfill}}
+%\fancyfoot[LE]{\scriptsize\makebox[\marginparwidth]{\hfill\thepage\qquad}\pubtitle \Roman{volume}\ifdefempty{\parttitle}{}{, \partname\ \Roman{part}}}
+\fancyfoot[RO]{\scriptsize\pubtitle: \Roman{volume}\ifdefempty{\parttitle}{}{, \partname\ \Roman{part}}\makebox[\marginparwidth]{\qquad\thepage\hfill}}
+
+
+
 \fancyfoot[LO]{\scriptsize\volumetitle\ifdefempty{\parttitle}{}{: \parttitle}}
 %\fancyfoot[CE]{\footnotesize{ILC Technical Design Report: Volume I}}
 %\fancyfoot[CO]{\footnotesize\partname\ \thepart:\ \parttitle}

@@ -1,4 +1,4 @@
-void IDR63EScaleUncertainty()
+void IDR6EScaleUncertainty()
 {
 //=========Macro generated from canvas: c39/c39
 //=========  (Mon Jun  3 01:00:29 2019) by ROOT version6.08/06
@@ -61,7 +61,7 @@ void IDR63EScaleUncertainty()
    ci = TColor::GetColor("#0000ff");
    gre->SetMarkerColor(ci);
    gre->SetMarkerStyle(21);
-   gre->SetMarkerSize(0.7);
+   gre->SetMarkerSize(0.9);
    
    TH1F *Graph_Graph1001 = new TH1F("Graph_Graph1001","",100,109,271);
    Graph_Graph1001->SetMinimum(0);
@@ -168,11 +168,12 @@ void IDR63EScaleUncertainty()
    gre->SetHistogram(Graph_Graph1002);
    
    gre->Draw("p ");
-   TLatex *   tex = new TLatex(190,88,"ILD preliminary");
+   TLatex *   tex = new TLatex(220,85,"ILD");
+   tex->SetTextSize(0.075);
    tex->SetLineWidth(2);
    tex->Draw();
    
-   TLegend *leg = new TLegend(0.75,0.72,0.9,0.81,NULL,"brNDC");
+   TLegend *leg = new TLegend(0.675,0.675,0.85,0.775,NULL,"brNDC");
    leg->SetBorderSize(0);
    leg->SetTextFont(62);
    leg->SetTextSize(0.04);

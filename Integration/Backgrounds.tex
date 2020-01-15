@@ -10,11 +10,19 @@ Beamstrahlung photons are radiated from the ILC beam particles in the interactio
 These effects have been quantified for the updated 250 GeV ILC conditions (ILC250, see Section~\ref{ild:sec:ilc}), using a full simulation of the beamstrahlung particle production and of their tracking within ILD~\cite{ild:bib:Machine_Backgrounds}. Special care has been taken to ensure stable results by adapting the GEANT4 tracking parameters to low energy particles. A realistic field map of both solenoid and anti-DID fields has been used. The response of the most affected detector, the BeamCAL, is shown in Figure~\ref{fig:integration:beamcal} with and without anti-DID. A positive effect of the anti-DID is clearly visible: when the anti-DID field is applied, the particle distribution is more symmetric around the central beampipe, and the overall energy deposition in BeamCAL is reduced by about 30\%.
 
 \begin{figure}[t!]
-\includegraphics[width=1.0\hsize]{Integration/fig/BG_beamcal.jpg}
-\caption{\label{fig:integration:beamcal}Beamstrahlung energy deposition in the BeamCAL without (left) and with (right) anti-DID field for the large ILD version at ILC250. }
+\begin{subfigure}{0.48\textwidth}
+\includegraphics[width=1.0\hsize]{Integration/fig/BG_beamcal_a.jpg}
+\caption{}
+\end{subfigure}
+\begin{subfigure}{0.48\textwidth}
+\includegraphics[width=1.0\hsize]{Integration/fig/BG_beamcal_b.jpg}
+\caption{}
+\end{subfigure}
+\caption{\label{fig:integration:beamcal}(a) Beamstrahlung energy deposition in the BeamCAL without and (b) with  anti-DID field for the large ILD version at ILC-250. }
 \end{figure}
 
-\begin{table}\hspace*{-0cm}\small
+\begin{table}
+\begin{center}
 \begin{tabular}{ l c c c }
 \toprule
 LAYER: & hits/BX & hits/BX & hits/BX/$cm^2$ \\
@@ -45,6 +53,7 @@ SET 1: & 39 $\pm$ 28 & 15 $\pm$ 10 & 0.00003 $\pm$ 0.00002 \\
 SET 2: & 46 $\pm$ 36 & 18 $\pm$ 12 & 0.00003 $\pm$ 0.00002 \\
 \bottomrule
 \end{tabular}
+\end{center}
 \caption{\label{ild:tab:BGhits}Number of beamstrahlung hits per bunch crossing in the silicon trackers without (left) and with (middle and right) anti-DID field for the large ILD version at ILC250.}
 \end{table}
 
@@ -79,11 +88,19 @@ These halo muons will affect the occupancy of the detector but should be easily 
 
 A potential additional source of beam-related background consists in particles back-scattered from the electron and positron beam dumps located 300m from the interaction point in both beam directions. This background is expected to be dominated by low energy neutrons which can propagate over a long distance. Their contribution has been fully simulated with FLUKA in the context of SiD, including a detailed description of the beamline up to the beam dump as well as of the dump system itself~\cite{ild:bib:schuetz_thesis}. The incoming neutron fluxes close to SiD are expected to be the same as for ILD and were interfaced to the ILD detector simulation to estimate their impact in the detector. The simulation was normalised to the dump of one full electron bunch on the +z side of the detector.
 
-The total number of neutrons reaching the ILD detector region is found to be O($10^6$) per electron bunch dump. These neutrons have very low momenta of a few 10 MeV and most of them do not deposit a detectable signal in the detector. Their propagation in ILD was simulated and the map of their stopping points in the detector is shown in Figure~\ref{fig:integration:neutrons}. The results are in line of what is found for SiD~\cite{ild:bib:schuetz_thesis}: most neutrons are absorbed in the external layers of the ILD iron yoke, with a very small fraction reaching the external layers of the very forward calorimeters. Their energy depositions concentrate close to their stopping points: they are very small ($\approx$0.1 MIP in average) and asynchronous with respect to the bunch crossings. No visible signal is seen in the ILD vertex detector and central tracker. This indicates that the neutron background should not be a critical issue within its current state of understanding.
+The total number of neutrons reaching the ILD detector region is found to be O($10^6$) per electron bunch dump. These neutrons have very low momenta of a few 10 MeV and most of them do not deposit a detectable signal in the detector. Their propagation in ILD was simulated and the map of their stopping points in the detector is shown in Figure~\ref{fig:integration:neutrons}. The results are in line of what is found for SiD~\cite{ild:bib:schuetz_thesis}: most neutrons are absorbed in the external layers of the ILD iron yoke, with a very small fraction reaching the external layers of the very forward calorimeters. Their energy depositions concentrate close to their stopping points: they are very small ($\approx$0.1 MIP on average) and asynchronous with respect to the bunch crossings. No visible signal is seen in the ILD vertex detector and central tracker. This indicates that the neutron background should not be a critical issue within its current state of understanding.
 
 \begin{figure}[t!]
-\includegraphics[width=1.0\hsize]{Integration/fig/BG_neutrons.jpg}
-\caption{\label{fig:integration:neutrons}Map of the stopping points in ILD of neutrons back-scattered from the beamdump: transverse coordinates (left) and longitudinal coordinates (right). The map is normalised to the dump of one electron bunch on the +z side of ILD~\cite{ild:bib:schuetz_thesis}.}
+\centering
+\begin{subfigure}{0.48\textwidth}
+\includegraphics[width=1.0\hsize]{Integration/fig/BG_neutrons_a.jpg}
+\caption{}
+\end{subfigure}
+\begin{subfigure}{0.48\textwidth}
+\includegraphics[width=1.0\hsize]{Integration/fig/BG_neutrons_b.jpg}
+\caption{}
+\end{subfigure}
+\caption{\label{fig:integration:neutrons}Map of the stopping points in ILD of neutrons back-scattered from the beamdump: (a) transverse coordinates and (b) longitudinal coordinates. The maps are normalised to the dump of one electron bunch on the +z side of ILD~\cite{ild:bib:schuetz_thesis}.}
 \end{figure}
 
-\vspace{2cm}
+

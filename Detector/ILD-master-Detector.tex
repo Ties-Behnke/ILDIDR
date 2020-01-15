@@ -134,16 +134,14 @@ A key feature of the detector is the amount of material crossed by the particles
 
 %\begin{tabular}{cc}
 \begin{subfigure}{0.45\textwidth}
-\includegraphics[width=\textwidth]{Modelling/fig/ILD_l5_v02_matbudget_tracker_85deg.pdf} \caption{a}
+\includegraphics[width=\textwidth]{Modelling/fig/ILD_l5_v02_matbudget_tracker_85deg.pdf}
+ \caption{ \label{fig:det:material:x0}}
 \end{subfigure}
 \begin{subfigure}{0.45\textwidth}
 \includegraphics[width=\textwidth]{Modelling/fig/ILD_l5_v02_matbudget_calo_85deg.pdf}
+ \caption{ \label{fig:det:material:lambda}}
 \end{subfigure}
-\caption[Material in the ILD detector]{a: Average total radiation length of the tracker material as a function of polar angle. b: Total interaction length seen up to the end of the electromagnetic calorimeter, the hadronic calorimeter and the solenoid coil, respectively.}
-%\end{figure}
-\label{fig:det:material}
-%\begin{tabular}{cc}
-
+\caption[\label{fig:det:material} Material in the ILD detector]{a: Average total radiation length of the tracker material as a function of polar angle. b: Total interaction length seen up to the end of the electromagnetic calorimeter, the hadronic calorimeter and the solenoid coil, respectively.}
 \end{figure}
 
 %\thisfloatsetup{floatwidth=\SfigwFull,capposition=below}
@@ -191,7 +189,7 @@ The forward tracking detector (FTD) completes the coverage of the ILD experiment
 \begin{figure}[t!]
 \centering
 \includegraphics[width=0.75\hsize]{Detector/fig/silicon_trackers.jpg}
-\caption{Layout of the SIT and FTD silicon trackers surrounding the vertex detector.}
+\caption{Layout of the inner Silicon (SIT) and forward Silicon (FTD) trackers surrounding the vertex detector.}
 \label{fig:det:silicon}
 \end{figure}
 
@@ -217,9 +215,11 @@ A distinct feature of ILD is a large volume time projection chamber (Figure~\ref
 \begin{subfigure}{0.45\textwidth}
 %\includegraphics[width=0.6\hsize,viewport={0 -10 600 500},clip]{Detector/fig/TPC.png} &
 \includegraphics[width=1\hsize]{Detector/fig/TPC.png}
+\caption{}
 \end{subfigure}
 \begin{subfigure}{0.45\textwidth}
 \includegraphics[width=1\hsize]{Detector/fig/gate.jpg}
+\caption{}
 \end{subfigure}
 %\end{tabular}
 \caption[TPC layout]{Left: Conceptional layout of the TPC. Right: Principle of the ion GEM gating scheme showing the two electric field configurations within (left) and outside (right) bunch trains.}
@@ -239,11 +239,15 @@ For the GEM and Micromegas options, the typical pad sizes are a few mm$^2$ (tabl
 
 %\thisfloatsetup{floatwidth=\SfigwFull,capposition=beside}
 \begin{figure}[t!]
-\begin{tabular}{cc}
-\includegraphics[width=0.5\hsize,viewport={0 -10 600 500},clip]{Detector/fig/GEM.png} &
-\includegraphics[width=0.5\hsize]{Detector/fig/micromegas.png}
-\end{tabular}
-\caption[TPC readout]{Amplification scheme of the TPC ionisation signals with GEM (left) and Micromegas (right) readout.}
+\begin{subfigure}{0.49 \textwidth}
+\includegraphics[width=1\hsize,viewport={0 -10 600 500},clip]{Detector/fig/GEM.png} 
+\caption{}
+\end{subfigure}
+\begin{subfigure}{0.49\textwidth}
+\includegraphics[width=1.0\hsize]{Detector/fig/micromegas.png}
+\caption{}
+\end{subfigure}
+\caption[TPC readout]{(a)Electrical field map showing the amplification region in a GEM. (b)Schematic view of a micromegas readout.}
 %\end{figure}
 \label{fig:det:TPC_readout}
 %\begin{tabular}{cc}
@@ -279,7 +283,7 @@ The hadronic calorimeter consists of 48 longitudinal samples with steel absorber
 
 \begin{figure}[t!]
 \centering
-\includegraphics[width=1.1\hsize]{Detector/fig/HCAL_structure.jpg}
+\includegraphics[width=1.0\hsize]{Detector/fig/HCAL_structure.jpg}
 \caption{HCAL barrel mechanical structure: full wheel (top) and individual stack (bottom) for the two configurations under consideration: the "Videau" option (left) and the "TESLA" option (right).}
 \label{fig:det:HCAL}
 \end{figure}
@@ -318,7 +322,7 @@ The longitudinal configuration of the LumiCAL+LHCAL+BeamCAL system has been adap
 
 \begin{figure}[t!]
 \centering
-\includegraphics[width=0.6\hsize]{Detector/fig/VFS_layout.png}
+\includegraphics[width=0.4\hsize]{Detector/fig/VFS_layout.png}
 \caption{Overal layout of the very forward detectors.}
 \label{fig:det:VFS}
 \end{figure}

@@ -1,12 +1,11 @@
 
 %\subsection{General Remarks}
-%\fix{Each benchmark has its own confluence page, where a lot more material, including the draft of the ILD note and the names of the main analysis reponsibles can be found: {\small \url{https://confluence.desy.de/display/ILD/Benchmarks+for+physics-driven+detector+optimisation}} Note that several benchmark are still work in progress. A short comment at the beginning of each section gives a rough summary of the status.}
 
 The performance of the two ILD detector models IDR-L and IDR-S has been
 evaluated on a number of physics benchmarks discussed in this section. 
 Despite the fact that a 250-GeV version of the ILC is currently under political consideration in Japan, the detector benchmarking has been performed at higher center-of-mass energies, mostly at 500\,GeV, and in one case even at 1\,TeV. This choice has been made in order to make sure that both detector models perform adequately also under the more challenging experimental conditions of the higher energy stages, and in order to cover e.g.\ a wider range of jet, lepton and photon energies.
 
-The benchmarks presented in this section have been chosen to illustrate many performance aspects with a minimum number of physics channels, and are not meant to cover the {\em complete} physics case. The main focus of the analysis work was not always the pure optimisation for utmost physics performance, but rather to better understand and highlight the role of individual performance aspects and their interplay.
+The benchmarks presented in this section have been chosen to illustrate many performance aspects with a minimum number of physics channels, and are not meant to cover the {\em complete} physics case. The main focus of the analysis work was not always the pure optimisation for utmost physics performance, but rather to better understand and highlight the role of individual performance aspects and their interplay. For all benchmarks, the MC samples described in Sec.~\ref{chap:modelling} have been used. In particular, the $\gamma\gamma \to $ low $p_t$ hadron as well as $e^+e^-$ pair background in the detector acceptance has been overlaid as described in Sec.~\ref{sec:generator}.
 
 Unless stated otherwise, the analyses performed for and since the time of the DBD remain valid in their physics message. For an up-to-date review of the ILC physics case, based on ILD detector simulations, see e.g.~\cite{Bambade:2019fyw}.
 
@@ -14,12 +13,13 @@ Unless stated otherwise, the analyses performed for and since the time of the DB
 \label{sec:benchmarks:lep}
 The benchmark studies are based on the Monte-Carlo samples created with the conditions and software described in Sec.~\ref{chap:modelling}. About 150 million events have been produced in total as detailed in Tab.~\ref{tab:mcprod_evtnum}. 
 
-All results have been scaled to the integrated luminosity and beam polarisation of the full H20 running scenario originally defined in~\cite{Barklow:2015tja}, which is --- for the higher center-of-mass energies --- unchanged since~\cite{Bambade:2019fyw}. In particular, the H20 scenario comprises 4\,ab$^{-1}$ at 500\,GeV, with beam polarisation absolute values of 80\% for the electron and 30\% for the positron beam. The total luminosity is shared between the different polarisation sign combinations according to $f(-+,+-,++,--) = (40\%,40\%, 10\%, 10\%)$. This configuration is referred to as ILC500 in the following.
-Analoguously, 8\,ab$^{-1}$ are considered at 1\,TeV, with absolute polarisation values of 80\% for the electron and 20\% for the positron beam, with the same $f(-+,+-,++,--) = (40\%,40\%, 10\%, 10\%)$ sharing.
+All results have been scaled to the integrated luminosity and beam polarisation of the full H20 running scenario originally defined in~\cite{Bambade:2019fyw}, which is --- for the higher center-of-mass energies --- unchanged since~\cite{Barklow:2015tja}. In particular, the H20 scenario comprises 4\,ab$^{-1}$ at 500\,GeV, with beam polarisation absolute values of 80\% for the electron and 30\% for the positron beam. The total luminosity is shared between the different polarisation sign combinations according to $f(-+,+-,++,--) = (40\%,40\%, 10\%, 10\%)$. This configuration is referred to as ILC500 in the following.
+Analoguously, 8\,ab$^{-1}$ are considered at 1\,TeV, with absolute polarisation values of 80\% for the electron and 20\% for the positron beam, with the same $f(-+,+-,++,--) = (40\%,40\%, 10\%, 10\%)$ sharing.  This configuration is referred to as ILC1000 in the following.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Hadronic Branching Ratios of the Higgs Boson}
-%\fix{few open questions between Masakazu, Frank Simon and JL, see email June 25.}
+\fix{new figures, polished, text comments still to be implemented}
+%see also email June 25.}
 
 The measurement of the hadronic branching ratios of the Higgs boson,
 including in particular $H\to c\bar{c}$, is one of the unique items
@@ -79,14 +79,13 @@ Figure~\ref{fig:Hbbccgg:BR:LS} finally compares the precisions from all data set
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Higgs Mass from \texorpdfstring{$ZH \to ll b\bar{b}$}{ZH -> llbb}}
-%\fix{IDR text and plots okayed by Frank Simon(referee). Complete note draft with referee.}
 
-The single most precise method to measure the Higgs mass is the recoil analysis at $\sqrt{s}=250$\,GeV~\cite{Yan:2016xyx}. At $\sqrt{s}$ much higher than the $ZH$ production threshold, the recoil
-technique suffers substancially from the increasing amount of ISR and beamstrahlung. In addition, the momenta of the muons from $Z\to \mu\mu$ increase in magnitude and thus are measured less precisely. Still, the data collected at higher centre-of-mass energies can be exploited effectively when using the fully-reconstructable decay modes of the Higgs boson in combination with kinematic constraints from the known initial state. E.g.\ the constraints $\sum_i{p_{i_y}}=0$ and $\sum_i{p_{i_x}}=3.5$\,GeV\footnote{In $x$ direction the initial momentum is not zero due to the crossing angle of the beams, but given by $\sqrt{s} \cdot \sin{14\,\mathrm{mrad}}$.} can replace the measured energies of the Higgs decay products, so that only the {\it angles} of the Higgs decay products and the momenta of the muons from $Z\to\mu^+\mu^-$ enter in the mass reconstruction. Thus the technique is independent of systematic uncertainties as e.g.\ associated with the $b$-jet energy scale. The detailed description of the technique can be found in~\cite{ILDNote:MH}.
+The single most precise method to measure the Higgs mass is the recoil analysis at $\sqrt{s}=250$\,GeV~\cite{Yan:2016xyx}, for which a precision of $14$\,MeV has been projected for the full ILC250 data set~\cite{Fujii:2017vwa}. At $\sqrt{s}$ much higher than the $ZH$ production threshold, the recoil
+technique suffers substantially from the increasing amount of ISR and beamstrahlung. In addition, the momenta of the muons from $Z\to \mu\mu$ increase in magnitude and thus are measured less precisely. Still, the data collected at higher centre-of-mass energies can be exploited effectively when using the fully-reconstructable decay modes of the Higgs boson in combination with kinematic constraints\footnote{In $x$ direction the initial momentum is not zero due to the crossing angle of the beams, but given by $\sqrt{s} \cdot \sin{14\,\mathrm{mrad}}$.} from the known initial state. E.g.\ the constraints $\sum_i{p_{i_y}}=0$ and $\sum_i{p_{i_x}}=3.5$\,GeV can replace the measured energies of the Higgs decay products, so that only the {\it angles} of the Higgs decay products and the momenta of the muons from $Z\to\mu^+\mu^-$ enter in the mass reconstruction. Thus the technique is independent of systematic uncertainties as e.g.\ associated with the $b$-jet energy scale. The detailed description of the technique can be found in~\cite{ILDNote:MH}.
 
 The resolutions on the kinematic quantities which enter the Higgs mass reconstruction, namely azimuthal and polar angles of the jets and the muon energy, are compared in Figs.~\ref{fig:mh:res:phi_LS} and~\ref{fig:mh:res:etheta} for IDR-L and IDR-S. For this, 
 the jet angles obtained from clustering the MC particles after hadronisation serve as truth reference, so that the detector performance is singled out from other influences.  Figure~\ref{fig:mh:res:phi_hadronisation} illustrates the effect of hadronisation by comparing to the quark-level direction taking IDR-L as example. It shows that the detector resolution (blue histogram, same as in Fig.~\ref{fig:mh:res:phi_LS}) is comparable, but
-subdominant to the hadronisation effect (red histogram). While the angular resolutions are very similar for both detector models, the muon energy resolution is worse for the small detector, reflecting the somewhat worse $p_t$ resolution for high-momentum tracks in the central region of the detector, c.f.\ Fig.~\ref{fig:perf:trkres}. 
+smaller than the hadronisation effect (red histogram). While the angular resolutions are very similar for both detector models, the muon energy resolution is worse for the small detector, reflecting the somewhat worse $p_t$ resolution for high-momentum tracks in the central region of the detector, c.f.\ Fig.~\ref{fig:perf:trkres}. 
  
 \begin{figure}[htbp]
 %\begin{center}
@@ -98,7 +97,7 @@ subdominant to the hadronisation effect (red histogram). While the angular resol
  \caption{  \label{fig:mh:res:phi_hadronisation}}
  \end{subfigure}
 %\end{center}
-\caption{
+\caption{Reconstruction of the jet azimuthal angle in $ZH \to \mu^+ \mu^- b\bar{b}$: 
 (a) Resolution obtained with IDR-L and IDR-S for the jet azimuthal angle
 (b) Influence of hadronisation on the jet azimuthal angle
 }
@@ -115,14 +114,14 @@ subdominant to the hadronisation effect (red histogram). While the angular resol
  \caption{  \label{fig:mh:res:Elep}}
  \end{subfigure}
 %\end{center}
-\caption{Resolutions obtained with IDR-L and IDR-S for 
+\caption{Resolutions obtained  in $ZH \to \mu^+ \mu^- b\bar{b}$ with IDR-L and IDR-S for 
 (a) the jet polar angle
 (b) the muon energy, after recovery of FSR photons. 
 }
 \label{fig:mh:res:etheta}
 \end{figure}
 
-Figure~\ref{fig:mh:mass} shows the propagation of this effect to the actual physics observable, i.e.\ the reconstructed mass of the Higgs candidates. IDR-L and IDR-S are compared for the muon channel in Fig.~\ref{fig:mh:mass:mumu} and for the electron channel in Fig.~\ref{fig:mh:mass:ee}. In both cases signal and all backgrounds from the SM and other $ZH$ modes are combined, with clear peaks visible around the nominal Higgs and $Z$ boson masses. In particular in the muon channel, the worse momentum resolution of the small detector leads to the peaks being visibly wider. The uncertainty on the Higgs mass is extracted by fitting these distributions following the approach used for the recoil analysis~\cite{Yan:2016xyx}. This results in an uncertainty on the measured Higgs mass of $66$\,MeV in the case of IDR-L and $81$\,MeV for IDR-S, an increase of about $22\%$.
+Figure~\ref{fig:mh:mass} shows the propagation of this effect to the actual physics observable, i.e.\ the reconstructed mass of the Higgs candidates. IDR-L and IDR-S are compared for the muon channel in Fig.~\ref{fig:mh:mass:mumu} and for the electron channel in Fig.~\ref{fig:mh:mass:ee}. In both cases signal and all backgrounds from the SM and other $ZH$ modes are combined, with clear peaks visible around the nominal Higgs and $Z$ boson masses. In particular in the muon channel, the worse momentum resolution of the small detector leads to the peaks being visibly wider. The uncertainty on the Higgs mass is extracted by fitting these distributions following the approach used for the recoil analysis~\cite{Yan:2016xyx}. For ILC500 as defined in Sec.~\ref{sec:benchmarks:lep}, this results in an uncertainty on the measured Higgs mass of $66$\,MeV in the case of IDR-L and $81$\,MeV for IDR-S, an increase of about $22\%$.
 
 \begin{figure}[htbp]
 %\begin{center}
@@ -134,9 +133,9 @@ Figure~\ref{fig:mh:mass} shows the propagation of this effect to the actual phys
  \caption{  \label{fig:mh:mass:ee}}
  \end{subfigure}
 %\end{center}
-\caption{reconstructed Higgs mass distribution for signal and background for IDR-L and IDR-S
-(a) muon channel
-(b) electron channel (here with limited MC statistics, thus a reduced number of bins)
+\caption{Reconstructed Higgs mass distribution in $ZH \to l^+ l^- b\bar{b}$ for signal and background for IDR-L and IDR-S at ILC500 as defined in Sec.~\ref{sec:benchmarks:lep} for
+(a) the muon channel
+(b) the electron channel (here with limited MC statistics, thus a reduced number of bins)
 }
 \label{fig:mh:mass}
 \end{figure}
@@ -144,14 +143,13 @@ Figure~\ref{fig:mh:mass} shows the propagation of this effect to the actual phys
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Branching Ratio of \texorpdfstring{$H \to \mu^+\mu^-$}{H -> mm}}
-%\fix{everything done!}
 
 In the SM, the decay of the Higgs boson into a pair of muons is a very rare decay, with a branching ratio of $2.2 \times 10^{-4}$. In order to identify this small signal, the achievable mass resolution, thus the precision to which the momenta of the two muons are measured, plays a crucial role. For the purpose of detector benchmarking, we consider only 
-$\sigma(\nu\bar{\nu} H)\times BR(H\to \mu^+\mu^-)$ as observable, which isolates best the effect of the muon momentum resolution.
+$\sigma(\nu\bar{\nu} H)\times BR(H\to \mu^+\mu^-)$ as observable, which isolates best the effect of the muon momentum resolution. At center-of-mass energies above $350$\,GeV, the $\nu\bar{\nu} H$ channel gives the leading contribution to the combined result, while at $250$\,GeV $q\bar{q} H$ dominates. The ILD result for combining all channels at $250$\,GeV and $500$\,GeV, based on DBD MC samples, can be found in~\cite{Kawada:2019isz}.
 
-The selection~\cite{ILDNote:Hmumu} targets events with substancial missing four-momentum plus 
-two well-reconstructed, oppositely charged muons. Kinematic and angular variables are exploited in an MVA analysis. Figure~\ref{fig:Hmumu:mass} shows the di-muon invariant mass distribution for all selected signal events. In case of the small detector model, the mass peak is about $10\%$ wider than for the large detector. This originates from the combination of the muons from the Higgs decay being high-energetic and rather central, plus the better momentum resolution of the large detector for high-momentum tracks in the barrel. 
-This effect is seen more clearly in Fig.~\ref{fig:Hmumu:sigma}, which compares the event-by-event resolution of the di-muon invariant mass for the selected signal events with both muons in the barrel region of the detector ($|\cos{\theta}| < 0.7$). 
+The selection~\cite{ILDNote:Hmumu} targets events with substantial missing four-momentum plus 
+two well-reconstructed, oppositely charged muons. Kinematic and angular variables are exploited in an MVA analysis. Figure~\ref{fig:Hmumu:mass} shows the di-muon invariant mass distribution for all selected signal events. In case of the small detector model, the mass peak is about $10\%$ wider than for the large detector. This originates from the combination of the muons from the Higgs decay being highly energetic and rather central, plus the better momentum resolution of the large detector for high-momentum tracks in the barrel. 
+This effect is seen more clearly in Fig.~\ref{fig:Hmumu:sigma}, which compares the event-by-event uncertainty of the di-muon invariant mass, as calculated from the track covariance matrices, for the selected signal events with both muons in the barrel region of the detector ($|\cos{\theta}| < 0.7$). 
 
 
 For the $500$\,GeV data set of the H20 scenario, the asymptotic precision on cross section times branching ratio for the case of $100\%$ efficiency and no backgrounds would be 13\%.  
@@ -166,20 +164,19 @@ For the $500$\,GeV data set of the H20 scenario, the asymptotic precision on cro
  \caption{  \label{fig:Hmumu:sigma}}
  \end{subfigure}
 %\end{center}
-\caption{$H \to \mu^+\mu^-$ benchmark:
+\caption{$\nu\bar{\nu} H \to \nu\bar{\nu} \mu^+\mu^-$ benchmark for ILC500 as defined in Sec.~\ref{sec:benchmarks:lep}:
 (a) di-muon invariant mass for all selected signal events
-(b) mass resolution for the case that both muons are in the barrel region of the detector ($|\cos{\theta}| < 0.7$)
+(b) event-by-event mass uncertainty as calculated from the track covariance matrices for the case that both muons are in the barrel region of the detector ($|\cos{\theta}| < 0.7$)
 }
 \label{fig:Hmumu}
 \end{figure}
 
-After the event selection, about $33$ signal events, corresponding to a selection efficiency of $58\%$, remain over a evenly distributed background of about $1100$ events (counted in a mass window between $120$ and $130$\,GeV). Finally, the expectation values for the number of signal events observable above the backgrounds as well as for its uncertainty are obtained from many toy MC fits to the di-muon invariant mass spectrum~\cite{ILDNote:Hmumu}. The obtained precisions on $\sigma(\nu\bar{\nu} H)\times BR(H\to \mu^+\mu^-)$ are $40.2$\% for IDR-L and $41.3$\% for IDR-S. The relative difference of $2.8$ is consistent with the expectation of a $\sim 10\%$ difference in the signal peak width over a flat background. Either number, however, is about a factor $3$ worse than the asymptotic precision for the case of $100\%$ efficiency and no backgrounds, which would be 13\%. The difference is wastly dominanted by the remaining ``irreducible'' backgrounds with two muons and two neutrinos from $W$ pairs decaying either directly to muons or via tau-leptons. While there is certainly room for improvement in rejecting these backgrounds, this will factorize from the impact of the signal peak width, as long as the background remains flat in the discriminating variable. 
+After the event selection, about $33$ signal events, corresponding to a selection efficiency of $58\%$, remain over a evenly distributed background of about $1100$ events (counted in a mass window between $120$ and $130$\,GeV) for ILC500 as defined in Sec.~\ref{sec:benchmarks:lep}. Finally, the expectation values for the number of signal events observable above the backgrounds as well as for its uncertainty are obtained from many toy MC fits to the di-muon invariant mass spectrum~\cite{ILDNote:Hmumu}. The obtained precisions on $\sigma(\nu\bar{\nu} H)\times BR(H\to \mu^+\mu^-)$ are $40.2$\% for IDR-L and $41.3$\% for IDR-S. The relative difference of $2.8\%$ is consistent with the expectation of a $\sim 10\%$ difference in the signal peak width over a flat background. Either number, however, is about a factor $3$ worse than the asymptotic precision for the case of $100\%$ efficiency and no backgrounds, which would be 13\%. The difference is vastly dominanted by the remaining ``irreducible'' backgrounds with two muons and two neutrinos from $W$ pairs decaying either directly to muons or via tau-leptons. While there is certainly room for improvement in rejecting these backgrounds, this will factorize from the impact of the signal peak width, as long as the background remains flat in the discriminating variable. 
  
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Sensitivity to \texorpdfstring{$H \to $ invisible}{H -> invisible}}
-%\fix{Yu and Marcel (referee) okayed IDR draft, note incomplete}
 
 The decay of the Higgs boson into invisible particles is of particular interest because
 it could give important clues about the nature of Dark Matter. As a detector benchmark for testing the impact of the jet energy resolution, in particular the hadronic decay mode of the $Z$ boson is considered here. Thus the physics observable will be the upper limit on $\sigma(q\bar{q} H)\times BR(H \to \mbox{inv.})$.
@@ -226,7 +223,7 @@ shown for the example of the large detector model.
 \label{fig:Hinv:comp}
 \end{figure}
 
-Figure~\ref{fig:Hinv:cheat:mjj} shows the di-jet invariant mass for the selected signal events at various levels of realism from the full reconstruction to cheating everything but the detector and particle flow performance. The first step of partial cheating removes jets with semileptonic heavy flavour decays. In a detector like ILD shower shapes in the highly-granular calorimeter and specific energy loss information from the TPC should allow an
+Figure~\ref{fig:Hinv:cheat:mjj} shows the di-jet invariant mass for the selected signal events at various levels of realism from the full reconstruction to cheating all effects apart from the detector and particle flow performance. The first step of partial cheating removes jets with semileptonic heavy flavour decays. In a detector like ILD shower shapes in the highly-granular calorimeter and specific energy loss information from the TPC should allow an
 excellent identification of leptons in jets, which, combined with secondary vertex information
 should allow to significantly improve scale and resolution for heavy flavour jets with semileptonic decays. However, the corresponding reconstruction algorithms are still under development and thus could not be applied here. Similarly, work is ongoing to improve the
 removal of overlay backgrounds, see e.g.\ Sec.~\ref{subsec:bench:higgsino} and Ref.~\cite{Boronat:2014hva}. Thus, we expect that with future reconstruction improvements, a performance similar to the case ``w/o sld and overlay'' could be reached. The beam spectrum (BS) by construction does not affect the invariant di-jet mass. ISR, on the contrary, can lead to photons in the detector. In this analysis, no attempt has been made to identify the corresponding particle flow objects. Therefore, also a large part of the effect of ISR on the di-jet mass should be recoverable with a more sophisticated analysis. 
@@ -234,22 +231,21 @@ removal of overlay backgrounds, see e.g.\ Sec.~\ref{subsec:bench:higgsino} and R
 The corresponding situation for the recoil mass is shown in Fig.~\ref{fig:Hinv:cheat:mrec}.
 Here, ISR and BS have a large impact since they lead to a deviation of the actual initial state of the hard interaction from the naive assumption. Since this effect is dominated by photons from ISR and BS which escape undetected along the beam pipe, no attempt has been made to correct the kinematics of those events in which a photon is detected. See e.g.\ Sec.~\ref{subsec:bench:extraH} for an analysis where such a correction is applied. 
 
-The recoil mass distributions obtained with the large and small detector model are compared in Fig.~\ref{fig:Hinv:comp}. Thereby, Fig.~\ref{fig:Hinv:comp:mrec} shows the situation at the current full reconstruction level, while Fig.~\ref{fig:Hinv:comp:cheatmrec} cheats the effect of semi-leptonic decays, overlay removal, beam spectrum and ISR. In both cases, the recoil  mass is slightly shifted to higher values in case of the small detector, due to differences 
-in the calibration of the particle flow for the two models. In addition, the cheated recoil mass distribution is a bit wider for the small detector, as expected from its slightly worse
-JER, c.f.\ Fig.~\ref{fig:perf:pfa_jer}.
+The recoil mass distributions obtained with the large and small detector model are compared in Fig.~\ref{fig:Hinv:comp}. Fig.~\ref{fig:Hinv:comp:mrec} shows the situation at the current full reconstruction level, while Fig.~\ref{fig:Hinv:comp:cheatmrec} cheats the effect of semi-leptonic decays (``w/o sld''), overlay removal (``overlay''), beam spectrum (``BS'') and ISR. In both cases, the recoil  mass is slightly shifted to higher values in case of the small detector, due to differences 
+in the calibration of the particle flow for the two models. In addition, the cheated recoil mass distribution is a bit wider for the small detector, by about 15\% when considering the gaussian core of the peak, as expected from its slightly worse
+JER, c.f.\ Fig.~\ref{fig:perf:pfa_jer} for the barrel and Fig.~\ref{fig:perf:pfa_jer_endcap} for the endcaps.
 
 \begin{figure}[htbp]
 \begin{center}
  \includegraphics[width=0.75\textwidth]{Performance/fig/performance_plot.pdf}
 \end{center}
-\caption{Upper limit on $BR( \to $ invisible) at $95\%$ C.L. as a function of the jet energy resolution. The blue and red symbols show the results obtained from simulation of the IDR-L and IDR-S detector models, respectively, in full reconstruction and at various levels of cheating. The green crosses are obtained by varying the JER up and down w.r.t.\ IDR-L.
-%\fix{[JL: improve axis titles]}
+\caption{Upper limit on $BR( \to $ invisible) at $95\%$ C.L. for ILC500 as defined in Sec.~\ref{sec:benchmarks:lep} as a function of the jet energy resolution. The blue and red symbols show the results obtained from simulation of the IDR-L and IDR-S detector models, respectively, in full reconstruction and at various levels of cheating. The green crosses are obtained by varying the JER up and down w.r.t.\ IDR-L.
 }
 \label{fig:Hinv:BRlimit}
 \end{figure}
 
-The results in terms of the physics observable, namely the $95\%$ C.L.\ upper limit on $\sigma(q\bar{q} H)\times BR(H \to \mbox{inv.})$, are summarized in Fig.~\ref{fig:Hinv:BRlimit} for both detector models at the various cheating levels. In the case of full reconstruction, the upper limit is at 0.78\%  for IDR-L  and at  0.79\%  for IDR-S, corresponding to a relative change of about 1\%. At when isolating the effect of the particle flow performance by cheating all other aspects, the limit would be 0.50\% (0.51\%) for IDR-L (IDR-S), i.e.\ a relative change of about 2\%. Also displayed is an estimate of how
-the cheated results would change when scaling the JER up and down. This clearly shows that
+The results in terms of the physics observable, namely the $95\%$ C.L.\ upper limit on $\sigma(q\bar{q} H)\times BR(H \to \mbox{inv.})$, are summarized in Fig.~\ref{fig:Hinv:BRlimit} for both detector models at the various cheating levels. In the case of full reconstruction, the upper limit is at 0.78\%  for IDR-L  and at  0.79\%  for IDR-S, corresponding to a relative change of about 1\%. When isolating the effect of the particle flow performance by cheating all other aspects, the limit would be 0.50\% (0.51\%) for IDR-L (IDR-S), i.e.\ a relative change of about 2\%. Also displayed is an estimate of how
+the cheated results would change when scaling the JER up and down. This is achieved by fitting the fully reconstructed recoil mass distribution, scaling its width and then generating toy distributions according to the scaled functions. The scale factor with respect to the IDR-L mass resolution is given on the horizontal axis. This clearly shows that
 larger variations of the JER, by 20\% or so, have a clear impact on this physics analysis.
 In the case of $\sqrt{s}=250$\,GeV, the impact of ISR and BS is much smaller, increasing the relative contribution from the JER.
 
@@ -259,7 +255,6 @@ In the case of $\sqrt{s}=250$\,GeV, the impact of ISR and BS is much smaller, in
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\subsection{\texorpdfstring{$\tau$}{Tau} decay modes and polarisation, \texorpdfstring{$A_{FB}$ and $A_{LR}$ in $e^+e^- \to \tau^+\tau^-$}{AFB and ALR in e+e- -> tau tau}}
 \subsection{\texorpdfstring{$\tau$}{Tau} polarisation \texorpdfstring{in $e^+e^- \to \tau^+\tau^-$}{in e+e- -> tau tau}}
-%\fix{note in circulation!}
 
 As shown in Sec.~\ref{sec:perf:hlr:tau}, the smaller ECAL inner radius of the small detector model slightly reduces the ability to identify the correct number of photons in
 highly-boosted $\tau$ decays. Using the product of efficiency times purity as a figure of merit, this leads to a $5\%$ worse identification of $\tau \to \pi \nu$ and $\tau \to \rho \nu$ decays, while the identification of $\tau \to a_1 \nu$ decays deteriorates by about $15\%$ relative, c.f.\ Fig.~\ref{fig:HLR-tauID}. 
@@ -270,12 +265,12 @@ In order to evaluate the impact of this difference in a physics example, the mea
 \begin{center}
  \includegraphics[width=0.55\textwidth]{Performance/fig/drawpexpresults0-update.pdf}
 \end{center}
-\caption{Precision on the $\tau$ polarisation achieved with IDR-L and IDR-S at various levels of cheating (see text) based on the $\pi$ and $\rho$ channels in the $P(e^-,e^+)=(-80\%,+30\%)$ data set.}
+\caption{Precision on the $\tau$ polarisation achieved with IDR-L and IDR-S at various levels of cheating (see text) based on the $\pi$ and $\rho$ channels in the $P(e^-,e^+)=(-80\%,+30\%)$ data set of ILC500 as defined in Sec.~\ref{sec:benchmarks:lep}.}
 \label{fig:tautau:taupol}
 \end{figure}
 
-Figure~\ref{fig:tautau:taupol} illustrates the precision on the $\tau$ polarisation achieved with IDR-L and IDR-S  based on the $\pi$ and $\rho$ channels in the $P(e^-,e^+)=(-80\%,+30\%)$ data set, which dominates the combined precision. Thereby, various
-levels of cheating are shown, starting from the optimal result when using all MC information, including the neutrino momentum. The next entry shows by how much the performance in the $\rho$ channel degrades by the approximate definition of the polarimeters used here\footnote{In principle, improved methods can be used, which however need further investigation~\cite{ILDNote:tautau}.}, followed by the application of the selection efficiency. The last three steps use the fully simulated and reconstructed events, apart from the entry ``cheat ECAL'', which uses MC information for the $\pi^0$ in the $\rho$ channel. In the last step, the full SM background is added. For the $\pi$-channel, the most significant effect occurs when reducing the number of signal events according to the selection efficiency of about $55\%$ observed in the full analysis. In case of the $\rho$-channel, all step contribute at a similar level to the final result. Overall, the differences between IDR-L and IDR-S are very small,  and probably due to limited MC statistics. 
+Figure~\ref{fig:tautau:taupol} illustrates the precision on the $\tau$ polarisation achieved with IDR-L and IDR-S  based on the $\pi$ and $\rho$ channels in the $P(e^-,e^+)=(-80\%,+30\%)$ data set, which dominates the combined precision. Various
+levels of cheating are shown, starting from the optimal result when using all MC information, including the neutrino momentum. The next entry shows by how much the performance in the $\rho$ channel degrades by the approximate definition of the polarimeters used here\footnote{In principle, improved methods can be used, which however need further investigation~\cite{ILDNote:tautau}.}, followed by the application of the selection efficiency. The last three steps use the fully simulated and reconstructed events, apart from the entry ``cheat ECAL'', which uses MC information for the $\pi^0$ in the $\rho$ channel. In the last step, the full SM background is added. For the $\pi$-channel, the most significant effect occurs when reducing the number of signal events according to the selection efficiency of about $55\%$ observed in the full analysis. In case of the $\rho$-channel, all steps contribute at a similar level to the final result. Overall, the differences between IDR-L and IDR-S are very small. %,  and probably due to limited MC statistics. 
 %The largest deterioration of the precision occurs when applying the selection efficiency. Thus, future improvements of the di-$\tau$ selection have the largest potential for improving this measurement.
 
 % \begin{figure}[htbp]
@@ -301,12 +296,30 @@ levels of cheating are shown, starting from the optimal result when using all MC
 %\subsection{\texorpdfstring{$W$}{W} mass, Triple Gauge Couplings and Beam Polarisation from \texorpdfstring{$e^+e^- \to WW \to qql\nu$}{e+e- -> WW -> qqln}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Hadronic \texorpdfstring{$WW$ and $ZZ$}{WW and ZZ} separation in Vector Boson Scattering} 
-%\fix{everything done!} 
 
-Vector boson scattering is an important process for testing the unitarisation of $WW$ scattering by the Higgs boson, as well as for measuring quartic gauge couplings, and thereby probing for anomalous contributions. Among all relevant final states, the reaction $e^+e^- \to \nu\nu VV \to \nu\nu qqqq$, where $VV$ can be $WW$ or $ZZ$, poses a particular challenge to the detectors and reconstruction algorithms, since it requires the separation of the hadronic $W$ and $Z$ decays without the ability to exploit kinematic constraints e.g.\ on the
-total event energy due to the two invisible neutrinos.
+Vector boson scattering is an important process for testing the unitarisation of $WW$ scattering by the Higgs boson, as well as for measuring quartic gauge couplings, and thereby probing for anomalous contributions. Among all relevant final states, the reaction $e^+e^- \to \nu\nu VV \to \nu\nu qqqq$, where $VV$ can be $WW$ or $ZZ$, poses a particular challenge to the detectors and reconstruction algorithms, since it requires the separation of the hadronic $W$ and $Z$ decays without the ability to exploit kinematic constraints, e.g.\ on the
+total event energy, due to the two invisible neutrinos.
 
-This benchmark, at a center-of-mass energy of 1\,TeV, has already been studied in full detector simulation for the ILD LoI~\cite{ild:bib:ILDloi}. All relevant aspects, in particular the full overlay from $\gamma\gamma \to$ low-$p_t$ hadrons and from $e^+e^-$ pair background, are now included for the first time, and all quark flavours are considered in the final state~\cite{ILDNote:QGCs}. The $W$ and $Z$ mass distributions obtained with the current full reconstruction are shown in Fig.~\ref{fig:qgc:rec}. Therein Fig.~\ref{fig:qgc:rec:1d} shows the average di-jet mass per event, comparing ILD-L and ILD-S, while Fig.~\ref{fig:qgc:rec:2d} shows the 2-dimensional distribution in the mass plane of the two invariant di-jet masses for ILD-L. At this level, no significant difference between the detector models can be observed.
+This benchmark, at a center-of-mass energy of 1\,TeV, has already been studied in full detector simulation for the ILD LoI~\cite{ild:bib:ILDloi}. All relevant aspects, in particular the full overlay from $\gamma\gamma \to$ low-$p_t$ hadrons and from $e^+e^-$ pair background, are now included for the first time, and all quark flavours are considered in the final state~\cite{ILDNote:QGCs}. Figure~\ref{fig:qgc:truejet} illustrates the ranges of jet energies and polar angles probed by this benchmark, both inclusively and for the case of high di-boson invariant
+masses, which is the phase space most sensitive to new physics effects. 
+
+\begin{figure}[htbp]
+%\begin{center}
+\begin{subfigure}{0.49\textwidth} \includegraphics[width=\textwidth]{Performance/fig/comp_jet_E.pdf}
+ \caption{ \label{fig:qgc:truejet:E}}
+ \end{subfigure}
+%\hspace{0.03\textwidth}
+\begin{subfigure}{0.49\textwidth} \includegraphics[width=\textwidth]{Performance/fig/comp_jet_theta.pdf}
+ \caption{  \label{fig:qgc:truejet:theta}}
+ \end{subfigure}
+%\end{center}
+\caption{(a) Energy and (b) polar angle distributions of the jets from $e^+e^- \to \nu\nu qqqq$ at $\sqrt{s}=1$\,TeV on truth level.
+}
+\label{fig:qgc:truejet}
+\end{figure}
+
+Jet clustering is performed in a two-step procedure, first by requesting $4$ jets with a cone radius of $1.3$ from an exclusive $k_t$ algorithm in order to remove PFOs from the overlay backgrounds. In the second step, all PFOs in the four jets are reclustered into $4$ jets with the (inclusive) $ee$ $k_t$ algorithm. The jets are paired into two boson candidates by minimizing the mass difference between the two bosons. The resulting $W$ and $Z$ mass distributions
+are shown in Fig.~\ref{fig:qgc:rec}. Fig.~\ref{fig:qgc:rec:1d} shows the average di-jet mass per event, comparing ILD-L and ILD-S, while Fig.~\ref{fig:qgc:rec:2d} shows the 2-dimensional distribution in the mass plane of the two invariant di-jet masses for ILD-L. At this level, no significant difference between the detector models can be observed.
 
 
 %\thisfloatsetup{floatwidth=\SfigwFull,capposition=below}
@@ -320,9 +333,9 @@ This benchmark, at a center-of-mass energy of 1\,TeV, has already been studied i
  \caption{  \label{fig:qgc:rec:2d}}
  \end{subfigure}
 %\end{center}
-\caption{Dijet masses in $e^+e^- \to \nu\nu WW$ (blue) and $e^+e^- \to \nu\nu ZZ$ (red) events as obtained from the current full reconstruction.\\
+\caption{Dijet masses in $e^+e^- \to \nu\nu WW$ (blue) and $e^+e^- \to \nu\nu ZZ$ (red) events as obtained from the current full reconstruction for ILC1000 as defined in Sec.~\ref{sec:benchmarks:lep}.
 (a) Average of the two di-jet masses per event.
-(b) 2D illustration of the two di-jet masses per event.
+(b) 2D illustration of the two di-jet masses per event. 
 }
 \label{fig:qgc:rec}
 \end{figure}
@@ -338,7 +351,7 @@ This benchmark, at a center-of-mass energy of 1\,TeV, has already been studied i
  \caption{  \label{fig:qgc:cheat:2d}}
  \end{subfigure}
 %\end{center}
-\caption{Dijet masses in $e^+e^- \to \nu\nu WW$ (blue) and $e^+e^- \to \nu\nu ZZ$ (red) events as obtained when cheating the jet clustering and excluding events where one (or more) jets contain semi-leptonic charm or beauty decays.\\ 
+\caption{Dijet masses in $e^+e^- \to \nu\nu WW$ (blue) and $e^+e^- \to \nu\nu ZZ$ (red) events as obtained for ILC1000 as defined in Sec.~\ref{sec:benchmarks:lep} when cheating the jet clustering and excluding events where one (or more) jets contain semi-leptonic charm or beauty decays.
 (a) Average of the two di-jet masses per event. 
 (b) 2D illustration of the two di-jet masses per event.
 }
@@ -368,12 +381,12 @@ This benchmark, at a center-of-mass energy of 1\,TeV, has already been studied i
 (a) inclusive $e^+e^- \to \nu\nu WW$ events. 
 (b) inclusive $e^+e^- \to \nu\nu ZZ$ events.
 (c)  $e^+e^- \to \nu\nu WW$ events with $M(WW)>500$\,GeV. 
-(d)  $e^+e^- \to \nu\nu ZZ$ events with $M(ZZ)>500$\,GeV.
+(d)  $e^+e^- \to \nu\nu ZZ$ events with $M(ZZ)>500$\,GeV.\\
 }
 \label{fig:qgc:cheatWWZZ}
 \end{figure}
 
-Figure~\ref{fig:qgc:cheat} shows the analogous distributions obtained when cheating the jet clustering (incl.\ the overlay removal), the jet pairing and when excluding events with semi-leptonic decays of heavy quarks, so that only the effects of the natural widths of the bosons, of fragmentation and hadronisation as well as the JER itself remain. Also here, no striking difference between the models can be seen, which leads to the conclusion that on this event sample, which is dominated by events with rather low invariant masses of the di-boson system, the effect of the slightly worse JER of ILD-S is hidden beneath the width and fragmentation/hadronisation corrections.
+Figure~\ref{fig:qgc:cheat} shows the analogous distributions obtained when cheating the jet clustering (incl.\ the overlay removal), the jet pairing and when excluding events with semi-leptonic decays of heavy quarks, so that only the effects of the natural widths of the bosons, of fragmentation and hadronisation as well as the JER itself remain. Also here, no striking difference between the models can be seen, which leads to the conclusion that on this event sample, which is dominated by events with rather low invariant masses of the di-boson system, the effect of the slightly worse JER of ILD-S is hidden beneath the width and fragmentation/hadronisation effects, since these are only remaining influences -- besides the JER -- in Fig.~\ref{fig:qgc:cheat}.
 
 
 Nevertheless, the differences between Fig.~\ref{fig:qgc:rec} and Fig.~\ref{fig:qgc:cheat} are striking. Therefore, we investigated the impact of the size of various contributions individually as shown in Fig.~\ref{fig:qgc:cheatWWZZ}, for ILD-L only. For the inclusive $WW$ and $ZZ$ samples, shown in Figs.~\ref{fig:qgc:cheat:WW} and~\ref{fig:qgc:cheat:ZZ}, the dominant effect is the residual of the non-perfect overlay removal, followed by the jet clustering itself and the semi-leptonic decays. Non-perfect jet pairing only plays a minor role. This can be compared to the situation found when only considering events with high $WW$/$ZZ$ invariant masses, shown in Figs.~\ref{fig:qgc:cheat:WWQ2} and~\ref{fig:qgc:cheat:ZZQ2}. In this case, the impact of non-perfect jet clustering is reduced to a negligible level. Instead, the effect of the residual overlay from low-$p_t$ $\gamma \gamma \to $hadron events dominates. For the $ZZ$ events, also the missing neutrinos from semi-leptonic heavy quark decays play a visible role. 
@@ -383,11 +396,10 @@ These results demonstrate the need for development of more sophisticated high-le
 \subsection{Photon Energy Scale Calibration from \texorpdfstring{$e^+e^- \to \gamma Z \to \gamma \mu^+\mu^-$}{e+e- -> aZ -> mumu}}
 \label{subsec:bench:gammaZ}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\fix{IDR draft signed off by Matthew (referee) and Takahiro. Note in a very incomplete state.}
 
 Di-fermion production, with or without radiative return to the $Z$ pole, is an integral part of the ILC physics case. In addition, the radiative return events offer an important
 opportunity to cross calibrate the energy scales of various subdetectors. As a detector benchmark, we chose here the example of calibrating the photon energy scale against the momentum scale of the tracker. Thereby, the momenta and angles of the muons as well as the 
-polar and azimuthal angle of the photon serve as input, from which the energy of the photon and the amount of energy lost in beamstrahlung and collinear ISR are determined by
+polar and azimuthal angle of the photon serve as input from which the energy of the photon and the amount of energy lost in beamstrahlung and collinear ISR are determined by
 requiring conservation of energy and $p_y$ between initial and final state. It should be stressed that it is not necessary to apply a $Z$ mass constraint, which would introduce an additional uncertainty due to the large natural width of the $Z$ resonance. A full description of this and alternative methods can be found in~\cite{ILDNote:gammaZ}.
  
 
@@ -445,14 +457,14 @@ Resolution of the photon energy when using non-perfectly calibrated PFO-level en
 \end{figure}
 
 The resolution of the angular method, i.e.\ the width of the blue distribution in Fig.~\ref{fig:gammaZ:meanE:allE} is shown for IDR-L and IDR-S in Fig.~\ref{fig:gammaZ:sigmaE:rel} as a function of the photon energy. This translates into
-an absolute uncertainty on the photon energy scale calibration of about $10$\,MeV for high-energy photons, as shown in Fig.~\ref{fig:gammaZ:sigmaE:abs}. 
+an absolute uncertainty on the photon energy scale calibration of about $10$\,MeV for high-energy photons, as shown in Fig.~\ref{fig:gammaZ:sigmaE:abs}, for a perfectly calibrated and aligned tracking system and when integrating over the whole calorimeter. 
 The angular dependencies of the resolution of this method are shown in Fig.~\ref{fig:gammaZ:angles}. As a function of the polar angle, Fig.~\ref{fig:gammaZ:angles:theta} clearly shows the effect of the better momentum resolution of IDR-L for central high-momentum tracks, while in the two most forward bins, the small detector performs better due to its higher magnetic field. As a function of the azimuthal angle, there is no particular region where the performance of the two detector models differs, as can be seen in Fig.~\ref{fig:gammaZ:angles:phi}. The modulation of the resolution with $\phi$ is an effect of using the $p_y$ constraint only, which is the easiest method as the $p_y$ conservation is not influenced by the beam crossing angle. The modulation will be reduced when also $p_x$ balance is exploited e.g.\ in a kinematic fit.
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{\texorpdfstring{$A_{FB}$ and polarised cross sections from $e^+e^- \to b\bar{b}$}{AFB and ALR from ee -> bb}}
 \label{subsec:bench:bbbar}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\fix{approved by Roman, joint note with $e^+e^- \to t\bar{t}$ very close to final}
 
 The measurement of the polar angle spectrum and hence of the forward backward asymmetries of $b$-quarks requires to distinguish the $b$-jet from the $\bar{b}$-jet. The two most important techniques for this are the reconstruction of the charge at the secondary vertex, and the identification of charged Kaons in the $b$-decay chain. While the first method requires a complete reconstruction of all tracks from the secondary vertices, the Kaon ID hinges upon a special
 feature of ILD, namely the measurement of the specific energy loss $dE/dx$ in the TPC. In order to arrive at a reliable $b$-charge measurement, a consistent double-tag is required for each event, allowing for all four possible combinations of the two techniques: Either each of the two $b$-tagged jets contributes one tag (``K+K'', ``Vtx+Vtx'', ``Vtx+K (diff. jet)''), or both charge tags are found in the same $b$-tagged jet (``Vtx+K (same jet)''). The efficiency of the Kaon identification is compared for both detector models in Fig.~\ref{fig:perf:KaonID} in Sec.~\ref{sec:perf:sys:pid}. All details of the event reconstruction and selection can be found in~\cite{ILDNote:bbtt}.
@@ -494,7 +506,6 @@ The reconstructed  $|\cos{\theta_b}|$ distribution is shown in Fig.~\ref{fig:bbb
 \subsection{\texorpdfstring{$A_{FB}$ and polarised cross sections from $tt \to bb qql\nu$}{AFB and ALR from tt -> bbqqlv}}
 \label{subsec:bench:ttbar}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\fix{approved by Roman, joint note with $e^+e^- \to b\bar{b}$ very close to final}
 
 The forward-backward asymmetry and the polarised cross sections of $e^+e^- \to t\bar{t}$ are crucial ingredients to the determination of the couplings of top quark to the photon and the $Z$ boson. In the semi-leptonic channel, which represents 43.5\% of all $t \bar t$ decays, the lepton charge is available to distiguish between the $t$ and the $\bar{t}$ quark. In the fully hadronic case, representing 46.5\% of all $t\bar t$ decays, $t$ and the $\bar{t}$ can only be distinguished by identifying the $b$ and $\bar{b}$-jets. For this purpose, the same techniques as presented in the previous subsection can be used, namely the charge at the secondary vertex and the charge of a Kaon in the jet (if present). While these techniques are common between the $e^+e^- \to b\bar{b}$ and $e^+e^- \to t\bar{t}$ cases, the two benchmarks probe very different momentum ranges for the Kaon as well as for the tracks forming the secondary vertex: The $b\bar{b}$ case offers a sample of back-to-back jets with typically $200-250$\,GeV each, while the $t\bar{t}$ case, the majority of the $b(\bar{b})$ jets have momenta of less than $50$\,GeV. Furthermore, the 6-fermion final state presents a much more busy environment than the 2-fermion final state.
 Therefore, the two channels are complementary in terms of evaluating the detector performance. This is for instance reflected by the $5\%$ higher purity of the Kaon ID in case of the $t\bar{t}$ benchmark, c.f.\ Fig.~\ref{fig:perf:KaonID} in Sec.~\ref{sec:perf:sys:pid}.
@@ -505,9 +516,9 @@ Like in the $e^+e^- \to b\bar{b}$ case, an event is considered only if two indep
 increases the available statistics by about $40\%$ compared to using the lepton charge alone, from $22\%$ to $30\%$. 
 
 \begin{figure}[htbp]
-\begin{center} \includegraphics[width=0.55\textwidth]{Performance/fig/p_value_l5_ele_mu_noLcut-v1.pdf}
+\begin{center} \includegraphics[width=0.55\textwidth]{Performance/fig/p_value_l5_ele_mu_noLcut.pdf}
 \end{center}
-\caption{Purity of the different double-tag methods to identify the charge of the $t$/$\bar{t}$ quarks. ``Vtx+K'' and `Vtx+K$'$'' refer to the vertex and Kaon charge tags in different jets and in the same jet, respectively. As expected, the double Kaon tag shows the largest difference between the two detector models due to the different TPC radius. \fix{clarify with Roman whether L or L$_{\mathrm{cut}}$ is correct!}}
+\caption{Purity of the different double-tag methods to identify the charge of the $t$/$\bar{t}$ quarks. ``Vtx+K'' and `Vtx+K$'$'' refer to the vertex and Kaon charge tags in different jets and in the same jet, respectively. As expected, the double Kaon tag shows the largest difference between the two detector models due to the different TPC radius.}
 \label{fig:ttbar:effi}
 \end{figure}
 
@@ -587,7 +598,6 @@ The projections for HL-LHC are derived from the {\em individual} constraints of 
 \subsection{Search for extra Scalars in \texorpdfstring{$e^+e^- \to ZS^0$}{e+e- -> ZS^0}}
 \label{subsec:bench:extraH}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\fix{Note to be finalized}
 
 Searches for additional Higgs bosons or other new scalar particles, denoted here generically with $S^0$, are theoretically well-motivated, and benefit from an $e^+e^-$ collider sensitivity highly
 complementary to that of hadron colliders. Due to the SM-likeness of the $125$-GeV Higgs boson, additional Higgs-like scalars are expected to have a suppressed coupling to the $Z$ boson. Nevertheless, they can 
@@ -706,7 +716,6 @@ In both cases, the difference between the ``Pythia stable particle level'' (i.e.
 \subsection{Search for low \texorpdfstring{$\Delta M$}{DeltaM} Higgsinos}
 \label{subsec:bench:higgsino}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\fix{physics performance still w.i.p. - time scale somewhat unclear...}
 
 New particles with at most electroweak interactions and small mass differences in the decay chain are among the prime examples of discovery opportunities at future $e^+e^-$ colliders. A prominent example of such kind of
 new physics are higgsinos, which are expected to be light in natural SUSY models and tend to have small mass
@@ -740,7 +749,6 @@ The low $p_t$ tracking efficiency could be recovered at least partially by reduc
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{WIMP Search in the Mono-Photon Channel}
 
-%\fix{note to be finalized}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 The search for WIMP production via the mono-photon signature is another example of a search highly complementary to the HL-LHC, which predominantly probes couplings of WIMPs to quarks. This channel has been chosen as a  benchmark specifically in order to test the photon reconstruction and the performance of the BeamCAL, which plays an essential role in vetoing background from Bhabha scattering. The benchmark analysis is described in more detail in~\cite{ILDNote:WIMPs} and closely follows~\cite{Habermehl:2018yul}.
 \begin{figure}[htbp]

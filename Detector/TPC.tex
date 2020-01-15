@@ -21,11 +21,18 @@ Significant progress has been seen in the manufacturing process of detection mod
 \label{fig:det:TPC_prototypes}
 \end{figure}
 
-The performance of the three technologies has been measured in beam tests. Figure~\ref{fig:det:TPC_performances} shows the measured point resolution in 1~T magnetic field for drift distances from 0 to 0.6 m. This can be safely extrapolated to $\sim~100$ $\mu$m in a field of 3.5~T at a drift length of 2.3~m: the higher magnetic field reduces the transverse diffusion constant in the selected gas from 91~$\mu \mathrm{m} / \sqrt{\mathrm{cm}}$ to 30 $\mu \mathrm{m} / \sqrt{\mathrm{cm}}$, which compensates for the longer drift length compared to the prototype set-up. The dE/dx resolution determined by the truncated mean method has been measured to be $4.6\%, 4.5\%$ and $4.2\%$, respectivly, for Micromegas, GEM and GridPix technologies. It improves to $3.8\%$ for GridPix using a cluster counting method. The conclusion is that the target requirement of a spatial resolution of 100 microns and an aim of a dE/dx resolution better than 5\% have been reached in all cases.   
+The performance of the three technologies has been measured in beam tests. Figure~\ref{fig:det:TPC_performances} shows the measured point resolution in 1~T magnetic field for drift distances from 0 to 0.6 m. This can be safely extrapolated to $\sim~100$ $\mu$m in a field of 3.5~T at a drift length of 2.3~m: the higher magnetic field reduces the transverse diffusion constant in the selected gas from 91~$\mu \mathrm{m} / \sqrt{\mathrm{cm}}$ to 30 $\mu \mathrm{m} / \sqrt{\mathrm{cm}}$, which compensates for the longer drift length compared to the prototype set-up. The dE/dx resolution determined by the truncated mean method has been measured to be $4.6\%, 4.5\%$ and $4.2\%$, respectively, for Micromegas, GEM and GridPix technologies. It improves to $3.8\%$ for GridPix using a cluster counting method. In conclusion the target requirement of a spatial resolution of $100 \mu$m in the transverse plane, and a dE/dx resolution better than 5\% have been reached in all options.   
 \begin{figure}[t!]
 \centering
-\includegraphics[width=1.0\hsize]{Detector/fig/TPC_performances.jpg}
-\caption{Resolution on the track position in r$\phi$ (left) as function of the drift length and resolution on the ionisation loss dE/dx (right) as function of the track length, for the three readout options under consideration.}
+\begin{subfigure}{0.48\textwidth}
+\includegraphics[width=1.0\hsize]{Detector/fig/TPC_performances_resolution.jpg}
+\caption{}
+\end{subfigure}
+\begin{subfigure}{0.48\textwidth}
+\includegraphics[width=1.0\hsize]{Detector/fig/TPC_performances_dedx.jpg}
+\caption{}
+\end{subfigure}
+\caption{(a) Resolution on the track position in r$\phi$ as function of the drift length and (b) resolution on the ionisation loss dE/dx as function of the track length, for the three readout options under consideration.}
 \label{fig:det:TPC_performances}
 \end{figure}
 
@@ -34,12 +41,12 @@ From these events a 2-hit separation distance of 4 to 6~mm was measured dependin
 
 \begin{figure}[t!]
 \centering
-\includegraphics[width=0.7\hsize]{Detector/fig/TPC_separation.jpg}
-\caption{2-hit separation as a function of the drift distance from beam test. Red dots are the results for standard hit reconstruction. Blue triangles show the results of the improved algorithm}
+\includegraphics[width=0.55\hsize]{Detector/fig/TPC_separation.jpg}
+\caption{2-hit separation as a function of the drift distance from beam test. Red dots are the results for standard hit reconstruction, blue triangles show the results of the improved algorithm. The data points shown correspond to the point where the separation efficiency has dropped to $50\%$, the bar describes the width of the error function, which is used to fit the transition region of the efficiency.}
 \label{fig:det:TPC_separation}
 \end{figure}
 
-A critical aspect of the TPC operation consists in the cooling of the readout end-caps, which must be realised with minimal dead material.  For this a double phase $\mathrm{CO}_2$ cooling system with thin low-material fluid pipes has been developed and shown to perform adequately. 
+A challenging aspect of the TPC operation is the cooling of the readout end-caps, which must be realised with minimal dead material.  For this a double phase $\mathrm{CO}_2$ cooling system with thin low-material fluid pipes has been developed and is shown to perform adequately in test-beam experiments. 
 
 Also critical for ultimate performance is the mitigation of the drift field distortions which may develop from the accumulation of ions migrating from the amplification region into the drift volume. For this an ion gating scheme based on a large aperture GEM foil (Figure~\ref{fig:det:TPC_gating} left) has been implemented and beam tested~\cite{ild:bib:TPC_gatinginbeam}. To prevent the positive ions created by the avalanches in the amplification device from flowing back to the drift space, a counter-field is created by applying a polarisation $\Delta V$ of -20 V between the faces of the gating GEM foil in between beam train crossings. During train crossings the voltage difference is reversed to +3 V, opening the way to the incoming electrons to be multiplied. 
 
@@ -47,8 +54,15 @@ Results from test bench measurements show that a good transparency for drift ele
 
 \begin{figure}[t!]
 \centering
-\includegraphics[width=1.0\hsize]{Detector/fig/TPC_gating.jpg}
-\caption{TPC gating: detail of a GEM gating grid (left) and signal electron transparency with GEM gating as a function of the voltage difference (in Volts) across the two sides of the GEM plane in gate open mode (right).} 
+\begin{subfigure}{0.40\textwidth}
+\includegraphics[width=1.0\hsize]{Detector/fig/TPC_gating_gem.jpg}
+\caption{}
+\end{subfigure}
+\begin{subfigure}{0.48\textwidth}
+\includegraphics[width=1.0\hsize]{Detector/fig/TPC_gating_transparency.jpg}
+\caption{}
+\end{subfigure}
+\caption{TPC gating: (a) detail of a GEM gating grid and (b) signal electron transparency with GEM gating as a function of the voltage difference (in Volts) across the two sides of the GEM plane in gate open mode.} 
 \label{fig:det:TPC_gating}
 \end{figure}
 

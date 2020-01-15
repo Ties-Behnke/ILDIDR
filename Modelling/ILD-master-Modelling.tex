@@ -7,7 +7,6 @@
 
 \chapter{ \label{chap:modelling} Physics and Detector Modelling}
 %\writer{F.Gaede, A.Miyamoto}{4}
-\label{chap:modelling}
 
 Accurate and detailed modelling of the physics interactions as well as the detector
 response are crucial for making realistic predictions about the expected physics and detector
@@ -27,15 +26,10 @@ based on a realistic beam energy spectrum, the so called \emph{hard sub-process}
 is performed with Pythia~\cite{Sjostrand:2006za} tuned to describe the LEP data.
 The beam energy input spectrum is created with Guinea-Pig~\cite{Schulte:1998au}, a dedicated simulation program for computing
 beam-beam interactions at linear colliders - see also the discussion in section~\ref{sec:beam:conditions}.
-The two main effects of the strong beam-beam interactions are the energy loss due to
-beamstrahlung leading to the available luminosity spectrum (see Fig~\ref{fig:ilc:ecmspect}) and the creation of
-incoherent $\Pep\Pem$-pairs that are the source of the dominating background at the ILC.
-These electrons and positrons are predominantly created in a forward cone as shown in Fig~\ref{fig:pair_bg_cone}.
-It is this cone that restricts the minimal allowed radius of the innermost layer of the vertex detector.
 %
 %%%%%%%%%%%%%%%%
 \thisfloatsetup{floatwidth=\textwidth,capposition=below}
-\begin{figure}[b!]
+\begin{figure}[h!]
   \begin{subfigure}{0.49\hsize}
     \includegraphics[width=\textwidth]{Modelling/fig/250-small-scale_freps_strong_weak.png}
     \caption{ \label{fig:pair_bg_cone_250}}
@@ -52,6 +46,12 @@ It is this cone that restricts the minimal allowed radius of the innermost layer
   except for the face of the BeamCal and the beam pipe endcap in front of it (the two leftmost diagonal lines in the plot).}
 \end{figure}
 %%%%%%%%%%%%%%%%%
+The two main effects of the strong beam-beam interactions are the energy loss due to
+beamstrahlung leading to the available luminosity spectrum (see Fig~\ref{fig:ilc:ecmspect}) and the creation of
+incoherent $\Pep\Pem$-pairs that are the source of the dominating background at the ILC.
+These electrons and positrons are predominantly created in a forward cone as shown in Fig~\ref{fig:pair_bg_cone}.
+It is this cone that restricts the minimal allowed radius of the innermost layer of the vertex detector.
+
 Another source of background at the ILC are $\Pgamma \Pgamma \to hadrons$ events, due to beamstrahlung photons.
 These type of events are generated for $\Pgamma \Pgamma$ cms-energies from \unit{300}{\MeV} to \unit{2}{\GeV} with a dedicated generator based
 on ~\cite{Chen:1993dba}, whereas for higher energies Pythia is used.
@@ -103,7 +103,7 @@ geometry needed for reconstruction.
 %
 %%%%%%%%%%%%%%%%%%%
 \thisfloatsetup{floatwidth=\textwidth,capposition=below}
-\begin{figure}[b!]
+\begin{figure}[t!]
   \begin{subfigure}{0.40\hsize}
     \includegraphics[width=0.95\textwidth]{Modelling/fig/ILD_l5_v02_sideview_gimp_2.jpg}
     \caption{ \label{fig:sim_model_quad}}
@@ -195,8 +195,9 @@ gaps of the sandwich absorber structure as shown in Fig.~\ref{fig:sim_hybrid_sch
 %
 %%%%%%%%%%%%%%%%
 %\thisfloatsetup{floatwidth=\textwidth,capposition=below}
-\thisfloatsetup{floatwidth=\SfigwFull,capposition=beside}
+%\thisfloatsetup{floatwidth=\SfigwFull,capposition=beside}
 \begin{figure}[b!]
+\centering
   \begin{subfigure}{0.50\hsize}
     \includegraphics[width=\textwidth]{Modelling/fig/multi_technology_simulation.pdf}
     \caption{ \label{fig:sim_hybrid_schema}}
@@ -315,14 +316,21 @@ the detailed model. Surfaces are also used to account for effects from dead mate
 Fig.~\ref{fig:inner_trk_surfaces} shows the tracking surfaces used for the inner tracking detectors of ILD.
 %
 %%%%%%%%%%%%%%%%
-\thisfloatsetup{floatwidth=\SfigwFull,capposition=beside}
-\begin{figure}[b!]
-\begin{tabular}{cc}
-\includegraphics[width=0.5\hsize]{Modelling/fig/ild_inner_trackers.png} &
-\includegraphics[width=0.5\hsize]{Modelling/fig/ild_inner_trackers_surfaces.png}
-\end{tabular}
-\caption{\label{fig:inner_trk_surfaces} Left: Inner tracking detectors in the ILD simulation model.
-  Right: Surfaces used for track reconstruction, attached to the volumes of the simulation model.}
+%\thisfloatsetup{floatwidth=\SfigwFull,capposition=below}
+\begin{figure}[h!]
+\centering
+%\begin{tabular}{cc}
+\begin{subfigure}{0.48\textwidth}
+\includegraphics[width=1\hsize]{Modelling/fig/ild_inner_trackers.png} 
+\caption{}
+\end{subfigure}
+\begin{subfigure}{0.48\textwidth}
+\includegraphics[width=1\hsize]{Modelling/fig/ild_inner_trackers_surfaces.png}
+\caption{}
+\end{subfigure}
+%\end{tabular}
+\caption{\label{fig:inner_trk_surfaces} (a) Inner tracking detectors in the ILD simulation model.
+  (b) Surfaces used for track reconstruction, attached to the volumes of the simulation model.}
 \end{figure}
 %%%%%%%%%%%%%%%%%
 
@@ -430,7 +438,7 @@ The sum of events produced for the two models are shown in the table.}
 
 %%%%%%%%%%%%%%%%
 \thisfloatsetup{floatwidth=\textwidth,capposition=below}
-\begin{figure}[b!]
+\begin{figure}[t!]
 \includegraphics[width=1.0\hsize]{Modelling/fig/ilcdirac_ild_scheme.png}
 \caption{\label{fig:sim_ild_mcprod} Schematic view of the Monte Carlo production system used for ILD.}
 \end{figure}
