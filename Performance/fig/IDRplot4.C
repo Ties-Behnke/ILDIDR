@@ -850,13 +850,13 @@ void IDRplot4()
    // the ILD label from pad1
    pl->Draw();
    
-   pt = new TPaveText(0.5,0.72,0.75,0.83,"brNDC");
+   pt = new TPaveText(0.45,0.72,0.75,0.83,"brNDC");
    pt->SetBorderSize(0);
    pt->SetFillColor(0);
    pt->SetLineWidth(2);
    pt->SetTextFont(42);
    pt_LaTex = pt->AddText(" ");
-   pt_LaTex = pt->AddText("Other Higgs");
+   pt_LaTex = pt->AddText("other Higgs processes");
    pt->Draw();
    c4_4->Modified();
    c4->cd();

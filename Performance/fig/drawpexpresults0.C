@@ -316,7 +316,7 @@ void drawpexpresults0()
    entry->SetMarkerSize(1.5);
    entry->SetTextFont(62);
    leg->Draw();
-   text = new TText(0.38,0.95,"ILD preliminary");
+   text = new TText(0.64,0.82,"ILD");
    text->SetNDC();
    text->SetTextSize(0.06);
    text->Draw();

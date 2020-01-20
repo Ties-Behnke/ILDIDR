@@ -33,107 +33,108 @@ const Int_t nLEP_recoil = 72;
 Double_t xILC_po_l5_bin_5[nILC] , yILC_po_l5_bin_5[nILC];
 Double_t xILC_po_s5_bin_5[nILC] , yILC_po_s5_bin_5[nILC];
 Double_t xLEP_recoil[nLEP_recoil], yLEP_recoil[nLEP_recoil];
+Double_t xILC_py[nILC] , yILC_py[nILC];
 
 
 xILC_po_l5_bin_5[0]= 10 ;
-yILC_po_l5_bin_5[0]= 0.0133948 ;
+yILC_po_l5_bin_5[0]= 0.0247249 ;
 xILC_po_l5_bin_5[1]= 20 ;
-yILC_po_l5_bin_5[1]= 0.012867 ;
+yILC_po_l5_bin_5[1]= 0.0231812 ;
 xILC_po_l5_bin_5[2]= 30 ;
-yILC_po_l5_bin_5[2]= 0.01225 ;
+yILC_po_l5_bin_5[2]= 0.0225 ;
 xILC_po_l5_bin_5[3]= 40 ;
-yILC_po_l5_bin_5[3]= 0.0107161 ;
+yILC_po_l5_bin_5[3]= 0.0200548 ;
 xILC_po_l5_bin_5[4]= 50 ;
-yILC_po_l5_bin_5[4]= 0.0106435 ;
+yILC_po_l5_bin_5[4]= 0.0199308 ;
 xILC_po_l5_bin_5[5]= 60 ;
-yILC_po_l5_bin_5[5]= 0.0105478 ;
+yILC_po_l5_bin_5[5]= 0.0190942 ;
 xILC_po_l5_bin_5[6]= 70 ;
-yILC_po_l5_bin_5[6]= 0.00923543 ;
+yILC_po_l5_bin_5[6]= 0.0177778 ;
 xILC_po_l5_bin_5[7]= 80 ;
-yILC_po_l5_bin_5[7]= 0.0146301 ;
+yILC_po_l5_bin_5[7]= 0.0269054 ;
 xILC_po_l5_bin_5[8]= 85 ;
-yILC_po_l5_bin_5[8]= 0.0194462 ;
+yILC_po_l5_bin_5[8]= 0.0361 ;
 xILC_po_l5_bin_5[9]= 90 ;
-yILC_po_l5_bin_5[9]= 0.0237327 ;
+yILC_po_l5_bin_5[9]= 0.0437539 ;
 xILC_po_l5_bin_5[10]= 95 ;
-yILC_po_l5_bin_5[10]= 0.0237327 ;
+yILC_po_l5_bin_5[10]= 0.0441581 ;
 xILC_po_l5_bin_5[11]= 100 ;
-yILC_po_l5_bin_5[11]= 0.0212926 ;
+yILC_po_l5_bin_5[11]= 0.04 ;
 xILC_po_l5_bin_5[12]= 105 ;
-yILC_po_l5_bin_5[12]= 0.0201172 ;
+yILC_po_l5_bin_5[12]= 0.0373341 ;
 xILC_po_l5_bin_5[13]= 110 ;
-yILC_po_l5_bin_5[13]= 0.018979 ;
+yILC_po_l5_bin_5[13]= 0.0355058 ;
 xILC_po_l5_bin_5[14]= 115 ;
-yILC_po_l5_bin_5[14]= 0.0186396 ;
+yILC_po_l5_bin_5[14]= 0.0355058 ;
 xILC_po_l5_bin_5[15]= 120 ;
-yILC_po_l5_bin_5[15]= 0.0206924 ;
+yILC_po_l5_bin_5[15]= 0.0387996 ;
 xILC_po_l5_bin_5[16]= 130 ;
-yILC_po_l5_bin_5[16]= 0.0208236 ;
+yILC_po_l5_bin_5[16]= 0.0393074 ;
 xILC_po_l5_bin_5[17]= 135 ;
-yILC_po_l5_bin_5[17]= 0.0190942 ;
+yILC_po_l5_bin_5[17]= 0.0364027 ;
 xILC_po_l5_bin_5[18]= 140 ;
-yILC_po_l5_bin_5[18]= 0.0188082 ;
+yILC_po_l5_bin_5[18]= 0.0355058 ;
 xILC_po_l5_bin_5[19]= 160 ;
-yILC_po_l5_bin_5[19]= 0.0164996 ;
+yILC_po_l5_bin_5[19]= 0.0312385 ;
 xILC_po_l5_bin_5[20]= 180 ;
-yILC_po_l5_bin_5[20]= 0.0173691 ;
+yILC_po_l5_bin_5[20]= 0.0321036 ;
 xILC_po_l5_bin_5[21]= 200 ;
-yILC_po_l5_bin_5[21]= 0.0175717 ;
+yILC_po_l5_bin_5[21]= 0.0332698 ;
 xILC_po_l5_bin_5[22]= 220 ;
-yILC_po_l5_bin_5[22]= 0.018201 ;
+yILC_po_l5_bin_5[22]= 0.0343605 ;
 xILC_po_l5_bin_5[23]= 240 ;
-yILC_po_l5_bin_5[23]= 0.0220624 ;
+yILC_po_l5_bin_5[23]= 0.0407111 ;
 xILC_po_l5_bin_5[24]= 260 ;
-yILC_po_l5_bin_5[24]= 0.0234152 ;
+yILC_po_l5_bin_5[24]= 0.042962 ;
 xILC_po_l5_bin_5[25]= 280 ;
-yILC_po_l5_bin_5[25]= 0.0322301 ;
+yILC_po_l5_bin_5[25]= 0.0582111 ;
 xILC_po_l5_bin_5[26]= 290 ;
-yILC_po_l5_bin_5[26]= 0.0355058 ;
+yILC_po_l5_bin_5[26]= 0.062775 ;
 xILC_po_l5_bin_5[27]= 300 ;
-yILC_po_l5_bin_5[27]= 0.04 ;
+yILC_po_l5_bin_5[27]= 0.074114 ;
 xILC_po_l5_bin_5[28]= 310 ;
-yILC_po_l5_bin_5[28]= 0.0462656 ;
+yILC_po_l5_bin_5[28]= 0.0843588 ;
 xILC_po_l5_bin_5[29]= 320 ;
-yILC_po_l5_bin_5[29]= 0.0569984 ;
+yILC_po_l5_bin_5[29]= 0.103122 ;
 xILC_po_l5_bin_5[30]= 325 ;
-yILC_po_l5_bin_5[30]= 0.0641778 ;
+yILC_po_l5_bin_5[30]= 0.115803 ;
 xILC_po_l5_bin_5[31]= 330 ;
-yILC_po_l5_bin_5[31]= 0.0678975 ;
+yILC_po_l5_bin_5[31]= 0.125928 ;
 xILC_po_l5_bin_5[32]= 335 ;
-yILC_po_l5_bin_5[32]= 0.0768419 ;
+yILC_po_l5_bin_5[32]= 0.140857 ;
 xILC_po_l5_bin_5[33]= 340 ;
-yILC_po_l5_bin_5[33]= 0.0822499 ;
+yILC_po_l5_bin_5[33]= 0.153207 ;
 xILC_po_l5_bin_5[34]= 345 ;
-yILC_po_l5_bin_5[34]= 0.091196 ;
+yILC_po_l5_bin_5[34]= 0.167255 ;
 xILC_po_l5_bin_5[35]= 350 ;
-yILC_po_l5_bin_5[35]= 0.100278 ;
+yILC_po_l5_bin_5[35]= 0.183329 ;
 xILC_po_l5_bin_5[36]= 355 ;
-yILC_po_l5_bin_5[36]= 0.115803 ;
+yILC_po_l5_bin_5[36]= 0.207936 ;
 xILC_po_l5_bin_5[37]= 360 ;
-yILC_po_l5_bin_5[37]= 0.13415 ;
+yILC_po_l5_bin_5[37]= 0.240416 ;
 xILC_po_l5_bin_5[38]= 365 ;
-yILC_po_l5_bin_5[38]= 0.149336 ;
+yILC_po_l5_bin_5[38]= 0.281147 ;
 xILC_po_l5_bin_5[39]= 370 ;
-yILC_po_l5_bin_5[39]= 0.175016 ;
+yILC_po_l5_bin_5[39]= 0.313051 ;
 xILC_po_l5_bin_5[40]= 375 ;
-yILC_po_l5_bin_5[40]= 0.196 ;
+yILC_po_l5_bin_5[40]= 0.36 ;
 xILC_po_l5_bin_5[41]= 380 ;
-yILC_po_l5_bin_5[41]= 0.245671 ;
+yILC_po_l5_bin_5[41]= 0.456375 ;
 xILC_po_l5_bin_5[42]= 385 ;
-yILC_po_l5_bin_5[42]= 0.298234 ;
+yILC_po_l5_bin_5[42]= 0.558818 ;
 xILC_po_l5_bin_5[43]= 390 ;
-yILC_po_l5_bin_5[43]= 0.355309 ;
+yILC_po_l5_bin_5[43]= 0.675062 ;
 xILC_po_l5_bin_5[44]= 395 ;
-yILC_po_l5_bin_5[44]= 0.449689 ;
+yILC_po_l5_bin_5[44]= 0.831744 ;
 xILC_po_l5_bin_5[45]= 400 ;
-yILC_po_l5_bin_5[45]= 0.651378 ;
+yILC_po_l5_bin_5[45]= 0.831744 ;
 xILC_po_l5_bin_5[46]= 405 ;
 yILC_po_l5_bin_5[46]= 0.831744 ;
 xILC_po_l5_bin_5[47]= 408 ;
 yILC_po_l5_bin_5[47]= 0.831744 ;
                                 
 	TGraph *gr2 = new TGraph(nILC,xILC_po_l5_bin_5,yILC_po_l5_bin_5);
-	gr2->SetLineWidth(4);
+	gr2->SetLineWidth(3);
 	gr2->SetMarkerStyle(34);
 	gr2->SetMarkerSize(3);
 	gr2->SetMarkerColor(4);
@@ -141,111 +142,111 @@ yILC_po_l5_bin_5[47]= 0.831744 ;
 	gr2->SetLineColor(4);
 	gr2->GetXaxis()->SetLimits(0,420);
 	gr2->GetYaxis()->SetLimits(0.05,4);
-	gr2->SetTitle(";M_{S^{0}} / GeV; sin^{2}(#theta)");
-	gr2->SetMinimum(0.001);
+	gr2->SetTitle(";M_{S^{0}} [GeV]; sin^{2}(#theta)");
+	gr2->SetMinimum(0.003);
 	gr2->SetMaximum(1);
 	gr2->Draw("aC");
 
 
 xILC_po_s5_bin_5[0]= 10 ;
-yILC_po_s5_bin_5[0]= 0.0130612 ;
+yILC_po_s5_bin_5[0]= 0.0240566 ;
 xILC_po_s5_bin_5[1]= 20 ;
-yILC_po_s5_bin_5[1]= 0.0125528 ;
+yILC_po_s5_bin_5[1]= 0.0227237 ;
 xILC_po_s5_bin_5[2]= 30 ;
-yILC_po_s5_bin_5[2]= 0.0127399 ;
+yILC_po_s5_bin_5[2]= 0.0234152 ;
 xILC_po_s5_bin_5[3]= 40 ;
-yILC_po_s5_bin_5[3]= 0.0116211 ;
+yILC_po_s5_bin_5[3]= 0.0214985 ;
 xILC_po_s5_bin_5[4]= 50 ;
-yILC_po_s5_bin_5[4]= 0.0103603 ;
+yILC_po_s5_bin_5[4]= 0.0196862 ;
 xILC_po_s5_bin_5[5]= 60 ;
-yILC_po_s5_bin_5[5]= 0.0101778 ;
+yILC_po_s5_bin_5[5]= 0.0186396 ;
 xILC_po_s5_bin_5[6]= 70 ;
-yILC_po_s5_bin_5[6]= 0.0105478 ;
+yILC_po_s5_bin_5[6]= 0.0199308 ;
 xILC_po_s5_bin_5[7]= 80 ;
-yILC_po_s5_bin_5[7]= 0.0158239 ;
+yILC_po_s5_bin_5[7]= 0.02961 ;
 xILC_po_s5_bin_5[8]= 85 ;
-yILC_po_s5_bin_5[8]= 0.0200548 ;
+yILC_po_s5_bin_5[8]= 0.0373341 ;
 xILC_po_s5_bin_5[9]= 90 ;
-yILC_po_s5_bin_5[9]= 0.0237327 ;
+yILC_po_s5_bin_5[9]= 0.0445679 ;
 xILC_po_s5_bin_5[10]= 95 ;
-yILC_po_s5_bin_5[10]= 0.024304 ;
+yILC_po_s5_bin_5[10]= 0.0454048 ;
 xILC_po_s5_bin_5[11]= 100 ;
-yILC_po_s5_bin_5[11]= 0.0222068 ;
+yILC_po_s5_bin_5[11]= 0.0418138 ;
 xILC_po_s5_bin_5[12]= 105 ;
-yILC_po_s5_bin_5[12]= 0.0206924 ;
+yILC_po_s5_bin_5[12]= 0.0383017 ;
 xILC_po_s5_bin_5[13]= 110 ;
-yILC_po_s5_bin_5[13]= 0.019808 ;
+yILC_po_s5_bin_5[13]= 0.0370197 ;
 xILC_po_s5_bin_5[14]= 115 ;
-yILC_po_s5_bin_5[14]= 0.0193278 ;
+yILC_po_s5_bin_5[14]= 0.0365555 ;
 xILC_po_s5_bin_5[15]= 120 ;
-yILC_po_s5_bin_5[15]= 0.0207578 ;
+yILC_po_s5_bin_5[15]= 0.0393074 ;
 xILC_po_s5_bin_5[16]= 130 ;
-yILC_po_s5_bin_5[16]= 0.020956 ;
+yILC_po_s5_bin_5[16]= 0.0393074 ;
 xILC_po_s5_bin_5[17]= 135 ;
-yILC_po_s5_bin_5[17]= 0.0193278 ;
+yILC_po_s5_bin_5[17]= 0.0364027 ;
 xILC_po_s5_bin_5[18]= 140 ;
-yILC_po_s5_bin_5[18]= 0.0183092 ;
+yILC_po_s5_bin_5[18]= 0.0345006 ;
 xILC_po_s5_bin_5[19]= 160 ;
-yILC_po_s5_bin_5[19]= 0.016782 ;
+yILC_po_s5_bin_5[19]= 0.0317285 ;
 xILC_po_s5_bin_5[20]= 180 ;
-yILC_po_s5_bin_5[20]= 0.0178822 ;
+yILC_po_s5_bin_5[20]= 0.0332698 ;
 xILC_po_s5_bin_5[21]= 200 ;
-yILC_po_s5_bin_5[21]= 0.016782 ;
+yILC_po_s5_bin_5[21]= 0.0311178 ;
 xILC_po_s5_bin_5[22]= 220 ;
-yILC_po_s5_bin_5[22]= 0.0181473 ;
+yILC_po_s5_bin_5[22]= 0.0338085 ;
 xILC_po_s5_bin_5[23]= 240 ;
-yILC_po_s5_bin_5[23]= 0.0213609 ;
+yILC_po_s5_bin_5[23]= 0.0393074 ;
 xILC_po_s5_bin_5[24]= 260 ;
-yILC_po_s5_bin_5[24]= 0.0243873 ;
+yILC_po_s5_bin_5[24]= 0.0441581 ;
 xILC_po_s5_bin_5[25]= 280 ;
-yILC_po_s5_bin_5[25]= 0.0305245 ;
+yILC_po_s5_bin_5[25]= 0.0555351 ;
 xILC_po_s5_bin_5[26]= 290 ;
-yILC_po_s5_bin_5[26]= 0.0355058 ;
+yILC_po_s5_bin_5[26]= 0.0656281 ;
 xILC_po_s5_bin_5[27]= 300 ;
-yILC_po_s5_bin_5[27]= 0.0393074 ;
+yILC_po_s5_bin_5[27]= 0.0719502 ;
 xILC_po_s5_bin_5[28]= 310 ;
-yILC_po_s5_bin_5[28]= 0.047151 ;
+yILC_po_s5_bin_5[28]= 0.0854438 ;
 xILC_po_s5_bin_5[29]= 320 ;
-yILC_po_s5_bin_5[29]= 0.0564062 ;
+yILC_po_s5_bin_5[29]= 0.10609 ;
 xILC_po_s5_bin_5[30]= 325 ;
-yILC_po_s5_bin_5[30]= 0.0607556 ;
+yILC_po_s5_bin_5[30]= 0.114094 ;
 xILC_po_s5_bin_5[31]= 330 ;
-yILC_po_s5_bin_5[31]= 0.0656281 ;
+yILC_po_s5_bin_5[31]= 0.121168 ;
 xILC_po_s5_bin_5[32]= 335 ;
-yILC_po_s5_bin_5[32]= 0.0732369 ;
+yILC_po_s5_bin_5[32]= 0.135234 ;
 xILC_po_s5_bin_5[33]= 340 ;
-yILC_po_s5_bin_5[33]= 0.0832943 ;
+yILC_po_s5_bin_5[33]= 0.15453 ;
 xILC_po_s5_bin_5[34]= 345 ;
-yILC_po_s5_bin_5[34]= 0.0888274 ;
+yILC_po_s5_bin_5[34]= 0.16 ;
 xILC_po_s5_bin_5[35]= 350 ;
-yILC_po_s5_bin_5[35]= 0.100278 ;
+yILC_po_s5_bin_5[35]= 0.181619 ;
 xILC_po_s5_bin_5[36]= 355 ;
-yILC_po_s5_bin_5[36]= 0.109983 ;
+yILC_po_s5_bin_5[36]= 0.205872 ;
 xILC_po_s5_bin_5[37]= 360 ;
-yILC_po_s5_bin_5[37]= 0.128921 ;
+yILC_po_s5_bin_5[37]= 0.237852 ;
 xILC_po_s5_bin_5[38]= 365 ;
-yILC_po_s5_bin_5[38]= 0.148079 ;
+yILC_po_s5_bin_5[38]= 0.277906 ;
 xILC_po_s5_bin_5[39]= 370 ;
-yILC_po_s5_bin_5[39]= 0.171848 ;
+yILC_po_s5_bin_5[39]= 0.309244 ;
 xILC_po_s5_bin_5[40]= 375 ;
-yILC_po_s5_bin_5[40]= 0.196 ;
+yILC_po_s5_bin_5[40]= 0.355309 ;
 xILC_po_s5_bin_5[41]= 380 ;
-yILC_po_s5_bin_5[41]= 0.237852 ;
+yILC_po_s5_bin_5[41]= 0.449689 ;
 xILC_po_s5_bin_5[42]= 385 ;
-yILC_po_s5_bin_5[42]= 0.287801 ;
+yILC_po_s5_bin_5[42]= 0.540937 ;
 xILC_po_s5_bin_5[43]= 390 ;
-yILC_po_s5_bin_5[43]= 0.36 ;
+yILC_po_s5_bin_5[43]= 0.663061 ;
 xILC_po_s5_bin_5[44]= 395 ;
-yILC_po_s5_bin_5[44]= 0.449689 ;
+yILC_po_s5_bin_5[44]= 0.831744 ;
 xILC_po_s5_bin_5[45]= 400 ;
-yILC_po_s5_bin_5[45]= 0.713086 ;
+yILC_po_s5_bin_5[45]= 0.831744 ;
 xILC_po_s5_bin_5[46]= 405 ;
 yILC_po_s5_bin_5[46]= 0.831744 ;
 xILC_po_s5_bin_5[47]= 408 ;
 yILC_po_s5_bin_5[47]= 0.831744 ;
 
 	TGraph *gr3 = new TGraph(nILC,xILC_po_s5_bin_5,yILC_po_s5_bin_5);
-	gr3->SetLineWidth(4);
+	gr3->SetLineWidth(3);
 	gr3->SetMarkerStyle(34);
 	gr3->SetMarkerSize(3);
 	gr3->SetMarkerColor(4);
@@ -253,7 +254,7 @@ yILC_po_s5_bin_5[47]= 0.831744 ;
 	gr3->SetLineColor(2);
 	gr3->GetXaxis()->SetLimits(5,420);
 	gr3->GetYaxis()->SetLimits(0.05,4);
-	gr3->SetTitle(";M_{S} (GeV/c^{2}); k_{95}");
+	gr3->SetTitle(";M_{S} [GeV]; k_{95}");
 	gr3->SetMinimum(0.001);
 	gr3->SetMaximum(1.0);
 	gr3->Draw("C same");
@@ -336,7 +337,7 @@ yILC_po_s5_bin_5[47]= 0.831744 ;
         
         
         TGraph *gr1 = new TGraph(nLEP_recoil,xLEP_recoil,yLEP_recoil);
-	gr1->SetLineWidth(4);
+	gr1->SetLineWidth(3);
 	gr1->SetLineColor(4);
 	gr1->SetMarkerStyle(20);
 	gr1->SetMarkerSize(0);
@@ -344,114 +345,112 @@ yILC_po_s5_bin_5[47]= 0.831744 ;
 	gr1->GetYaxis()->SetLimits(0.05,4);
 	gr1->GetXaxis()->SetLimits(10,125);
 	gr1->GetYaxis()->SetLimits(0.05,4);
-	gr1->SetTitle(";M_{S^{0}} (GeV/c^{2}); k_{95}");
+	gr1->SetTitle(";M_{S^{0}} [GeV]; k_{95}");
 	gr1->SetMinimum(0.001);
 	gr1->SetMaximum(1);
 	gr1->Draw("same");
         
 ///////////////////////////////////////////////////////////////////        
 
+xILC_py[0]= 10 ;
+yILC_py[0]= 0.0112984 ;
+xILC_py[1]= 20 ;
+yILC_py[1]= 0.0105241 ;
+xILC_py[2]= 30 ;
+yILC_py[2]= 0.0107405 ;
+xILC_py[3]= 40 ;
+yILC_py[3]= 0.0112459 ;
+xILC_py[4]= 50 ;
+yILC_py[4]= 0.00997811 ;
+xILC_py[5]= 60 ;
+yILC_py[5]= 0.011065 ;
+xILC_py[6]= 70 ;
+yILC_py[6]= 0.0101106 ;
+xILC_py[7]= 80 ;
+yILC_py[7]= 0.0133948 ;
+xILC_py[8]= 85 ;
+yILC_py[8]= 0.0237327 ;
+xILC_py[9]= 90 ;
+yILC_py[9]= 0.0433552 ;
+xILC_py[10]= 95 ;
+yILC_py[10]= 0.0425741 ;
+xILC_py[11]= 100 ;
+yILC_py[11]= 0.0373341 ;
+xILC_py[12]= 105 ;
+yILC_py[12]= 0.0355058 ;
+xILC_py[13]= 110 ;
+yILC_py[13]= 0.0332698 ;
+xILC_py[14]= 115 ;
+yILC_py[14]= 0.0340828 ;
+xILC_py[15]= 120 ;
+yILC_py[15]= 0.0352141 ;
+xILC_py[16]= 130 ;
+yILC_py[16]= 0.0361 ;
+xILC_py[17]= 135 ;
+yILC_py[17]= 0.0332698 ;
+xILC_py[18]= 140 ;
+yILC_py[18]= 0.0332698 ;
+xILC_py[19]= 160 ;
+yILC_py[19]= 0.0312385 ;
+xILC_py[20]= 180 ;
+yILC_py[20]= 0.0319779 ;
+xILC_py[21]= 200 ;
+yILC_py[21]= 0.0308784 ;
+xILC_py[22]= 220 ;
+yILC_py[22]= 0.0336726 ;
+xILC_py[23]= 240 ;
+yILC_py[23]= 0.0361 ;
+xILC_py[24]= 260 ;
+yILC_py[24]= 0.0414413 ;
+xILC_py[25]= 280 ;
+yILC_py[25]= 0.0564062 ;
+xILC_py[26]= 290 ;
+yILC_py[26]= 0.0601041 ;
+xILC_py[27]= 300 ;
+yILC_py[27]= 0.0690766 ;
+xILC_py[28]= 310 ;
+yILC_py[28]= 0.0802191 ;
+xILC_py[29]= 320 ;
+yILC_py[29]= 0.0975493 ;
+xILC_py[30]= 325 ;
+yILC_py[30]= 0.109187 ;
+xILC_py[31]= 330 ;
+yILC_py[31]= 0.114944 ;
+xILC_py[32]= 335 ;
+yILC_py[32]= 0.133079 ;
+xILC_py[33]= 340 ;
+yILC_py[33]= 0.139704 ;
+xILC_py[34]= 345 ;
+yILC_py[34]= 0.15453 ;
+xILC_py[35]= 350 ;
+yILC_py[35]= 0.175016 ;
+xILC_py[36]= 355 ;
+yILC_py[36]= 0.203839 ;
+xILC_py[37]= 360 ;
+yILC_py[37]= 0.237852 ;
+xILC_py[38]= 365 ;
+yILC_py[38]= 0.262512 ;
+xILC_py[39]= 370 ;
+yILC_py[39]= 0.294694 ;
+xILC_py[40]= 375 ;
+yILC_py[40]= 0.333177 ;
+xILC_py[41]= 380 ;
+yILC_py[41]= 0.418361 ;
+xILC_py[42]= 385 ;
+yILC_py[42]= 0.507656 ;
+xILC_py[43]= 390 ;
+yILC_py[43]= 0.618121 ;
+xILC_py[44]= 395 ;
+yILC_py[44]= 0.815355 ;
+xILC_py[45]= 400 ;
+yILC_py[45]= 0.831744 ;
+xILC_py[46]= 405 ;
+yILC_py[46]= 0.831744 ;
+xILC_py[47]= 408 ;
+yILC_py[47]= 0.831744 ;
 
-   Double_t Graph2_fx3[48] = {
-   10,
-   20,
-   30,
-   40,
-   50,
-   60,
-   70,
-   80,
-   85,
-   90,
-   95,
-   100,
-   105,
-   110,
-   115,
-   120,
-   130,
-   135,
-   140,
-   160,
-   180,
-   200,
-   220,
-   240,
-   260,
-   280,
-   290,
-   300,
-   310,
-   320,
-   325,
-   330,
-   335,
-   340,
-   345,
-   350,
-   355,
-   360,
-   365,
-   370,
-   375,
-   380,
-   385,
-   390,
-   395,
-   400,
-   405,
-   408};
-   Double_t Graph2_fy3[48] = {
-   0.00589328,
-   0.00544443,
-   0.00585379,
-   0.00597346,
-   0.00530617,
-   0.00566219,
-   0.00530617,
-   0.00729201,
-   0.012867,
-   0.023104,
-   0.022799,
-   0.0199926,
-   0.0190942,
-   0.0177778,
-   0.0184184,
-   0.0187517,
-   0.0193278,
-   0.0177778,
-   0.0174699,
-   0.0165929,
-   0.0173691,
-   0.016782,
-   0.0177778,
-   0.0193278,
-   0.022799,
-   0.0318528,
-   0.0322301,
-   0.0370197,
-   0.0433552,
-   0.0525078,
-   0.0601041,
-   0.0624315,
-   0.0711111,
-   0.0750069,
-   0.0832943,
-   0.0942924,
-   0.110787,
-   0.126914,
-   0.143204,
-   0.16,
-   0.183329,
-   0.225625,
-   0.268512,
-   0.333177,
-   0.436749,
-   0.675062,
-   0.831744,
-   0.831744};
-        TGraph *gr0 = new TGraph(48,Graph2_fx3,Graph2_fy3);
-	gr0->SetLineWidth(4);
+    TGraph *gr0 = new TGraph(48,xILC_py,yILC_py);
+	gr0->SetLineWidth(3);
 	gr0->SetLineColor(2);
 	gr0->SetMarkerStyle(20);
 	gr0->SetMarkerSize(0);
@@ -459,7 +458,7 @@ yILC_po_s5_bin_5[47]= 0.831744 ;
 	gr0->GetYaxis()->SetLimits(0.05,4);
 	gr0->GetXaxis()->SetLimits(10,125);
 	gr0->GetYaxis()->SetLimits(0.05,4);
-	gr0->SetTitle(";M_{S^{0}} (GeV/c^{2}); k_{95}");
+	gr0->SetTitle(";M_{S^{0}} [GeV]; k_{95}");
 	gr0->SetMinimum(0.001);
 	gr0->SetMaximum(1);
 	gr0->Draw("same");

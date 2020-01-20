@@ -27,7 +27,7 @@ void lepton_pair_inm_sigma_nh100()
    _stack_1_stack_2->SetLineWidth(2);
    _stack_1_stack_2->SetMarkerStyle(20);
    _stack_1_stack_2->SetMarkerSize(0.7);
-   _stack_1_stack_2->GetXaxis()->SetTitle("#sigma(M_{#mu^{+}#mu^{-}}) / GeV");
+   _stack_1_stack_2->GetXaxis()->SetTitle("#sigma(M_{#mu^{+}#mu^{-}}) [GeV]");
    _stack_1_stack_2->GetXaxis()->SetNdivisions(506);
    _stack_1_stack_2->GetXaxis()->SetLabelFont(42);
    _stack_1_stack_2->GetXaxis()->SetLabelOffset(0.015);
