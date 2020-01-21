@@ -284,7 +284,7 @@ void NrecNgenE_photon_IDR_wo_cosTheta08()
    entry->SetMarkerSize(1.3);
    entry->SetTextFont(62);
    leg->Draw();
-   TLatex *   tex = new TLatex(0.25,0.8,"#scale[1.5]{#font[62]{ILD}} #font[42]{preliminary}");
+   TLatex *   tex = new TLatex(0.25,0.8,"#scale[1.5]{#font[62]{ILD}}");
 tex->SetNDC();
    tex->SetTextFont(42);
    tex->SetLineWidth(2);

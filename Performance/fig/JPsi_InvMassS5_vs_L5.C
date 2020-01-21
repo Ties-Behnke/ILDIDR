@@ -521,11 +521,11 @@ void JPsi_InvMassS5_vs_L5()
    tex->SetTextSize(0.08);
    tex->SetLineWidth(2);
    tex->Draw();
-      tex = new TLatex(3.35,3696,"preliminary");
-   tex->SetTextFont(42);
-   tex->SetTextSize(0.08);
-   tex->SetLineWidth(2);
-   tex->Draw();
+//       tex = new TLatex(3.35,3696,"preliminary");
+//    tex->SetTextFont(42);
+//    tex->SetTextSize(0.08);
+//    tex->SetLineWidth(2);
+//    tex->Draw();
    
    TLine *line = new TLine (2.8, 0, 3.8, 0);
    line->SetLineColor(1);

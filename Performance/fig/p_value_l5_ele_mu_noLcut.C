@@ -44,14 +44,15 @@ void p_value_l5_ele_mu_noLcut()
    l5_purity__1->GetXaxis()->SetBinLabel(2,"K+K");
    l5_purity__1->GetXaxis()->SetBinLabel(3,"Vtx+K");
    l5_purity__1->GetXaxis()->SetBinLabel(4,"Vtx+K'");
-   l5_purity__1->GetXaxis()->SetBinLabel(5,"Vtx+L_{cut}");
-   l5_purity__1->GetXaxis()->SetBinLabel(6,"K+L_{cut}");
+   l5_purity__1->GetXaxis()->SetBinLabel(5,"Vtx+L");
+   l5_purity__1->GetXaxis()->SetBinLabel(6,"K+L");
    l5_purity__1->GetXaxis()->SetLabelFont(42);
+   l5_purity__1->GetXaxis()->SetLabelSize(0.05);
    l5_purity__1->GetXaxis()->SetLabelOffset(0.015);
    l5_purity__1->GetXaxis()->SetTitleSize(0.05);
    l5_purity__1->GetXaxis()->SetTitleOffset(1.1);
    l5_purity__1->GetXaxis()->SetTitleFont(42);
-   l5_purity__1->GetYaxis()->SetTitle("purity");
+   l5_purity__1->GetYaxis()->SetTitle("p");
    l5_purity__1->GetYaxis()->SetLabelFont(42);
    l5_purity__1->GetYaxis()->SetLabelOffset(0.015);
    l5_purity__1->GetYaxis()->SetTitleSize(0.05);

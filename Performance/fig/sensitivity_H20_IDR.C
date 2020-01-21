@@ -44,7 +44,7 @@ void sensitivity_H20_IDR()
    axis__1->GetZaxis()->SetLabelOffset(0.015);
    axis__1->GetZaxis()->SetLabelSize(0.06);
    axis__1->GetZaxis()->SetTitleSize(0.07);
-   axis__1->GetZaxis()->SetTitleOffset(1.1);
+   axis__1->GetZaxis()->SetTitleOffset(0.8);
    axis__1->GetZaxis()->SetTitleFont(42);
    axis__1->Draw("");
    
@@ -584,13 +584,13 @@ void sensitivity_H20_IDR()
    Graph_Graph1->GetYaxis()->SetLabelOffset(0.015);
    Graph_Graph1->GetYaxis()->SetLabelSize(0.06);
    Graph_Graph1->GetYaxis()->SetTitleSize(0.07);
-   Graph_Graph1->GetYaxis()->SetTitleOffset(1.1);
+   Graph_Graph1->GetYaxis()->SetTitleOffset(0.8);
    Graph_Graph1->GetYaxis()->SetTitleFont(42);
    Graph_Graph1->GetZaxis()->SetLabelFont(42);
    Graph_Graph1->GetZaxis()->SetLabelOffset(0.015);
    Graph_Graph1->GetZaxis()->SetLabelSize(0.06);
    Graph_Graph1->GetZaxis()->SetTitleSize(0.07);
-   Graph_Graph1->GetZaxis()->SetTitleOffset(1.1);
+   Graph_Graph1->GetZaxis()->SetTitleOffset(0.8);
    Graph_Graph1->GetZaxis()->SetTitleFont(42);
    graph->SetHistogram(Graph_Graph1);
    
@@ -1133,13 +1133,13 @@ void sensitivity_H20_IDR()
    Graph_Graph2->GetYaxis()->SetLabelOffset(0.015);
    Graph_Graph2->GetYaxis()->SetLabelSize(0.06);
    Graph_Graph2->GetYaxis()->SetTitleSize(0.07);
-   Graph_Graph2->GetYaxis()->SetTitleOffset(1.1);
+   Graph_Graph2->GetYaxis()->SetTitleOffset(0.8);
    Graph_Graph2->GetYaxis()->SetTitleFont(42);
    Graph_Graph2->GetZaxis()->SetLabelFont(42);
    Graph_Graph2->GetZaxis()->SetLabelOffset(0.015);
    Graph_Graph2->GetZaxis()->SetLabelSize(0.06);
    Graph_Graph2->GetZaxis()->SetTitleSize(0.07);
-   Graph_Graph2->GetZaxis()->SetTitleOffset(1.1);
+   Graph_Graph2->GetZaxis()->SetTitleOffset(0.8);
    Graph_Graph2->GetZaxis()->SetTitleFont(42);
    graph->SetHistogram(Graph_Graph2);
    
@@ -1682,13 +1682,13 @@ void sensitivity_H20_IDR()
    Graph_Graph3->GetYaxis()->SetLabelOffset(0.015);
    Graph_Graph3->GetYaxis()->SetLabelSize(0.06);
    Graph_Graph3->GetYaxis()->SetTitleSize(0.07);
-   Graph_Graph3->GetYaxis()->SetTitleOffset(1.1);
+   Graph_Graph3->GetYaxis()->SetTitleOffset(0.8);
    Graph_Graph3->GetYaxis()->SetTitleFont(42);
    Graph_Graph3->GetZaxis()->SetLabelFont(42);
    Graph_Graph3->GetZaxis()->SetLabelOffset(0.015);
    Graph_Graph3->GetZaxis()->SetLabelSize(0.06);
    Graph_Graph3->GetZaxis()->SetTitleSize(0.07);
-   Graph_Graph3->GetZaxis()->SetTitleOffset(1.1);
+   Graph_Graph3->GetZaxis()->SetTitleOffset(0.8);
    Graph_Graph3->GetZaxis()->SetTitleFont(42);
    graph->SetHistogram(Graph_Graph3);
    
@@ -2230,13 +2230,13 @@ void sensitivity_H20_IDR()
    Graph_Graph4->GetYaxis()->SetLabelOffset(0.015);
    Graph_Graph4->GetYaxis()->SetLabelSize(0.06);
    Graph_Graph4->GetYaxis()->SetTitleSize(0.07);
-   Graph_Graph4->GetYaxis()->SetTitleOffset(1.1);
+   Graph_Graph4->GetYaxis()->SetTitleOffset(0.8);
    Graph_Graph4->GetYaxis()->SetTitleFont(42);
    Graph_Graph4->GetZaxis()->SetLabelFont(42);
    Graph_Graph4->GetZaxis()->SetLabelOffset(0.015);
    Graph_Graph4->GetZaxis()->SetLabelSize(0.06);
    Graph_Graph4->GetZaxis()->SetTitleSize(0.07);
-   Graph_Graph4->GetZaxis()->SetTitleOffset(1.1);
+   Graph_Graph4->GetZaxis()->SetTitleOffset(0.8);
    Graph_Graph4->GetZaxis()->SetTitleFont(42);
    graph->SetHistogram(Graph_Graph4);
    
@@ -2779,13 +2779,13 @@ void sensitivity_H20_IDR()
    Graph_Graph5->GetYaxis()->SetLabelOffset(0.015);
    Graph_Graph5->GetYaxis()->SetLabelSize(0.06);
    Graph_Graph5->GetYaxis()->SetTitleSize(0.07);
-   Graph_Graph5->GetYaxis()->SetTitleOffset(1.1);
+   Graph_Graph5->GetYaxis()->SetTitleOffset(0.8);
    Graph_Graph5->GetYaxis()->SetTitleFont(42);
    Graph_Graph5->GetZaxis()->SetLabelFont(42);
    Graph_Graph5->GetZaxis()->SetLabelOffset(0.015);
    Graph_Graph5->GetZaxis()->SetLabelSize(0.06);
    Graph_Graph5->GetZaxis()->SetTitleSize(0.07);
-   Graph_Graph5->GetZaxis()->SetTitleOffset(1.1);
+   Graph_Graph5->GetZaxis()->SetTitleOffset(0.8);
    Graph_Graph5->GetZaxis()->SetTitleFont(42);
    graph->SetHistogram(Graph_Graph5);
    
@@ -3328,13 +3328,13 @@ void sensitivity_H20_IDR()
    Graph_Graph6->GetYaxis()->SetLabelOffset(0.015);
    Graph_Graph6->GetYaxis()->SetLabelSize(0.06);
    Graph_Graph6->GetYaxis()->SetTitleSize(0.07);
-   Graph_Graph6->GetYaxis()->SetTitleOffset(1.1);
+   Graph_Graph6->GetYaxis()->SetTitleOffset(0.8);
    Graph_Graph6->GetYaxis()->SetTitleFont(42);
    Graph_Graph6->GetZaxis()->SetLabelFont(42);
    Graph_Graph6->GetZaxis()->SetLabelOffset(0.015);
    Graph_Graph6->GetZaxis()->SetLabelSize(0.06);
    Graph_Graph6->GetZaxis()->SetTitleSize(0.07);
-   Graph_Graph6->GetZaxis()->SetTitleOffset(1.1);
+   Graph_Graph6->GetZaxis()->SetTitleOffset(0.8);
    Graph_Graph6->GetZaxis()->SetTitleFont(42);
    graph->SetHistogram(Graph_Graph6);
    
@@ -3411,7 +3411,7 @@ tex->SetNDC();
    entry->SetMarkerSize(1);
    entry->SetTextFont(62);
    leg->Draw();
-      tex = new TLatex(0.22,0.67,"#scale[1.5]{#font[62]{ILD}} #font[42]{preliminary}");
+      tex = new TLatex(0.22,0.67,"#scale[1.5]{#font[62]{ILD}}");
 tex->SetNDC();
    tex->SetTextFont(42);
    tex->SetLineWidth(2);
@@ -3448,12 +3448,13 @@ tex->SetNDC();
    axis_copy__2->GetYaxis()->SetLabelOffset(0.015);
    axis_copy__2->GetYaxis()->SetLabelSize(0.06);
    axis_copy__2->GetYaxis()->SetTitleSize(0.07);
+   axis_copy__2->GetYaxis()->SetTitleOffset(0.8);
    axis_copy__2->GetYaxis()->SetTitleFont(42);
    axis_copy__2->GetZaxis()->SetLabelFont(42);
    axis_copy__2->GetZaxis()->SetLabelOffset(0.015);
    axis_copy__2->GetZaxis()->SetLabelSize(0.06);
    axis_copy__2->GetZaxis()->SetTitleSize(0.07);
-   axis_copy__2->GetZaxis()->SetTitleOffset(1.1);
+   axis_copy__2->GetZaxis()->SetTitleOffset(0.8);
    axis_copy__2->GetZaxis()->SetTitleFont(42);
    axis_copy__2->Draw("sameaxis");
    c->Modified();

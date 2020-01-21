@@ -88,9 +88,11 @@ Henri Videau, Karsten Buesser, Claude Vall\'ee
 \newcommand{\IDRinst}[2]{\noindent  $^{\;\;\:\:#1}$\begin{minipage}[t]{0.95\textwidth}{#2}\end{minipage}\\}
 \newcommand{\IDRauth}[2]{\noindent {#2}$^{#1}$,}
 \newcommand{\IDRauthl}[2]{\noindent {#2}$^{#1}$}
-\newcommand{\IDRinsts}[1]{\begin{minipage}[t]{1.0\textwidth}{\noindent{\bf#1}} \end{minipage} \\}
-
-\include{author_by_name}
+%\newcommand{\IDRinsts}[1]{\newline \begin{minipage}[t]{1.0\textwidth}{\noindent{\bf#1}} \end{minipage} \\}
+\newcommand{\IDRinsts}[1]{\newline {\noindent{\bf #1}}\newline}
+\input{./author_by_name}
+\newpage
+\noindent \input{./authors_by_institute}
 
 
 

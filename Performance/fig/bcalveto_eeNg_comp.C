@@ -128,7 +128,7 @@ void bcalveto_eeNg_comp()
    entry->SetMarkerSize(1);
    entry->SetTextFont(42);
    leg->Draw();
-   TLatex *   tex = new TLatex(0.57,0.8,"#scale[1.5]{#font[62]{ILD}} #font[42]{preliminary}");
+   TLatex *   tex = new TLatex(0.57,0.8,"#scale[1.5]{#font[62]{ILD}}");
 tex->SetNDC();
    tex->SetTextFont(42);
    tex->SetLineWidth(2);
