@@ -132,6 +132,10 @@ xILC_po_l5_bin_5[46]= 405 ;
 yILC_po_l5_bin_5[46]= 0.831744 ;
 xILC_po_l5_bin_5[47]= 408 ;
 yILC_po_l5_bin_5[47]= 0.831744 ;
+
+for(int i=0;i<nILC;i++){
+    yILC_po_l5_bin_5[i]=yILC_po_l5_bin_5[i]/sqrt(2);
+}
                                 
 	TGraph *gr2 = new TGraph(nILC,xILC_po_l5_bin_5,yILC_po_l5_bin_5);
 	gr2->SetLineWidth(3);
@@ -143,7 +147,7 @@ yILC_po_l5_bin_5[47]= 0.831744 ;
 	gr2->GetXaxis()->SetLimits(0,420);
 	gr2->GetYaxis()->SetLimits(0.05,4);
 	gr2->SetTitle(";M_{S^{0}} [GeV]; sin^{2}(#theta)");
-	gr2->SetMinimum(0.003);
+	gr2->SetMinimum(0.002);
 	gr2->SetMaximum(1);
 	gr2->Draw("aC");
 
@@ -245,6 +249,10 @@ yILC_po_s5_bin_5[46]= 0.831744 ;
 xILC_po_s5_bin_5[47]= 408 ;
 yILC_po_s5_bin_5[47]= 0.831744 ;
 
+for(int i=0;i<nILC;i++){
+    yILC_po_s5_bin_5[i]=yILC_po_s5_bin_5[i]/sqrt(2);
+}
+                                
 	TGraph *gr3 = new TGraph(nILC,xILC_po_s5_bin_5,yILC_po_s5_bin_5);
 	gr3->SetLineWidth(3);
 	gr3->SetMarkerStyle(34);
@@ -449,6 +457,10 @@ yILC_py[46]= 0.831744 ;
 xILC_py[47]= 408 ;
 yILC_py[47]= 0.831744 ;
 
+for(int i=0;i<nILC;i++){
+    yILC_py[i]=yILC_py[i]/sqrt(2);
+}
+                                
     TGraph *gr0 = new TGraph(48,xILC_py,yILC_py);
 	gr0->SetLineWidth(3);
 	gr0->SetLineColor(2);

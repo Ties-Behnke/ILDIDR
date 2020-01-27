@@ -14,13 +14,17 @@
 
 %\hline
 \noindent\makebox[\linewidth]{\rule{\textwidth}{0.4pt}}
+\begin{center}
+\includegraphics[height=3.3cm]{Title.png}
+\end{center}
 
-  \vskip 1.0cm
 
-    {\huge INTERIM}
-    {\huge DESIGN}
-    {\huge REPORT}
-\vskip 1cm
+%  \vskip 1.0cm
+%  {\fontsize{50}{60}\selectfont 
+%    {\huge INTERIM}
+%    {\huge DESIGN}
+%    {\huge REPORT}}
+%\vskip 1cm
 %\hline
 \noindent\makebox[\linewidth]{\rule{\textwidth}{0.4pt}}
 \vskip 1.2cm
@@ -47,54 +51,59 @@
 
   \vfill\ 
     
-    \centering{\large December 20, 2019}
+    \centering{\large \today}
 \end{titlepage}
 
 \newpage\thispagestyle{empty}
 \cleardoublepage
-
+\newcommand{\IDRinst}[2]{\noindent  $^{\;\;\:\:#1}$\begin{minipage}[t]{0.95\textwidth}{#2}\end{minipage}\\}
+\newcommand{\IDRauth}[2]{\noindent {#2}$^{#1}$,}
+\newcommand{\IDRauthl}[2]{\noindent {#2}$^{#1}$}
 
 %\begin{minipage}{0.95\textwidth}{
 %{\Large Editor:} 
 \chapter*{IDR Editors}
-% \vskip 0.25cm
-%\begin{center}
-\noindent Main Editors:\\
-Ties Behnke, Kiyotomo Kawagoe
 
-\vspace*{2mm}
+Ties Behnke$^1$, Karsten B\"u{\ss}er$^1$, Keisuke Fujii$^2$, Frank Gaede$^1$, Kiyotomo Kawagoe$^3$, Jenny List$^1$, Akiya Miyamoto$^2$, Claude Vall\'ee$^4$, Henri Videau$^5$ \\
 
-\noindent Detector layout, technologies and Integration:\\
-Karsten Buesser, Claude Vall\'ee
-
-\vspace*{2mm}
-\noindent Physics:\\
-Keisuke Fujii, Jenny List
-
-\vspace*{2mm}
-\noindent Software:\\
-Frank Gaede, Akiya Miyamoto
-
-\vspace*{2mm}
-\noindent Performance:\\
-Keisuke Fujii, Jenny List
-
-\vspace*{2mm}
-\noindent Costing:\\
-Henri Videau, Karsten Buesser, Claude Vall\'ee
+\vspace{5mm}
+\IDRinst{1}{Deutsches Elektronen-Synchrotron, Hamburg and Zeuthen, Germany}
+\IDRinst{2}{High Energy Accelerator Research Organisation, KEK, Tsukuba, Ibaraki, Japan}
+\IDRinst{3}{Kyushu University, Department of Physics, Research Center for Advanced Particle Physics, Fukuoka, Japan}
+\IDRinst{4}{Aix Marseille Univ, CNRS/IN2P3, CPPM, Marseille, France}
+\IDRinst{5}{CNRS/IN2P3, Ecole Polytechnique, Institut Polytechnique de Paris, Palaiseau, France}
 
 
 \chapter*{ ILD authors}
-\newcommand{\IDRinst}[2]{\noindent  $^{\;\;\:\:#1}$\begin{minipage}[t]{0.95\textwidth}{#2}\end{minipage}\\}
-\newcommand{\IDRauth}[2]{\noindent {#2}$^{#1}$,}
-\newcommand{\IDRauthl}[2]{\noindent {#2}$^{#1}$}
+
 %\newcommand{\IDRinsts}[1]{\newline \begin{minipage}[t]{1.0\textwidth}{\noindent{\bf#1}} \end{minipage} \\}
-\newcommand{\IDRinsts}[1]{\newline {\noindent{\bf #1}}\newline}
-\input{./author_by_name}
-\newpage
-\noindent \input{./authors_by_institute}
+%\newcommand{\IDRinsts}[1]{\newline {\noindent{\bf #1}}\newline}
+
+%\newcommand{\IDRinsts}[1]{{\noindent{\bf #1}}\newline}
+%newcommand{\IDRAuthor}[1]{\noindent{ #1}}
+\input{./author-alphabetical}
+%\newpage
+%\noindent \input{./authors_by_institute}
 
 
+\chapter*{Acknowledgements}
+We acknowledge the support by: 
+the Natural Sciences and Engineering Research Council (NSERC), Canada; 
+DRF (Direction de la Recherche fondamentale), CEA/DRF/IRFU, Universite Paris Saclay, France; Deutsche Forschungsgemeinschaft (DFG), German Federal Ministry of Education and Research (BMBF), Helmholtz Association, Germany; the Israel Science Foundation (ISF), Israel German Foundation (GIF), the I-CORE program of the Israel Planning and Budgeting Committee, Israel Academy of Sciences and Humanities; 
+MEXT and JSPS under Grants-in-Aid for Science Research 23000002, 15H02083, 16H02173, 16H02176, and 17H02882; 
+the National Science Centre, Poland, within the OPUS project 
+under contract UMO-2017/25/B/ST2/00496 (2018-2021) and the HARMONIA 
+project under contract UMO-2015/18/M/ST2/00518 (2016-2020);
+the Russian government under Grant RFBR 20-52-12056 (Russia);
+the Spanish government through the Particle Physics program; by MPNTR (Serbia) through the national project OI171012; the Science and Technology Facilities Council, UK; the National Science Foundation, USA;
+and the European H2020 project AIDA-2020, GA no. 654168.
+
+We would like to thank the LCC generator working group for providing the generator files used in the Monte Carlo productions for the different analyses. This work has greatly benefited
+from computing services provided by the ILC Virtual Organization, supported by the national resource
+providers of the EGI Federation and the Open Science GRID, and of those of the German National
+Analysis Facility (NAF).
+
+We like to particularly acknowledge the very fruitful disucssions of the document during the final stages with Lucie Linssen, CERN, Paul Grannis, State University of New York at Stony Brook, and Katsuo Tokushuku, KEK. 
 
 
 

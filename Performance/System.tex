@@ -259,7 +259,9 @@ is very similar, as expected already from the single track impact parameter reso
 Measuring the energy loss of charged particles in the ILD-TPC provides a powerful tool for identifying the type of the particle.
 %%\thisfloatsetup{floatwidth=\SfigwFull,capposition=below}
 \begin{figure}[htbp]
+\begin{center}
 \includegraphics[width=0.8\hsize]{Performance/fig/dEdx_BBAll_lowGran_bigCap.png}
+\end{center}
 \caption{\label{fig:perf:dedx_tpc}
   $dE/dx$ as a function of particle momentum as reconstructed from a full simulation of single particle events ($\Pe, \Pmu, \Ppi, \PK$ and $\Pproton$)
   in the TPC of the large ILD detector model. The particles were simulated with a logarithmic momentum distribution and isotropic direction. Spurious
@@ -304,9 +306,10 @@ in the ILD calorimeters.
 \end{figure}
 
 An example in the context of physics analyses can be seen in Fig.~\ref{fig:perf:KaonID}. It compares the performance of the charged Kaon identification based on $dE/dx$ for the large and small detector models, as obtained from the $b\bar{b}$ and $t\bar{t}$ benchmarks described in Sec.~\ref{subsec:bench:bbbar} and~\ref{subsec:bench:ttbar}, respectively. For the same efficiency, the large detector reaches a $5\%$ higher purity due to its larger TPC radius, which results in a better $dE/dx$ resolution.
+
 \thisfloatsetup{floatwidth=\SfigwFull,capposition=beside}
 \begin{figure}[b!]
-  \includegraphics[width=0.8\hsize]{Performance/fig/kaonIDeff_v2-eps-converted-to.pdf}
+  \includegraphics[width=0.6\hsize]{Performance/fig/kaonIDeff_v2-eps-converted-to.pdf}
   \caption{\label{fig:perf:KaonID}
     Efficiency-purity curves for charged Kaon identification in the context of the $t\bar{t}$ and $b\bar{b}$ analyses. For the same
     efficiency, the large detector reaches a $5\%$ higher purity due to its larger number of TPC measurements, which results in a better $dE/dx$
